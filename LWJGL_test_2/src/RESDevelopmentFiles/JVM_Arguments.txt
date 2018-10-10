@@ -1,0 +1,4 @@
+-Dorg.lwjgl.util.Debug=true
+-Dorg.lwjgl.util.DebugLoader=true
+-Dorg.lwjgl.util.DebugAllocator=true
+-Dorg.lwjgl.util.DebugStack=true

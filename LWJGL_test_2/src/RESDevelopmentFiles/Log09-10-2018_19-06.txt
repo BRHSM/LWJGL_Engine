@@ -1,0 +1,51 @@
+[LWJGL] Version: 3.2.0 build 12
+[LWJGL] 	 OS: Windows 7 v6.1
+[LWJGL] 	JRE: 1.8.0_151 amd64
+[LWJGL] 	JVM: Java HotSpot(TM) 64-Bit Server VM v25.151-b12 by Oracle Corporation
+[LWJGL] Loading library (system): lwjgl
+[LWJGL] 	Using SharedLibraryLoader...
+[LWJGL] 	Found at: C:\Users\user\AppData\Local\Temp\lwjgluser\3.2.0-build-12\lwjgl.dll
+[LWJGL] 	Loaded from org.lwjgl.librarypath: C:\Users\user\AppData\Local\Temp\lwjgluser\3.2.0-build-12\lwjgl.dll
+[LWJGL] MemoryUtil accessor: MemoryAccessorUnsafe
+[LWJGL] MemoryUtil allocator: DebugAllocator
+[LWJGL] Loading library: glfw
+[LWJGL] 	Using SharedLibraryLoader...
+[LWJGL] 	Found at: C:\Users\user\AppData\Local\Temp\lwjgluser\3.2.0-build-12\glfw.dll
+[LWJGL] 	Loaded from org.lwjgl.librarypath: C:\Users\user\AppData\Local\Temp\lwjgluser\3.2.0-build-12\glfw.dll
+[LWJGL] Loading library (system): lwjgl_opengl
+[LWJGL] 	Using SharedLibraryLoader...
+[LWJGL] 	Found at: C:\Users\user\AppData\Local\Temp\lwjgluser\3.2.0-build-12\lwjgl_opengl.dll
+[LWJGL] 	Loaded from org.lwjgl.librarypath: C:\Users\user\AppData\Local\Temp\lwjgluser\3.2.0-build-12\lwjgl_opengl.dll
+[LWJGL] Loading library: opengl32
+[LWJGL] 	opengl32.dll not found in org.lwjgl.librarypath=C:\Users\user\AppData\Local\Temp\lwjgluser\3.2.0-build-12
+[LWJGL] 	Loaded from system paths: C:\Windows\system32\opengl32.dll
+[DEBUG]: No BasicShader loaded, Using default
+[DEBUG]: No TextureShader loaded, Using default
+Tue Oct 09 19:05:50 CEST 2018 INFO:Use Java PNG Loader = true
+[DEBUG]: Language file loaded: language_IT
+[DEBUG]: Avarage load time: 0.92705
+[DEBUG]: fps: 48
+[DEBUG]: Avarage load time: 0.94869
+[DEBUG]: fps: 48
+[DEBUG]: Avarage load time: 0.95762
+[DEBUG]: fps: 47
+[DEBUG]: Avarage load time: 0.96036
+[DEBUG]: fps: 47
+[DEBUG]: Avarage load time: 0.95746
+[DEBUG]: fps: 47
+[DEBUG]: Avarage load time: 0.95438
+[DEBUG]: fps: 48
+[DEBUG]: Avarage load time: 0.9661
+[DEBUG]: fps: 47
+[DEBUG]: Avarage load time: 0.96799
+[DEBUG]: fps: 47
+[DEBUG]: Avarage load time: 0.95255
+[DEBUG]: fps: 48
+[DEBUG]: Avarage load time: 0.9469
+[DEBUG]: fps: 48
+[DEBUG]: Avarage load time: 0.95062
+[DEBUG]: fps: 48
+[DEBUG]: Avarage load time: 0.95162
+[DEBUG]: fps: 48
+[DEBUG]: Avarage load time: 0.95252
+[DEBUG]: fps: 48

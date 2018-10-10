@@ -1,0 +1,59 @@
+[LWJGL] Version: 3.2.0 build 12
+[LWJGL] 	 OS: Windows 7 v6.1
+[LWJGL] 	JRE: 1.8.0_151 amd64
+[LWJGL] 	JVM: Java HotSpot(TM) 64-Bit Server VM v25.151-b12 by Oracle Corporation
+[LWJGL] Loading library (system): lwjgl
+[LWJGL] 	Found at: C:\Users\user\AppData\Local\Temp\lwjgluser\3.2.0-build-12\lwjgl.dll
+[LWJGL] 	Loaded from org.lwjgl.librarypath: C:\Users\user\AppData\Local\Temp\lwjgluser\3.2.0-build-12\lwjgl.dll
+[LWJGL] MemoryUtil accessor: MemoryAccessorUnsafe
+[LWJGL] MemoryUtil allocator: DebugAllocator
+[LWJGL] Loading library: glfw
+[LWJGL] 	Found at: C:\Users\user\AppData\Local\Temp\lwjgluser\3.2.0-build-12\glfw.dll
+[LWJGL] 	Loaded from org.lwjgl.librarypath: C:\Users\user\AppData\Local\Temp\lwjgluser\3.2.0-build-12\glfw.dll
+[LWJGL] Loading library (system): lwjgl_opengl
+[LWJGL] 	Found at: C:\Users\user\AppData\Local\Temp\lwjgluser\3.2.0-build-12\lwjgl_opengl.dll
+[LWJGL] 	Loaded from org.lwjgl.librarypath: C:\Users\user\AppData\Local\Temp\lwjgluser\3.2.0-build-12\lwjgl_opengl.dll
+[LWJGL] Loading library: opengl32
+[LWJGL] 	opengl32.dll not found in org.lwjgl.librarypath=C:\Users\user\AppData\Local\Temp\lwjgluser\3.2.0-build-12
+[LWJGL] 	Loaded from system paths: C:\Windows\system32\opengl32.dll
+[LWJGL] [GL] Using KHR_debug for error logging.
+[LWJGL] [GL] Warning: A non-debug context may not produce any debug output.
+[DEBUG]: Language file loaded: language_IT
+[DEBUG]: Avarage load time: 0.92487
+[DEBUG]: fps: 48
+[DEBUG]: Avarage load time: 0.94692
+[DEBUG]: fps: 48
+[DEBUG]: Avarage load time: 0.94505
+[DEBUG]: fps: 48
+[DEBUG]: Avarage load time: 0.94503
+[DEBUG]: fps: 48
+[DEBUG]: Avarage load time: 0.94508
+[DEBUG]: fps: 48
+[DEBUG]: Avarage load time: 0.96602
+[DEBUG]: fps: 47
+[DEBUG]: Avarage load time: 0.94598
+[DEBUG]: fps: 48
+[LWJGL] 16 bytes leaked, thread 10 (Thread-0), address: 0x1D40000
+	at org.lwjgl.system.Callback.create(Callback.java:133)
+	at org.lwjgl.system.Callback.<init>(Callback.java:83)
+	at org.lwjgl.glfw.GLFWKeyCallback.<init>(GLFWKeyCallback.java:58)
+	at InputHandeling.KeyboardHandler.<init>(KeyboardHandler.java:11)
+	at Core.RenderThread.init(RenderThread.java:118)
+	at Core.RenderThread.run(RenderThread.java:40)
+[LWJGL] 1864 bytes leaked, thread 10 (Thread-0), address: 0x5D082700
+	at org.lwjgl.system.ThreadLocalUtil.setEnv(ThreadLocalUtil.java:164)
+	at org.lwjgl.opengl.GL.setCapabilities(GL.java:242)
+	at org.lwjgl.opengl.GL.createCapabilities(GL.java:467)
+	at org.lwjgl.opengl.GL.createCapabilities(GL.java:321)
+	at DisplayRenderEngine.DisplayManager.createDisplay(DisplayManager.java:71)
+	at Core.RenderThread.init(RenderThread.java:118)
+	at Core.RenderThread.run(RenderThread.java:40)
+[LWJGL] 16 bytes leaked, thread 10 (Thread-0), address: 0x22B0000
+	at org.lwjgl.system.Callback.create(Callback.java:133)
+	at org.lwjgl.system.CallbackI.address(CallbackI.java:34)
+	at org.lwjgl.opengl.GLDebugMessageCallback.create(GLDebugMessageCallback.java:54)
+	at org.lwjgl.opengl.GLUtil.setupDebugMessageCallback(GLUtil.java:63)
+	at org.lwjgl.opengl.GLUtil.setupDebugMessageCallback(GLUtil.java:30)
+	at DisplayRenderEngine.DisplayManager.createDisplay(DisplayManager.java:72)
+	at Core.RenderThread.init(RenderThread.java:118)
+	at Core.RenderThread.run(RenderThread.java:40)
