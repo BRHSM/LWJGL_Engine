@@ -6,6 +6,9 @@ import java.io.IOException;
 
 import org.lwjgl.opengl.GL11;
 import org.lwjgl.opengl.GL20;
+
+import Exceptions.ExceptionThrower;
+import Exceptions.ShaderIncompatableException;
 /** A generic shader program class which can be etended to create by other shaders.
  * 
  * @author Bram Steenbergen
@@ -50,6 +53,12 @@ public abstract class AbstractShader {
 	 */
 	public void setupShader() {
 		//Get the ID's
+		if(!getFileExtention(vertexFile).equals("vs")) {
+			ExceptionThrower.throwException(new ShaderIncompatableException(vertexFile));
+		}
+		if(!getFileExtention(fragmentFile).equals("fs")) {
+			ExceptionThrower.throwException(new ShaderIncompatableException(fragmentFile));
+		}
 		vertexShaderID = loadShader(this.vertexFile, GL20.GL_VERTEX_SHADER);
 		fragmentShaderID = loadShader(this.fragmentFile, GL20.GL_FRAGMENT_SHADER);
 		programID = GL20.glCreateProgram();
@@ -139,6 +148,18 @@ public abstract class AbstractShader {
 	@Override
 	public String toString() {
 		return "  [vertexFile=" + vertexFile + ", fragmentFile=" + fragmentFile + "]";
+	}
+	
+	private String getFileExtention(String path) {
+		String extension = "";
+
+		int i = path.lastIndexOf('.');
+		int p = Math.max(path.lastIndexOf('/'), path.lastIndexOf('\\'));
+
+		if (i >= p) {
+		    extension = path.substring(i+1);
+		}
+		return extension;
 	}
 	
 	

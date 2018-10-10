@@ -9,7 +9,7 @@ package Exceptions;
 public class OptionNotFoundException extends AbstractException{
 	/** Create a new OptionNotFoundException.
 	 */
-	public OptionNotFoundException() {
-		super("test_4", "testLong_4");
+	public OptionNotFoundException(String key) {
+		super("[ERROR]: An option value was requested wich does not exist.", "[ERROR]: The option for key: " + key + " does not exist, make sure the option is loaded and the key exists in the right file. ");
 	}
 }

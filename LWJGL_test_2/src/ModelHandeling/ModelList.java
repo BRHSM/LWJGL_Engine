@@ -2,6 +2,9 @@ package ModelHandeling;
 
 import java.util.ArrayList;
 
+import Exceptions.ExceptionThrower;
+import Exceptions.ModelsAlreadyConvertedException;
+
 /** Class used to hold all the models before and after convertion from ModelStructure.
  * 
  * @author Bram Steenebrgen
@@ -21,6 +24,8 @@ public class ModelList {
 	
 	/** Create a new empty model list.
 	 */
+	private boolean isConverted = false;
+	
 	public ModelList() {
 		//create Model List
 	}
@@ -39,6 +44,8 @@ public class ModelList {
 		// create ModelLoaders.
 		BasicModelLoader basicModelLoader = new BasicModelLoader();
 		TexturedModelLoader texturedModelLoader = new TexturedModelLoader();
+		
+		isConverted = true;
 		
 		//Loop through modelStructureList and add models to models(the list) via their respective loaders.  
 		for(AbstractModelStructure modelStructure: this.modelStructures) {
@@ -61,6 +68,9 @@ public class ModelList {
 	 * @param modelStructure The modelStructure to add.
 	 */
 	public void addModelStructure(AbstractModelStructure modelStructure) {
+		if(isConverted) {
+			ExceptionThrower.throwException(new ModelsAlreadyConvertedException());
+		}
 		modelStructures.add(modelStructure);
 	}
 	

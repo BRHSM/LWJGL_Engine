@@ -10,6 +10,6 @@ public class ModelConvertionFailedException extends AbstractException{
 	/** Create a new ModelConvertionFailedException
 	 */
 	public ModelConvertionFailedException() {
-		super("test_4", "testLong_4");
+		super("[ERROR]: A ModelStructure was unable to be converted", "[ERROR]: The ModelConverter was unable to convert one ore more ModelStructures, make sure all ModelStructures added to the DataObject conaint the right information.");
 	}
 }

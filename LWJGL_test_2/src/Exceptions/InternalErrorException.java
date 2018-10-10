@@ -12,6 +12,6 @@ public class InternalErrorException extends AbstractException{
 	/** Create a new InternalErrorException.
 	 */
 	public InternalErrorException() {
-		super("test_4", "testLong_4");
+		super("[ERROR]: An internal error occured. Please report this error and it's conditions.", "[ERROR]: An error occured in the core of the engine. This is a bug and this should be reported. Please collect as much information as possible about the error and report it.");
 	}
 }

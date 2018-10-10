@@ -7,6 +7,8 @@ import java.util.ArrayList;
 import org.lwjgl.glfw.Callbacks;
 import org.lwjgl.opengl.GL;
 import Core.DataObject;
+import Exceptions.ExceptionThrower;
+import Exceptions.ShaderNotFoundException;
 import GraphicsEngine.AbstractShader;
 import GraphicsEngine.BasicShader;
 import GraphicsEngine.TextureShader;
@@ -89,6 +91,9 @@ public class DisplayManager {
 		//setup shaders
 		basicShader = object.getBasicShader();
 		textureShader = object.getTextureShader();
+		if(basicShader == null || textureShader == null) {
+			ExceptionThrower.throwException(new ShaderNotFoundException(basicShader, textureShader));
+		}
 		
 		basicShader.setupShader();
 		textureShader.setupShader();

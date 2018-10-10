@@ -10,6 +10,6 @@ public class ModelsAlreadyConvertedException extends AbstractException{
 	/** Create a new ModelsAlreadyConvertedException
 	 */
 	public ModelsAlreadyConvertedException() {
-		super("test_4", "testLong_4");
+		super("[ERROR]: A ModelStructure was added after the list was converted. ", "[ERROR]: ModelStructures can only be added before the ModelStructures are converted into models. Make sure only to convert to models after the last ModelStructure was added.");
 	}
 }

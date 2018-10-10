@@ -3,6 +3,9 @@ package OptionManager;
 import java.util.HashMap;
 import java.util.Map;
 
+import Exceptions.ExceptionThrower;
+import Exceptions.OptionNotFoundException;
+
 public class OptionHandler {
 	private static HashMap<Integer, AbstractOptions> optionList;
 	private static HashMap<Integer, String> optionFilename;
@@ -28,7 +31,10 @@ public class OptionHandler {
 	}
 	
 	public static String getProperty(String optionKey, int optionFileID) {
-		return optionList.get(optionFileID).getProperty(optionKey);
+		String property = optionList.get(optionFileID).getProperty(optionKey);
+		if(property == null | property.isEmpty())
+			ExceptionThrower.throwException(new OptionNotFoundException(optionKey));
+		return property;
 	}
 	
 	public static void loadOptionListFromFile(int id, int type) {
