@@ -18,7 +18,7 @@ public class Test_1 {
 	/** Starts execution.
 	 * @param args terminal arguments
 	*/
-	public static void main(String[] args) {
+	public static void test() {
 		init = new Initializer();
 		
 		//create a basic model (Trapezoid). 

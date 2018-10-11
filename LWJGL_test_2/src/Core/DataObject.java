@@ -11,6 +11,7 @@ import OptionManager.CurrentLanguage;
 import OptionManager.EngineOptions;
 import OptionManager.GraphicOptions;
 import OptionManager.OptionHandler;
+import UtilClasses.StringBreaker;
 
 /** Object wich contains all data for the engine to work. 
  * 
@@ -63,6 +64,11 @@ public class DataObject {
 		
 		OptionHandler.addOptionFile(OptionHandler.CURRENT_LANGUAGE_ID, new CurrentLanguage(), OptionHandler.getProperty(EngineOptions.MAINLANGUAGE_KEY, OptionHandler.ENGINE_OPTION_ID));
 		OptionHandler.loadOptionListFromFile(OptionHandler.CURRENT_LANGUAGE_ID, OptionHandler.CURRENT_LANGUAGE_TYPE);
+		
+		//print all options
+		if(OptionHandler.getProperty(EngineOptions.DEBUGENABLED_KEY, OptionHandler.ENGINE_OPTION_ID).equals("1")) {
+			System.out.println(StringBreaker.breakString("[DEBUG]: all loaded options: " + OptionHandler.getAllOptions(), "\n", 125));
+		}
 	}
 	
 	/** Add a ModelStructure to the modelStructureList.

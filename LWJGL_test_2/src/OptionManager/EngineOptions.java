@@ -8,6 +8,7 @@ public class EngineOptions extends AbstractOptions{
 	private static String debugAvgLoadtime;
 	private static String debugLongExceptions;
 	private static String debugStackTrace;
+	private static String debugLogToFile;
 	private static String showShaderUsed;
 	private static String mainLanguage;
 	
@@ -16,8 +17,10 @@ public class EngineOptions extends AbstractOptions{
 	public static final String DEBUGAVGLOADTIME_KEY = "debugAvgLoadtime";
 	public static final String DEBUGLONGEXCEPTIONS_KEY = "debugLongExceptions";
 	public static final String DEBUGSTACKTRACE_KEY = "debugStackTrace";
+	public static final String DEBUGLOGTOFILE = "debugLogToFile";
 	public static final String SHOWSHADERUSED_KEY = "showShaderUsed";
 	public static final String MAINLANGUAGE_KEY = "mainLanguage";
+
 	
 	public static void loadFromFile(String filename) {		
 		OptionReader loader = new OptionReader(filename);
@@ -26,6 +29,7 @@ public class EngineOptions extends AbstractOptions{
 		debugAvgLoadtime = loader.getProperty(DEBUGAVGLOADTIME_KEY);
 		debugLongExceptions = loader.getProperty(DEBUGLONGEXCEPTIONS_KEY);
 		debugStackTrace = loader.getProperty(DEBUGSTACKTRACE_KEY);
+		debugLogToFile = loader.getProperty(DEBUGLOGTOFILE);
 		showShaderUsed = loader.getProperty(SHOWSHADERUSED_KEY);
 		mainLanguage = loader.getProperty(MAINLANGUAGE_KEY);
 		
@@ -33,6 +37,7 @@ public class EngineOptions extends AbstractOptions{
 		properties.put(DEBUGAVGLOADTIME_KEY, debugAvgLoadtime);
 		properties.put(DEBUGLONGEXCEPTIONS_KEY, debugLongExceptions);
 		properties.put(DEBUGSTACKTRACE_KEY, debugStackTrace);
+		properties.put(DEBUGLOGTOFILE, debugLogToFile);
 		properties.put(SHOWSHADERUSED_KEY, showShaderUsed);
 		properties.put(MAINLANGUAGE_KEY, mainLanguage);
 	}

@@ -13,4 +13,8 @@ public class AbstractOptions {
 	public String getProperty(String key) {
 		return properties.getProperty(key);
 	}
+	
+	public String toString() {
+		return properties.toString();
+	}
 }

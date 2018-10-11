@@ -1,6 +1,7 @@
 package OptionManager;
 
 import java.util.HashMap;
+import java.util.Iterator;
 import java.util.Map;
 
 import Exceptions.ExceptionThrower;
@@ -44,5 +45,13 @@ public class OptionHandler {
 			EngineOptions.loadFromFile(optionFilename.get(id));
 		if(type == CURRENT_LANGUAGE_TYPE)
 			CurrentLanguage.loadFromFile(optionFilename.get(id));
+	}
+
+	public static String getAllOptions() {
+		StringBuilder sb = new StringBuilder();
+		Iterator it = optionList.entrySet().iterator();
+	    Map.Entry pair = (Map.Entry)it.next();
+	    sb.append(pair.getValue().toString() + "\n");
+		return sb.toString();
 	}
 }
