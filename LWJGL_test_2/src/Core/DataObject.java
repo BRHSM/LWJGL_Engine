@@ -117,7 +117,7 @@ public class DataObject {
 	 * @return the BasicShader.
 	 */
 	public BasicModelShader getBasicShader() {
-		if(basicShader == DEFAULT_BASIC_SHADER && OptionHandler.getProperty(EngineOptions.DEBUGENABLED_KEY, OptionHandler.ENGINE_OPTION_ID).equals("0"))
+		if(basicShader == DEFAULT_BASIC_SHADER && OptionHandler.getProperty(EngineOptions.DEBUGENABLED_KEY, OptionHandler.ENGINE_OPTION_ID).equals("1"))
 			System.out.println("[DEBUG]: No BasicShader loaded, using default shader" + DEFAULT_BASIC_SHADER.toString());
 		return basicShader;
 	}
@@ -127,7 +127,7 @@ public class DataObject {
 	 * @return the TextureShader.
 	 */
 	public TexturedModelShader getTextureShader() {
-		if(textureShader == DEFAULT_TEXTURE_SHADER && OptionHandler.getProperty(EngineOptions.DEBUGENABLED_KEY, OptionHandler.ENGINE_OPTION_ID).equals("0"))
+		if(textureShader == DEFAULT_TEXTURE_SHADER && OptionHandler.getProperty(EngineOptions.DEBUGENABLED_KEY, OptionHandler.ENGINE_OPTION_ID).equals("1"))
 			System.out.println("[DEBUG]: No TextureShader loaded, using default shader" + DEFAULT_TEXTURE_SHADER.toString());
 		return textureShader;
 	}
