@@ -11,6 +11,11 @@ public class EngineOptions extends AbstractOptions{
 	private static String debugLogToFile;
 	private static String showShaderUsed;
 	private static String mainLanguage;
+	private static String pathDevelopmentFiles;
+	private static String pathLanguageFiles;
+	private static String pathModels;
+	private static String pathShaderFiles;
+	private static String pathTextures;
 	
 	//keys
 	public static final String DEBUGENABLED_KEY = "debugEnabled";
@@ -20,18 +25,27 @@ public class EngineOptions extends AbstractOptions{
 	public static final String DEBUGLOGTOFILE = "debugLogToFile";
 	public static final String SHOWSHADERUSED_KEY = "showShaderUsed";
 	public static final String MAINLANGUAGE_KEY = "mainLanguage";
-
+	public static final String PATHDEVELOPMENTFILES_KEY = "pathDevelopmentFiles";
+	public static final String PATHLANGUAGEFILE_KEY = "pathLanguageFiles";
+	public static final String PATHMODELS_KEY = "pathModels";
+	public static final String PATHSHADERFILES_KEY = "pathShaderFiles";
+	public static final String PATHTEXTURES_KEY = "pathTextures";
 	
 	public static void loadFromFile(String filename) {		
 		OptionReader loader = new OptionReader(filename);
 		//load properties
-		debugEnabled = loader.getProperty(DEBUGENABLED_KEY);
-		debugAvgLoadtime = loader.getProperty(DEBUGAVGLOADTIME_KEY);
-		debugLongExceptions = loader.getProperty(DEBUGLONGEXCEPTIONS_KEY);
-		debugStackTrace = loader.getProperty(DEBUGSTACKTRACE_KEY);
-		debugLogToFile = loader.getProperty(DEBUGLOGTOFILE);
-		showShaderUsed = loader.getProperty(SHOWSHADERUSED_KEY);
-		mainLanguage = loader.getProperty(MAINLANGUAGE_KEY);
+		debugEnabled 			= loader.getProperty(DEBUGENABLED_KEY);
+		debugAvgLoadtime 		= loader.getProperty(DEBUGAVGLOADTIME_KEY);
+		debugLongExceptions 	= loader.getProperty(DEBUGLONGEXCEPTIONS_KEY);
+		debugStackTrace 		= loader.getProperty(DEBUGSTACKTRACE_KEY);
+		debugLogToFile 			= loader.getProperty(DEBUGLOGTOFILE);
+		showShaderUsed 			= loader.getProperty(SHOWSHADERUSED_KEY);
+		mainLanguage 			= loader.getProperty(MAINLANGUAGE_KEY);
+		pathDevelopmentFiles 	= loader.getProperty(PATHDEVELOPMENTFILES_KEY);
+		pathLanguageFiles 		= loader.getProperty(PATHLANGUAGEFILE_KEY);
+		pathModels 				= loader.getProperty(PATHMODELS_KEY);
+		pathShaderFiles 		= loader.getProperty(PATHSHADERFILES_KEY);
+		pathTextures 			= loader.getProperty(PATHTEXTURES_KEY);
 		
 		properties.put(DEBUGENABLED_KEY, debugEnabled);
 		properties.put(DEBUGAVGLOADTIME_KEY, debugAvgLoadtime);
@@ -40,6 +54,11 @@ public class EngineOptions extends AbstractOptions{
 		properties.put(DEBUGLOGTOFILE, debugLogToFile);
 		properties.put(SHOWSHADERUSED_KEY, showShaderUsed);
 		properties.put(MAINLANGUAGE_KEY, mainLanguage);
+		properties.put(PATHDEVELOPMENTFILES_KEY, pathDevelopmentFiles);
+		properties.put(PATHLANGUAGEFILE_KEY, pathLanguageFiles);
+		properties.put(PATHMODELS_KEY, pathModels);
+		properties.put(PATHSHADERFILES_KEY, pathShaderFiles);
+		properties.put(PATHTEXTURES_KEY, pathTextures);
 	}
 }
 
