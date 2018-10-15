@@ -3,6 +3,8 @@ package OptionManager;
 import java.util.HashMap;
 import java.util.Iterator;
 import java.util.Map;
+import java.util.Map.Entry;
+import java.util.TreeMap;
 
 import Exceptions.ExceptionThrower;
 import Exceptions.OptionNotFoundException;
@@ -50,7 +52,7 @@ public class OptionHandler {
 	public static String getAllOptions() {
 		StringBuilder sb = new StringBuilder();
 		Iterator it = optionList.entrySet().iterator();
-	    Map.Entry pair = (Map.Entry)it.next();
+	    Entry pair = (Entry)it.next();
 	    sb.append(pair.getValue().toString() + "\n");
 		return sb.toString();
 	}
