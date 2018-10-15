@@ -90,20 +90,43 @@ public abstract class AbstractShader {
         GL20.glUseProgram(0);
     }
     
+    /** Get a uniform variable's location.
+     * 
+     * @param uniformName the name of the uniformVariable.
+     * @return the location of the uniform variable.
+     */
     protected int getUniformLocation(String uniformName) {
     	return GL20.glGetUniformLocation(programID, uniformName);
     }
-    
+    /** Get all uniform variables
+     */
     protected abstract void getAllUniformLocations();
     
+    /** Load a float uniform variable.
+     * 
+     * @param Location the location to load the variable.
+     * @param Value the value of the variable.
+     */
     protected void loadFloat(int location, float value) {
     	GL20.glUniform1f(location, value);
     }
     
+    
+    /** Load a Vector3f uniform variable.
+     * 
+     * @param Location the location to load the variable.
+     * @param Value the value of the variable.
+     */
     protected void loadVector(int location, Vector3f value) {
     	GL20.glUniform3f(location, value.x, value.y, value.z);
     }
     
+    
+    /** Load a boolean uniform variable.
+     * 
+     * @param Location the location to load the variable.
+     * @param Value the value of the variable.
+     */
     protected void loadBoolean(int location, boolean value) {
     	float toLoad = 0;
     	if(value) {
@@ -112,6 +135,12 @@ public abstract class AbstractShader {
     	GL20.glUniform1f(location, toLoad);
     }
     
+    
+    /** Load a Matrix4f uniform variable.
+     * 
+     * @param Location the location to load the variable.
+     * @param Value the value of the variable.
+     */
     protected void loadMatrix(int location, Matrix4f matrix) {
     	matrix.store(buffer);
     	buffer.flip();
@@ -179,10 +208,19 @@ public abstract class AbstractShader {
     }
 
 	@Override
+	/** generate a string with shader details.
+	 * 
+	 * @return The shader details as a string.
+	 */
 	public String toString() {
 		return "  [vertexFile=" + vertexFile + ", fragmentFile=" + fragmentFile + "]";
 	}
 	
+	/** Get the file extention as a string from a given filepath string (without the dot).
+	 * 
+	 * @param path The filepath.
+	 * @return The extention.
+	 */
 	private String getFileExtention(String path) {
 		String extension = "";
 
@@ -194,6 +232,4 @@ public abstract class AbstractShader {
 		}
 		return extension;
 	}
-	
-	
 }

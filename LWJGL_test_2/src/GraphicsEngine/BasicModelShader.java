@@ -11,10 +11,10 @@ import ModelHandeling.BasicModel;
 public class BasicModelShader extends AbstractShader{
 	/** Filename of the vertex shader.
 	 */
-    private static final String VERTEX_FILE = "src/RESShaderFiles/BasicVertexShader.vs";
+    private static final String VERTEX_FILE = "src/RESShaderFiles/BasicModelShader.vs";
     /** Filename of the fragment shader.
 	 */
-    private static final String FRAGMENT_FILE = "src/RESShaderFiles/BasicFragmentShader.fs";
+    private static final String FRAGMENT_FILE = "src/RESShaderFiles/BasicModelShader.fs";
  
     /** Create a new BasicShader.
      */
@@ -30,6 +30,8 @@ public class BasicModelShader extends AbstractShader{
     }
 
 	@Override
+    /** Get all uniform locations. (does nothing).
+     */
 	protected void getAllUniformLocations() {
 		// TODO Auto-generated method stub
 		

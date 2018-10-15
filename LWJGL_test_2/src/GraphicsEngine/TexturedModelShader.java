@@ -13,12 +13,12 @@ import ModelHandeling.TexturedModel;
 public class TexturedModelShader extends AbstractShader{
 	/** Filename of the vertex shader.
 	 */
-    private static final String VERTEX_FILE = "src/RESShaderFiles/TextureVertexShader.vs";
+    private static final String VERTEX_FILE = "src/RESShaderFiles/TextureModelShader.vs";
     /** Filename of the fragment shader.
      */
-    private static final String FRAGMENT_FILE = "src/RESShaderFiles/TextureFragmentShader.fs";
+    private static final String FRAGMENT_FILE = "src/RESShaderFiles/TextureModelShader.fs";
  
-    /** Create a new TextureShader
+    /** Create a new TexturedModelShader
      */
     public TexturedModelShader() {
         super(VERTEX_FILE, FRAGMENT_FILE);
@@ -35,6 +35,8 @@ public class TexturedModelShader extends AbstractShader{
     }
 
 	@Override
+    /** Get all uniform locations. (does nothing).
+     */
 	protected void getAllUniformLocations() {
 		// TODO Auto-generated method stub
 		

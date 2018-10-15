@@ -19,9 +19,10 @@ public class BasicEntityShader extends AbstractShader{
     /** Filename of the fragment shader.
      */
     private static final String FRAGMENT_FILE = "src/RESShaderFiles/BasicEntityShader.fs";
-    
+    /** The location for the TransformationMatrix.
+     */
     private int location;
-    /** Create a new TextureShader
+    /** Create a new BasicEntityShader.
      */
     public BasicEntityShader() {
         super(VERTEX_FILE, FRAGMENT_FILE);
@@ -36,12 +37,18 @@ public class BasicEntityShader extends AbstractShader{
     }
 
 	@Override
+    /** Get all uniform locations.
+     */
 	protected void getAllUniformLocations() {
 		location = super.getUniformLocation("transformationMatrix");
 		// TODO Auto-generated method stub
 		
 	}
-     
+    
+	/** Load the transformationMatrix.
+	 * 
+	 * @param matrix the transformationMatrix to load
+	 */
 	public void loadTransformationMatrix(Matrix4f matrix) {
 		super.loadMatrix(location, matrix);
 	}
