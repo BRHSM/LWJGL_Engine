@@ -1,0 +1,5 @@
+[DEBUG]: Language file loaded: language_IT
+[DEBUG]: Avarage load time: 0.92629
+[DEBUG]: fps: 48
+[DEBUG]: Avarage load time: 0.94597
+[DEBUG]: fps: 48
