@@ -10,7 +10,7 @@ import ModelHandeling.TexturedModel;
  * @see TexturedModel
  * @see AbstractShader
  */
-public class TextureShader extends AbstractShader{
+public class TexturedModelShader extends AbstractShader{
 	/** Filename of the vertex shader.
 	 */
     private static final String VERTEX_FILE = "src/RESShaderFiles/TextureVertexShader.vs";
@@ -20,7 +20,7 @@ public class TextureShader extends AbstractShader{
  
     /** Create a new TextureShader
      */
-    public TextureShader() {
+    public TexturedModelShader() {
         super(VERTEX_FILE, FRAGMENT_FILE);
     }
     

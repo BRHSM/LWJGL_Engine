@@ -1,8 +1,8 @@
 package Exceptions;
 
 import GraphicsEngine.AbstractShader;
-import GraphicsEngine.BasicShader;
-import GraphicsEngine.TextureShader;
+import GraphicsEngine.BasicModelShader;
+import GraphicsEngine.TexturedModelShader;
 
 /** Exception which is thrown if a renderer is loaded without a shader.
  * 
@@ -13,7 +13,7 @@ import GraphicsEngine.TextureShader;
 public class ShaderNotFoundException extends AbstractException{
 	/** Create a new ShaderNotFoundException
 	 */
-	public ShaderNotFoundException(BasicShader basicShader, TextureShader textureShader) {
+	public ShaderNotFoundException(BasicModelShader basicShader, TexturedModelShader textureShader) {
 		super("[ERROR]: One or more shaders failed to load.", "[ERROR]: One or more shaders failed to load while the DisplayManager tried to load them. \n         BasicShader: " + getIfNull(basicShader) + "\n         textureShader: " + getIfNull(textureShader) + "\n");
 	}
 	

@@ -8,7 +8,7 @@ import ModelHandeling.BasicModel;
  * @see BasicModel
  * @see AbstractShader
  */
-public class BasicShader extends AbstractShader{
+public class BasicModelShader extends AbstractShader{
 	/** Filename of the vertex shader.
 	 */
     private static final String VERTEX_FILE = "src/RESShaderFiles/BasicVertexShader.vs";
@@ -18,7 +18,7 @@ public class BasicShader extends AbstractShader{
  
     /** Create a new BasicShader.
      */
-    public BasicShader() {
+    public BasicModelShader() {
         super(VERTEX_FILE, FRAGMENT_FILE);
     }
  

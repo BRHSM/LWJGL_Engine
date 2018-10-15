@@ -10,8 +10,8 @@ import Core.DataObject;
 import Exceptions.ExceptionThrower;
 import Exceptions.ShaderNotFoundException;
 import GraphicsEngine.AbstractShader;
-import GraphicsEngine.BasicShader;
-import GraphicsEngine.TextureShader;
+import GraphicsEngine.BasicModelShader;
+import GraphicsEngine.TexturedModelShader;
 import InputHandeling.KeyboardHandler;
 import ModelHandeling.AbstractModel;
 import ModelHandeling.BasicModel;
@@ -49,11 +49,11 @@ public class DisplayManager {
 	
 	/** A shader for BasicModels.
 	 */
-	private BasicShader basicShader;
+	private BasicModelShader basicShader;
 	
 	/** A shader for TexturedModels.
 	 */
-	private TextureShader textureShader;
+	private TexturedModelShader textureShader;
 	
 	/** A list of models to render on startup.
 	 */

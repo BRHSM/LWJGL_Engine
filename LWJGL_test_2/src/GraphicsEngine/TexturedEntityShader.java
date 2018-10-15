@@ -12,7 +12,7 @@ import ModelHandeling.TexturedModel;
  * @see TexturedModel
  * @see AbstractShader
  */
-public class UniformTestShader extends AbstractShader{
+public class TexturedEntityShader extends AbstractShader{
 	/** Filename of the vertex shader.
 	 */
     private static final String VERTEX_FILE = "src/RESShaderFiles/UniformTestShader.vs";
@@ -23,7 +23,7 @@ public class UniformTestShader extends AbstractShader{
     private int location;
     /** Create a new TextureShader
      */
-    public UniformTestShader() {
+    public TexturedEntityShader() {
         super(VERTEX_FILE, FRAGMENT_FILE);
     }
     

@@ -11,8 +11,8 @@ import Exceptions.ExceptionThrower;
 import Exceptions.ModelInvalidException;
 import Exceptions.ShaderIncompatableException;
 import GraphicsEngine.AbstractShader;
-import GraphicsEngine.TextureShader;
-import GraphicsEngine.UniformTestShader;
+import GraphicsEngine.TexturedModelShader;
+import GraphicsEngine.TexturedEntityShader;
 import Math.MatrixMaths;
 import ModelHandeling.TexturedModel;
 
@@ -28,14 +28,14 @@ public class TextureEntityRenderer extends AbstractEntityRenderer{
 	
 	// create for each model.
 	public void render (AbstractEntity entity, AbstractShader shader) {
-		if(shader instanceof UniformTestShader) {
+		if(shader instanceof TexturedEntityShader) {
 			if(entity.getModel() instanceof TexturedModel) {
 				TexturedModel model = (TexturedModel)entity.getModel();
 				GL30.glBindVertexArray(model.getVaoID());
 				GL20.glEnableVertexAttribArray(0);
 				GL20.glEnableVertexAttribArray(1);
 				Matrix4f transformationMatrix = MatrixMaths.createTransformationMatrix(entity.getPosition(), entity.getRx(), entity.getRy(), entity.getRz(), entity.getScale());
-				((UniformTestShader)shader).loadTransformationMatrix(transformationMatrix);
+				((TexturedEntityShader)shader).loadTransformationMatrix(transformationMatrix);
 				GL13.glActiveTexture(GL13.GL_TEXTURE0);
 				GL11.glBindTexture(GL11.GL_TEXTURE_2D, ((TexturedModel)entity.getModel()).getTexture().getTextureID());
 				GL15.glBindBuffer(GL15.GL_ARRAY_BUFFER, model.getVaoID());

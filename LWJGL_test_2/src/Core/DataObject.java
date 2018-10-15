@@ -3,8 +3,8 @@ package Core;
 import java.util.ArrayList;
 
 import GraphicsEngine.AbstractShader;
-import GraphicsEngine.BasicShader;
-import GraphicsEngine.TextureShader;
+import GraphicsEngine.BasicModelShader;
+import GraphicsEngine.TexturedModelShader;
 import ModelHandeling.AbstractModelStructure;
 import ModelHandeling.ModelList;
 import OptionManager.CurrentLanguage;
@@ -32,19 +32,19 @@ public class DataObject {
 	
 	/** The default BasicShader.
 	 */
-	public static final AbstractShader DEFAULT_BASIC_SHADER = new BasicShader();
+	public static final AbstractShader DEFAULT_BASIC_SHADER = new BasicModelShader();
 	
 	/** The default TextureShader.
 	 */
-	public static final AbstractShader DEFAULT_TEXTURE_SHADER = new TextureShader();
+	public static final AbstractShader DEFAULT_TEXTURE_SHADER = new TexturedModelShader();
 	
 	/** The BasicShader to use.
 	 */
-	private BasicShader basicShader;
+	private BasicModelShader basicShader;
 	
 	/** The TextureShader to use.
 	 */
-	private TextureShader textureShader;
+	private TexturedModelShader textureShader;
 	/**List of ModelStructures to load on startup. 
 	 */
 	ArrayList<AbstractModelStructure> modelStructureList = new ArrayList<AbstractModelStructure>();
@@ -52,8 +52,8 @@ public class DataObject {
 	/** Creates a clean DataObject
 	 */
 	public DataObject() {
-		basicShader = (BasicShader) DEFAULT_BASIC_SHADER;
-		textureShader = (TextureShader) DEFAULT_TEXTURE_SHADER;
+		basicShader = (BasicModelShader) DEFAULT_BASIC_SHADER;
+		textureShader = (TexturedModelShader) DEFAULT_TEXTURE_SHADER;
 		OptionHandler.setupOptions();
 		
 		OptionHandler.addOptionFile(OptionHandler.GRAPHIC_OPTION_ID, new GraphicOptions(), "GraphicOptions");
@@ -86,14 +86,14 @@ public class DataObject {
 	 */
 	public void setShader(int shaderType, AbstractShader shader) {
 		if (shaderType == BASIC_SHADER)
-			if(shader instanceof BasicShader) {
-				this.basicShader = (BasicShader)shader;
+			if(shader instanceof BasicModelShader) {
+				this.basicShader = (BasicModelShader)shader;
 			} else {
 				//TODO: Throw Exception
 			}
 		if (shaderType == TEXTURE_SHADER)
-			if(shader instanceof TextureShader) {
-				this.textureShader = (TextureShader)shader;
+			if(shader instanceof TexturedModelShader) {
+				this.textureShader = (TexturedModelShader)shader;
 			} else {
 				//TODO: Throw Exception
 			}
@@ -111,7 +111,7 @@ public class DataObject {
 	 * 
 	 * @return the BasicShader.
 	 */
-	public BasicShader getBasicShader() {
+	public BasicModelShader getBasicShader() {
 		if(basicShader == DEFAULT_BASIC_SHADER)
 			System.out.println("[DEBUG]: No BasicShader loaded, using default shader" + DEFAULT_BASIC_SHADER.toString());
 		return basicShader;
@@ -121,7 +121,7 @@ public class DataObject {
 	 * 
 	 * @return the TextureShader.
 	 */
-	public TextureShader getTextureShader() {
+	public TexturedModelShader getTextureShader() {
 		if(textureShader == DEFAULT_TEXTURE_SHADER)
 			System.out.println("[DEBUG]: No TextureShader loaded, using default shader" + DEFAULT_TEXTURE_SHADER.toString());
 		return textureShader;

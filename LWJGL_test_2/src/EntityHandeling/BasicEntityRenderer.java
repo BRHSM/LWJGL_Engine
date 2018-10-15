@@ -11,8 +11,8 @@ import Exceptions.ExceptionThrower;
 import Exceptions.ModelInvalidException;
 import Exceptions.ShaderIncompatableException;
 import GraphicsEngine.AbstractShader;
-import GraphicsEngine.BasicShader;
-import GraphicsEngine.UniformTestShader;
+import GraphicsEngine.BasicModelShader;
+import GraphicsEngine.TexturedEntityShader;
 import Math.MatrixMaths;
 import ModelHandeling.BasicModel;
 import ModelHandeling.TexturedModel;
@@ -29,13 +29,13 @@ public class BasicEntityRenderer extends AbstractEntityRenderer {
 	
 	// create for each model.
 	public void render (AbstractEntity entity, AbstractShader shader) {
-		if(shader instanceof UniformTestShader) {
+		if(shader instanceof TexturedEntityShader) {
 			if(entity.getModel() instanceof BasicModel) {
 				BasicModel model = (BasicModel)entity.getModel();
 				GL30.glBindVertexArray(model.getVaoID());
 				GL20.glEnableVertexAttribArray(0);
 				Matrix4f transformationMatrix = MatrixMaths.createTransformationMatrix(entity.getPosition(), entity.getRx(), entity.getRy(), entity.getRz(), entity.getScale());
-				((UniformTestShader)shader).loadTransformationMatrix(transformationMatrix);
+				((TexturedEntityShader)shader).loadTransformationMatrix(transformationMatrix);
 				GL15.glBindBuffer(GL15.GL_ARRAY_BUFFER, model.getVaoID());
 				GL11.glDrawElements(GL11.GL_TRIANGLES, model.getVertexCount(), GL11.GL_UNSIGNED_INT, 0);
 				GL20.glDisableVertexAttribArray(0);
