@@ -3,9 +3,13 @@ package GraphicsEngine;
 import java.io.BufferedReader;
 import java.io.FileReader;
 import java.io.IOException;
+import java.nio.FloatBuffer;
 
+import org.lwjgl.BufferUtils;
 import org.lwjgl.opengl.GL11;
 import org.lwjgl.opengl.GL20;
+import org.lwjglx.util.vector.Matrix4f;
+import org.lwjglx.util.vector.Vector3f;
 
 import Exceptions.ExceptionThrower;
 import Exceptions.ShaderIncompatableException;
@@ -36,6 +40,7 @@ public abstract class AbstractShader {
 	/* Filename of the shader.
 	 */
 	private String fragmentFile;
+	private static FloatBuffer buffer = BufferUtils.createFloatBuffer(16);
 	
 	/** Create a nrw GenericSsaderProfram for the given vertex- and fragmentshader's
 	 *  filename. (Shader files should be placed in the RESShaderFiles folder)
@@ -66,6 +71,7 @@ public abstract class AbstractShader {
 		GL20.glAttachShader(programID, vertexShaderID);
 		GL20.glAttachShader(programID, fragmentShaderID);
 		// Link the program.
+		bindAttributes();
 		GL20.glLinkProgram(programID);
 		// Validate the program. 
 		GL20.glValidateProgram(programID);
@@ -81,6 +87,34 @@ public abstract class AbstractShader {
      */
     public void stop(){
         GL20.glUseProgram(0);
+    }
+    
+    protected int getUniformLocation(String uniformName) {
+    	return GL20.glGetUniformLocation(programID, uniformName);
+    }
+    
+    protected abstract void getAllUniformLocations();
+    
+    protected void loadFloat(int location, float value) {
+    	GL20.glUniform1f(location, value);
+    }
+    
+    protected void loadVector(int location, Vector3f value) {
+    	GL20.glUniform3f(location, value.x, value.y, value.z);
+    }
+    
+    protected void loadBoolean(int location, boolean value) {
+    	float toLoad = 0;
+    	if(value) {
+    		toLoad = 1;
+    	}
+    	GL20.glUniform1f(location, toLoad);
+    }
+    
+    protected void loadMatrix(int location, Matrix4f matrix) {
+    	matrix.store(buffer);
+    	buffer.flip();
+    	GL20.glUniformMatrix4fv(location, false, buffer);
     }
     
     /** Remove the shader.

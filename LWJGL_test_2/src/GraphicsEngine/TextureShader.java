@@ -33,6 +33,12 @@ public class TextureShader extends AbstractShader{
         //bind textures.
         super.bindAttribute(1, "textureCoordinate");
     }
+
+	@Override
+	protected void getAllUniformLocations() {
+		// TODO Auto-generated method stub
+		
+	}
      
      
 }

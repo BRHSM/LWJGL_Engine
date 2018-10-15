@@ -28,6 +28,12 @@ public class BasicShader extends AbstractShader{
     protected void bindAttributes() {
         super.bindAttribute(0, "position");
     }
+
+	@Override
+	protected void getAllUniformLocations() {
+		// TODO Auto-generated method stub
+		
+	}
      
      
 }
