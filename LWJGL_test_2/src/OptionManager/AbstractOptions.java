@@ -1,6 +1,8 @@
 package OptionManager;
 
+import java.util.Map;
 import java.util.Properties;
+import java.util.TreeMap;
 
 public class AbstractOptions {
 	public static volatile Properties properties;
@@ -15,6 +17,7 @@ public class AbstractOptions {
 	}
 	
 	public String toString() {
-		return properties.toString();
+		Map<String, String> treeMap = new TreeMap(properties);
+		return treeMap.toString();
 	}
 }
