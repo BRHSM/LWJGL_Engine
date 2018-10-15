@@ -20,7 +20,7 @@ public class KeyStrokeHandler {
 		//Single press detection of spacebar.
 		if(KeyboardHandler.keys[GLFW_KEY_SPACE]) {
 			if(!space_key)
-				System.out.println("test");
+				System.out.println("[DEBUG]: Space Single Press Detection");
 			space_key = true;
 			
 		} else {
@@ -28,7 +28,7 @@ public class KeyStrokeHandler {
 		}
 		//continues press detection of A key.
 		if(KeyboardHandler.keys[GLFW_KEY_A]) {
-			System.out.println("A");
+			System.out.println("[DEBUG]: A Continues Detection");
 		} 
 	}
 }
