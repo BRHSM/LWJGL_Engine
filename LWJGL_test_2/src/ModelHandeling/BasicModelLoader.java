@@ -15,14 +15,7 @@ import org.lwjgl.opengl.GL30;
  * @version 1.0
  * @since 1.0
 */
-public class BasicModelLoader {
-	/** List of VAO's loaded. 
-	 */
-	private List<Integer> vaos = new ArrayList<Integer>();
-	/** List of VBO's loaded. 
-	 */
-	private List<Integer> vbos = new ArrayList<Integer>();
-	
+public class BasicModelLoader extends AbstractModelLoader{
 	/** Load a model to a VAO.
 	 * 
 	 * @param positions the vertices of the model.
@@ -52,7 +45,7 @@ public class BasicModelLoader {
 	 * 
 	 * @return the ID of the VAO
 	 */
-	private int createVAO() {
+	protected int createVAO() {
 		int vaoID =  GL30.glGenVertexArrays();
 		vaos.add(vaoID);
 		GL30.glBindVertexArray(vaoID);
@@ -64,7 +57,7 @@ public class BasicModelLoader {
 	 * @param attributeID The VAO's ID.
 	 * @param data The vertices data.
 	 */
-	private void storeInList(int attributeID, int coordinateSize, float[] data) {
+	protected void storeInList(int attributeID, int coordinateSize, float[] data) {
 		int vboID = GL15.glGenBuffers();
 		vbos.add(vboID);
 		GL15.glBindBuffer(GL15.GL_ARRAY_BUFFER, vboID);
@@ -75,7 +68,7 @@ public class BasicModelLoader {
 	
 	/** Clear the bound VAO.
 	 */
-	private void unbindVAO() {
+	protected void unbindVAO() {
 		GL30.glBindVertexArray(0);
 	}
 	
@@ -83,7 +76,7 @@ public class BasicModelLoader {
 	 * 
 	 * @param indexes An array of indexes to bind. 
 	 */
-	private void bindIndexBuffer(int[] indexes) {
+	protected void bindIndexBuffer(int[] indexes) {
 		int vboID = GL15.glGenBuffers();
 		vbos.add(vboID);
 		GL15.glBindBuffer(GL15.GL_ELEMENT_ARRAY_BUFFER, vboID);
