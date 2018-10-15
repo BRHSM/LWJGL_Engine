@@ -12,18 +12,18 @@ import ModelHandeling.TexturedModel;
  * @see TexturedModel
  * @see AbstractShader
  */
-public class TexturedEntityShader extends AbstractShader{
+public class BasicEntityShader extends AbstractShader{
 	/** Filename of the vertex shader.
 	 */
-    private static final String VERTEX_FILE = "src/RESShaderFiles/TexturedEntityShader.vs";
+    private static final String VERTEX_FILE = "src/RESShaderFiles/BasicEntityShader.vs";
     /** Filename of the fragment shader.
      */
-    private static final String FRAGMENT_FILE = "src/RESShaderFiles/TexturedEntityShader.fs";
+    private static final String FRAGMENT_FILE = "src/RESShaderFiles/BasicEntityShader.fs";
     
     private int location;
     /** Create a new TextureShader
      */
-    public TexturedEntityShader() {
+    public BasicEntityShader() {
         super(VERTEX_FILE, FRAGMENT_FILE);
     }
     
@@ -33,8 +33,6 @@ public class TexturedEntityShader extends AbstractShader{
     protected void bindAttributes() {
     	//bind position.
         super.bindAttribute(0, "position");
-        //bind textures.
-        super.bindAttribute(1, "textureCoordinate");
     }
 
 	@Override
