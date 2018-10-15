@@ -14,6 +14,7 @@ import UtilClasses.DoublePrintStream;
  * @author Bram Steenbergen
  * @version 1.0
  * @since 1.0
+ * @see RenderThread
 */
 public class Initializer {
 	/** Thread object used for rendering

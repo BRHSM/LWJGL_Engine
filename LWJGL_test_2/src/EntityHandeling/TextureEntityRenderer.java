@@ -14,9 +14,19 @@ import GraphicsEngine.AbstractShader;
 import GraphicsEngine.TexturedModelShader;
 import GraphicsEngine.TexturedEntityShader;
 import Math.MatrixMaths;
+import ModelHandeling.BasicModel;
 import ModelHandeling.TexturedModel;
 
+/** Class used to render an AbstractEntity with a TexturedModel as it's model.
+ * 
+ * @author Bram Steenbergen
+ * @version 1.0
+ * @since 1.0
+ * @see TexturedModel
+ */
 public class TextureEntityRenderer extends AbstractEntityRenderer{
+	/** RPrepare the renderer for rendering the entity.
+	 */
 	public void prepare() {
 		GL11.glClearColor(0,0,0,1);
 		GL11.glClear(GL11.GL_COLOR_BUFFER_BIT);

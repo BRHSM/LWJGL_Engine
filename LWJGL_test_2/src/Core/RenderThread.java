@@ -9,7 +9,13 @@ import OptionManager.EngineOptions;
 import OptionManager.GraphicOptions;
 import OptionManager.OptionHandler;
 import OptionManager.OptionReader;
-
+/** Thread which handles the rendering of the screen.
+ * @author Bram Steenbergen
+ * @version 1.0
+ * @since 1.0
+ * @see DisplayManager
+ * @see KeyStrokeHandler
+*/
 public class RenderThread extends Thread{
 	/** main display field which holds the main game window.
 	 */

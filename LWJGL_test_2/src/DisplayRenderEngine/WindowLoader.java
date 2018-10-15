@@ -65,6 +65,8 @@ public class WindowLoader {
 		return window;
 	}
 
+	/** Method used to cleanup the window.
+	 */
 	public void cleanUp() {
 		
 		
