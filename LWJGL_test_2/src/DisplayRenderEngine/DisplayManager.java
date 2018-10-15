@@ -8,6 +8,7 @@ import org.lwjgl.glfw.Callbacks;
 import org.lwjgl.opengl.GL;
 import Core.DataObject;
 import Exceptions.ExceptionThrower;
+import Exceptions.InternalErrorException;
 import Exceptions.ShaderNotFoundException;
 import GraphicsEngine.AbstractShader;
 import GraphicsEngine.BasicModelShader;
@@ -24,6 +25,13 @@ import ModelHandeling.TexturedModelRenderer;
  *  @author Bram Steenbergen
  *  @version 1.0
  *  @since 1.0
+ *  @see WindowLoader
+ *  @see BasicModelRenderer
+ *  @see TexturedModelRenderer
+ *  @see AbstractShader
+ *  @see BasicModelShader
+ *  @see TexturedModelShader
+ *  @see ModelList
 */
 public class DisplayManager {
 		
@@ -67,8 +75,7 @@ public class DisplayManager {
 	public void createDisplay(KeyboardHandler keyboardHandler, DataObject object) {
 		//initialize glfw
 		if(!glfwInit()) {
-			System.out.println("error");
-			
+			ExceptionThrower.throwException(new InternalErrorException());
 		} 
 		
 		//get a new window loader
