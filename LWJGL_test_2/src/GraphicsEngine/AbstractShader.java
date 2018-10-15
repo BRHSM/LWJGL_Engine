@@ -12,6 +12,7 @@ import org.lwjglx.util.vector.Matrix4f;
 import org.lwjglx.util.vector.Vector3f;
 
 import Exceptions.ExceptionThrower;
+import Exceptions.InternalErrorException;
 import Exceptions.ShaderIncompatableException;
 /** A generic shader program class which can be etended to create by other shaders.
  * 
@@ -159,9 +160,7 @@ public abstract class AbstractShader {
             }
             reader.close();
         }catch(IOException e){
-        	//error reading file.
-            e.printStackTrace();
-            System.exit(-1);
+        	ExceptionThrower.throwException(new InternalErrorException());
         }
         //get shader ID.
         int shaderID = GL20.glCreateShader(type);
@@ -173,7 +172,7 @@ public abstract class AbstractShader {
         if(GL20.glGetShaderi(shaderID, GL20.GL_COMPILE_STATUS )== GL11.GL_FALSE){
             System.out.println(GL20.glGetShaderInfoLog(shaderID, 500));
             System.err.println("[ERROR]: Could not compile shader!");
-            System.exit(-1);
+            ExceptionThrower.throwException(new InternalErrorException());
         }
         //Return shader ID.
         return shaderID;
