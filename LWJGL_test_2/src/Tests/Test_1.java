@@ -19,37 +19,13 @@ public class Test_1 {
 	 * @param args terminal arguments
 	*/
 	public static void test() {
+		//Initialize the game.
 		init = new Initializer();
-		
-		//create a basic model (Trapezoid). 
-		float[] vertices = {
-			    -0.5f, 0.5f, 0f,
-			    -0.5f, -0.5f, 0f,
-			    0.5f, -0.5f, 0f,
-			    0.5f, 0.5f, 0f,
-			  };
-		//create a basic model index list.
-		int[] indexes = {
-				//left Bot
-				0,1,3,
-				//right top
-				3,1,2
-		};
-		
-		float[] textureCoordinates = {
-				0f,0f,
-				0f,1f,
-				1f,1f,
-				1f,0f
-		};
-		
-		//setup modle loader. 
-		TexturedModelStructure modelStructure = new TexturedModelStructure(vertices, textureCoordinates, indexes);
 		
 		//Setup DataObject.
 		DataObject object = new DataObject();
-		object.addModel(modelStructure);
 		
+		//start the loop.
 		init.start(object);
 	}
 }
