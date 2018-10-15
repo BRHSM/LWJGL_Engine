@@ -18,6 +18,8 @@ import UtilClasses.StringBreaker;
  * @author Bram Steenbergen
  * @version 1.0
  * @since 1.0
+ * @see AbstractShader
+ * @see AbstractModelStructure
  * @see ModelList
  */
 public class DataObject {
@@ -112,7 +114,7 @@ public class DataObject {
 	 * @return the BasicShader.
 	 */
 	public BasicModelShader getBasicShader() {
-		if(basicShader == DEFAULT_BASIC_SHADER)
+		if(basicShader == DEFAULT_BASIC_SHADER && OptionHandler.getProperty(EngineOptions.DEBUGENABLED_KEY, OptionHandler.ENGINE_OPTION_ID).equals("0"))
 			System.out.println("[DEBUG]: No BasicShader loaded, using default shader" + DEFAULT_BASIC_SHADER.toString());
 		return basicShader;
 	}
@@ -122,7 +124,7 @@ public class DataObject {
 	 * @return the TextureShader.
 	 */
 	public TexturedModelShader getTextureShader() {
-		if(textureShader == DEFAULT_TEXTURE_SHADER)
+		if(textureShader == DEFAULT_TEXTURE_SHADER && OptionHandler.getProperty(EngineOptions.DEBUGENABLED_KEY, OptionHandler.ENGINE_OPTION_ID).equals("0"))
 			System.out.println("[DEBUG]: No TextureShader loaded, using default shader" + DEFAULT_TEXTURE_SHADER.toString());
 		return textureShader;
 	}
