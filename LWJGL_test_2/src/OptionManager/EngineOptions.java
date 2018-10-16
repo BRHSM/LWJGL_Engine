@@ -23,7 +23,7 @@ public class EngineOptions extends AbstractOptions{
 	public static final String DEBUGAVGLOADTIME_KEY = "debugAvgLoadtime";
 	public static final String DEBUGLONGEXCEPTIONS_KEY = "debugLongExceptions";
 	public static final String DEBUGSTACKTRACE_KEY = "debugStackTrace";
-	public static final String DEBUGLOGTOFILE = "debugLogToFile";
+	public static final String DEBUGLOGTOFILE_KEY = "debugLogToFile";
 	public static final String SHOWSHADERUSED_KEY = "showShaderUsed";
 	public static final String MAINLANGUAGE_KEY = "mainLanguage";
 	public static final String PATHDEVELOPMENTFILES_KEY = "pathDevelopmentFiles";
@@ -45,7 +45,7 @@ public class EngineOptions extends AbstractOptions{
 		debugAvgLoadtime 		= loader.getProperty(DEBUGAVGLOADTIME_KEY);
 		debugLongExceptions 	= loader.getProperty(DEBUGLONGEXCEPTIONS_KEY);
 		debugStackTrace 		= loader.getProperty(DEBUGSTACKTRACE_KEY);
-		debugLogToFile 			= loader.getProperty(DEBUGLOGTOFILE);
+		debugLogToFile 			= loader.getProperty(DEBUGLOGTOFILE_KEY);
 		showShaderUsed 			= loader.getProperty(SHOWSHADERUSED_KEY);
 		mainLanguage 			= loader.getProperty(MAINLANGUAGE_KEY);
 		pathDevelopmentFiles 	= loader.getProperty(PATHDEVELOPMENTFILES_KEY);
@@ -59,7 +59,7 @@ public class EngineOptions extends AbstractOptions{
 		keyList.add(DEBUGAVGLOADTIME_KEY);
 		keyList.add(DEBUGLONGEXCEPTIONS_KEY);
 		keyList.add(DEBUGSTACKTRACE_KEY);
-		keyList.add(DEBUGLOGTOFILE);
+		keyList.add(DEBUGLOGTOFILE_KEY);
 		keyList.add(SHOWSHADERUSED_KEY);
 		keyList.add(MAINLANGUAGE_KEY);
 		keyList.add(PATHDEVELOPMENTFILES_KEY);
@@ -73,7 +73,7 @@ public class EngineOptions extends AbstractOptions{
 		properties.put(DEBUGAVGLOADTIME_KEY, debugAvgLoadtime);
 		properties.put(DEBUGLONGEXCEPTIONS_KEY, debugLongExceptions);
 		properties.put(DEBUGSTACKTRACE_KEY, debugStackTrace);
-		properties.put(DEBUGLOGTOFILE, debugLogToFile);
+		properties.put(DEBUGLOGTOFILE_KEY, debugLogToFile);
 		properties.put(SHOWSHADERUSED_KEY, showShaderUsed);
 		properties.put(MAINLANGUAGE_KEY, mainLanguage);
 		properties.put(PATHDEVELOPMENTFILES_KEY, pathDevelopmentFiles);

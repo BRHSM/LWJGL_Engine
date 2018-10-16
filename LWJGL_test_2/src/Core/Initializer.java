@@ -25,7 +25,8 @@ public class Initializer {
 	*/
 	public void start(DataObject dataObject) {
 	    FileOutputStream file;
-	    if(OptionHandler.getProperty(EngineOptions.DEBUGLOGTOFILE, OptionHandler.ENGINE_OPTION_ID).equals("1")) {
+	    if(OptionHandler.getProperty(EngineOptions.DEBUGLOGTOFILE_KEY, OptionHandler.ENGINE_OPTION_ID).equals("1") && OptionHandler.getProperty(EngineOptions.DEBUGENABLED_KEY, OptionHandler.ENGINE_OPTION_ID).equals("1")) {
+	    	System.out.println("still making log files");
 			try {
 			    Calendar cal = Calendar.getInstance();
 			    StringBuilder sb = new StringBuilder();
@@ -59,6 +60,7 @@ public class Initializer {
 	 * 
 	 */
 	public void stop() {
+		//writeback options
 		if(OptionHandler.getProperty(EngineOptions.WRITEBACKONEXIT_KEY, OptionHandler.ENGINE_OPTION_ID).equals("1")) {
 			if(OptionHandler.getProperty(EngineOptions.DEBUGENABLED_KEY, OptionHandler.ENGINE_OPTION_ID).equals("1"))
 				System.out.println("[DEBUG]: Writing back options: ");

@@ -65,7 +65,7 @@ public class DisplayManager {
 	
 	/** A list of models to render on startup.
 	 */
-	private ModelList list;
+	private ModelList modelList;
 	
 	/** Create a prepared window and add the models to it. After the window is prepared and
 	 *  populated, It's shown to the screen
@@ -81,7 +81,7 @@ public class DisplayManager {
 		//get a new window loader
 		windowLoader = new WindowLoader();
 		
-		list = object.getModelLists();
+		modelList = object.getModelLists();
 		
 		//setup the window with the window loader. 
 		window = windowLoader.setupWindow(keyboardHandler);
@@ -106,7 +106,7 @@ public class DisplayManager {
 		textureShader.setupShader();
 		
 		//convert ModelStructures to models
-		list.ConvertToModels();
+		modelList.ConvertToModels();
 		
 		//Show the window.
 		glfwShowWindow(window);
@@ -116,16 +116,16 @@ public class DisplayManager {
 	/** Update the screen to the next frame. 
 	 */
 	public void updateDisplay() {
-		ArrayList<AbstractModel> list;
+		ArrayList<AbstractModel> modelList;
 		//prepare the model renderers.
 		modelBasicRenderer.prepare();
 		modelTexturedRenderer.prepare();
 		
 		//handle basic models. 
-		list = this.list.getModels();
+		modelList = this.modelList.getModels();
 		
 		//scroll through models.
-		for (AbstractModel model : list) {
+		for (AbstractModel model : modelList) {
 			if(model instanceof BasicModel) {
 				currentShader = basicShader;
 				//Start shader program.
