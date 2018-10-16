@@ -20,12 +20,13 @@ public class ModelList {
 	ArrayList<AbstractModelStructure> modelStructures = new ArrayList<AbstractModelStructure>();
 	/** List of models.
 	 */
-	ArrayList<AbstractModel> models = new ArrayList<AbstractModel>();
-	
-	/** Create a new empty model list.
+	static ArrayList<AbstractModel> models = new ArrayList<AbstractModel>();
+	/** boolean to tell if the modelStructures are converted.
 	 */
 	private boolean isConverted = false;
 	
+	/** Create a new empty model list.
+	 */
 	public ModelList() {
 		//create Model List
 	}
@@ -63,6 +64,14 @@ public class ModelList {
 		//Clear ModelStructure List
 		modelStructures.clear();
 	}
+	
+	/** Method used by other converters to add models to the list. Don't use this yourself.
+	 * 
+	 * @param model the model to add.
+	 */
+	public static void addModel(AbstractModel model) {
+		models.add(model);
+	}
 	/** Add a modelStructure to the list.
 	 * 
 	 * @param modelStructure The modelStructure to add.
@@ -89,4 +98,6 @@ public class ModelList {
 	public ArrayList<AbstractModel> getModels() {
 		return models;
 	}
+	
+
 }

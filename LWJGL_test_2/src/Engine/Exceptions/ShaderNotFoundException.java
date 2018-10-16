@@ -1,7 +1,9 @@
 package Engine.Exceptions;
 
 import Engine.GraphicsEngine.AbstractShader;
+import Engine.GraphicsEngine.BasicEntityShader;
 import Engine.GraphicsEngine.BasicModelShader;
+import Engine.GraphicsEngine.TexturedEntityShader;
 import Engine.GraphicsEngine.TexturedModelShader;
 
 /** Exception which is thrown if a renderer is loaded without a shader.
@@ -16,9 +18,11 @@ public class ShaderNotFoundException extends AbstractException{
 	 */
 	private static final long serialVersionUID = -7065358176229778999L;
 	/** Create a new ShaderNotFoundException
+	 * @param texturedEntityShader 
+	 * @param basicEntityShader 
 	 */
-	public ShaderNotFoundException(BasicModelShader basicShader, TexturedModelShader textureShader) {
-		super("[ERROR]: One or more shaders failed to load.", "[ERROR]: One or more shaders failed to load while the DisplayManager tried to load them. \n         BasicShader: " + getIfNull(basicShader) + "\n         textureShader: " + getIfNull(textureShader) + "\n");
+	public ShaderNotFoundException(BasicModelShader basicModelShader, TexturedModelShader texturedModelShader, BasicEntityShader basicEntityShader, TexturedEntityShader texturedEntityShader) {
+		super("[ERROR]: One or more shaders failed to load.", "[ERROR]: One or more shaders failed to load while the DisplayManager tried to load them. \n         BasicModelShader: " + getIfNull(basicModelShader) + "\n         texturedModelShader: " + getIfNull(texturedModelShader) + "\n         basicEntityShader: " + getIfNull(basicEntityShader) + "\n         texturedEntityShader: " + getIfNull(texturedEntityShader) + "\n");
 	}
 	/** Get a null string if the shader is undefined.
 	 * @param shader the shader

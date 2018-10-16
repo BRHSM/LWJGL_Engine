@@ -2,8 +2,12 @@ package Engine.Core;
 
 import java.util.ArrayList;
 
+import Engine.EntityHandeling.AbstractEntityStructure;
+import Engine.EntityHandeling.EntityList;
 import Engine.GraphicsEngine.AbstractShader;
+import Engine.GraphicsEngine.BasicEntityShader;
 import Engine.GraphicsEngine.BasicModelShader;
+import Engine.GraphicsEngine.TexturedEntityShader;
 import Engine.GraphicsEngine.TexturedModelShader;
 import Engine.ModelHandeling.AbstractModelStructure;
 import Engine.ModelHandeling.ModelList;
@@ -27,35 +31,57 @@ public class DataObject {
 	//Shader ID values
 	/** ID value for BasicShaders.
 	 */
-	public static final int BASIC_SHADER = 101;
+	public static final int BASIC_MODEL_SHADER = 301;
 	/** ID value for TextureShaders.
 	 */
-	public static final int TEXTURE_SHADER = 102;
+	public static final int TEXTURED_MODEL_SHADER = 302;
+	/** ID value for BasicShaders.
+	 */
+	public static final int BASIC_ENTITY_SHADER = 303;
+	/** ID value for TextureShaders.
+	 */
+	public static final int TEXTURED_ENTITY_SHADER = 304;
 	
 	/** The default BasicShader.
 	 */
-	public static final AbstractShader DEFAULT_BASIC_SHADER = new BasicModelShader();
-	
+	public static final AbstractShader DEFAULT_BASIC_MODEL_SHADER = new BasicModelShader();
 	/** The default TextureShader.
 	 */
-	public static final AbstractShader DEFAULT_TEXTURE_SHADER = new TexturedModelShader();
+	public static final AbstractShader DEFAULT_TEXTURED_MODEL_SHADER = new TexturedModelShader();
+	/** The default BasicShader.
+	 */
+	public static final AbstractShader DEFAULT_BASIC_ENTITY_SHADER = new BasicEntityShader();
+	/** The default TextureShader.
+	 */
+	public static final AbstractShader DEFAULT_TEXTURED_ENTITY_SHADER = new TexturedEntityShader();
 	
 	/** The BasicShader to use.
 	 */
-	private BasicModelShader basicShader;
-	
+	private BasicModelShader basicModelShader;
 	/** The TextureShader to use.
 	 */
-	private TexturedModelShader textureShader;
+	private TexturedModelShader texturedModelShader;
+	/** The BasicShader to use.
+	 */
+	private BasicEntityShader basicEntityShader;
+	/** The TextureShader to use.
+	 */
+	private TexturedEntityShader texturedEntityShader;
+	
 	/**List of ModelStructures to load on startup. 
 	 */
 	ArrayList<AbstractModelStructure> modelStructureList = new ArrayList<AbstractModelStructure>();
+	/**List of EntityStructures to load on startup. 
+	 */
+	ArrayList<AbstractEntityStructure> entityStructureList = new ArrayList<AbstractEntityStructure>();
 	
 	/** Creates a clean DataObject
 	 */
 	public DataObject() {
-		basicShader = (BasicModelShader) DEFAULT_BASIC_SHADER;
-		textureShader = (TexturedModelShader) DEFAULT_TEXTURE_SHADER;
+		basicModelShader = (BasicModelShader) DEFAULT_BASIC_MODEL_SHADER;
+		texturedModelShader = (TexturedModelShader) DEFAULT_TEXTURED_MODEL_SHADER;
+		basicEntityShader = (BasicEntityShader) DEFAULT_BASIC_ENTITY_SHADER;
+		texturedEntityShader = (TexturedEntityShader) DEFAULT_TEXTURED_ENTITY_SHADER;
 		OptionHandler.setupOptions();
 		
 		//load graphic options
@@ -76,12 +102,21 @@ public class DataObject {
 		}
 	}
 	
-	/** Add a ModelStructure to the modelStructureList.
+	/** Add a modelStructure to the modelStructureList.
 	 * 
-	 * @param model The model to add to the list.
+	 * @param model The modelStructure to add to the list.
 	 */
 	public void addModel(AbstractModelStructure modelStructure) {
 		modelStructureList.add(modelStructure);
+	}
+	
+	/** Add a entityStructure to the entityStructureList.
+	 * 
+	 * @param model The entityStructure to add to the list.
+	 */
+	public void addEntity(AbstractEntityStructure entityStructure) {
+		entityStructureList.add(entityStructure);
+		
 	}
 	
 	/** Set the shader to use for a specified modeltype.
@@ -90,15 +125,27 @@ public class DataObject {
 	 * @param shader The shader you want to use.
 	 */
 	public void setShader(int shaderType, AbstractShader shader) {
-		if (shaderType == BASIC_SHADER)
+		if (shaderType == BASIC_MODEL_SHADER)
 			if(shader instanceof BasicModelShader) {
-				this.basicShader = (BasicModelShader)shader;
+				this.basicModelShader = (BasicModelShader)shader;
 			} else {
 				//TODO: Throw Exception
 			}
-		if (shaderType == TEXTURE_SHADER)
+		if (shaderType == TEXTURED_MODEL_SHADER)
 			if(shader instanceof TexturedModelShader) {
-				this.textureShader = (TexturedModelShader)shader;
+				this.texturedModelShader = (TexturedModelShader)shader;
+			} else {
+				//TODO: Throw Exception
+			}
+		if (shaderType == BASIC_ENTITY_SHADER)
+			if(shader instanceof BasicEntityShader) {
+				this.basicEntityShader = (BasicEntityShader)shader;
+			} else {
+				//TODO: Throw Exception
+			}
+		if (shaderType == TEXTURED_ENTITY_SHADER)
+			if(shader instanceof TexturedEntityShader) {
+				this.texturedEntityShader = (TexturedEntityShader)shader;
 			} else {
 				//TODO: Throw Exception
 			}
@@ -111,26 +158,52 @@ public class DataObject {
 	public ModelList getModelLists() {
 		return new ModelList(modelStructureList);
 	}
+	
+	/** Get the ModelList.
+	 * 
+	 * @return the ModelList
+	 */
+	public EntityList getEntityLists() {
+		return new EntityList(entityStructureList);
+	}
 
 	/** Get the BasicShader.
 	 * 
 	 * @return the BasicShader.
 	 */
-	public BasicModelShader getBasicShader() {
-		if(basicShader == DEFAULT_BASIC_SHADER && OptionHandler.getProperty(EngineOptions.DEBUGENABLED_KEY, OptionHandler.ENGINE_OPTION_ID).equals("1"))
-			System.out.println("[DEBUG]: No BasicShader loaded, using default shader" + DEFAULT_BASIC_SHADER.toString());
-		return basicShader;
+	public BasicModelShader getBasicModelShader() {
+		if(basicModelShader == DEFAULT_BASIC_MODEL_SHADER && OptionHandler.getProperty(EngineOptions.DEBUGENABLED_KEY, OptionHandler.ENGINE_OPTION_ID).equals("1"))
+			System.out.println("[DEBUG]: No BasicShader loaded, using default shader" + DEFAULT_BASIC_MODEL_SHADER.toString());
+		return basicModelShader;
 	}
 
 	/** Get the TextureShader.
 	 * 
 	 * @return the TextureShader.
 	 */
-	public TexturedModelShader getTextureShader() {
-		if(textureShader == DEFAULT_TEXTURE_SHADER && OptionHandler.getProperty(EngineOptions.DEBUGENABLED_KEY, OptionHandler.ENGINE_OPTION_ID).equals("1"))
-			System.out.println("[DEBUG]: No TextureShader loaded, using default shader" + DEFAULT_TEXTURE_SHADER.toString());
-		return textureShader;
+	public TexturedModelShader getTexturedModelShader() {
+		if(texturedModelShader == DEFAULT_TEXTURED_MODEL_SHADER && OptionHandler.getProperty(EngineOptions.DEBUGENABLED_KEY, OptionHandler.ENGINE_OPTION_ID).equals("1"))
+			System.out.println("[DEBUG]: No TextureShader loaded, using default shader" + DEFAULT_TEXTURED_MODEL_SHADER.toString());
+		return texturedModelShader;
+	}	
+	
+	/** Get the BasicShader.
+	 * 
+	 * @return the BasicShader.
+	 */
+	public BasicEntityShader getBasicEntityShader() {
+		if(basicEntityShader == DEFAULT_BASIC_ENTITY_SHADER && OptionHandler.getProperty(EngineOptions.DEBUGENABLED_KEY, OptionHandler.ENGINE_OPTION_ID).equals("1"))
+			System.out.println("[DEBUG]: No BasicShader loaded, using default shader" + DEFAULT_BASIC_ENTITY_SHADER.toString());
+		return basicEntityShader;
 	}
-	
-	
+
+	/** Get the TextureShader.
+	 * 
+	 * @return the TextureShader.
+	 */
+	public TexturedEntityShader getTexturedEntityShader() {
+		if(texturedEntityShader == DEFAULT_TEXTURED_ENTITY_SHADER && OptionHandler.getProperty(EngineOptions.DEBUGENABLED_KEY, OptionHandler.ENGINE_OPTION_ID).equals("1"))
+			System.out.println("[DEBUG]: No TextureShader loaded, using default shader" + DEFAULT_TEXTURED_ENTITY_SHADER.toString());
+		return texturedEntityShader;
+	}
 }
