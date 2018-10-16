@@ -28,4 +28,20 @@ public class MatrixMaths {
 		Matrix4f.scale(new Vector3f(scale, scale, scale), matrix, matrix);
 		return matrix;
 	}
+	
+	public static Matrix4f createProjectionMatrix(float aspectRatio, float fov, float nearPlane, float farPlane) {
+		float yScale = (float) ((1f / Math.tan(Math.toRadians(fov / 2f))) * aspectRatio);
+		float xScale = yScale / aspectRatio;
+		float frustumLength = farPlane - nearPlane;
+		Matrix4f projectionMatrix = new Matrix4f();
+		
+		projectionMatrix.m00 = xScale;
+		projectionMatrix.m11 = yScale;
+		projectionMatrix.m22 = -((farPlane + nearPlane) / frustumLength);
+		projectionMatrix.m23 = -1;
+		projectionMatrix.m32 = -((2 * farPlane * nearPlane) / frustumLength);
+		projectionMatrix.m33 = 0;
+		
+		return projectionMatrix;
+	}
 }
