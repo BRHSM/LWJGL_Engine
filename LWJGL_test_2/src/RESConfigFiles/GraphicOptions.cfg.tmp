@@ -3,3 +3,4 @@ windowWidth  		= 640
 windowAlignment		= centered
 windowFullscreen	= 0
 frameCap 			= 45
+windowWidth=640

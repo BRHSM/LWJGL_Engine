@@ -25,4 +25,8 @@ public class AbstractOptions {
 		properties.put(optionKey, value);
 		
 	}
+
+	public Properties getProperties() {
+		return properties;
+	}
 }

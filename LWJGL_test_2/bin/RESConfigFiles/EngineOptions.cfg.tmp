@@ -11,3 +11,4 @@ pathModels			= src/RESModels/
 pathShaderFiles		= src/RESShaderFiles/
 pathTextures		= src/RESTextures/
 WritebackOnExit		= 1
+debugEnabled=1
