@@ -1,0 +1,10 @@
+[DEBUG]: No BasicShader loaded, using default shader  [vertexFile=BasicModelShader.vs, fragmentFile=BasicModelShader.fs]
+[DEBUG]: No TextureShader loaded, using default shader  [vertexFile=TexturedModelShader.vs, fragmentFile=TexturedModelShader.fs]
+[DEBUG]: No BasicShader loaded, using default shader  [vertexFile=BasicEntityShader.vs, fragmentFile=BasicEntityShader.fs]
+[DEBUG]: No TextureShader loaded, using default shader  [vertexFile=TexturedEntityShader.vs, fragmentFile=TexturedEntityShader.fs]
+ERROR: 0:9: 'passTextureCoordinates' : undeclared identifier 
+ERROR: 0:9: 'texture' : no matching overloaded function found (using implicit conversion) 
+ERROR: 0:9: 'assign' :  cannot convert from 'const float' to 'FragUserData 4-component vector of float'
+
+
+[ERROR]: An error occured in the core of the engine. This is a bug and this should be reported. Please collect as much information as possible about the error and report it.
