@@ -29,7 +29,7 @@ public class Initializer {
 			try {
 			    Calendar cal = Calendar.getInstance();
 			    StringBuilder sb = new StringBuilder();
-			    sb.append("src/RESDevelopmentFiles/");
+			    sb.append(OptionHandler.getProperty(EngineOptions.PATHDEVELOPMENTFILES_KEY, OptionHandler.ENGINE_OPTION_ID));
 			    sb.append("log_" + cal.get(Calendar.DAY_OF_MONTH) + "-");
 			    sb.append((cal.get(Calendar.MONTH) + 1) + "-");
 			    sb.append(cal.get(Calendar.YEAR) + "_");

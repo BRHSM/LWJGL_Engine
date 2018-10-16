@@ -11,10 +11,10 @@ import ModelHandeling.BasicModel;
 public class BasicModelShader extends AbstractShader{
 	/** Filename of the vertex shader.
 	 */
-    private static final String VERTEX_FILE = "src/RESShaderFiles/BasicModelShader.vs";
+    private static final String VERTEX_FILE = "BasicModelShader.vs";
     /** Filename of the fragment shader.
 	 */
-    private static final String FRAGMENT_FILE = "src/RESShaderFiles/BasicModelShader.fs";
+    private static final String FRAGMENT_FILE = "BasicModelShader.fs";
  
     /** Create a new BasicShader.
      */

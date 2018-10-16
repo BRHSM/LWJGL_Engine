@@ -137,7 +137,7 @@ public class RenderThread extends Thread{
 		displayManager.createDisplay(new KeyboardHandler(), object);
 		if(isDebug == 1) {
 			//Initialize an OptionReader and LanguageReader.
-			System.out.println("[DEBUG]: Language file loaded: " + OptionHandler.getProperty(EngineOptions.MAINLANGUAGE_KEY, OptionHandler.ENGINE_OPTION_ID));
+			System.out.println("[DEBUG]: Language file loaded: " + OptionHandler.getProperty(EngineOptions.PATHLANGUAGEFILE_KEY, OptionHandler.ENGINE_OPTION_ID) +  OptionHandler.getProperty(EngineOptions.MAINLANGUAGE_KEY, OptionHandler.ENGINE_OPTION_ID));
 		}
 	}
 

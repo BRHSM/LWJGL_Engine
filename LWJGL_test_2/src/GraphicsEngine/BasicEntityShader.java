@@ -15,10 +15,10 @@ import ModelHandeling.TexturedModel;
 public class BasicEntityShader extends AbstractShader{
 	/** Filename of the vertex shader.
 	 */
-    private static final String VERTEX_FILE = "src/RESShaderFiles/BasicEntityShader.vs";
+    private static final String VERTEX_FILE = "BasicEntityShader.vs";
     /** Filename of the fragment shader.
      */
-    private static final String FRAGMENT_FILE = "src/RESShaderFiles/BasicEntityShader.fs";
+    private static final String FRAGMENT_FILE = "BasicEntityShader.fs";
     /** The location for the TransformationMatrix.
      */
     private int location;

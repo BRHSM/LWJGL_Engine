@@ -13,10 +13,10 @@ import ModelHandeling.TexturedModel;
 public class TexturedModelShader extends AbstractShader{
 	/** Filename of the vertex shader.
 	 */
-    private static final String VERTEX_FILE = "src/RESShaderFiles/TexturedModelShader.vs";
+    private static final String VERTEX_FILE = "TexturedModelShader.vs";
     /** Filename of the fragment shader.
      */
-    private static final String FRAGMENT_FILE = "src/RESShaderFiles/TexturedModelShader.fs";
+    private static final String FRAGMENT_FILE = "TexturedModelShader.fs";
  
     /** Create a new TexturedModelShader
      */

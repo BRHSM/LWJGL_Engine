@@ -14,6 +14,8 @@ import org.lwjglx.util.vector.Vector3f;
 import Exceptions.ExceptionThrower;
 import Exceptions.InternalErrorException;
 import Exceptions.ShaderIncompatableException;
+import OptionManager.EngineOptions;
+import OptionManager.OptionHandler;
 /** A generic shader program class which can be etended to create by other shaders.
  * 
  * @author Bram Steenbergen
@@ -182,13 +184,14 @@ public abstract class AbstractShader {
         StringBuilder shaderSource = new StringBuilder();
         //read the file and store in shaderSource.
         try{
-            BufferedReader reader = new BufferedReader(new FileReader(file));
+            BufferedReader reader = new BufferedReader(new FileReader(OptionHandler.getProperty(EngineOptions.PATHSHADERFILES_KEY, OptionHandler.ENGINE_OPTION_ID) + file));
             String line;
             while((line = reader.readLine())!=null){
                 shaderSource.append(line).append("//\n");
             }
             reader.close();
         }catch(IOException e){
+        	System.out.println(file);
         	ExceptionThrower.throwException(new InternalErrorException());
         }
         //get shader ID.
