@@ -1,5 +1,7 @@
 package OptionManager;
 
+import java.io.File;
+import java.io.FileInputStream;
 import java.util.Properties;
 
 /** Class with the code which is used to read configuration files.
@@ -22,8 +24,8 @@ public class OptionReader {
    	public OptionReader(String filename){
    		configFile = new java.util.Properties();
    		try {
-   			System.out.println("../RESConfigFiles/" + filename + ".cfg");
-   			configFile.load(this.getClass().getResourceAsStream("../RESConfigFiles/" + filename + ".cfg"));
+   			FileInputStream stream = new FileInputStream(new File("RES/RESConfigFiles/" + filename + ".cfg"));
+   			configFile.load(stream);
    		}catch(Exception eta){
    			eta.printStackTrace();
    		}

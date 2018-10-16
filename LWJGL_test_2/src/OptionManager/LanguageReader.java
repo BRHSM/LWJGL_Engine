@@ -1,5 +1,7 @@
 package OptionManager;
 
+import java.io.File;
+import java.io.FileInputStream;
 import java.util.Properties;
 
 /** Class with the code which is used to read Language files.
@@ -22,7 +24,8 @@ public class LanguageReader {
    	public LanguageReader(String filename){
    		configFile = new java.util.Properties();
    		try {
-   			configFile.load(this.getClass().getResourceAsStream("/RESLanguageFiles/" + filename + ".lang"));
+   			FileInputStream stream = new FileInputStream(new File("RES/RESLanguageFiles/" + filename + ".lang"));
+   			configFile.load(stream);
    		}catch(Exception eta){
    			eta.printStackTrace();
    		}

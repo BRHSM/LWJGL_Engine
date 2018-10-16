@@ -2,6 +2,8 @@ package OptionManager;
 
 import java.io.BufferedReader;
 import java.io.File;
+import java.io.FileNotFoundException;
+import java.io.FileOutputStream;
 import java.io.FileReader;
 import java.io.IOException;
 import java.io.PrintWriter;
@@ -9,6 +11,7 @@ import java.util.Enumeration;
 import java.util.HashMap;
 import java.util.Iterator;
 import java.util.Map.Entry;
+import java.util.Properties;
 
 import Exceptions.ExceptionThrower;
 import Exceptions.InternalErrorException;
@@ -71,25 +74,30 @@ public class OptionHandler {
 	public static void writeBackOptions() {
 		AbstractOptions options = optionList.get(101);
 		Enumeration<String> enums = (Enumeration<String>) options.getProperties().propertyNames();
+		Properties engineOptions = new Properties();
+		Properties GraphicsOptions = new Properties();
 	    while (enums.hasMoreElements()) {
 		    String key = enums.nextElement();
 		    String value = options.getProperties().getProperty(key);
-		    
-		    try {
-			    if(GraphicOptions.isInKeyList(key)) {
-			    	changeProperty("src/RESConfigFiles/GraphicOptions.cfg", key, value);
-			    	System.out.println("         + Writing: " + key + " = " + value + " to: src/RESConfigFiles/GraphicOptions.cfg");
-			    } else if(EngineOptions.isInKeyList(key)) {
-			    	changeProperty("src/RESConfigFiles/EngineOptions.cfg", key, value);
-			    	System.out.println("         + Writing: " + key + " = " + value + " to: src/RESConfigFiles/EngineOptions.cfg");
-			    } else {
-			    	System.out.println("         - Encountered Language Attribute: " + key + " = " + value);
-			    }
-			    
-		    }catch (IOException e) {
-		    	ExceptionThrower.throwException(new InternalErrorException());
-		    }
+		    if(GraphicOptions.isInKeyList(key)) {
+		    	GraphicsOptions.put(key, value);
+				System.out.println("         + Writing: " + key + " = " + value + " to: RES/RESConfigFiles/GraphicOptions.cfg");
+			} else if(EngineOptions.isInKeyList(key)) {
+				engineOptions.put(key, value);
+				System.out.println("         + Writing: " + key + " = " + value + " to: RES/RESConfigFiles/EngineOptions.cfg");
+			} else {
+				System.out.println("         - Encountered Language Attribute: " + key + " = " + value);
+			}
 	    }
+	    
+	    try {
+			engineOptions.store(new FileOutputStream(new File("RES/RESConfigFiles/EngineOptions.cfg")), null);
+			GraphicsOptions.store(new FileOutputStream(new File("RES/RESConfigFiles/GraphicOptions.cfg")), null);
+		} catch (FileNotFoundException e) {
+			e.printStackTrace();
+		} catch (IOException e) {
+			e.printStackTrace();
+		}
 	}
 	
 	public static void changeProperty(String filename, String key, String value) throws IOException {
@@ -111,8 +119,6 @@ public class OptionHandler {
 	        pw.println(toAdd);
 	    br.close();
 	    pw.close();
-	    old = tmpFile;
 	    tmpFile.renameTo(file);
-	    old.delete();
 	}
 }
