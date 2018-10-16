@@ -1,0 +1,11 @@
+[DEBUG]: No BasicShader loaded, using default shader  [vertexFile=BasicModelShader.vs, fragmentFile=BasicModelShader.fs]
+[DEBUG]: No TextureShader loaded, using default shader  [vertexFile=TexturedModelShader.vs, fragmentFile=TexturedModelShader.fs]
+[DEBUG]: Language file loaded: src/RESLanguageFiles/language_IT
+[DEBUG]: Avarage load time: 0.93167
+[DEBUG]: fps: 48
+[DEBUG]: Avarage load time: 0.94688
+[DEBUG]: fps: 48
+[DEBUG]: Writing back options
+101/{WritebackOnExit=1, debugAvgLoadtime=1, debugEnabled=1, debugLogToFile=1, debugLongExceptions=0, debugStackTrace=0, frameCap=45, mainLanguage=language_IT, pathDevelopmentFiles=src/RESDevelopmentFiles/, pathLanguageFiles=src/RESLanguageFiles/, pathModels=src/RESModels/, pathShaderFiles=src/RESShaderFiles/, pathTextures=src/RESTextures/, showShaderUsed=1, windowAlignment=centered, windowFullscreen=0, windowHeight=480, windowWidth=640, window_title=Titolo di Testing}
+102/{WritebackOnExit=1, debugAvgLoadtime=1, debugEnabled=1, debugLogToFile=1, debugLongExceptions=0, debugStackTrace=0, frameCap=45, mainLanguage=language_IT, pathDevelopmentFiles=src/RESDevelopmentFiles/, pathLanguageFiles=src/RESLanguageFiles/, pathModels=src/RESModels/, pathShaderFiles=src/RESShaderFiles/, pathTextures=src/RESTextures/, showShaderUsed=1, windowAlignment=centered, windowFullscreen=0, windowHeight=480, windowWidth=640, window_title=Titolo di Testing}
+103/{WritebackOnExit=1, debugAvgLoadtime=1, debugEnabled=1, debugLogToFile=1, debugLongExceptions=0, debugStackTrace=0, frameCap=45, mainLanguage=language_IT, pathDevelopmentFiles=src/RESDevelopmentFiles/, pathLanguageFiles=src/RESLanguageFiles/, pathModels=src/RESModels/, pathShaderFiles=src/RESShaderFiles/, pathTextures=src/RESTextures/, showShaderUsed=1, windowAlignment=centered, windowFullscreen=0, windowHeight=480, windowWidth=640, window_title=Titolo di Testing}

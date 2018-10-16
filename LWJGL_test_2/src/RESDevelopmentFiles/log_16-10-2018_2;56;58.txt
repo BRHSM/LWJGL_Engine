@@ -1,0 +1,29 @@
+[DEBUG]: No BasicShader loaded, using default shader  [vertexFile=BasicModelShader.vs, fragmentFile=BasicModelShader.fs]
+[DEBUG]: No TextureShader loaded, using default shader  [vertexFile=TexturedModelShader.vs, fragmentFile=TexturedModelShader.fs]
+[DEBUG]: Language file loaded: src/RESLanguageFiles/language_IT
+[DEBUG]: Avarage load time: 0.92681
+[DEBUG]: fps: 48
+[DEBUG]: Avarage load time: 0.94505
+[DEBUG]: fps: 48
+[DEBUG]: Avarage load time: 0.9452
+[DEBUG]: fps: 48
+[DEBUG]: Writing back options
+         + Writing: pathDevelopmentFiles = src/RESDevelopmentFiles/ to: src/RESConfigFiles/EngineOptions.cfg
+         + Writing: debugLogToFile = 1 to: src/RESConfigFiles/EngineOptions.cfg
+         + Writing: pathTextures = src/RESTextures/ to: src/RESConfigFiles/EngineOptions.cfg
+         + Writing: showShaderUsed = 1 to: src/RESConfigFiles/EngineOptions.cfg
+         + Writing: debugStackTrace = 0 to: src/RESConfigFiles/EngineOptions.cfg
+         + Writing: windowAlignment = centered to: src/RESConfigFiles/GraphicOptions.cfg
+         + Writing: WritebackOnExit = 1 to: src/RESConfigFiles/EngineOptions.cfg
+         + Writing: frameCap = 45 to: src/RESConfigFiles/GraphicOptions.cfg
+         + Writing: debugLongExceptions = 0 to: src/RESConfigFiles/EngineOptions.cfg
+         + Writing: windowHeight = 480 to: src/RESConfigFiles/GraphicOptions.cfg
+         - Encountered Language Attribute: window_title = Titolo di Testing
+         + Writing: mainLanguage = language_IT to: src/RESConfigFiles/EngineOptions.cfg
+         + Writing: pathModels = src/RESModels/ to: src/RESConfigFiles/EngineOptions.cfg
+         + Writing: pathLanguageFiles = src/RESLanguageFiles/ to: src/RESConfigFiles/EngineOptions.cfg
+         + Writing: windowFullscreen = 0 to: src/RESConfigFiles/GraphicOptions.cfg
+         + Writing: debugAvgLoadtime = 1 to: src/RESConfigFiles/EngineOptions.cfg
+         + Writing: pathShaderFiles = src/RESShaderFiles/ to: src/RESConfigFiles/EngineOptions.cfg
+         + Writing: windowWidth = 640 to: src/RESConfigFiles/GraphicOptions.cfg
+         + Writing: debugEnabled = 1 to: src/RESConfigFiles/EngineOptions.cfg
