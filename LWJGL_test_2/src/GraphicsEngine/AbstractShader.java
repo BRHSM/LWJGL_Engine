@@ -80,6 +80,60 @@ public abstract class AbstractShader {
 		GL20.glValidateProgram(programID);
 	}
 	
+	/** Get the file extention as a string from a given filepath string (without the dot).
+	 * 
+	 * @param path The filepath.
+	 * @return The extention.
+	 */
+	private String getFileExtention(String path) {
+		String extension = "";
+
+		int i = path.lastIndexOf('.');
+		int p = Math.max(path.lastIndexOf('/'), path.lastIndexOf('\\'));
+
+		if (i >= p) {
+		    extension = path.substring(i+1);
+		}
+		return extension;
+	}
+	
+    /** Load a shader from a shader file
+     * 
+     * @param file the filename of the shader
+     * @param type the type of the shader
+     * @return the ID of the shader
+     */
+	private static int loadShader(String file, int type){
+		//create a string builder.
+        StringBuilder shaderSource = new StringBuilder();
+        //read the file and store in shaderSource.
+        try{
+            BufferedReader reader = new BufferedReader(new FileReader(OptionHandler.getProperty(EngineOptions.PATHSHADERFILES_KEY, OptionHandler.ENGINE_OPTION_ID) + file));
+            String line;
+            while((line = reader.readLine())!=null){
+                shaderSource.append(line).append("//\n");
+            }
+            reader.close();
+        }catch(IOException e){
+        	System.out.println(file);
+        	ExceptionThrower.throwException(new InternalErrorException());
+        }
+        //get shader ID.
+        int shaderID = GL20.glCreateShader(type);
+        //create shader from source.
+        GL20.glShaderSource(shaderID, shaderSource);
+        //compile shader.
+        GL20.glCompileShader(shaderID);
+        //check for errors.
+        if(GL20.glGetShaderi(shaderID, GL20.GL_COMPILE_STATUS )== GL11.GL_FALSE){
+            System.out.println(GL20.glGetShaderInfoLog(shaderID, 500));
+            System.err.println("[ERROR]: Could not compile shader!");
+            ExceptionThrower.throwException(new InternalErrorException());
+        }
+        //Return shader ID.
+        return shaderID;
+    }
+	
 	/** Start the shader.
 	 */
     public void start(){
@@ -90,6 +144,21 @@ public abstract class AbstractShader {
      */
     public void stop(){
         GL20.glUseProgram(0);
+    }
+    
+    /** Remove the shader.
+     */
+    public void cleanUp(){
+    	// Stop shader before cleanup.
+        stop();
+        // Detach shaders from program.
+        GL20.glDetachShader(programID, vertexShaderID);
+        GL20.glDetachShader(programID, fragmentShaderID);
+        // Delete shaders.
+        GL20.glDeleteShader(vertexShaderID);
+        GL20.glDeleteShader(fragmentShaderID);
+        // Delete program. 
+        GL20.glDeleteProgram(programID);
     }
     
     /** Get a uniform variable's location.
@@ -149,21 +218,6 @@ public abstract class AbstractShader {
     	GL20.glUniformMatrix4fv(location, false, buffer);
     }
     
-    /** Remove the shader.
-     */
-    public void cleanUp(){
-    	// Stop shader before cleanup.
-        stop();
-        // Detach shaders from program.
-        GL20.glDetachShader(programID, vertexShaderID);
-        GL20.glDetachShader(programID, fragmentShaderID);
-        // Delete shaders.
-        GL20.glDeleteShader(vertexShaderID);
-        GL20.glDeleteShader(fragmentShaderID);
-        // Delete program. 
-        GL20.glDeleteProgram(programID);
-    }
-    
     /** Method to override for attibute binding.
      */
     protected abstract void bindAttributes();
@@ -173,42 +227,6 @@ public abstract class AbstractShader {
     protected void bindAttribute(int attribute, String variableName){
         GL20.glBindAttribLocation(programID, attribute, variableName);
     }
-    /** Load a shader from a shader file
-     * 
-     * @param file the filename of the shader
-     * @param type the type of the shader
-     * @return the ID of the shader
-     */
-	private static int loadShader(String file, int type){
-		//create a string builder.
-        StringBuilder shaderSource = new StringBuilder();
-        //read the file and store in shaderSource.
-        try{
-            BufferedReader reader = new BufferedReader(new FileReader(OptionHandler.getProperty(EngineOptions.PATHSHADERFILES_KEY, OptionHandler.ENGINE_OPTION_ID) + file));
-            String line;
-            while((line = reader.readLine())!=null){
-                shaderSource.append(line).append("//\n");
-            }
-            reader.close();
-        }catch(IOException e){
-        	System.out.println(file);
-        	ExceptionThrower.throwException(new InternalErrorException());
-        }
-        //get shader ID.
-        int shaderID = GL20.glCreateShader(type);
-        //create shader from source.
-        GL20.glShaderSource(shaderID, shaderSource);
-        //compile shader.
-        GL20.glCompileShader(shaderID);
-        //check for errors.
-        if(GL20.glGetShaderi(shaderID, GL20.GL_COMPILE_STATUS )== GL11.GL_FALSE){
-            System.out.println(GL20.glGetShaderInfoLog(shaderID, 500));
-            System.err.println("[ERROR]: Could not compile shader!");
-            ExceptionThrower.throwException(new InternalErrorException());
-        }
-        //Return shader ID.
-        return shaderID;
-    }
 
 	@Override
 	/** generate a string with shader details.
@@ -217,22 +235,5 @@ public abstract class AbstractShader {
 	 */
 	public String toString() {
 		return "  [vertexFile=" + vertexFile + ", fragmentFile=" + fragmentFile + "]";
-	}
-	
-	/** Get the file extention as a string from a given filepath string (without the dot).
-	 * 
-	 * @param path The filepath.
-	 * @return The extention.
-	 */
-	private String getFileExtention(String path) {
-		String extension = "";
-
-		int i = path.lastIndexOf('.');
-		int p = Math.max(path.lastIndexOf('/'), path.lastIndexOf('\\'));
-
-		if (i >= p) {
-		    extension = path.substring(i+1);
-		}
-		return extension;
 	}
 }
