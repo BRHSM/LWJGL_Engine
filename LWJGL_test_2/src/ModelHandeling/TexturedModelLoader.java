@@ -16,6 +16,8 @@ import org.newdawn.slick.opengl.Texture;
 import org.newdawn.slick.opengl.TextureLoader;
 import org.newdawn.slick.util.Log;
 
+import OptionManager.EngineOptions;
+import OptionManager.OptionHandler;
 import UtilClasses.NullLogSystem;
 
 /** Class used to load textured models into memory in order for them to render.
@@ -61,7 +63,7 @@ public class TexturedModelLoader {
 		Log.setLogSystem(new NullLogSystem()); 
 		Texture texture = null;
 		try {
-			texture = TextureLoader.getTexture("PNG", new FileInputStream("src/RESTextures/" + file + ".png"));
+			texture = TextureLoader.getTexture("PNG", new FileInputStream(OptionHandler.getProperty(EngineOptions.PATHTEXTURES_KEY, OptionHandler.ENGINE_OPTION_ID) + file + ".png"));
 		} catch (FileNotFoundException e) {
 			// TODO Handle File Error
 			e.printStackTrace();
