@@ -218,7 +218,8 @@ public class DisplayManager {
 	/** Notify the DiplayManager that a game tick has passed. 
 	 */
 	public void updateFromThread() {
-		//Process all pending events.
+		for(AbstractEntity entity : entityList.getEntities())
+			entity.update();
 		glfwPollEvents();
 	}
 	

@@ -11,6 +11,7 @@ public class AbstractEntityStructure {
 	private float ry;
 	private float rz;
 	private float scale;
+	private BasicEntityModifier modifier;
 	
 	public AbstractEntityStructure(AbstractModelStructure modelStructure, Vector3f position, float rx, float ry, float rz, float scale) {
 		this.modelStructure = modelStructure;
@@ -19,6 +20,7 @@ public class AbstractEntityStructure {
 		this.ry = ry;
 		this.rz = rz;
 		this.scale = scale;
+		modifier = new BasicEntityModifier(new Vector3f(0,0,0),0,0,0,0);
 	}
 
 	public AbstractModelStructure getModelStructure() {
@@ -43,5 +45,13 @@ public class AbstractEntityStructure {
 
 	public float getScale() {
 		return scale;
+	}
+	
+	public void setEntityModifier(BasicEntityModifier modifier) {
+		this.modifier = modifier;
+	}
+	
+	public BasicEntityModifier getEntityModifier() {
+		return modifier;
 	}
 }

@@ -41,14 +41,14 @@ public class EntityList {
 			AbstractModelStructure modelStructure = entityStructure.getModelStructure();
 			if(modelStructure instanceof BasicModelStructure) {
 				BasicModel model = basicModelLoader.loadToVAO(modelStructure.getVertices(), modelStructure.getIndexes());
-				AbstractEntity entity = new AbstractEntity(model, entityStructure.getPosition(), entityStructure.getRx(), entityStructure.getRy(), entityStructure.getRz(), entityStructure.getScale());
+				AbstractEntity entity = new AbstractEntity(model, entityStructure.getPosition(), entityStructure.getRx(), entityStructure.getRy(), entityStructure.getRz(), entityStructure.getScale(), entityStructure.getEntityModifier());
 				entities.add(entity);
 			}
 			if(modelStructure instanceof TexturedModelStructure) {
 				BasicModel model = texturedModelLoader.loadToVAO(modelStructure.getVertices(), ((TexturedModelStructure) modelStructure).getTextureCoordinates(), modelStructure.getIndexes());
 				ModelTexture texture = new ModelTexture(texturedModelLoader.loadTexture(((TexturedModelStructure)modelStructure).getTextureName()));
 				TexturedModel texturedModel = new TexturedModel(model,texture);
-				AbstractEntity entity = new AbstractEntity(texturedModel, entityStructure.getPosition(), entityStructure.getRx(), entityStructure.getRy(), entityStructure.getRz(), entityStructure.getScale());
+				AbstractEntity entity = new AbstractEntity(texturedModel, entityStructure.getPosition(), entityStructure.getRx(), entityStructure.getRy(), entityStructure.getRz(), entityStructure.getScale(), entityStructure.getEntityModifier());
 				entities.add(entity);
 			}
 		}

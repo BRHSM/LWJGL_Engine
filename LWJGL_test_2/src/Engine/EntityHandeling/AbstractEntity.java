@@ -35,6 +35,8 @@ public class AbstractEntity {
 	/** The scale of the model.
 	 */
 	private float scale;
+	
+	private BasicEntityModifier modifier;
 	/** Create a new AbstractEntity.
 	 * 
 	 * @param model The model
@@ -44,13 +46,21 @@ public class AbstractEntity {
 	 * @param rz The Z rotation.
 	 * @param scale the scale transformation.
 	 */
-	public AbstractEntity(AbstractModel model, Vector3f position, float rx, float ry, float rz, float scale) {
+	public AbstractEntity(AbstractModel model, Vector3f position, float rx, float ry, float rz, float scale, BasicEntityModifier modifier) {
 		this.model = model;
 		this.position = position;
 		this.rx = rx;
 		this.ry = ry;
 		this.rz = rz;
 		this.scale = scale;
+		this.modifier = modifier;
+	}
+	
+	public void update() {
+		increasePosition(modifier.getDposition().getX(),modifier.getDposition().getY(),modifier.getDposition().getZ());
+		increaseRotation(modifier.getDrx(), modifier.getDry(), modifier.getDrz());
+		increaseScale(modifier.getDscale());
+		//System.out.println("[DEBUG]: EntityUpdate by modifier: \n         " + modifier.toString());
 	}
 	
 	/** Increase the position transformation of the model. (Negative values decrease the values).
@@ -59,7 +69,7 @@ public class AbstractEntity {
 	 * @param dy The Y transformation change.
 	 * @param dz The Z transformation change.
 	 */
-	public void increasePosition(float dx, float dy, float dz) {
+	private void increasePosition(float dx, float dy, float dz) {
 		position.x += dx;
 		position.y += dy;
 		position.z += dz;
@@ -72,7 +82,7 @@ public class AbstractEntity {
 	 * @param dry The Y rotation change.
 	 * @param drz The Z rotation change.
 	 */
-	public void increaseRotation(float drx, float dry, float drz) {
+	private void increaseRotation(float drx, float dry, float drz) {
 		rx += drx;
 		ry += dry;
 		rz += drz;
@@ -82,7 +92,7 @@ public class AbstractEntity {
 	 * 
 	 * @param dscale The scale change.
 	 */
-	public void increaseScale(float dscale) {
+	private void increaseScale(float dscale) {
 		scale += dscale;
 	}
 	
