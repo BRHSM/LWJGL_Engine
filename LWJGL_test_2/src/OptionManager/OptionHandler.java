@@ -80,14 +80,14 @@ public class OptionHandler {
 		    if(GraphicOptions.isInKeyList(key)) {
 		    	GraphicsOptions.put(key, value);
 		    	if(OptionHandler.getProperty(EngineOptions.DEBUGENABLED_KEY, OptionHandler.ENGINE_OPTION_ID).equals("1"))
-		    		System.out.println("         + Writing: " + key + " = " + value + " to: RES/RESConfigFiles/GraphicOptions.cfg");
+		    		System.out.println(String.format("         + Writing:                          %-20s = %-40s  to: RES/RESConfigFiles/GraphicOptions.cfg", key, value));
 			} else if(EngineOptions.isInKeyList(key)) {
 				engineOptions.put(key, value);
 				if(OptionHandler.getProperty(EngineOptions.DEBUGENABLED_KEY, OptionHandler.ENGINE_OPTION_ID).equals("1"))
-					System.out.println("         + Writing: " + key + " = " + value + " to: RES/RESConfigFiles/EngineOptions.cfg");
+					System.out.println(String.format("         + Writing:                          %-20s = %-40s  to: RES/RESConfigFiles/EngineOptions.cfg", key, value));
 			} else {
 				if(OptionHandler.getProperty(EngineOptions.DEBUGENABLED_KEY, OptionHandler.ENGINE_OPTION_ID).equals("1"))
-					System.out.println("         - Encountered Language Attribute: " + key + " = " + value);
+					System.out.println(String.format("         - Encountered Language Attribute:   %-20s = %-40s ", key, value));
 			}
 	    }
 	    
