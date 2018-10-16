@@ -3,8 +3,9 @@ package Tests;
 import Core.DataObject;
 import Core.Initializer;
 import ModelHandeling.TexturedModelStructure;
-/** A basic test to see if the engine works with no data provided. This is
- *  the bare minimum of code for a "game" to launch.
+import OptionManager.EngineOptions;
+import OptionManager.OptionHandler;
+/** Testing the ability to change options during execution.
  * 
  * @author Bram Steenbergen
  * @version 1.0
@@ -48,6 +49,7 @@ public class Test_4 {
 		
 		//Setup DataObject.
 		DataObject object = new DataObject();
+		OptionHandler.setProperty(EngineOptions.DEBUGENABLED_KEY, OptionHandler.ENGINE_OPTION_ID, "0");
 		object.addModel(modelStructure);
 		
 		init.start(object);

@@ -3,8 +3,7 @@ package Tests;
 import Core.DataObject;
 import Core.Initializer;
 import ModelHandeling.TexturedModelStructure;
-/** A basic test to see if the engine works with no data provided. This is
- *  the bare minimum of code for a "game" to launch.
+/** Testing the texturedModel.
  * 
  * @author Bram Steenbergen
  * @version 1.0

@@ -2,16 +2,16 @@ package Tests;
 
 import Core.DataObject;
 import Core.Initializer;
-import ModelHandeling.BasicModelStructure;
 import ModelHandeling.TexturedModelStructure;
-/** Testing the BasicModel.
+/** A basic test to see if the engine works with no data provided. This is
+ *  the bare minimum of code for a "game" to launch.
  * 
  * @author Bram Steenbergen
  * @version 1.0
  * @since 1.0
  *
  */
-public class Test_2 {
+public class Test_5 {
 	
 	private static Initializer init; 	
 	
@@ -36,8 +36,15 @@ public class Test_2 {
 				3,1,2
 		};
 		
-		//setup model loader. 
-		BasicModelStructure modelStructure = new BasicModelStructure(vertices, indexes);
+		float[] textureCoordinates = {
+				0f,0f,
+				0f,1f,
+				1f,1f,
+				1f,0f
+		};
+		
+		//setup modle loader. 
+		TexturedModelStructure modelStructure = new TexturedModelStructure(vertices, textureCoordinates, indexes);
 		
 		//Setup DataObject.
 		DataObject object = new DataObject();
@@ -46,4 +53,3 @@ public class Test_2 {
 		init.start(object);
 	}
 }
-
