@@ -94,6 +94,7 @@ public class OptionHandler {
 	
 	public static void changeProperty(String filename, String key, String value) throws IOException {
 	    final File tmpFile = new File(filename + ".tmp");
+	    File old;
 	    final File file = new File(filename);
 	    PrintWriter pw = new PrintWriter(tmpFile);
 	    BufferedReader br = new BufferedReader(new FileReader(file));
@@ -110,6 +111,8 @@ public class OptionHandler {
 	        pw.println(toAdd);
 	    br.close();
 	    pw.close();
+	    old = tmpFile;
 	    tmpFile.renameTo(file);
+	    old.delete();
 	}
 }
