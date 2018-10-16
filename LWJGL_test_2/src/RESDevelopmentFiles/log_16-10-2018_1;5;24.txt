@@ -1,3 +1,0 @@
-[DEBUG]: No BasicShader loaded, using default shader  [vertexFile=src/RESShaderFiles/BasicModelShader.vs, fragmentFile=src/RESShaderFiles/BasicModelShader.fs]
-[DEBUG]: No TextureShader loaded, using default shader  [vertexFile=src/RESShaderFiles/TextureModelShader.vs, fragmentFile=src/RESShaderFiles/TextureModelShader.fs]
-[ERROR]: An error occured in the core of the engine. This is a bug and this should be reported. Please collect as much information as possible about the error and report it.

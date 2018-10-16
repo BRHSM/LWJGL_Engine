@@ -1,9 +1,0 @@
-[DEBUG]: Language file loaded: language_IT
-[DEBUG]: Avarage load time: 0.92585
-[DEBUG]: fps: 48
-[DEBUG]: Avarage load time: 0.94595
-[DEBUG]: fps: 48
-[DEBUG]: Avarage load time: 0.9488
-[DEBUG]: fps: 48
-[DEBUG]: Avarage load time: 0.94594
-[DEBUG]: fps: 48
