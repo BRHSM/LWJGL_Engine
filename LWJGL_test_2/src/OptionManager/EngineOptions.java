@@ -6,6 +6,7 @@ public class EngineOptions extends AbstractOptions{
 	//values
 	private static String debugEnabled;
 	private static String debugAvgLoadtime;
+	private static String debugTotAvgLoadtime;
 	private static String debugLongExceptions;
 	private static String debugStackTrace;
 	private static String debugLogToFile;
@@ -21,6 +22,7 @@ public class EngineOptions extends AbstractOptions{
 	//keys
 	public static final String DEBUGENABLED_KEY = "debugEnabled";
 	public static final String DEBUGAVGLOADTIME_KEY = "debugAvgLoadtime";
+	public static final String DEBUGTOTAVGLOADTIME_KEY = "debugTotAvgLoadtime";
 	public static final String DEBUGLONGEXCEPTIONS_KEY = "debugLongExceptions";
 	public static final String DEBUGSTACKTRACE_KEY = "debugStackTrace";
 	public static final String DEBUGLOGTOFILE_KEY = "debugLogToFile";
@@ -43,6 +45,7 @@ public class EngineOptions extends AbstractOptions{
 		//load properties
 		debugEnabled 			= loader.getProperty(DEBUGENABLED_KEY);
 		debugAvgLoadtime 		= loader.getProperty(DEBUGAVGLOADTIME_KEY);
+		debugTotAvgLoadtime 	= loader.getProperty(DEBUGTOTAVGLOADTIME_KEY);
 		debugLongExceptions 	= loader.getProperty(DEBUGLONGEXCEPTIONS_KEY);
 		debugStackTrace 		= loader.getProperty(DEBUGSTACKTRACE_KEY);
 		debugLogToFile 			= loader.getProperty(DEBUGLOGTOFILE_KEY);
@@ -55,8 +58,10 @@ public class EngineOptions extends AbstractOptions{
 		pathTextures 			= loader.getProperty(PATHTEXTURES_KEY);
 		WritebackOnExit 		= loader.getProperty(WRITEBACKONEXIT_KEY);
 		
+		//Add keys to keyList used for saving option in the right config file
 		keyList.add(DEBUGENABLED_KEY);
 		keyList.add(DEBUGAVGLOADTIME_KEY);
+		keyList.add(DEBUGTOTAVGLOADTIME_KEY);
 		keyList.add(DEBUGLONGEXCEPTIONS_KEY);
 		keyList.add(DEBUGSTACKTRACE_KEY);
 		keyList.add(DEBUGLOGTOFILE_KEY);
@@ -69,8 +74,10 @@ public class EngineOptions extends AbstractOptions{
 		keyList.add(PATHTEXTURES_KEY);
 		keyList.add(WRITEBACKONEXIT_KEY);
 		
+		//add the property to the list.
 		properties.put(DEBUGENABLED_KEY, debugEnabled);
 		properties.put(DEBUGAVGLOADTIME_KEY, debugAvgLoadtime);
+		properties.put(DEBUGTOTAVGLOADTIME_KEY, debugTotAvgLoadtime);
 		properties.put(DEBUGLONGEXCEPTIONS_KEY, debugLongExceptions);
 		properties.put(DEBUGSTACKTRACE_KEY, debugStackTrace);
 		properties.put(DEBUGLOGTOFILE_KEY, debugLogToFile);

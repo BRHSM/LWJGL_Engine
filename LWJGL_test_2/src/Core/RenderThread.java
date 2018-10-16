@@ -63,8 +63,10 @@ public class RenderThread extends Thread{
 		long lastFpsTime = 0;
 		long now;
 		long updateLength;
+		long cicles = 0;
 		int fps = 0;
 		double loadtimePerSec = 0d;
+		double totalLoadTime = 0d;
 		double delta;
 		 
 		//Start Game Loop
@@ -88,6 +90,7 @@ public class RenderThread extends Thread{
 	            	//show FPS
 	            	System.out.println("[DEBUG]: fps: " + fps);
 	            }
+	            
 	            //Reset load time avarage. 
 	            loadtimePerSec = 0;
 	            //set fps back to 0 for new second.
@@ -96,6 +99,7 @@ public class RenderThread extends Thread{
 	        //update the game and render the screen. 
 			update();
 			render();
+			cicles++;
 			
 			try{
 				//add 1 frame to fps.
@@ -106,7 +110,7 @@ public class RenderThread extends Thread{
 	        }catch(Exception e){}
 			
 			//Show\calculate Loadtime if in debug mode.
-			if(isDebug == 1)
+			if(isDebug == 1) {
 				if(avgLoadtime == 1) {
 					//show avarage load time per second.
 					loadtimePerSec = loadtimePerSec + (double)Math.round(delta * 100000d) / 100000d;
@@ -114,11 +118,18 @@ public class RenderThread extends Thread{
 					// Show loadtime for each frame
 					System.out.println("[DEBUG]: LoadTIme: " + (double)Math.round(delta * 100000d) / 100000d);
 				}
+				if(OptionHandler.getProperty(EngineOptions.DEBUGTOTAVGLOADTIME_KEY, OptionHandler.ENGINE_OPTION_ID).equals("1")) {
+				//add to total load time.
+				totalLoadTime = totalLoadTime + (double)Math.round(delta * 100000d) / 100000d;
+				}
+			}
 				
 			//end gameloop on close. 
 			if(displayManager.shouldClose()) {
 				//end the game.
 				running = false;
+				if(OptionHandler.getProperty(EngineOptions.DEBUGTOTAVGLOADTIME_KEY, OptionHandler.ENGINE_OPTION_ID).equals("1"))
+					System.out.println("\n[DEBUG]: Game ran with a total avarage load time of: " + totalLoadTime / new Double(cicles) + "  " + totalLoadTime + "  " + cicles);
 			}
 		}
 		//clean everything. 

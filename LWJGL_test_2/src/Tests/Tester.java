@@ -2,6 +2,6 @@ package Tests;
 
 public class Tester {
 	public static void main(String[] args) {
-		Test_4.test();
+		Test_3.test();
 	}
 }
