@@ -1,7 +1,6 @@
 package OptionManager;
 
 import java.util.ArrayList;
-import java.util.Properties;
 
 public class CurrentLanguage extends AbstractOptions{
 	//values

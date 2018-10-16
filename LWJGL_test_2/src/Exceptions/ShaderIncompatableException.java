@@ -7,6 +7,10 @@ package Exceptions;
  * @see 1.0
  */
 public class ShaderIncompatableException extends AbstractException{
+	/** serialVersionUID
+	 */
+	private static final long serialVersionUID = -3239293508000941724L;
+
 	/** Create a new ShaderIncompatableException
 	 * @param filename the name of the errored shader file.
 	 */

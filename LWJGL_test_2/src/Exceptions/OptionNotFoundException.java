@@ -7,6 +7,11 @@ package Exceptions;
  * @see 1.0
  */
 public class OptionNotFoundException extends AbstractException{
+	/** serialVersionUID
+	 * 
+	 */
+	private static final long serialVersionUID = 6927911958588561999L;
+
 	/** Create a new OptionNotFoundException.
 	 */
 	public OptionNotFoundException(String key) {

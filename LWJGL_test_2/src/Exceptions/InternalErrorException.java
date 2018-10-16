@@ -9,6 +9,11 @@ package Exceptions;
  * @see 1.0
  */
 public class InternalErrorException extends AbstractException{
+	/** serialVersionUID
+	 * 
+	 */
+	private static final long serialVersionUID = -4397681718258939178L;
+
 	/** Create a new InternalErrorException.
 	 */
 	public InternalErrorException() {

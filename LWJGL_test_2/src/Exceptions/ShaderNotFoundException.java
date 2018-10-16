@@ -11,6 +11,10 @@ import GraphicsEngine.TexturedModelShader;
  * @see 1.0
  */
 public class ShaderNotFoundException extends AbstractException{
+	/** serialVersionUID
+	 * 
+	 */
+	private static final long serialVersionUID = -7065358176229778999L;
 	/** Create a new ShaderNotFoundException
 	 */
 	public ShaderNotFoundException(BasicModelShader basicShader, TexturedModelShader textureShader) {

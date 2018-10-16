@@ -2,9 +2,7 @@ package Core;
 
 import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
-import java.text.SimpleDateFormat;
 import java.util.Calendar;
-import java.util.Date;
 
 import OptionManager.EngineOptions;
 import OptionManager.OptionHandler;

@@ -7,6 +7,11 @@ package Exceptions;
  * @see 1.0
  */
 public class ModelConvertionFailedException extends AbstractException{
+	/** serialVersionUID
+	 * 
+	 */
+	private static final long serialVersionUID = 7205187134815355299L;
+
 	/** Create a new ModelConvertionFailedException
 	 */
 	public ModelConvertionFailedException() {

@@ -9,6 +9,10 @@ import OptionManager.OptionHandler;
  * @since 1.0
  */
 public class AbstractException extends Exception{
+	/** serialVersionUID
+	 * 
+	 */
+	private static final long serialVersionUID = 591345334521026008L;
 	/** The general message for the exception.
 	 */
 	private String message;

@@ -3,7 +3,6 @@ package Tests;
 import Core.DataObject;
 import Core.Initializer;
 import ModelHandeling.BasicModelStructure;
-import ModelHandeling.TexturedModelStructure;
 /** Testing the BasicModel.
  * 
  * @author Bram Steenbergen

@@ -1,14 +1,11 @@
 package Core;
 
 import DisplayRenderEngine.DisplayManager;
-import Exceptions.ExceptionThrower;
-import Exceptions.InternalErrorException;
 import InputHandeling.KeyStrokeHandler;
 import InputHandeling.KeyboardHandler;
 import OptionManager.EngineOptions;
 import OptionManager.GraphicOptions;
 import OptionManager.OptionHandler;
-import OptionManager.OptionReader;
 /** Thread which handles the rendering of the screen.
  * @author Bram Steenbergen
  * @version 1.0

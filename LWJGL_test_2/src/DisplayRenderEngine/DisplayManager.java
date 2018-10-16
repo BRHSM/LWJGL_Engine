@@ -6,6 +6,7 @@ import java.util.ArrayList;
 
 import org.lwjgl.glfw.Callbacks;
 import org.lwjgl.opengl.GL;
+
 import Core.DataObject;
 import Exceptions.ExceptionThrower;
 import Exceptions.InternalErrorException;

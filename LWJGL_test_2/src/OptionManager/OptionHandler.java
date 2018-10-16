@@ -1,12 +1,9 @@
 package OptionManager;
 
-import java.io.BufferedReader;
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
-import java.io.FileReader;
 import java.io.IOException;
-import java.io.PrintWriter;
 import java.util.Enumeration;
 import java.util.HashMap;
 import java.util.Iterator;
@@ -14,7 +11,6 @@ import java.util.Map.Entry;
 import java.util.Properties;
 
 import Exceptions.ExceptionThrower;
-import Exceptions.InternalErrorException;
 import Exceptions.OptionNotFoundException;
 
 public class OptionHandler {
@@ -38,7 +34,7 @@ public class OptionHandler {
 	}
 	
 	public static void addOptionFile(int id, AbstractOptions options, String filename) {
-		options.setupProperties();
+		AbstractOptions.setupProperties();
 		optionList.put(id, options);
 		optionFilename.put(id, filename);
 	}
@@ -65,14 +61,16 @@ public class OptionHandler {
 
 	public static String getAllOptions() {
 		StringBuilder sb = new StringBuilder();
-		Iterator it = optionList.entrySet().iterator();
-	    Entry pair = (Entry)it.next();
+		Iterator<?> it = optionList.entrySet().iterator();
+	    @SuppressWarnings("unchecked")
+		Entry<String, AbstractOptions> pair = (Entry<String, AbstractOptions>)it.next();
 	    sb.append(pair.getValue().toString() + "\n");
 		return sb.toString();
 	}
 
 	public static void writeBackOptions() {
 		AbstractOptions options = optionList.get(101);
+		@SuppressWarnings("unchecked")
 		Enumeration<String> enums = (Enumeration<String>) options.getProperties().propertyNames();
 		Properties engineOptions = new Properties();
 		Properties GraphicsOptions = new Properties();

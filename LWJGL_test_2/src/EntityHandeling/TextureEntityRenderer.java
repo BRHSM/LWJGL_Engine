@@ -11,10 +11,8 @@ import Exceptions.ExceptionThrower;
 import Exceptions.ModelInvalidException;
 import Exceptions.ShaderIncompatableException;
 import GraphicsEngine.AbstractShader;
-import GraphicsEngine.TexturedModelShader;
 import GraphicsEngine.TexturedEntityShader;
 import Math.MatrixMaths;
-import ModelHandeling.BasicModel;
 import ModelHandeling.TexturedModel;
 
 /** Class used to render an AbstractEntity with a TexturedModel as it's model.

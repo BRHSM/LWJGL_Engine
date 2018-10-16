@@ -12,7 +12,6 @@ import Exceptions.ShaderIncompatableException;
 import GraphicsEngine.AbstractShader;
 import GraphicsEngine.BasicEntityShader;
 import Math.MatrixMaths;
-import ModelHandeling.AbstractModel;
 import ModelHandeling.BasicModel;
 
 /** Class used to render an AbstractEntity with a BasicModel as it's model.

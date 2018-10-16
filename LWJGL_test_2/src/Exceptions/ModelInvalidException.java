@@ -7,6 +7,11 @@ package Exceptions;
  * @see 1.0
  */
 public class ModelInvalidException extends AbstractException{
+	/** serialVersionUID
+	 * 
+	 */
+	private static final long serialVersionUID = 7663022092720906005L;
+
 	/** Create a new ModelInvalidException.
 	 */
 	public ModelInvalidException() {

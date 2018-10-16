@@ -7,6 +7,11 @@ package Exceptions;
  * @see 1.0
  */
 public class ModelsAlreadyConvertedException extends AbstractException{
+	/** serialVersionUID
+	 * 
+	 */
+	private static final long serialVersionUID = 597166699425158244L;
+
 	/** Create a new ModelsAlreadyConvertedException
 	 */
 	public ModelsAlreadyConvertedException() {
