@@ -39,6 +39,10 @@ public class OptionHandler {
 		return property;
 	}
 	
+	public static void setProperty(String optionKey, int optionFileID, String value) {
+		optionList.get(optionFileID).setProperty(optionKey,value);
+	}
+	
 	public static void loadOptionListFromFile(int id, int type) {
 		if(type == GRAPHIC_OPTION_TYPE)
 			GraphicOptions.loadFromFile(optionFilename.get(id));

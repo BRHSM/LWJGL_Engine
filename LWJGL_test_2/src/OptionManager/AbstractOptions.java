@@ -20,4 +20,9 @@ public class AbstractOptions {
 		Map<String, String> treeMap = new TreeMap(properties);
 		return treeMap.toString();
 	}
+
+	public void setProperty(String optionKey, String value) {
+		properties.put(optionKey, value);
+		
+	}
 }
