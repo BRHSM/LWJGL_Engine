@@ -1,0 +1,5 @@
+[DEBUG]: No BasicShader loaded, using default shader  [vertexFile=src/RESShaderFiles/BasicModelShader.vs, fragmentFile=src/RESShaderFiles/BasicModelShader.fs]
+[DEBUG]: No TextureShader loaded, using default shader  [vertexFile=src/RESShaderFiles/TexturedModelShader.vs, fragmentFile=src/RESShaderFiles/TexturedModelShader.fs]
+[DEBUG]: Language file loaded: language_IT
+[DEBUG]: Avarage load time: 0.93046
+[DEBUG]: fps: 48
