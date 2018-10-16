@@ -9,7 +9,9 @@ import org.lwjgl.opengl.GL;
 
 import Engine.Core.DataObject;
 import Engine.EntityHandeling.AbstractEntity;
+import Engine.EntityHandeling.BasicEntityRenderer;
 import Engine.EntityHandeling.EntityList;
+import Engine.EntityHandeling.TexturedEntityRenderer;
 import Engine.Exceptions.ExceptionThrower;
 import Engine.Exceptions.InternalErrorException;
 import Engine.Exceptions.ShaderNotFoundException;
@@ -25,6 +27,8 @@ import Engine.ModelHandeling.BasicModelRenderer;
 import Engine.ModelHandeling.ModelList;
 import Engine.ModelHandeling.TexturedModel;
 import Engine.ModelHandeling.TexturedModelRenderer;
+import Engine.OptionManager.EngineOptions;
+import Engine.OptionManager.OptionHandler;
 
 /** This class holds the code for showing the window to the screen. 
  *  @author Bram Steenbergen
@@ -46,11 +50,16 @@ public class DisplayManager {
 	
 	/** A renderer for basic models. 
 	 */
-	private BasicModelRenderer modelBasicRenderer;
-	
+	private BasicModelRenderer basicModelRenderer;
 	/** A renderer for Textured models.
 	 */
-	private TexturedModelRenderer modelTexturedRenderer;
+	private TexturedModelRenderer texturedModelRenderer;
+	/** A renderer for basic models. 
+	 */
+	private BasicEntityRenderer basicEntityRenderer;
+	/** A renderer for Textured models.
+	 */
+	private TexturedEntityRenderer texturedEntityRenderer;
 	
 	/** A loader for the window. 
 	 */
@@ -107,14 +116,21 @@ public class DisplayManager {
 		GL.createCapabilities();
 		
 		//Setup Renderers
-		modelBasicRenderer = new BasicModelRenderer();
-		modelTexturedRenderer = new TexturedModelRenderer();
+		basicModelRenderer = new BasicModelRenderer();
+		texturedModelRenderer = new TexturedModelRenderer();
+		basicEntityRenderer = new BasicEntityRenderer();
+		texturedEntityRenderer = new TexturedEntityRenderer();
 		
 		//create shaders
+		if(OptionHandler.getProperty(EngineOptions.DEBUGENABLED_KEY, OptionHandler.ENGINE_OPTION_ID).equals("1"))
+			System.out.println("\n[DEBUG]: Loading shader files: ");
+		
 		basicModelShader = object.getBasicModelShader();
 		texturedModelShader = object.getTexturedModelShader();
 		basicEntityShader = object.getBasicEntityShader();
 		texturedEntityShader = object.getTexturedEntityShader();
+		
+		System.out.println();
 		
 		//check if shaders exist.
 		if(basicModelShader == null || texturedModelShader == null || basicEntityShader == null || texturedEntityShader == null) {
@@ -142,8 +158,8 @@ public class DisplayManager {
 		ArrayList<AbstractModel> modelList;
 		ArrayList<AbstractEntity> entityList;
 		//prepare the model renderers.
-		modelBasicRenderer.prepare();
-		modelTexturedRenderer.prepare();
+		basicModelRenderer.prepare();
+		texturedModelRenderer.prepare();
 		
 		//handle basic models. 
 		modelList = this.modelList.getModels();
@@ -156,7 +172,7 @@ public class DisplayManager {
 				//Start shader program.
 				currentShader.start();
 				//render the model.
-				modelBasicRenderer.render((BasicModel)model);
+				basicModelRenderer.render((BasicModel)model);
 				//Stop shader program.
 				currentShader.stop();
 			}
@@ -166,7 +182,7 @@ public class DisplayManager {
 				//Start shader program.
 				currentShader.start();
 				//render the model.
-				modelTexturedRenderer.render((TexturedModel)model);
+				texturedModelRenderer.render((TexturedModel)model);
 				//Stop shader program.
 				currentShader.stop();
 			}
@@ -178,7 +194,7 @@ public class DisplayManager {
 				//Start shader program.
 				currentShader.start();
 				//render the model.
-				modelBasicRenderer.render((BasicModel)entity.getModel());
+				basicEntityRenderer.render(entity, currentShader);
 				//Stop shader program.
 				currentShader.stop();
 			}
@@ -188,7 +204,7 @@ public class DisplayManager {
 				//Start shader program.
 				currentShader.start();
 				//render the model.
-				modelTexturedRenderer.render((TexturedModel)entity.getModel());
+				texturedEntityRenderer.render(entity, currentShader);
 				//Stop shader program.
 				currentShader.stop();
 			}

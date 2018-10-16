@@ -22,7 +22,7 @@ import Engine.ModelHandeling.TexturedModel;
  * @since 1.0
  * @see TexturedModel
  */
-public class TextureEntityRenderer extends AbstractEntityRenderer{
+public class TexturedEntityRenderer extends AbstractEntityRenderer{
 	/** RPrepare the renderer for rendering the entity.
 	 */
 	public void prepare() {

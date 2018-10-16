@@ -55,6 +55,9 @@ public class RenderThread extends Thread{
 		//call Init
 		init();
 		
+		if(isDebug == 1)
+			System.out.println("\n[DEBUG]: Starting main loop.");
+		
 		//Initialize Timevariable
 		long lastLoopTime = System.nanoTime();
 		final int TARGET_FPS = Integer.parseInt(OptionHandler.getProperty(GraphicOptions.FRAMECAP_KEY, OptionHandler.GRAPHIC_OPTION_ID));
