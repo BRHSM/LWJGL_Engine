@@ -60,7 +60,8 @@ public class Initializer {
 	 */
 	public void stop() {
 		if(OptionHandler.getProperty(EngineOptions.WRITEBACKONEXIT_KEY, OptionHandler.ENGINE_OPTION_ID).equals("1")) {
-			System.out.println("[DEBUG]: Writing back options");
+			if(OptionHandler.getProperty(EngineOptions.DEBUGENABLED_KEY, OptionHandler.ENGINE_OPTION_ID).equals("1"))
+				System.out.println("[DEBUG]: Writing back options: ");
 			OptionHandler.writeBackOptions();
 		}
 	}

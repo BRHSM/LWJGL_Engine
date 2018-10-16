@@ -81,12 +81,15 @@ public class OptionHandler {
 		    String value = options.getProperties().getProperty(key);
 		    if(GraphicOptions.isInKeyList(key)) {
 		    	GraphicsOptions.put(key, value);
-				System.out.println("         + Writing: " + key + " = " + value + " to: RES/RESConfigFiles/GraphicOptions.cfg");
+		    	if(OptionHandler.getProperty(EngineOptions.DEBUGENABLED_KEY, OptionHandler.ENGINE_OPTION_ID).equals("1"))
+		    		System.out.println("         + Writing: " + key + " = " + value + " to: RES/RESConfigFiles/GraphicOptions.cfg");
 			} else if(EngineOptions.isInKeyList(key)) {
 				engineOptions.put(key, value);
-				System.out.println("         + Writing: " + key + " = " + value + " to: RES/RESConfigFiles/EngineOptions.cfg");
+				if(OptionHandler.getProperty(EngineOptions.DEBUGENABLED_KEY, OptionHandler.ENGINE_OPTION_ID).equals("1"))
+					System.out.println("         + Writing: " + key + " = " + value + " to: RES/RESConfigFiles/EngineOptions.cfg");
 			} else {
-				System.out.println("         - Encountered Language Attribute: " + key + " = " + value);
+				if(OptionHandler.getProperty(EngineOptions.DEBUGENABLED_KEY, OptionHandler.ENGINE_OPTION_ID).equals("1"))
+					System.out.println("         - Encountered Language Attribute: " + key + " = " + value);
 			}
 	    }
 	    
@@ -98,27 +101,5 @@ public class OptionHandler {
 		} catch (IOException e) {
 			e.printStackTrace();
 		}
-	}
-	
-	public static void changeProperty(String filename, String key, String value) throws IOException {
-	    final File tmpFile = new File(filename + ".tmp");
-	    File old;
-	    final File file = new File(filename);
-	    PrintWriter pw = new PrintWriter(tmpFile);
-	    BufferedReader br = new BufferedReader(new FileReader(file));
-	    boolean found = false;
-	    final String toAdd = key + '=' + value;
-	    for (String line; (line = br.readLine()) != null; ) {
-	        if (line.startsWith(key + '=')) {
-	            line = toAdd;
-	            found = true;
-	        }
-	        pw.println(line);
-	    }
-	    if (!found)
-	        pw.println(toAdd);
-	    br.close();
-	    pw.close();
-	    tmpFile.renameTo(file);
 	}
 }
