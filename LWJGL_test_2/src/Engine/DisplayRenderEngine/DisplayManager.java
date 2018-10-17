@@ -2,8 +2,11 @@ package Engine.DisplayRenderEngine;
 
 import static org.lwjgl.glfw.GLFW.*;
 
+import java.nio.ByteBuffer;
+import java.nio.IntBuffer;
 import java.util.ArrayList;
 
+import org.lwjgl.BufferUtils;
 import org.lwjgl.glfw.Callbacks;
 import org.lwjgl.opengl.GL;
 
@@ -46,7 +49,7 @@ public class DisplayManager {
 		
 	/** Long variable which holds the window address. 
 	 */
-	private long window;
+	private static long window;
 	
 	/** A renderer for basic models. 
 	 */
@@ -143,6 +146,9 @@ public class DisplayManager {
 		basicEntityShader.setupShader();
 		texturedEntityShader.setupShader();
 		
+		basicEntityRenderer.setup(basicEntityShader);
+		texturedEntityRenderer.setup(texturedEntityShader);
+		
 		//convert ModelStructures to models
 		modelList.ConvertToModels();
 		entityList.convertToEntities();
@@ -160,6 +166,8 @@ public class DisplayManager {
 		//prepare the model renderers.
 		basicModelRenderer.prepare();
 		texturedModelRenderer.prepare();
+		basicEntityRenderer.prepare();
+		texturedEntityRenderer.prepare();
 		
 		//handle basic models. 
 		modelList = this.modelList.getModels();
@@ -239,5 +247,19 @@ public class DisplayManager {
 	 */
 	public boolean shouldClose() {
 		return glfwWindowShouldClose(window);
+	}
+
+	public static int getHeight() {
+		IntBuffer w = BufferUtils.createIntBuffer(4);
+		IntBuffer h = BufferUtils.createIntBuffer(4);
+		glfwGetWindowSize(window, w, h);
+		return h.get(0);
+	}
+	
+	public static int getWidth() {
+		IntBuffer w = BufferUtils.createIntBuffer(4);
+		IntBuffer h = BufferUtils.createIntBuffer(4);
+		glfwGetWindowSize(window, w, h);
+		return w.get(0);
 	}
 }

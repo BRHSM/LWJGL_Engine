@@ -30,18 +30,39 @@ public class MatrixMaths {
 	}
 	
 	public static Matrix4f createProjectionMatrix(float aspectRatio, float fov, float nearPlane, float farPlane) {
-		float yScale = (float) ((1f / Math.tan(Math.toRadians(fov / 2f))) * aspectRatio);
-		float xScale = yScale / aspectRatio;
-		float frustumLength = farPlane - nearPlane;
-		Matrix4f projectionMatrix = new Matrix4f();
-		
-		projectionMatrix.m00 = xScale;
-		projectionMatrix.m11 = yScale;
-		projectionMatrix.m22 = -((farPlane + nearPlane) / frustumLength);
-		projectionMatrix.m23 = -1;
-		projectionMatrix.m32 = -((2 * farPlane * nearPlane) / frustumLength);
-		projectionMatrix.m33 = 0;
+        float y_scale = (float) ((1f / Math.tan(Math.toRadians(fov / 2f))) * aspectRatio);
+        float x_scale = y_scale / aspectRatio;
+        float frustum_length = nearPlane - farPlane;
+ 
+        Matrix4f projectionMatrix = new Matrix4f();
+        projectionMatrix.m00 = x_scale;
+        projectionMatrix.m11 = y_scale;
+        projectionMatrix.m22 = -((farPlane + nearPlane) / frustum_length);
+        projectionMatrix.m23 = -1;
+        projectionMatrix.m32 = -((2 * nearPlane * farPlane) / frustum_length);
+        projectionMatrix.m33 = 0;
 		
 		return projectionMatrix;
+	}
+
+	public static Matrix4f getAllOneMatrix() {
+		Matrix4f tmp = new Matrix4f();
+		tmp.m00 = 1;
+		tmp.m01 = 1;
+		tmp.m02 = 1;
+		tmp.m03 = 1;
+		tmp.m10 = 1;
+		tmp.m11 = 1;
+		tmp.m12 = 1;
+		tmp.m13 = 1;
+		tmp.m20 = 1;
+		tmp.m21 = 1;
+		tmp.m22 = 1;
+		tmp.m23 = 1;
+		tmp.m30 = 1;
+		tmp.m31 = 1;
+		tmp.m32 = 1;
+		tmp.m33 = 1;
+		return tmp;
 	}
 }

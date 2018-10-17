@@ -6,13 +6,17 @@ import org.lwjgl.opengl.GL20;
 import org.lwjgl.opengl.GL30;
 import org.lwjglx.util.vector.Matrix4f;
 
+import Engine.DisplayRenderEngine.DisplayManager;
 import Engine.Exceptions.ExceptionThrower;
 import Engine.Exceptions.ModelInvalidException;
 import Engine.Exceptions.ShaderIncompatableException;
 import Engine.GraphicsEngine.AbstractShader;
 import Engine.GraphicsEngine.BasicEntityShader;
+import Engine.GraphicsEngine.TexturedEntityShader;
 import Engine.Math.MatrixMaths;
 import Engine.ModelHandeling.BasicModel;
+import Engine.OptionManager.GraphicOptions;
+import Engine.OptionManager.OptionHandler;
 
 /** Class used to render an AbstractEntity with a BasicModel as it's model.
  * 
@@ -22,6 +26,12 @@ import Engine.ModelHandeling.BasicModel;
  * @see BasicModel
  */
 public class BasicEntityRenderer extends AbstractEntityRenderer {
+	
+	private float aspectRatio;
+	private float fov;
+	private float nearPlane;
+	private float farPlane;
+	
 	/** RPrepare the renderer for rendering the entity.
 	 */
 	public void prepare() {
@@ -52,5 +62,14 @@ public class BasicEntityRenderer extends AbstractEntityRenderer {
 		} else {
 			ExceptionThrower.throwException(new ShaderIncompatableException(shader.toString()));
 		}
+	}
+	
+	public void setup(AbstractShader shader) {
+		nearPlane = Float.parseFloat(OptionHandler.getProperty(GraphicOptions.WINDOWNEARPLANE_KEY, OptionHandler.GRAPHIC_OPTION_ID));
+		farPlane = Float.parseFloat(OptionHandler.getProperty(GraphicOptions.WINDOWFARPLANE_KEY, OptionHandler.GRAPHIC_OPTION_ID));
+		aspectRatio = DisplayManager.getWidth() / DisplayManager.getHeight();
+		fov = Float.parseFloat(OptionHandler.getProperty(GraphicOptions.WINDOWFOV_KEY, OptionHandler.GRAPHIC_OPTION_ID));
+		((BasicEntityShader)shader).loadProjectionMatrix(MatrixMaths.createProjectionMatrix(aspectRatio, fov, nearPlane, farPlane));
+		((BasicEntityShader)shader).loadUseProjectionMatrix();
 	}
 }

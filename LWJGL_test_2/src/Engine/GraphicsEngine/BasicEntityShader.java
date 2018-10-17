@@ -21,11 +21,20 @@ public class BasicEntityShader extends AbstractShader{
     private static final String FRAGMENT_FILE = "BasicEntityShader.fs";
     /** The location for the TransformationMatrix.
      */
-    private int location;
+    private int transformationMatrixLocation;
+    
+    private int projectionMatrixLocation;
+    
+    private int useProjectionMatrixLocation;
+    
+    private boolean useProjectionMatrix;
+    
     /** Create a new BasicEntityShader.
      */
     public BasicEntityShader() {
         super(VERTEX_FILE, FRAGMENT_FILE);
+        useProjectionMatrix = false;
+        
     }
     
     @Override
@@ -40,8 +49,9 @@ public class BasicEntityShader extends AbstractShader{
     /** Get all uniform locations.
      */
 	protected void getAllUniformLocations() {
-		location = super.getUniformLocation("transformationMatrix");
-		// TODO Auto-generated method stub
+		transformationMatrixLocation = super.getUniformLocation("transformationMatrix");
+		projectionMatrixLocation = super.getUniformLocation("projectionMatrix");
+		useProjectionMatrixLocation = super.getUniformLocation("useProjectionMatrixLocation");
 		
 	}
     
@@ -50,7 +60,18 @@ public class BasicEntityShader extends AbstractShader{
 	 * @param matrix the transformationMatrix to load
 	 */
 	public void loadTransformationMatrix(Matrix4f matrix) {
-		super.loadMatrix(location, matrix);
+		super.loadMatrix(transformationMatrixLocation, matrix);
+	}
+	
+	public void loadProjectionMatrix(Matrix4f matrix) {
+		super.start();
+		super.loadMatrix(projectionMatrixLocation, matrix);
+		super.stop();
+		useProjectionMatrix = true;
+	}
+	
+	public void loadUseProjectionMatrix() {
+		super.loadBoolean(useProjectionMatrixLocation, useProjectionMatrix);
 	}
      
 }

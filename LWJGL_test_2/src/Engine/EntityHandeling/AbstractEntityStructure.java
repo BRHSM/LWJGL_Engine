@@ -1,7 +1,9 @@
 package Engine.EntityHandeling;
 
+import org.lwjglx.util.vector.Matrix4f;
 import org.lwjglx.util.vector.Vector3f;
 
+import Engine.Math.MatrixMaths;
 import Engine.ModelHandeling.AbstractModelStructure;
 
 public class AbstractEntityStructure {
@@ -12,6 +14,7 @@ public class AbstractEntityStructure {
 	private float rz;
 	private float scale;
 	private BasicEntityModifier modifier;
+	private Matrix4f projectionMatrix;
 	
 	public AbstractEntityStructure(AbstractModelStructure modelStructure, Vector3f position, float rx, float ry, float rz, float scale) {
 		this.modelStructure = modelStructure;

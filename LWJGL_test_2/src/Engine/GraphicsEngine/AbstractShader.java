@@ -78,6 +78,7 @@ public abstract class AbstractShader {
 		GL20.glLinkProgram(programID);
 		// Validate the program. 
 		GL20.glValidateProgram(programID);
+		getAllUniformLocations();
 	}
 	
 	/** Get the file extention as a string from a given filepath string (without the dot).

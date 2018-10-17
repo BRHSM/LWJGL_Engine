@@ -8,6 +8,9 @@ public class GraphicOptions extends AbstractOptions{
 	private static String windowWidth;
 	private static String windowAlignment;
 	private static String windowFullscreen;
+	private static String windowFov;
+	private static String windowNearPlane;
+	private static String windowFarPlane;
 	private static String frameCap;
 	
 	//keys
@@ -15,6 +18,9 @@ public class GraphicOptions extends AbstractOptions{
 	public static final String WINDOWWIDTH_KEY = "windowWidth";
 	public static final String WINDOWALLIGNMENT_KEY = "windowAlignment";
 	public static final String WINDOWFULLSCREEN_KEY = "windowFullscreen";
+	public static final String WINDOWFOV_KEY = "windowFov";
+	public static final String WINDOWNEARPLANE_KEY = "windowNearPlane";
+	public static final String WINDOWFARPLANE_KEY = "windowFarPlane";
 	public static final String FRAMECAP_KEY = "frameCap";
 
 	private static ArrayList<String> keyList;
@@ -29,18 +35,27 @@ public class GraphicOptions extends AbstractOptions{
 		windowWidth = loader.getProperty(WINDOWWIDTH_KEY);
 		windowAlignment = loader.getProperty(WINDOWALLIGNMENT_KEY);
 		windowFullscreen = loader.getProperty(WINDOWFULLSCREEN_KEY);
+		windowFov = loader.getProperty(WINDOWFOV_KEY);
+		windowNearPlane = loader.getProperty(WINDOWNEARPLANE_KEY);
+		windowFarPlane = loader.getProperty(WINDOWFARPLANE_KEY);
 		frameCap = loader.getProperty(FRAMECAP_KEY);
 		
 		keyList.add(WINDOWHEIGHT_KEY);
 		keyList.add(WINDOWWIDTH_KEY);
 		keyList.add(WINDOWALLIGNMENT_KEY);
 		keyList.add(WINDOWFULLSCREEN_KEY);
+		keyList.add(WINDOWFOV_KEY);
+		keyList.add(WINDOWNEARPLANE_KEY);
+		keyList.add(WINDOWFARPLANE_KEY);
 		keyList.add(FRAMECAP_KEY);
 		
 		properties.put(WINDOWHEIGHT_KEY,windowHeight);
 		properties.put(WINDOWWIDTH_KEY,windowWidth);
 		properties.put(WINDOWALLIGNMENT_KEY,windowAlignment);
 		properties.put(WINDOWFULLSCREEN_KEY,windowFullscreen);
+		properties.put(WINDOWFOV_KEY,windowFov);
+		properties.put(WINDOWNEARPLANE_KEY,windowNearPlane);
+		properties.put(WINDOWFARPLANE_KEY,windowFarPlane);
 		properties.put(FRAMECAP_KEY,frameCap);	
 	}
 	

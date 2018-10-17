@@ -131,8 +131,9 @@ public class RenderThread extends Thread{
 			if(displayManager.shouldClose()) {
 				//end the game.
 				running = false;
-				if(OptionHandler.getProperty(EngineOptions.DEBUGTOTAVGLOADTIME_KEY, OptionHandler.ENGINE_OPTION_ID).equals("1"))
-					System.out.println("\n[DEBUG]: Game ran with a total avarage load time of: " + Math.round((totalLoadTime / new Double(cicles)) * 100000d) / 100000d + " over " + cicles + " cicles\n");
+				if(OptionHandler.getProperty(EngineOptions.DEBUGENABLED_KEY, OptionHandler.ENGINE_OPTION_ID).equals("1"))
+					if(OptionHandler.getProperty(EngineOptions.DEBUGTOTAVGLOADTIME_KEY, OptionHandler.ENGINE_OPTION_ID).equals("1"))
+						System.out.println("\n[DEBUG]: Game ran with a total avarage load time of: " + Math.round((totalLoadTime / new Double(cicles)) * 100000d) / 100000d + " over " + cicles + " cicles\n");
 			}
 		}
 		//clean everything. 
