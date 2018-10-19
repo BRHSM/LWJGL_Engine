@@ -72,7 +72,7 @@ public class TexturedEntityRenderer extends AbstractEntityRenderer{
 	public void setup(AbstractShader shader) {
 		nearPlane = Float.parseFloat(OptionHandler.getProperty(GraphicOptions.WINDOWNEARPLANE_KEY, OptionHandler.GRAPHIC_OPTION_ID));
 		farPlane = Float.parseFloat(OptionHandler.getProperty(GraphicOptions.WINDOWFARPLANE_KEY, OptionHandler.GRAPHIC_OPTION_ID));
-		aspectRatio = DisplayManager.getWidth() / DisplayManager.getHeight();
+		aspectRatio = DisplayManager.getWidth() / (float)DisplayManager.getHeight();
 		fov = Float.parseFloat(OptionHandler.getProperty(GraphicOptions.WINDOWFOV_KEY, OptionHandler.GRAPHIC_OPTION_ID));
 		((TexturedEntityShader)shader).loadProjectionMatrix(MatrixMaths.createProjectionMatrix(aspectRatio, fov, nearPlane, farPlane));
 		((TexturedEntityShader)shader).loadUseProjectionMatrix();

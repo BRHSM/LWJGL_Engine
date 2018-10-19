@@ -2,6 +2,8 @@ package Engine.Math;
 
 import org.lwjglx.util.vector.Matrix4f;
 import org.lwjglx.util.vector.Vector3f;
+
+import Engine.DisplayRenderEngine.AbstractCamera;
 /** Class which holds functions for matrix maths. 
  * 
  * @author Bram Steenbergen
@@ -30,20 +32,32 @@ public class MatrixMaths {
 	}
 	
 	public static Matrix4f createProjectionMatrix(float aspectRatio, float fov, float nearPlane, float farPlane) {
-        float y_scale = (float) ((1f / Math.tan(Math.toRadians(fov / 2f))) * aspectRatio);
-        float x_scale = y_scale / aspectRatio;
-        float frustum_length = nearPlane - farPlane;
- 
-        Matrix4f projectionMatrix = new Matrix4f();
-        projectionMatrix.m00 = x_scale;
-        projectionMatrix.m11 = y_scale;
-        projectionMatrix.m22 = -((farPlane + nearPlane) / frustum_length);
-        projectionMatrix.m23 = -1;
-        projectionMatrix.m32 = -((2 * nearPlane * farPlane) / frustum_length);
-        projectionMatrix.m33 = 0;
+        float yScale = (float) ((1f / Math.tan(Math.toRadians(fov / 2f))) * aspectRatio);
+        float xScale = yScale / aspectRatio;
+        float frustumLength = nearPlane - farPlane;
+		Matrix4f projectionMatrix = new Matrix4f();
+		
+		projectionMatrix.m00 = xScale;
+		projectionMatrix.m11 = yScale;
+		projectionMatrix.m22 = -((farPlane + nearPlane) / frustumLength);
+		projectionMatrix.m23 = -1;
+		projectionMatrix.m32 = -((2 * farPlane * nearPlane) / frustumLength);
+		projectionMatrix.m33 = 0;
 		
 		return projectionMatrix;
 	}
+	
+    public static Matrix4f createViewMatrix(AbstractCamera camera) {
+        Matrix4f viewMatrix = new Matrix4f();
+        viewMatrix.setIdentity();
+        Matrix4f.rotate((float) Math.toRadians(camera.getPitch()), new Vector3f(1, 0, 0), viewMatrix,
+                viewMatrix);
+        Matrix4f.rotate((float) Math.toRadians(camera.getYaw()), new Vector3f(0, 1, 0), viewMatrix, viewMatrix);
+        Vector3f cameraPos = camera.getPosition();
+        Vector3f negativeCameraPos = new Vector3f(-cameraPos.x,-cameraPos.y,-cameraPos.z);
+        Matrix4f.translate(negativeCameraPos, viewMatrix, viewMatrix);
+        return viewMatrix;
+    }
 
 	public static Matrix4f getAllOneMatrix() {
 		Matrix4f tmp = new Matrix4f();

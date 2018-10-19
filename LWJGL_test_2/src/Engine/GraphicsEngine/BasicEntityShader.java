@@ -51,7 +51,7 @@ public class BasicEntityShader extends AbstractShader{
 	protected void getAllUniformLocations() {
 		transformationMatrixLocation = super.getUniformLocation("transformationMatrix");
 		projectionMatrixLocation = super.getUniformLocation("projectionMatrix");
-		useProjectionMatrixLocation = super.getUniformLocation("useProjectionMatrixLocation");
+		useProjectionMatrixLocation = super.getUniformLocation("useProjectionMatrix");
 		
 	}
     

@@ -8,6 +8,7 @@ import java.nio.FloatBuffer;
 import org.lwjgl.BufferUtils;
 import org.lwjgl.opengl.GL11;
 import org.lwjgl.opengl.GL20;
+import org.lwjgl.opengl.GL30;
 import org.lwjglx.util.vector.Matrix4f;
 import org.lwjglx.util.vector.Vector3f;
 
@@ -200,11 +201,11 @@ public abstract class AbstractShader {
      * @param Value the value of the variable.
      */
     protected void loadBoolean(int location, boolean value) {
-    	float toLoad = 0;
+    	int toLoad = 0;
     	if(value) {
     		toLoad = 1;
     	}
-    	GL20.glUniform1f(location, toLoad);
+    	GL20.glUniform1i(location, toLoad);
     }
     
     

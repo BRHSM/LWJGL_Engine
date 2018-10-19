@@ -49,8 +49,8 @@ public class Test_6 {
 		
 		//setup modle loader. 
 		TexturedModelStructure modelStructure = new TexturedModelStructure(vertices, textureCoordinates, indexes);
-		AbstractEntityStructure entityStructure = new AbstractEntityStructure(modelStructure, new Vector3f(0, 0, 0), 0, 0, 0, 1);
-		entityStructure.setEntityModifier(new BasicEntityModifier(new Vector3f(0,0,-0.002f),0,0,0,0));
+		AbstractEntityStructure entityStructure = new AbstractEntityStructure(modelStructure, new Vector3f(0, 0, -1), 0, 0, 0, 1);
+		entityStructure.setEntityModifier(new BasicEntityModifier(new Vector3f(0,0,-0.01f),0,0,0,0));
 		
 		//Setup DataObject.
 		DataObject object = new DataObject();

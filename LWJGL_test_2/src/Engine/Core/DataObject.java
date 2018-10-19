@@ -29,7 +29,7 @@ import Engine.UtilClasses.StringBreaker;
 public class DataObject {
 	
 	//Shader ID values
-	/** ID value for BasicShaders.
+	/** ID value for BasicModelShaders.
 	 */
 	public static final int BASIC_MODEL_SHADER = 301;
 	/** ID value for TextureShaders.

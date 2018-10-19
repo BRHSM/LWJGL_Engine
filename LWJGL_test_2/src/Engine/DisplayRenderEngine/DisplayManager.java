@@ -9,6 +9,7 @@ import java.util.ArrayList;
 import org.lwjgl.BufferUtils;
 import org.lwjgl.glfw.Callbacks;
 import org.lwjgl.opengl.GL;
+import org.lwjgl.opengl.GL11;
 
 import Engine.Core.DataObject;
 import Engine.EntityHandeling.AbstractEntity;
@@ -154,6 +155,7 @@ public class DisplayManager {
 		entityList.convertToEntities();
 		
 		//Show the window.
+		GL11.glEnable(GL11.GL_DEPTH_TEST);  
 		glfwShowWindow(window);
 		
 	}
@@ -226,9 +228,9 @@ public class DisplayManager {
 	/** Notify the DiplayManager that a game tick has passed. 
 	 */
 	public void updateFromThread() {
+		glfwPollEvents();
 		for(AbstractEntity entity : entityList.getEntities())
 			entity.update();
-		glfwPollEvents();
 	}
 	
 	/** Notify that the screen is closed. 

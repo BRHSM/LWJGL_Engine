@@ -9,7 +9,7 @@ uniform mat4 projectionMatrix;
 uniform int useProjectionMatrix;
 
 void main(void){
-	if (useProjectionMatrix == 1) {
+	if (useProjectionMatrix != 0) {
 		gl_Position = projectionMatrix * transformationMatrix * vec4(position,1.0);
 	} else {
 		gl_Position = transformationMatrix * vec4(position,1.0);

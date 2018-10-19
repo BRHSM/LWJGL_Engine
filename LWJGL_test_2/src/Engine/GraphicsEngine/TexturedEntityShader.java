@@ -52,7 +52,8 @@ public class TexturedEntityShader extends AbstractShader{
 	protected void getAllUniformLocations() {
 		transformationMatrixLocation = super.getUniformLocation("transformationMatrix");
 		projectionMatrixLocation = super.getUniformLocation("projectionMatrix");
-		useProjectionMatrixLocation = super.getUniformLocation("useProjectionMatrixLocation");
+		useProjectionMatrixLocation = super.getUniformLocation("useProjectionMatrix");
+		//System.out.println("projectionMatrixLocation: " + projectionMatrixLocation + " \nuseProjectionMatrixLocation: " + useProjectionMatrixLocation    +    " \ntransformationMatrixLocation: " + transformationMatrixLocation + "\n");
 		
 	}
     
@@ -69,10 +70,14 @@ public class TexturedEntityShader extends AbstractShader{
 		super.loadMatrix(projectionMatrixLocation, matrix);
 		super.stop();
 		useProjectionMatrix = true;
+		//System.out.println("loaded projectionmatrix: \n" + matrix);
 	}
 	
 	public void loadUseProjectionMatrix() {
+		super.start();
 		super.loadBoolean(useProjectionMatrixLocation, useProjectionMatrix);
+		//System.out.println("loaded useProjectionMatrix: " + useProjectionMatrix + "\n\n");
+		super.stop();
 	}
      
 }

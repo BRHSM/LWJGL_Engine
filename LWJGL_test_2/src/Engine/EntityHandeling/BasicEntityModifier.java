@@ -14,7 +14,7 @@ public class BasicEntityModifier {
 		this.dposition = dposition;
 		this.drx = drx;
 		this.dry = dry;
-		this.drz = drx;
+		this.drz = drz;
 		this.dscale = dscale;
 	}
 

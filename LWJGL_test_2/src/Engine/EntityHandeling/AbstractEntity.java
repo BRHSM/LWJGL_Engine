@@ -60,7 +60,6 @@ public class AbstractEntity {
 		increasePosition(modifier.getDposition().getX(),modifier.getDposition().getY(),modifier.getDposition().getZ());
 		increaseRotation(modifier.getDrx(), modifier.getDry(), modifier.getDrz());
 		increaseScale(modifier.getDscale());
-		//System.out.println("[DEBUG]: EntityUpdate by modifier: \n         " + modifier.toString());
 	}
 	
 	/** Increase the position transformation of the model. (Negative values decrease the values).
