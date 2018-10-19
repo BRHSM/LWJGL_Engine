@@ -93,6 +93,8 @@ public class DisplayManager {
 	/** A list of entities to render on startup.
 	 */
 	private EntityList entityList;
+
+	private AbstractCamera camera;
 	
 	/** Create a prepared window and add the models to it. After the window is prepared and
 	 *  populated, It's shown to the screen
@@ -113,6 +115,8 @@ public class DisplayManager {
 		
 		//setup the window with the window loader. 
 		window = windowLoader.setupWindow(keyboardHandler);
+		
+		camera = object.getCamera();
 		
 		glfwMakeContextCurrent(window);
 		
@@ -170,6 +174,11 @@ public class DisplayManager {
 		texturedModelRenderer.prepare();
 		basicEntityRenderer.prepare();
 		texturedEntityRenderer.prepare();
+
+		camera.move();
+		
+		basicEntityRenderer.loadCamera(basicEntityShader, camera);
+		texturedEntityRenderer.loadCamera(texturedEntityShader, camera);
 		
 		//handle basic models. 
 		modelList = this.modelList.getModels();
@@ -204,7 +213,7 @@ public class DisplayManager {
 				//Start shader program.
 				currentShader.start();
 				//render the model.
-				basicEntityRenderer.render(entity, currentShader);
+				basicEntityRenderer.render(entity, currentShader, camera);
 				//Stop shader program.
 				currentShader.stop();
 			}
@@ -214,7 +223,7 @@ public class DisplayManager {
 				//Start shader program.
 				currentShader.start();
 				//render the model.
-				texturedEntityRenderer.render(entity, currentShader);
+				texturedEntityRenderer.render(entity, currentShader, camera);
 				//Stop shader program.
 				currentShader.stop();
 			}

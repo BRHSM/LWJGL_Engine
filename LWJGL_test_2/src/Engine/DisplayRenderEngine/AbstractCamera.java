@@ -5,10 +5,10 @@ import org.lwjglx.util.vector.Vector3f;
 
 public abstract class AbstractCamera {
      
-    private Vector3f position = new Vector3f(0,0,0);
-    private float pitch;
-    private float yaw;
-    private float roll;
+    protected Vector3f position = new Vector3f(0,0,0);
+    protected float pitch;
+    protected float yaw;
+    protected float roll;
      
     public AbstractCamera(){}
      

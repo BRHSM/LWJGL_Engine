@@ -1,5 +1,6 @@
 package Engine.EntityHandeling;
 
+import Engine.DisplayRenderEngine.AbstractCamera;
 import Engine.GraphicsEngine.AbstractShader;
 /** An abstract renderer class for entities.
  * 
@@ -18,5 +19,5 @@ public abstract class AbstractEntityRenderer {
 	 * @param entity The entity to render.
 	 * @param shader The shader to use for rendering.
 	 */
-	public abstract void render(AbstractEntity entity, AbstractShader shader);
+	public abstract void render(AbstractEntity entity, AbstractShader shader, AbstractCamera camera);
 }

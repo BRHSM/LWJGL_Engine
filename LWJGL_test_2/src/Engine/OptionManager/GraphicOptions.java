@@ -12,6 +12,8 @@ public class GraphicOptions extends AbstractOptions{
 	private static String windowNearPlane;
 	private static String windowFarPlane;
 	private static String frameCap;
+	private static String useProjectionMatrix;
+	private static String useViewMatrix;
 	
 	//keys
 	public static final String WINDOWHEIGHT_KEY = "windowHeight";
@@ -22,6 +24,8 @@ public class GraphicOptions extends AbstractOptions{
 	public static final String WINDOWNEARPLANE_KEY = "windowNearPlane";
 	public static final String WINDOWFARPLANE_KEY = "windowFarPlane";
 	public static final String FRAMECAP_KEY = "frameCap";
+	public static final String USEPROJECTIONMARTRIX_KEY = "useProjectionMatrix";
+	public static final String USEVIEWMATRIX_KEY = "useViewMatrix";
 
 	private static ArrayList<String> keyList;
 	
@@ -39,6 +43,8 @@ public class GraphicOptions extends AbstractOptions{
 		windowNearPlane = loader.getProperty(WINDOWNEARPLANE_KEY);
 		windowFarPlane = loader.getProperty(WINDOWFARPLANE_KEY);
 		frameCap = loader.getProperty(FRAMECAP_KEY);
+		useProjectionMatrix = loader.getProperty(USEPROJECTIONMARTRIX_KEY);
+		useViewMatrix = loader.getProperty(USEVIEWMATRIX_KEY);
 		
 		keyList.add(WINDOWHEIGHT_KEY);
 		keyList.add(WINDOWWIDTH_KEY);
@@ -48,6 +54,8 @@ public class GraphicOptions extends AbstractOptions{
 		keyList.add(WINDOWNEARPLANE_KEY);
 		keyList.add(WINDOWFARPLANE_KEY);
 		keyList.add(FRAMECAP_KEY);
+		keyList.add(USEPROJECTIONMARTRIX_KEY);
+		keyList.add(USEVIEWMATRIX_KEY);
 		
 		properties.put(WINDOWHEIGHT_KEY,windowHeight);
 		properties.put(WINDOWWIDTH_KEY,windowWidth);
@@ -57,6 +65,9 @@ public class GraphicOptions extends AbstractOptions{
 		properties.put(WINDOWNEARPLANE_KEY,windowNearPlane);
 		properties.put(WINDOWFARPLANE_KEY,windowFarPlane);
 		properties.put(FRAMECAP_KEY,frameCap);	
+		properties.put(USEPROJECTIONMARTRIX_KEY,useProjectionMatrix);	
+		properties.put(USEVIEWMATRIX_KEY,useViewMatrix);	
+
 	}
 	
 	public static boolean isInKeyList(String propertyKey) {

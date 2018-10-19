@@ -7,6 +7,7 @@ import org.lwjgl.opengl.GL20;
 import org.lwjgl.opengl.GL30;
 import org.lwjglx.util.vector.Matrix4f;
 
+import Engine.DisplayRenderEngine.AbstractCamera;
 import Engine.DisplayRenderEngine.DisplayManager;
 import Engine.Exceptions.ExceptionThrower;
 import Engine.Exceptions.ModelInvalidException;
@@ -45,7 +46,7 @@ public class TexturedEntityRenderer extends AbstractEntityRenderer{
 	 */
 	
 	// create for each model.
-	public void render (AbstractEntity entity, AbstractShader shader) {
+	public void render (AbstractEntity entity, AbstractShader shader, AbstractCamera camera) {
 		if(shader instanceof TexturedEntityShader) {
 			if(entity.getModel() instanceof TexturedModel) {
 				TexturedModel model = (TexturedModel)entity.getModel();
@@ -76,5 +77,10 @@ public class TexturedEntityRenderer extends AbstractEntityRenderer{
 		fov = Float.parseFloat(OptionHandler.getProperty(GraphicOptions.WINDOWFOV_KEY, OptionHandler.GRAPHIC_OPTION_ID));
 		((TexturedEntityShader)shader).loadProjectionMatrix(MatrixMaths.createProjectionMatrix(aspectRatio, fov, nearPlane, farPlane));
 		((TexturedEntityShader)shader).loadUseProjectionMatrix();
+	}
+	
+	public void loadCamera(AbstractShader shader, AbstractCamera camera) {
+		((TexturedEntityShader)shader).loadViewMatrix(MatrixMaths.createViewMatrix(camera));
+		((TexturedEntityShader)shader).loadUseViewMatrix();
 	}
 }

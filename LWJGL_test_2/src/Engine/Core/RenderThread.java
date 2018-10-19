@@ -157,7 +157,6 @@ public class RenderThread extends Thread{
 	*/
 	private void update() {
 		//TODO: maybe?? instead of updating in this thread, updating should use a separate thread.
-		keyStrokeHandeler.update();
 		displayManager.updateFromThread();
 	}
 

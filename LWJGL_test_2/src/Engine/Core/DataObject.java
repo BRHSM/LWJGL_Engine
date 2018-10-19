@@ -2,6 +2,8 @@ package Engine.Core;
 
 import java.util.ArrayList;
 
+import Engine.DisplayRenderEngine.AbstractCamera;
+import Engine.DisplayRenderEngine.StaticCamera;
 import Engine.EntityHandeling.AbstractEntityStructure;
 import Engine.EntityHandeling.EntityList;
 import Engine.GraphicsEngine.AbstractShader;
@@ -70,10 +72,13 @@ public class DataObject {
 	
 	/**List of ModelStructures to load on startup. 
 	 */
-	ArrayList<AbstractModelStructure> modelStructureList = new ArrayList<AbstractModelStructure>();
+	private ArrayList<AbstractModelStructure> modelStructureList = new ArrayList<AbstractModelStructure>();
 	/**List of EntityStructures to load on startup. 
 	 */
-	ArrayList<AbstractEntityStructure> entityStructureList = new ArrayList<AbstractEntityStructure>();
+	private ArrayList<AbstractEntityStructure> entityStructureList = new ArrayList<AbstractEntityStructure>();
+	
+	
+	private AbstractCamera camera; 
 	
 	/** Creates a clean DataObject
 	 */
@@ -82,6 +87,10 @@ public class DataObject {
 		texturedModelShader = (TexturedModelShader) DEFAULT_TEXTURED_MODEL_SHADER;
 		basicEntityShader = (BasicEntityShader) DEFAULT_BASIC_ENTITY_SHADER;
 		texturedEntityShader = (TexturedEntityShader) DEFAULT_TEXTURED_ENTITY_SHADER;
+		
+		//set default camera
+		camera = new StaticCamera();
+		
 		OptionHandler.setupOptions();
 		
 		//load graphic options
@@ -205,5 +214,13 @@ public class DataObject {
 		if(texturedEntityShader == DEFAULT_TEXTURED_ENTITY_SHADER && OptionHandler.getProperty(EngineOptions.DEBUGENABLED_KEY, OptionHandler.ENGINE_OPTION_ID).equals("1"))
 			System.out.println("         No TexturedEntityShader loaded, using default shader" + DEFAULT_TEXTURED_ENTITY_SHADER.toString());
 		return texturedEntityShader;
+	}
+
+	public AbstractCamera getCamera() {
+		return camera;
+	}
+
+	public void setCamera(AbstractCamera camera) {
+		this.camera = camera;
 	}
 }

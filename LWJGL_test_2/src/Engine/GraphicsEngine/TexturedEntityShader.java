@@ -3,6 +3,8 @@ package Engine.GraphicsEngine;
 import org.lwjglx.util.vector.Matrix4f;
 
 import Engine.ModelHandeling.TexturedModel;
+import Engine.OptionManager.GraphicOptions;
+import Engine.OptionManager.OptionHandler;
 
 /** This class contains a basic shader for textured models.
  * 
@@ -25,15 +27,16 @@ public class TexturedEntityShader extends AbstractShader{
     
     private int projectionMatrixLocation;
     
+    private int viewMatrixLocation;
+    
     private int useProjectionMatrixLocation;
     
-    private boolean useProjectionMatrix;
+    private int useViewMatrixLocation;
     
     /** Create a new TexturedEntityShader
      */
     public TexturedEntityShader() {
         super(VERTEX_FILE, FRAGMENT_FILE);
-        useProjectionMatrix = false;
     }
     
     @Override
@@ -53,8 +56,8 @@ public class TexturedEntityShader extends AbstractShader{
 		transformationMatrixLocation = super.getUniformLocation("transformationMatrix");
 		projectionMatrixLocation = super.getUniformLocation("projectionMatrix");
 		useProjectionMatrixLocation = super.getUniformLocation("useProjectionMatrix");
-		//System.out.println("projectionMatrixLocation: " + projectionMatrixLocation + " \nuseProjectionMatrixLocation: " + useProjectionMatrixLocation    +    " \ntransformationMatrixLocation: " + transformationMatrixLocation + "\n");
-		
+		viewMatrixLocation = super.getUniformLocation("viewMatrix");
+		useViewMatrixLocation = super.getUniformLocation("useViewMatrix");		
 	}
     
 	/** Load the transformationMatrix.
@@ -69,15 +72,23 @@ public class TexturedEntityShader extends AbstractShader{
 		super.start();
 		super.loadMatrix(projectionMatrixLocation, matrix);
 		super.stop();
-		useProjectionMatrix = true;
-		//System.out.println("loaded projectionmatrix: \n" + matrix);
 	}
 	
 	public void loadUseProjectionMatrix() {
 		super.start();
-		super.loadBoolean(useProjectionMatrixLocation, useProjectionMatrix);
-		//System.out.println("loaded useProjectionMatrix: " + useProjectionMatrix + "\n\n");
+		super.loadBoolean(useProjectionMatrixLocation, Boolean.parseBoolean(OptionHandler.getProperty(GraphicOptions.USEPROJECTIONMARTRIX_KEY, OptionHandler.GRAPHIC_OPTION_ID)));
 		super.stop();
 	}
-     
+	
+	public void loadViewMatrix(Matrix4f matrix) {
+		super.start();
+		super.loadMatrix(viewMatrixLocation, matrix);
+		super.stop();
+	}
+	
+	public void loadUseViewMatrix() {
+		super.start();
+		super.loadBoolean(useViewMatrixLocation, Boolean.parseBoolean(OptionHandler.getProperty(GraphicOptions.USEVIEWMATRIX_KEY, OptionHandler.GRAPHIC_OPTION_ID)));
+		super.stop();
+	}
 }
