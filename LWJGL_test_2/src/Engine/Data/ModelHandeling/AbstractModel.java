@@ -1,5 +1,14 @@
 package Engine.Data.ModelHandeling;
 
+import Engine.Graphics.GraphicsEngine.AbstractShader;
+
+/** An abstract model.
+ * 
+ * @author Bram Steenbergen
+ * @version 1.0
+ * @since 1.0
+ *
+ */
 public abstract class AbstractModel {
 	/** The model ID.
 	 */

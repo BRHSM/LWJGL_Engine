@@ -53,6 +53,7 @@ public class BasicModelLoader extends AbstractModelLoader{
 	/** Store the VAO inside a VBO.
 	 * 
 	 * @param attributeID The VAO's ID.
+	 * @param coordinateSize the size of the coordinates.
 	 * @param data The vertices data.
 	 */
 	protected void storeInList(int attributeID, int coordinateSize, float[] data) {
