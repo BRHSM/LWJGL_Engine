@@ -1,8 +1,8 @@
 package Tests.Tests;
 
-import Engine.Core.DataObject;
-import Engine.Core.Initializer;
-import Engine.ModelHandeling.TexturedModelStructure;
+import Engine.Core.Core.DataObject;
+import Engine.Core.Core.Initializer;
+import Engine.Data.ModelHandeling.TexturedModelStructure;
 /** Testing the texturedModel.
  * 
  * @author Bram Steenbergen

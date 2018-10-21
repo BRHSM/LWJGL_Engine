@@ -1,7 +1,7 @@
 package Tests.Tests;
 
-import Engine.Core.DataObject;
-import Engine.Core.Initializer;
+import Engine.Core.Core.DataObject;
+import Engine.Core.Core.Initializer;
 /** A basic test to see if the engine works with no data provided. This is
  *  the bare minimum of code for a "game" to launch.
  * 

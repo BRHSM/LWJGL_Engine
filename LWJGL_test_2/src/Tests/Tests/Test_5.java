@@ -2,10 +2,10 @@ package Tests.Tests;
 
 import org.lwjglx.util.vector.Vector3f;
 
-import Engine.Core.DataObject;
-import Engine.Core.Initializer;
-import Engine.EntityHandeling.AbstractEntityStructure;
-import Engine.ModelHandeling.TexturedModelStructure;
+import Engine.Core.Core.DataObject;
+import Engine.Core.Core.Initializer;
+import Engine.Data.EntityHandeling.AbstractEntityStructure;
+import Engine.Data.ModelHandeling.TexturedModelStructure;
 /** A basic test to see if the engine works with no data provided. This is
  *  the bare minimum of code for a "game" to launch.
  * 

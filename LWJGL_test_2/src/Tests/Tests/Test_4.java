@@ -1,10 +1,10 @@
 package Tests.Tests;
 
-import Engine.Core.DataObject;
-import Engine.Core.Initializer;
-import Engine.ModelHandeling.TexturedModelStructure;
-import Engine.OptionManager.EngineOptions;
-import Engine.OptionManager.OptionHandler;
+import Engine.Core.Core.DataObject;
+import Engine.Core.Core.Initializer;
+import Engine.Data.ModelHandeling.TexturedModelStructure;
+import Engine.Data.OptionManager.EngineOptions;
+import Engine.Data.OptionManager.OptionHandler;
 /** Testing the ability to change options during execution.
  * 
  * @author Bram Steenbergen

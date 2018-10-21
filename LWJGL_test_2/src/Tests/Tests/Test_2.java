@@ -1,8 +1,8 @@
 package Tests.Tests;
 
-import Engine.Core.DataObject;
-import Engine.Core.Initializer;
-import Engine.ModelHandeling.BasicModelStructure;
+import Engine.Core.Core.DataObject;
+import Engine.Core.Core.Initializer;
+import Engine.Data.ModelHandeling.BasicModelStructure;
 /** Testing the BasicModel.
  * 
  * @author Bram Steenbergen
