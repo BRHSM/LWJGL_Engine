@@ -28,10 +28,17 @@ import Engine.Util.Math.MatrixMaths;
  * @see TexturedModel
  */
 public class TexturedEntityRenderer extends AbstractEntityRenderer{
-	
+	/** The aspect ratio of the screen.
+	 */
 	private float aspectRatio;
+	/** The field of view of the screen.
+	 */
 	private float fov;
+	/** The closest plane on the screen. 
+	 */
 	private float nearPlane;
+	/** The farthest plane on the screen. 
+	 */
 	private float farPlane;
 	
 	/** RPrepare the renderer for rendering the entity.
@@ -70,6 +77,10 @@ public class TexturedEntityRenderer extends AbstractEntityRenderer{
 		}
 	}
 	
+	/** Setup the shader's projection matrix for rendering.
+	 * 
+	 * @param shader The shader to use.
+	 */
 	public void setup(AbstractShader shader) {
 		nearPlane = Float.parseFloat(OptionHandler.getProperty(GraphicOptions.WINDOWNEARPLANE_KEY, OptionHandler.GRAPHIC_OPTION_ID));
 		farPlane = Float.parseFloat(OptionHandler.getProperty(GraphicOptions.WINDOWFARPLANE_KEY, OptionHandler.GRAPHIC_OPTION_ID));
@@ -79,6 +90,11 @@ public class TexturedEntityRenderer extends AbstractEntityRenderer{
 		((TexturedEntityShader)shader).loadUseProjectionMatrix();
 	}
 	
+	/** Load the camera to use by the shader.
+	 * 
+	 * @param shader The shader to use the camera for.
+	 * @param camera The camera to use.
+	 */
 	public void loadCamera(AbstractShader shader, AbstractCamera camera) {
 		((TexturedEntityShader)shader).loadViewMatrix(MatrixMaths.createViewMatrix(camera));
 		((TexturedEntityShader)shader).loadUseViewMatrix();

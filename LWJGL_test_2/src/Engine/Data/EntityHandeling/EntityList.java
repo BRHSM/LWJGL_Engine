@@ -12,9 +12,17 @@ import Engine.Data.ModelHandeling.ModelTexture;
 import Engine.Data.ModelHandeling.TexturedModel;
 import Engine.Data.ModelHandeling.TexturedModelLoader;
 import Engine.Data.ModelHandeling.TexturedModelStructure;
+import Engine.Graphics.GraphicsEngine.AbstractShader;
 import Engine.Util.Exceptions.ExceptionThrower;
 import Engine.Util.Exceptions.ModelsAlreadyConvertedException;
-
+/** A class used to store a list of entities.
+ * 
+ * @author Bram Steenbergen
+ * @version 1.0
+ * @since 1.0
+ * @see AbstractEntity
+ * @see AbstractEntityStructure
+ */
 public class EntityList {
 	
 	/** List of modelStructures.
@@ -27,10 +35,16 @@ public class EntityList {
 	 */
 	private boolean isConverted = false;
 	
+	/** Create a new EntityList from a list of AbstractEntityStructures.
+	 * 
+	 * @param entityStructures The structures to use for the new list.
+	 */
 	public EntityList(ArrayList<AbstractEntityStructure> entityStructures) {
 		this.entityStructures = entityStructures;
 	}
 	
+	/** Convert the EnsityStructures to entities.
+	 */
 	public void convertToEntities() {
 		BasicModelLoader basicModelLoader = new BasicModelLoader();
 		TexturedModelLoader texturedModelLoader = new TexturedModelLoader();
@@ -54,6 +68,10 @@ public class EntityList {
 		}
 	}
 	
+	/** Add an EntityStructure to the list.
+	 * 
+	 * @param entityStructure The EntityStructure to add.
+	 */
 	public void addModelStructure(AbstractEntityStructure entityStructure) {
 		if(isConverted) {
 			ExceptionThrower.throwException(new ModelsAlreadyConvertedException());
@@ -61,6 +79,10 @@ public class EntityList {
 		entityStructures.add(entityStructure);
 	}
 
+	/** Get the list of entities.
+	 * 
+	 * @return The list of converted entities.
+	 */
 	public ArrayList<AbstractEntity> getEntities() {
 		return entities;
 	}
