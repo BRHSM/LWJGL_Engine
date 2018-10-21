@@ -1,4 +1,4 @@
-package Engine.IO.InputHandeling;
+package Engine.IO.KeyboardHandeling;
 
 import org.lwjgl.glfw.GLFW;
 import org.lwjgl.glfw.GLFWKeyCallback;

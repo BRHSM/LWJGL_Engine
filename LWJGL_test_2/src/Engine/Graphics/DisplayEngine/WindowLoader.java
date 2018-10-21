@@ -10,7 +10,7 @@ import org.lwjgl.glfw.GLFWVidMode;
 import Engine.Data.OptionManager.CurrentLanguage;
 import Engine.Data.OptionManager.GraphicOptions;
 import Engine.Data.OptionManager.OptionHandler;
-import Engine.IO.InputHandeling.KeyboardHandler;
+import Engine.IO.KeyboardHandeling.KeyboardHandler;
 
 /** Class with the code which is used to prepare a window for the DisplayManager to show.
  * @author Bram Steenbergen

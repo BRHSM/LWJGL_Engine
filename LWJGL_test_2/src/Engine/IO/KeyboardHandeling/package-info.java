@@ -6,4 +6,4 @@
  * @author Bram Steenbergen
  * @version 1.0
  */
-package Engine.IO.InputHandeling;
+package Engine.IO.KeyboardHandeling;

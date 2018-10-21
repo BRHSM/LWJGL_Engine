@@ -5,7 +5,7 @@ import org.lwjgl.glfw.GLFW;
 import org.lwjglx.input.Keyboard;
 
 import Engine.Graphics.DisplayEngine.AbstractCamera;
-import Engine.IO.InputHandeling.KeyStrokeHandler;
+import Engine.IO.KeyboardHandeling.KeyStrokeHandler;
 
 public class TestCamera_1 extends AbstractCamera{
 	 public void move(){

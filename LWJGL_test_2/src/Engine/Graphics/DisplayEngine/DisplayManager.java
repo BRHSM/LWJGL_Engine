@@ -29,7 +29,7 @@ import Engine.Graphics.GraphicsEngine.BasicEntityShader;
 import Engine.Graphics.GraphicsEngine.BasicModelShader;
 import Engine.Graphics.GraphicsEngine.TexturedEntityShader;
 import Engine.Graphics.GraphicsEngine.TexturedModelShader;
-import Engine.IO.InputHandeling.KeyboardHandler;
+import Engine.IO.KeyboardHandeling.KeyboardHandler;
 import Engine.Util.Exceptions.ExceptionThrower;
 import Engine.Util.Exceptions.InternalErrorException;
 import Engine.Util.Exceptions.ShaderNotFoundException;

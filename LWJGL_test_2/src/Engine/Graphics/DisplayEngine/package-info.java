@@ -1,5 +1,5 @@
 /**
- * This package holds the code which acts as a base for the GraphicsEngine package.
+ * This package holds the code which handles windows and render stuff to them.
  *
  * @since 1.0
  * @author Bram Steenbergen

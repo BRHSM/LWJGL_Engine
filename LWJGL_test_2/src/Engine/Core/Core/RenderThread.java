@@ -4,8 +4,8 @@ import Engine.Data.OptionManager.EngineOptions;
 import Engine.Data.OptionManager.GraphicOptions;
 import Engine.Data.OptionManager.OptionHandler;
 import Engine.Graphics.DisplayEngine.DisplayManager;
-import Engine.IO.InputHandeling.KeyStrokeHandler;
-import Engine.IO.InputHandeling.KeyboardHandler;
+import Engine.IO.KeyboardHandeling.KeyStrokeHandler;
+import Engine.IO.KeyboardHandeling.KeyboardHandler;
 /** Thread which handles the rendering of the screen.
  * @author Bram Steenbergen
  * @version 1.0

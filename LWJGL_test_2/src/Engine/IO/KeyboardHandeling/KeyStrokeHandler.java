@@ -1,4 +1,4 @@
-package Engine.IO.InputHandeling;
+package Engine.IO.KeyboardHandeling;
 
 /** Class which handles key events.
  * @author Bram Steenbergen
