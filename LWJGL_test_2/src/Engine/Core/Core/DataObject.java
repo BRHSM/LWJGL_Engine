@@ -34,39 +34,39 @@ public class DataObject {
 	/** ID value for BasicModelShaders.
 	 */
 	public static final int BASIC_MODEL_SHADER = 301;
-	/** ID value for TextureShaders.
+	/** ID value for TexturedModelShaders.
 	 */
 	public static final int TEXTURED_MODEL_SHADER = 302;
-	/** ID value for BasicShaders.
+	/** ID value for BasicEntityShaders.
 	 */
 	public static final int BASIC_ENTITY_SHADER = 303;
-	/** ID value for TextureShaders.
+	/** ID value for TexturedEntityShaders.
 	 */
 	public static final int TEXTURED_ENTITY_SHADER = 304;
 	
-	/** The default BasicShader.
+	/** The default BasicModelShaders.
 	 */
 	public static final AbstractShader DEFAULT_BASIC_MODEL_SHADER = new BasicModelShader();
-	/** The default TextureShader.
+	/** The default TexturedModelShaders.
 	 */
 	public static final AbstractShader DEFAULT_TEXTURED_MODEL_SHADER = new TexturedModelShader();
-	/** The default BasicShader.
+	/** The default TexturedModelShaders.
 	 */
 	public static final AbstractShader DEFAULT_BASIC_ENTITY_SHADER = new BasicEntityShader();
-	/** The default TextureShader.
+	/** The default TexturedEntityShaders.
 	 */
 	public static final AbstractShader DEFAULT_TEXTURED_ENTITY_SHADER = new TexturedEntityShader();
 	
-	/** The BasicShader to use.
+	/** The TexturedModelShaders to use.
 	 */
 	private BasicModelShader basicModelShader;
-	/** The TextureShader to use.
+	/** The TexturedModelShaders to use.
 	 */
 	private TexturedModelShader texturedModelShader;
-	/** The BasicShader to use.
+	/** The TexturedEntityShaders to use.
 	 */
 	private BasicEntityShader basicEntityShader;
-	/** The TextureShader to use.
+	/** The TexturedEntityShaders to use.
 	 */
 	private TexturedEntityShader texturedEntityShader;
 	
@@ -77,7 +77,8 @@ public class DataObject {
 	 */
 	private ArrayList<AbstractEntityStructure> entityStructureList = new ArrayList<AbstractEntityStructure>();
 	
-	
+	/** The camera to use;
+	 */
 	private AbstractCamera camera; 
 	
 	/** Creates a clean DataObject
@@ -215,11 +216,19 @@ public class DataObject {
 			System.out.println("         No TexturedEntityShader loaded, using default shader" + DEFAULT_TEXTURED_ENTITY_SHADER.toString());
 		return texturedEntityShader;
 	}
-
+	
+	/** Get the camera.
+	 * 
+	 * @return the camera.
+	 */
 	public AbstractCamera getCamera() {
 		return camera;
 	}
 
+	/** Set the camera.
+	 * 
+	 * @param camera The camera to set.
+	 */
 	public void setCamera(AbstractCamera camera) {
 		this.camera = camera;
 	}

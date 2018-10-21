@@ -13,6 +13,7 @@ import Engine.Util.Util.DoublePrintStream;
  * @version 1.0
  * @since 1.0
  * @see RenderThread
+ * @see DataObject
 */
 public class Initializer {
 	/** Thread object used for rendering

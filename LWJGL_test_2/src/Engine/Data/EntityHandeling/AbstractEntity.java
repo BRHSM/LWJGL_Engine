@@ -56,6 +56,8 @@ public class AbstractEntity {
 		this.modifier = modifier;
 	}
 	
+	/** Update the entity.
+	 */
 	public void update() {
 		increasePosition(modifier.getDposition().getX(),modifier.getDposition().getY(),modifier.getDposition().getZ());
 		increaseRotation(modifier.getDrx(), modifier.getDry(), modifier.getDrz());
