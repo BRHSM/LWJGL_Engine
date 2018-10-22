@@ -89,13 +89,7 @@ public class DataObject {
 		basicEntityShader = (BasicEntityShader) DEFAULT_BASIC_ENTITY_SHADER;
 		texturedEntityShader = (TexturedEntityShader) DEFAULT_TEXTURED_ENTITY_SHADER;
 		
-		//set default camera
-		camera = new StaticCamera();
-		
 		OptionHandler.setupOptions();
-		if(basicModelShader == DEFAULT_BASIC_MODEL_SHADER && OptionHandler.getProperty(EngineOptions.DEBUGENABLED_KEY, OptionHandler.ENGINE_OPTION_ID).equals("1"))
-			System.out.println("[DEBUG]: Default camera loaded: " + camera.toString());
-		
 		
 		//load graphic options
 		OptionHandler.addOptionFile(OptionHandler.GRAPHIC_OPTION_ID, new GraphicOptions(), "GraphicOptions");
@@ -113,6 +107,13 @@ public class DataObject {
 		if(OptionHandler.getProperty(EngineOptions.DEBUGENABLED_KEY, OptionHandler.ENGINE_OPTION_ID).equals("1")) {
 			System.out.println(StringBreaker.breakString("[DEBUG]: all loaded options: " + OptionHandler.getAllOptions(), "\n", 125));
 		}
+		
+		//set default camera
+		camera = new StaticCamera();
+		
+		
+		if(basicModelShader == DEFAULT_BASIC_MODEL_SHADER && OptionHandler.getProperty(EngineOptions.DEBUGENABLED_KEY, OptionHandler.ENGINE_OPTION_ID).equals("1"))
+			System.out.println("[DEBUG]: Default camera loaded: " + camera.toString());
 	}
 	
 	/** Add a modelStructure to the modelStructureList.
