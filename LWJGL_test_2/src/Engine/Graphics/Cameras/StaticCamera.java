@@ -11,4 +11,13 @@ public class StaticCamera extends AbstractCamera{
     /** Move the camera. (In this case does nothing).
      */
 	public void move() {}
+	
+	@Override
+	/** Get a class description
+	 * 
+	 * @return The string describing the class
+	 */
+	public String toString() {
+		return "StaticCamera [position=" + position + ", pitch=" + pitch + ", yaw=" + yaw + ", roll=" + roll + "]";
+	}
 }

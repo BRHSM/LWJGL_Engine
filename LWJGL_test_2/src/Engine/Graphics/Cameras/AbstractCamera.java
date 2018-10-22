@@ -61,7 +61,13 @@ public abstract class AbstractCamera {
     public float getRoll() {
         return roll;
     }
-     
-     
- 
+
+	@Override
+	/** Get a class description
+	 * 
+	 * @return The string describing the class
+	 */
+	public String toString() {
+		return "AbstractCamera [position=" + position + ", pitch=" + pitch + ", yaw=" + yaw + ", roll=" + roll + "]";
+	}
 }
