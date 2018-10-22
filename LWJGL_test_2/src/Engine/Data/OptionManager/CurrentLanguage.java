@@ -3,27 +3,28 @@ package Engine.Data.OptionManager;
 import java.util.ArrayList;
 
 public class CurrentLanguage extends AbstractOptions{
-	//values
-	private static String title;
-	
 	//keys
 	public static final String TITLE_KEY = "window_title";
 
 	private static ArrayList<String> keyList;
 	
+	private static LanguageReader loader;
+	
 	public static void loadFromFile(String filename) {
-		LanguageReader loader = new LanguageReader(filename);
+		loader = new LanguageReader(filename);
 		
 		keyList = new ArrayList<String>();
 		//load properties
-		title = loader.getProperty(TITLE_KEY);
-		
-		keyList.add(TITLE_KEY);
-		
-		properties.put(TITLE_KEY,title);
+		addProperty(TITLE_KEY);
 	}
 	
 	public static boolean isInKeyList(String propertyKey) {
 		return keyList.contains(propertyKey);
+	}
+	
+	protected static void addProperty(String key) {
+		String tmp = loader.getProperty(key);
+		keyList.add(key);
+		properties.put(key, tmp);
 	}
 }
