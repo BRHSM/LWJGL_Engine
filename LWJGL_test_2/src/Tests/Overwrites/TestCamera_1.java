@@ -6,16 +6,17 @@ import org.lwjglx.input.Keyboard;
 
 import Engine.Graphics.DisplayEngine.AbstractCamera;
 import Engine.IO.KeyboardHandeling.KeyStrokeHandler;
+import Engine.IO.KeyboardHandeling.Keys;
 
 public class TestCamera_1 extends AbstractCamera{
 	 public void move(){
-	        if(KeyStrokeHandler.isKeyDown(GLFW.GLFW_KEY_W)){
+	        if(KeyStrokeHandler.isKeyDown(Keys.KEY_W)){
 	            position.z-=0.02f;
 	        }
-	        if(KeyStrokeHandler.isKeyDown(GLFW.GLFW_KEY_D)){
+	        if(KeyStrokeHandler.isKeyDown(Keys.KEY_D)){
 	            position.x+=0.02f;
 	        }
-	        if(KeyStrokeHandler.isKeyDown(GLFW.GLFW_KEY_A)){
+	        if(KeyStrokeHandler.isKeyDown(Keys.KEY_A)){
 	            position.x-=0.02f;
 	        }
 	    }
