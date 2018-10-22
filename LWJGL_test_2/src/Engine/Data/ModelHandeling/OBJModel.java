@@ -1,6 +1,8 @@
 package Engine.Data.ModelHandeling;
 
+import java.lang.reflect.Array;
 import java.util.ArrayList;
+import java.util.Arrays;
 
 import org.lwjglx.util.vector.Vector2f;
 import org.lwjglx.util.vector.Vector3f;
@@ -27,9 +29,9 @@ public class OBJModel {
 	/** The indices of the model.
 	 */
 	private ArrayList<Integer> indices;
-	/** The texture of the model.
+	/** The texture file of the model.
 	 */
-	private Texture texture;
+	private String texture;
 	
 	/** Create an OBJModel.
 	 * 
@@ -47,9 +49,9 @@ public class OBJModel {
 	
 	/** Set the texture to the model.
 	 * 
-	 * @param texture The texture to load.
+	 * @param texture The texture file to load.
 	 */
-	public void loadTexture(Texture texture) {
+	public void loadTexture(String texture) {
 		this.texture = texture;
 	}
 	
@@ -58,17 +60,63 @@ public class OBJModel {
 	 * @return A BasicModelStructure version of the model.
 	 */
 	public BasicModelStructure convertToBasicModelStructure() {
-		return null;
+		return new BasicModelStructure(Vec3fToFloatBuffer(vertices), toIntArray(indices));
 		
 	}
-	
+
 	/** Convert the oBJModel into a TexturedModelStructure.
 	 * 
 	 * @return A TexturedModelStructure version of the model.
 	 */
 	public TexturedModelStructure convertToTexturedModelStructure() {
-		return null;
+		return new TexturedModelStructure(Vec3fToFloatBuffer(vertices), Vec2fToFloatBuffer(textureCoords), toIntArray(indices), texture);
 		
+	}
+	/** Convert a list of vectors containing 3 floats in a floatArray.
+	 * 
+	 * @param vecList The vectorlist to convert
+	 * @return A floatArray version of the vectorList
+	 */
+	public float[] Vec3fToFloatBuffer(ArrayList<Vector3f> vecList) {
+		float[] array = new float[vecList.size() * 3];
+		int i = 0;
+		for(Vector3f vec : vecList) {
+			array[i++] = vec.x;
+			array[i++] = vec.y;
+			array[i++] = vec.z;
+		}
+		return array;
+	}
+	
+	/** Convert a list of vectors containing 2 floats in a floatArray.
+	 * 
+	 * @param vecList The vectorlist to convert
+	 * @return A floatArray version of the vectorList
+	 */
+	public float[] Vec2fToFloatBuffer(ArrayList<Vector2f> vecList) {
+		float[] array = new float[vecList.size() * 2];
+		int i = 0;
+		for(Vector2f vec : vecList) {
+			array[i++] = vec.x;
+			array[i++] = vec.y;
+		}
+		return array;
+	}
+	
+	/** Convert an arraylist of Integer to an array of int
+	 * 
+	 * @param indices The array to convert.
+	 * @return The IntArray.
+	 */
+	private int[] toIntArray(ArrayList<Integer> indices) {
+		Integer[] tmp = Arrays.copyOf(indices.toArray(), indices.size(), Integer[].class);
+		int[] array = new int[indices.size()];
+		int i = 0;
+		for(Integer tmpInt : tmp) {
+			array[i] = tmp[i].intValue();
+			i++;
+		}
+		return array;
 	}
 }
 	
