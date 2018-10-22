@@ -20,6 +20,7 @@ import Engine.Data.OptionManager.OptionHandler;
  * @version 1.0
  * @since 1.0
  * @see OBJModel
+ * @see Vertex
  */
 public class OBJLoader {
 	/** create an OBJModel from the file specified in the filename.
@@ -91,7 +92,16 @@ public class OBJLoader {
         OBJModel data = new OBJModel(verticesArray, texturesArray, normalsArray, indicesArray, furthest);
         return data;
     }
- 
+	
+	/** Process a vertex from the .obj file.
+	 * 
+	 * @param vertexData The data of the file line.
+	 * @param textureCoords The texturecoords arraylist.
+	 * @param normals The normals arraylist.
+	 * @param indices The indices arraylist.
+	 * @param textureArray The textureCoords floatArray.
+	 * @param normalsArray The normals floatArray.
+	 */
     private static void processVertex(String[] vertex, ArrayList<Vertex> vertices, ArrayList<Integer> indices) {
         int index = Integer.parseInt(vertex[0]) - 1;
         Vertex currentVertex = vertices.get(index);
@@ -107,6 +117,11 @@ public class OBJLoader {
         }
     }
  
+    /** Converts an arraylist of indices to an array containing the same information.
+     * 
+     * @param indices The indices to convert.
+     * @return An array of indices.
+     */
     private static int[] convertIndicesListToArray(ArrayList<Integer> indices) {
         int[] indicesArray = new int[indices.size()];
         for (int i = 0; i < indicesArray.length; i++) {
@@ -114,9 +129,18 @@ public class OBJLoader {
         }
         return indicesArray;
     }
- 
-    private static float convertDataToArrays(ArrayList<Vertex> vertices, ArrayList<Vector2f> textures, ArrayList<Vector3f> normals, float[] verticesArray, float[] texturesArray,
-            float[] normalsArray) {
+    
+    /** Converts the data from ArrayLists to Arrays.
+     * 
+     * @param vertices The vertices ArrayList.
+     * @param textures The textures ArrayList.
+     * @param normals The normals ArrayList.
+     * @param verticesArray The vertices array.
+     * @param texturesArray The textures array.
+     * @param normalsArray The normals array.
+     * @return the furthestPoint of the model.
+     */
+    private static float convertDataToArrays(ArrayList<Vertex> vertices, ArrayList<Vector2f> textures, ArrayList<Vector3f> normals, float[] verticesArray, float[] texturesArray,float[] normalsArray) {
         float furthestPoint = 0;
         for (int i = 0; i < vertices.size(); i++) {
             Vertex currentVertex = vertices.get(i);
@@ -137,7 +161,15 @@ public class OBJLoader {
         }
         return furthestPoint;
     }
- 
+    
+    /** Handles vertex if it's allready processed.
+     * 
+     * @param previousVertex The last vertex in the list.
+     * @param newTextureIndex The next index for the textures list.
+     * @param newNormalIndex The next index for the normals list.
+     * @param indices The list of indices.
+     * @param vertices The list of vertices.
+     */
     private static void dealWithAlreadyProcessedVertex(Vertex previousVertex, int newTextureIndex, int newNormalIndex, ArrayList<Integer> indices, ArrayList<Vertex> vertices) {
         if (previousVertex.hasSameTextureAndNormal(newTextureIndex, newNormalIndex)) {
             indices.add(previousVertex.getIndex());
@@ -157,7 +189,11 @@ public class OBJLoader {
  
         }
     }
-     
+    
+    /** Removes unused vertices from model.
+     * 
+     * @param vertices The vertices list.
+     */
     private static void removeUnusedVertices(ArrayList<Vertex> vertices){
         for(Vertex vertex:vertices){
             if(!vertex.isSet()){
@@ -166,35 +202,4 @@ public class OBJLoader {
             }
         }
     }
-	
-	/** get a full path for 
-	 * 
-	 * @param fileName The filename you want the path for.
-	 * @return The full path of the file.
-	 */
-	private static String getFilePath(String fileName) {
-		return OptionHandler.getProperty(EngineOptions.PATHMODELS_KEY, OptionHandler.ENGINE_OPTION_ID) + fileName + ".obj";
-	}
-	
-	/** Process a vertex from the .obj file.
-	 * 
-	 * @param vertexData The data of the file line.
-	 * @param textureCoords The texturecoords arraylist.
-	 * @param normals The normals arraylist.
-	 * @param indices The indices arraylist.
-	 * @param textureArray The textureCoords floatArray.
-	 * @param normalsArray The normals floatArray.
-	 */
-	private static void processVertex(String[] vertexData, ArrayList<Vector2f> textureCoords, ArrayList<Vector3f> normals, ArrayList<Integer> indices, float[] textureArray, float[] normalsArray) {
-		int currentVertexPointer = Integer.parseInt(vertexData[0]) - 1;
-		indices.add(currentVertexPointer);
-		Vector2f currentTexture = textureCoords.get(Integer.parseInt(vertexData[1]) - 1);
-		textureArray[currentVertexPointer * 2] = currentTexture.x;
-		textureArray[currentVertexPointer * 2 + 1] = 1 - currentTexture.y;
-		Vector3f currentNorm = normals.get(Integer.parseInt(vertexData[2]) - 1);
-		normalsArray[currentVertexPointer * 3] = currentNorm.x;
-		normalsArray[currentVertexPointer * 3 + 1] = currentNorm.y;
-		normalsArray[currentVertexPointer * 3 + 2] = currentNorm.z;
-		
-	}
 }
