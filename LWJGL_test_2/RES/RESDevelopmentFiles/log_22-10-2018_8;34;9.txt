@@ -1,0 +1,61 @@
+
+[DEBUG]: Loading shader files: 
+         No BasicModelShader loaded, using default shader  [vertexFile=BasicModelShader.vs, fragmentFile=BasicModelShader.fs]
+         No TexturedModelShader loaded, using default shader  [vertexFile=TexturedModelShader.vs, fragmentFile=TexturedModelShader.fs]
+         No BasicEntityShader loaded, using default shader  [vertexFile=BasicEntityShader.vs, fragmentFile=BasicEntityShader.fs]
+         No TexturedEntityShader loaded, using default shader  [vertexFile=TexturedEntityShader.vs, fragmentFile=TexturedEntityShader.fs]
+
+[DEBUG]: Language file loaded: RES/RESLanguageFiles/language_IT
+
+[DEBUG]: Starting main loop.
+[DEBUG]: Avarage load time: 0.92872
+[DEBUG]: fps: 48
+[DEBUG]: Avarage load time: 0.94593
+[DEBUG]: fps: 48
+[DEBUG]: Avarage load time: 0.94691
+[DEBUG]: fps: 48
+[DEBUG]: Avarage load time: 0.94512
+[DEBUG]: fps: 48
+[DEBUG]: Avarage load time: 0.94498
+[DEBUG]: fps: 48
+[DEBUG]: Avarage load time: 0.94693
+[DEBUG]: fps: 48
+[DEBUG]: Avarage load time: 0.94513
+[DEBUG]: fps: 48
+[DEBUG]: Avarage load time: 0.94491
+[DEBUG]: fps: 48
+[DEBUG]: Avarage load time: 0.94786
+[DEBUG]: fps: 48
+[DEBUG]: Avarage load time: 0.94505
+[DEBUG]: fps: 48
+[DEBUG]: Avarage load time: 0.94781
+[DEBUG]: fps: 48
+
+[DEBUG]: Game ran with a total avarage load time of: 0.9445 over 535 cicles
+
+[DEBUG]: Writing back options: 
+         + Writing:                          windowFov            = 70                                        to: RES/RESConfigFiles/GraphicOptions.cfg
+         + Writing:                          pathDevelopmentFiles = RES/RESDevelopmentFiles/                  to: RES/RESConfigFiles/EngineOptions.cfg
+         + Writing:                          debugLogToFile       = 1                                         to: RES/RESConfigFiles/EngineOptions.cfg
+         + Writing:                          pathTextures         = RES/RESTextures/                          to: RES/RESConfigFiles/EngineOptions.cfg
+         + Writing:                          showShaderUsed       = 1                                         to: RES/RESConfigFiles/EngineOptions.cfg
+         + Writing:                          useProjectionMatrix  = true                                      to: RES/RESConfigFiles/GraphicOptions.cfg
+         + Writing:                          debugStackTrace      = 0                                         to: RES/RESConfigFiles/EngineOptions.cfg
+         + Writing:                          windowAlignment      = centered                                  to: RES/RESConfigFiles/GraphicOptions.cfg
+         + Writing:                          WritebackOnExit      = 1                                         to: RES/RESConfigFiles/EngineOptions.cfg
+         + Writing:                          frameCap             = 45                                        to: RES/RESConfigFiles/GraphicOptions.cfg
+         + Writing:                          debugLongExceptions  = 0                                         to: RES/RESConfigFiles/EngineOptions.cfg
+         + Writing:                          windowHeight         = 720                                       to: RES/RESConfigFiles/GraphicOptions.cfg
+         + Writing:                          windowNearPlane      = 0.1f                                      to: RES/RESConfigFiles/GraphicOptions.cfg
+         - Encountered Language Attribute:   window_title         = Titolo di Testing                        
+         + Writing:                          mainLanguage         = language_IT                               to: RES/RESConfigFiles/EngineOptions.cfg
+         + Writing:                          pathModels           = RES/RESModels/                            to: RES/RESConfigFiles/EngineOptions.cfg
+         + Writing:                          useViewMatrix        = true                                      to: RES/RESConfigFiles/GraphicOptions.cfg
+         + Writing:                          pathLanguageFiles    = RES/RESLanguageFiles/                     to: RES/RESConfigFiles/EngineOptions.cfg
+         + Writing:                          debugTotAvgLoadtime  = 1                                         to: RES/RESConfigFiles/EngineOptions.cfg
+         + Writing:                          windowFarPlane       = 1000                                      to: RES/RESConfigFiles/GraphicOptions.cfg
+         + Writing:                          windowFullscreen     = 0                                         to: RES/RESConfigFiles/GraphicOptions.cfg
+         + Writing:                          debugAvgLoadtime     = 1                                         to: RES/RESConfigFiles/EngineOptions.cfg
+         + Writing:                          windowWidth          = 1280                                      to: RES/RESConfigFiles/GraphicOptions.cfg
+         + Writing:                          debugEnabled         = 1                                         to: RES/RESConfigFiles/EngineOptions.cfg
+         + Writing:                          pathShaderFiles      = RES/RESShaderFiles/                       to: RES/RESConfigFiles/EngineOptions.cfg

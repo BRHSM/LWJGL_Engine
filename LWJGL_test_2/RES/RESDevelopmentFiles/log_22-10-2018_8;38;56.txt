@@ -1,0 +1,109 @@
+
+[DEBUG]: Loading shader files: 
+         No BasicModelShader loaded, using default shader  [vertexFile=BasicModelShader.vs, fragmentFile=BasicModelShader.fs]
+         No TexturedModelShader loaded, using default shader  [vertexFile=TexturedModelShader.vs, fragmentFile=TexturedModelShader.fs]
+         No BasicEntityShader loaded, using default shader  [vertexFile=BasicEntityShader.vs, fragmentFile=BasicEntityShader.fs]
+         No TexturedEntityShader loaded, using default shader  [vertexFile=TexturedEntityShader.vs, fragmentFile=TexturedEntityShader.fs]
+
+[DEBUG]: Language file loaded: RES/RESLanguageFiles/language_IT
+
+[DEBUG]: Starting main loop.
+[DEBUG]: Avarage load time: 0.92896
+[DEBUG]: fps: 48
+[DEBUG]: Avarage load time: 0.95074
+[DEBUG]: fps: 48
+[DEBUG]: Avarage load time: 0.96313
+[DEBUG]: fps: 47
+[DEBUG]: Avarage load time: 0.95347
+[DEBUG]: fps: 48
+[DEBUG]: Avarage load time: 0.95442
+[DEBUG]: fps: 48
+[DEBUG]: Avarage load time: 0.95253
+[DEBUG]: fps: 48
+[DEBUG]: Avarage load time: 0.94973
+[DEBUG]: fps: 48
+[DEBUG]: Avarage load time: 0.95078
+[DEBUG]: fps: 48
+[DEBUG]: Avarage load time: 0.96344
+[DEBUG]: fps: 47[[DEBUG]: Avarage load time: 0.94863
+[DEBUG]: fps: 48[[DEBUG]: Avarage load time: 0.94868
+[DEBUG]: fps: 48[[DEBUG]: Avarage load time: 0.94785
+[DEBUG]: fps: 48[[DEBUG]: Avarage load time: 0.94691
+[DEBUG]: fps: 48[[DEBUG]: Avarage load time: 0.94971
+[DEBUG]: fps: 48[[DEBUG]: Avarage load time: 0.94705
+[DEBUG]: fps: 48[[DEBUG]: Avarage load time: 0.94772
+[DEBUG]: fps: 4[DE[DEBUG]: Avarage load time: 0.94695
+[DEBUG]: fps: 4[DE[DEBUG]: Avarage load time: 0.9488
+[DEBUG]: fps: 48[D[DEBUG]: Avarage load time: 0.94784
+[DEBUG]: fps: 48[D[DEBUG]: Avarage load time: 0.94784
+[DEBUG]: fps: 48[D[DEBUG]: Avarage load time: 0.95067
+[DEBUG]: fps: 48[D[DEBUG]: Avarage load time: 0.94882
+[DEBUG]: fps: 48[D[DEBUG]: Avarage load time: 0.94883
+[DEBUG]: fps: 48[D[DEBUG]: Avarage load time: 0.94592
+[DEBUG]: fps: 4[DE[DEBUG]: Avarage load time: 0.96323
+[DEBUG]: fps: 4[DE[DEBUG]: Avarage load time: 0.95639
+[DEBUG]: fps: 4[DE[DEBUG]: Avarage load time: 0.95266
+[DEBUG]: fps: 4[DE[DEBUG]: Avarage load time: 0.95243
+[DEBUG]: fps: 4[DE[DEBUG]: Avarage load time: 0.95151
+[DEBUG]: fps: 4[DE[DEBUG]: Avarage load time: 0.96137
+[DEBUG]: fps: 4[DE[DEBUG]: Avarage load time: 0.95163
+[DEBUG]: fps: 4[DE[DEBUG]: Avarage load time: 0.96136
+[DEBUG]: fps: 4[DE[DEBUG]: Avarage load time: 0.95442
+[DEBUG]: fps: 4[DE[DEBUG]: Avarage load time: 0.9468
+[DEBUG]: fps: 48[D[DEBUG]: Avarage load time: 0.95283
+[DEBUG]: fps: 48[D[DEBUG]: Avarage load time: 0.95329
+[DEBUG]: fps: 4[DE[DEBUG]: Avarage load time: 0.95343
+[DEBUG]: fps: 4[DE[DEBUG]: Avarage load time: 0.95539
+[DEBUG]: fps: [DEB[DEBUG]: Avarage load time: 0.95626
+[DEBUG]: fps: [DEB[DEBUG]: Avarage load time: 1.03707
+[DEBUG]: fps: [DEB[DEBUG]: Avarage load time: 0.96896
+[DEBUG]: fps: [DEB[DEBUG]: Avarage load time: 0.951
+[DEBUG]: fps: 48[D[DEBUG]: Avarage load time: 0.96104
+[DEBUG]: fps: 47[D[DEBUG]: Avarage load time: 0.9695
+[DEBUG]: fps: 47[[DEBUG]: Avarage load time: 0.95478
+[DEBUG]: fps: 48[[DEBUG]: Avarage load time: 0.98323
+[DEBUG]: fps: 46[D[DEBUG]: Avarage load time: 0.96231
+[DEBUG]: fps: 47[D[DEBUG]: Avarage load time: 0.96221
+[DEBUG]: fps: 47[D[DEBUG]: Avarage load time: 0.95765
+[DEBUG]: fps: 4[DE[DEBUG]: Avarage load time: 0.95247
+[DEBUG]: fps: 4[DE[DEBUG]: Avarage load time: 0.95151
+[DEBUG]: fps: 4[DE[DEBUG]: Avarage load time: 0.94697
+[DEBUG]: fps: 4[DE[DEBUG]: Avarage load time: 0.94594
+[DEBUG]: fps: 4[DE[DEBUG]: Avarage load time: 0.95152
+[DEBUG]: fps: 4[DE[DEBUG]: Avarage load time: 0.94985
+[DEBUG]: fps: 4[DE[DEBUG]: Avarage load time: 1.01889
+[DEBUG]: fps: 4[DE[DEBUG]: Avarage load time: 0.98043
+[DEBUG]: fps: [DEB[DEBUG]: Avarage load time: 0.96126
+[DEBUG]: fps: [DEB[DEBUG]: Avarage load time: 0.94982
+[DEBUG]: fps: [DEB[DEBUG]: Avarage load time: 0.95247
+[DEBUG]: fps: [DEBUG]: Avarage load time: 0.9563
+[DEBUG]: fps: 48
+
+[DEBUG]: Game ran with a total avarage load time of: 0.95504 over 2956 cicles
+
+[DEBUG]: Writing back options: 
+         + Writing:                          windowFov            = 70                                        to: RES/RESConfigFiles/GraphicOptions.cfg
+         + Writing:                          pathDevelopmentFiles = RES/RESDevelopmentFiles/                  to: RES/RESConfigFiles/EngineOptions.cfg
+         + Writing:                          debugLogToFile       = 1                                         to: RES/RESConfigFiles/EngineOptions.cfg
+         + Writing:                          pathTextures         = RES/RESTextures/                          to: RES/RESConfigFiles/EngineOptions.cfg
+         + Writing:                          showShaderUsed       = 1                                         to: RES/RESConfigFiles/EngineOptions.cfg
+         + Writing:                          useProjectionMatrix  = true                                      to: RES/RESConfigFiles/GraphicOptions.cfg
+         + Writing:                          debugStackTrace      = 0                                         to: RES/RESConfigFiles/EngineOptions.cfg
+         + Writing:                          windowAlignment      = centered                                  to: RES/RESConfigFiles/GraphicOptions.cfg
+         + Writing:                          WritebackOnExit      = 1                                         to: RES/RESConfigFiles/EngineOptions.cfg
+         + Writing:                          frameCap             = 45                                        to: RES/RESConfigFiles/GraphicOptions.cfg
+         + Writing:                          debugLongExceptions  = 0                                         to: RES/RESConfigFiles/EngineOptions.cfg
+         + Writing:                          windowHeight         = 720                                       to: RES/RESConfigFiles/GraphicOptions.cfg
+         + Writing:                          windowNearPlane      = 0.1f                                      to: RES/RESConfigFiles/GraphicOptions.cfg
+         - Encountered Language Attribute:   window_title         = Titolo di Testing                        
+         + Writing:                          mainLanguage         = language_IT                               to: RES/RESConfigFiles/EngineOptions.cfg
+         + Writing:                          pathModels           = RES/RESModels/                            to: RES/RESConfigFiles/EngineOptions.cfg
+         + Writing:                          useViewMatrix        = true                                      to: RES/RESConfigFiles/GraphicOptions.cfg
+         + Writing:                          pathLanguageFiles    = RES/RESLanguageFiles/                     to: RES/RESConfigFiles/EngineOptions.cfg
+         + Writing:                          debugTotAvgLoadtime  = 1                                         to: RES/RESConfigFiles/EngineOptions.cfg
+         + Writing:                          windowFarPlane       = 1000                                      to: RES/RESConfigFiles/GraphicOptions.cfg
+         + Writing:                          windowFullscreen     = 0                                         to: RES/RESConfigFiles/GraphicOptions.cfg
+         + Writing:                          debugAvgLoadtime     = 1                                         to: RES/RESConfigFiles/EngineOptions.cfg
+         + Writing:                          windowWidth          = 1280                                      to: RES/RESConfigFiles/GraphicOptions.cfg
+         + Writing:                          debugEnabled         = 1                                         to: RES/RESConfigFiles/EngineOptions.cfg
+         + Writing:                          pathShaderFiles      = RES/RESShaderFiles/                       to: RES/RESConfigFiles/EngineOptions.cfg
