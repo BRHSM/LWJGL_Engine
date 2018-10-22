@@ -24,11 +24,12 @@ import Engine.Data.ModelHandeling.TexturedModel;
 import Engine.Data.ModelHandeling.TexturedModelRenderer;
 import Engine.Data.OptionManager.EngineOptions;
 import Engine.Data.OptionManager.OptionHandler;
-import Engine.Graphics.GraphicsEngine.AbstractShader;
-import Engine.Graphics.GraphicsEngine.BasicEntityShader;
-import Engine.Graphics.GraphicsEngine.BasicModelShader;
-import Engine.Graphics.GraphicsEngine.TexturedEntityShader;
-import Engine.Graphics.GraphicsEngine.TexturedModelShader;
+import Engine.Graphics.Cameras.AbstractCamera;
+import Engine.Graphics.Shaders.AbstractShader;
+import Engine.Graphics.Shaders.BasicEntityShader;
+import Engine.Graphics.Shaders.BasicModelShader;
+import Engine.Graphics.Shaders.TexturedEntityShader;
+import Engine.Graphics.Shaders.TexturedModelShader;
 import Engine.IO.KeyboardHandeling.KeyboardHandler;
 import Engine.Util.Exceptions.ExceptionThrower;
 import Engine.Util.Exceptions.InternalErrorException;
@@ -94,6 +95,8 @@ public class DisplayManager {
 	 */
 	private EntityList entityList;
 
+	/** The loaded camera.
+	 */
 	private AbstractCamera camera;
 	
 	/** Create a prepared window and add the models to it. After the window is prepared and
@@ -260,6 +263,10 @@ public class DisplayManager {
 		return glfwWindowShouldClose(window);
 	}
 
+	/** Get the height of the display
+	 * 
+	 * @return The height of the display.
+	 */
 	public static int getHeight() {
 		IntBuffer w = BufferUtils.createIntBuffer(4);
 		IntBuffer h = BufferUtils.createIntBuffer(4);
@@ -267,6 +274,10 @@ public class DisplayManager {
 		return h.get(0);
 	}
 	
+	/** Get the width of the display
+	 * 
+	 * @return The width of the display.
+	 */
 	public static int getWidth() {
 		IntBuffer w = BufferUtils.createIntBuffer(4);
 		IntBuffer h = BufferUtils.createIntBuffer(4);

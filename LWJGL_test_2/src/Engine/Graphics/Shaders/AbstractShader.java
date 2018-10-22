@@ -1,4 +1,4 @@
-package Engine.Graphics.GraphicsEngine;
+package Engine.Graphics.Shaders;
 
 import java.io.BufferedReader;
 import java.io.FileReader;

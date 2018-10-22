@@ -21,11 +21,14 @@ import Engine.Data.OptionManager.OptionHandler;
 import Engine.Util.Util.NullLogSystem;
 
 /** Class used to load textured models into memory in order for them to render.
+ * 
  * @author Bram Steenbergen
  * @version 1.0
  * @since 1.0
+ * @see AbstractModelLoader
+ * @see TexturedModel
 */
-public class TexturedModelLoader {
+public class TexturedModelLoader extends AbstractModelLoader { 
 	/** List of VAO's loaded. 
 	 */
 	private List<Integer> vaos = new ArrayList<Integer>();

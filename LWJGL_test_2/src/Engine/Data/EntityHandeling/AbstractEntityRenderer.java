@@ -1,7 +1,7 @@
 package Engine.Data.EntityHandeling;
 
-import Engine.Graphics.DisplayEngine.AbstractCamera;
-import Engine.Graphics.GraphicsEngine.AbstractShader;
+import Engine.Graphics.Cameras.AbstractCamera;
+import Engine.Graphics.Shaders.AbstractShader;
 /** An abstract renderer class for entities.
  * 
  * @author Bram Steenbergen

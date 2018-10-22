@@ -3,7 +3,7 @@ package Engine.Data.ModelHandeling;
 import java.util.ArrayList;
 import java.util.List;
 
-import Engine.Graphics.GraphicsEngine.AbstractShader;
+import Engine.Graphics.Shaders.AbstractShader;
 /** An abstract loader class for models.
  * 
  * @author Bram Steenbergen

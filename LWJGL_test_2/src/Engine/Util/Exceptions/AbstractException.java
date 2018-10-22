@@ -7,6 +7,7 @@ import Engine.Data.OptionManager.OptionHandler;
  * @author Bram Steenbergen
  * @version 1.0
  * @since 1.0
+ * @see AbstractException
  */
 public class AbstractException extends Exception{
 	/** serialVersionUID

@@ -4,7 +4,7 @@ import org.lwjgl.opengl.GL;
 import org.lwjgl.glfw.GLFW;
 import org.lwjglx.input.Keyboard;
 
-import Engine.Graphics.DisplayEngine.AbstractCamera;
+import Engine.Graphics.Cameras.AbstractCamera;
 import Engine.IO.KeyboardHandeling.KeyStrokeHandler;
 import Engine.IO.KeyboardHandeling.Keys;
 

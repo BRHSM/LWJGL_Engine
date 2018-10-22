@@ -6,7 +6,7 @@ package Engine.Data.ModelHandeling;
  * @version 1.0
  * @since 1.0
  * @see TextureModel
- *
+ * @see AbstractModelStructure
  */
 public class TexturedModelStructure extends AbstractModelStructure{
 	

@@ -8,10 +8,11 @@ import org.lwjgl.opengl.GL30;
 import Engine.Util.Exceptions.ExceptionThrower;
 import Engine.Util.Exceptions.InternalErrorException;
 
-/** Class used to rendering textured models to the screen.
+/** Class used to rendering basic models to the screen.
  * @author Bram Steenbergen
  * @version 1.0
  * @since 1.0
+ * @see AbstractModelRenderer
 */
 public class BasicModelRenderer extends AbstractModelRenderer{
 	
@@ -21,7 +22,7 @@ public class BasicModelRenderer extends AbstractModelRenderer{
 		GL11.glClearColor(0,0,0,1);
 		GL11.glClear(GL11.GL_COLOR_BUFFER_BIT);
 	}
-	/** Render a textured model to the screen.
+	/** Render a basic model to the screen.
 	 *
 	 * @param model the model to render.
 	 */

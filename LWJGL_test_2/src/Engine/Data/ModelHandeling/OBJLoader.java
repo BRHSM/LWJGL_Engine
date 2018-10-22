@@ -102,6 +102,15 @@ public class OBJLoader {
 		return OptionHandler.getProperty(EngineOptions.PATHMODELS_KEY, OptionHandler.ENGINE_OPTION_ID) + fileName + ".obj";
 	}
 	
+	/** Process a vertex from the .obj file.
+	 * 
+	 * @param vertexData The data of the file line.
+	 * @param textureCoords The texturecoords arraylist.
+	 * @param normals The normals arraylist.
+	 * @param indices The indices arraylist.
+	 * @param textureArray The textureCoords floatArray.
+	 * @param normalsArray The normals floatArray.
+	 */
 	private static void processVertex(String[] vertexData, ArrayList<Vector2f> textureCoords, ArrayList<Vector3f> normals, ArrayList<Integer> indices, float[] textureArray, float[] normalsArray) {
 		int currentVertexPointer = Integer.parseInt(vertexData[0]) - 1;
 		indices.add(currentVertexPointer);

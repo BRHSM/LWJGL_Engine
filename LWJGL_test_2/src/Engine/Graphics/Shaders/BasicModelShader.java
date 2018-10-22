@@ -1,4 +1,4 @@
-package Engine.Graphics.GraphicsEngine;
+package Engine.Graphics.Shaders;
 
 import Engine.Data.ModelHandeling.BasicModel;
 

@@ -3,7 +3,7 @@ package Engine.Util.Math;
 import org.lwjglx.util.vector.Matrix4f;
 import org.lwjglx.util.vector.Vector3f;
 
-import Engine.Graphics.DisplayEngine.AbstractCamera;
+import Engine.Graphics.Cameras.AbstractCamera;
 /** Class which holds functions for matrix maths. 
  * 
  * @author Bram Steenbergen
@@ -30,7 +30,14 @@ public class MatrixMaths {
 		Matrix4f.scale(new Vector3f(scale, scale, scale), matrix, matrix);
 		return matrix;
 	}
-	
+	/** create a projectionMatrix.
+	 * 
+	 * @param aspectRatio The aspect ratio of the screen.
+	 * @param fov The field of view.
+	 * @param nearPlane The closest plane.
+	 * @param farPlane The farthest plane.
+	 * @return a ProjectionMatrix
+	 */
 	public static Matrix4f createProjectionMatrix(float aspectRatio, float fov, float nearPlane, float farPlane) {
         float yScale = (float) ((1f / Math.tan(Math.toRadians(fov / 2f))) * aspectRatio);
         float xScale = yScale / aspectRatio;
@@ -47,6 +54,11 @@ public class MatrixMaths {
 		return projectionMatrix;
 	}
 	
+	/** Create a ViewMatrix for a given camera
+	 * 
+	 * @param camera The camera to use.
+	 * @return The ViewMatrix.
+	 */
     public static Matrix4f createViewMatrix(AbstractCamera camera) {
         Matrix4f viewMatrix = new Matrix4f();
         viewMatrix.setIdentity();
@@ -58,25 +70,4 @@ public class MatrixMaths {
         Matrix4f.translate(negativeCameraPos, viewMatrix, viewMatrix);
         return viewMatrix;
     }
-
-	public static Matrix4f getAllOneMatrix() {
-		Matrix4f tmp = new Matrix4f();
-		tmp.m00 = 1;
-		tmp.m01 = 1;
-		tmp.m02 = 1;
-		tmp.m03 = 1;
-		tmp.m10 = 1;
-		tmp.m11 = 1;
-		tmp.m12 = 1;
-		tmp.m13 = 1;
-		tmp.m20 = 1;
-		tmp.m21 = 1;
-		tmp.m22 = 1;
-		tmp.m23 = 1;
-		tmp.m30 = 1;
-		tmp.m31 = 1;
-		tmp.m32 = 1;
-		tmp.m33 = 1;
-		return tmp;
-	}
 }

@@ -12,7 +12,7 @@ import Engine.Data.ModelHandeling.ModelTexture;
 import Engine.Data.ModelHandeling.TexturedModel;
 import Engine.Data.ModelHandeling.TexturedModelLoader;
 import Engine.Data.ModelHandeling.TexturedModelStructure;
-import Engine.Graphics.GraphicsEngine.AbstractShader;
+import Engine.Graphics.Shaders.AbstractShader;
 import Engine.Util.Exceptions.ExceptionThrower;
 import Engine.Util.Exceptions.ModelsAlreadyConvertedException;
 /** A class used to store a list of entities.

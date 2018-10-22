@@ -1,6 +1,6 @@
 package Engine.Data.ModelHandeling;
 
-import Engine.Graphics.GraphicsEngine.AbstractShader;
+import Engine.Graphics.Shaders.AbstractShader;
 
 /** An abstract model.
  * 

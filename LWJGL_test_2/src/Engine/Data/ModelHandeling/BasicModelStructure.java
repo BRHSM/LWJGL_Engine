@@ -1,11 +1,11 @@
 package Engine.Data.ModelHandeling;
 
-/** Basic implementation of AbstractModelStructure.
+/** Implementation of AbstractModelStructure used for BasicModels.
  * 
  * @author Bram Steenbergen
  * @version 1.0
  * @since 1.0
- *
+ * @see AbstractModelStructure
  */
 public class BasicModelStructure extends AbstractModelStructure{
 	

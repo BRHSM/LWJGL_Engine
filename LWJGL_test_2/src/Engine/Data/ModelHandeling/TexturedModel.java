@@ -4,6 +4,7 @@ package Engine.Data.ModelHandeling;
  * @author Bram Steenbergen
  * @version 1.0
  * @since 1.0
+ * @see AbstractModel
  * @see ModelTexture
  * @see BasicModel
  */

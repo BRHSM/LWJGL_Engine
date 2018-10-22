@@ -10,13 +10,13 @@ import Engine.Data.OptionManager.CurrentLanguage;
 import Engine.Data.OptionManager.EngineOptions;
 import Engine.Data.OptionManager.GraphicOptions;
 import Engine.Data.OptionManager.OptionHandler;
-import Engine.Graphics.DisplayEngine.AbstractCamera;
-import Engine.Graphics.DisplayEngine.StaticCamera;
-import Engine.Graphics.GraphicsEngine.AbstractShader;
-import Engine.Graphics.GraphicsEngine.BasicEntityShader;
-import Engine.Graphics.GraphicsEngine.BasicModelShader;
-import Engine.Graphics.GraphicsEngine.TexturedEntityShader;
-import Engine.Graphics.GraphicsEngine.TexturedModelShader;
+import Engine.Graphics.Cameras.AbstractCamera;
+import Engine.Graphics.Cameras.StaticCamera;
+import Engine.Graphics.Shaders.AbstractShader;
+import Engine.Graphics.Shaders.BasicEntityShader;
+import Engine.Graphics.Shaders.BasicModelShader;
+import Engine.Graphics.Shaders.TexturedEntityShader;
+import Engine.Graphics.Shaders.TexturedModelShader;
 import Engine.Util.Util.StringBreaker;
 
 /** Object wich contains all data for the engine to work. 

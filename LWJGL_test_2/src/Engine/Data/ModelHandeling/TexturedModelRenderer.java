@@ -13,6 +13,8 @@ import Engine.Util.Exceptions.InternalErrorException;
  * @author Bram Steenbergen
  * @version 1.0
  * @since 1.0
+ * @see AbstractModelRenderer
+ * @see TexturedModel
 */
 public class TexturedModelRenderer extends AbstractModelRenderer{
 	

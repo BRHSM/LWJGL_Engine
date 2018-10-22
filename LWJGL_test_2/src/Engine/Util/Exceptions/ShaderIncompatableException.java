@@ -4,14 +4,16 @@ package Engine.Util.Exceptions;
  * 
  * @author Bram Steenbergen
  * @version 1.0
- * @see 1.0
+ * @since 1.0
+ * @see AbstractException
  */
 public class ShaderIncompatableException extends AbstractException{
 	/** serialVersionUID
 	 */
 	private static final long serialVersionUID = -3239293508000941724L;
 
-	/** Create a new ShaderIncompatableException
+	/** Create a new ShaderIncompatableException.
+	 * 
 	 * @param filename the name of the errored shader file.
 	 */
 	public ShaderIncompatableException(String filename) {

@@ -1,4 +1,4 @@
-package Engine.Graphics.GraphicsEngine;
+package Engine.Graphics.Shaders;
 
 import org.lwjglx.util.vector.Matrix4f;
 
@@ -21,16 +21,21 @@ public class BasicEntityShader extends AbstractShader{
     /** Filename of the fragment shader.
      */
     private static final String FRAGMENT_FILE = "BasicEntityShader.fs";
+    
     /** The location for the TransformationMatrix.
      */
     private int transformationMatrixLocation;
-    
+    /** The location of the projectionMatrix. 
+     */
     private int projectionMatrixLocation;
-    
+    /** The location of the viewMatrix. 
+     */
     private int viewMatrixLocation;
-    
+    /** The location of useProjectionMatrix. 
+     */
     private int useProjectionMatrixLocation;
-    
+    /** The location of useViewMatrix. 
+     */
     private int useViewMatrixLocation;
     
     
@@ -68,24 +73,36 @@ public class BasicEntityShader extends AbstractShader{
 		super.loadMatrix(transformationMatrixLocation, matrix);
 	}
 	
+	/** Load a projectionMatrix.
+	 * 
+	 * @param matrix The projectionMatrix to load.
+	 */
 	public void loadProjectionMatrix(Matrix4f matrix) {
 		super.start();
 		super.loadMatrix(projectionMatrixLocation, matrix);
 		super.stop();
 	}
 	
+	/** Load useProjectionMatrix.
+	 */
 	public void loadUseProjectionMatrix() {
 		super.start();
 		super.loadBoolean(useProjectionMatrixLocation, Boolean.parseBoolean(OptionHandler.getProperty(GraphicOptions.USEPROJECTIONMARTRIX_KEY, OptionHandler.GRAPHIC_OPTION_ID)));
 		super.stop();
 	}
 	
+	/** Load a viewMatrix.
+	 * 
+	 * @param matrix The viewMatrix to load.
+	 */
 	public void loadViewMatrix(Matrix4f matrix) {
 		super.start();
 		super.loadMatrix(viewMatrixLocation, matrix);
 		super.stop();
 	}
 	
+	/** Load useViewMatrix.
+	 */
 	public void loadUseViewMatrix() {
 		super.start();
 		super.loadBoolean(useViewMatrixLocation, Boolean.parseBoolean(OptionHandler.getProperty(GraphicOptions.USEVIEWMATRIX_KEY, OptionHandler.GRAPHIC_OPTION_ID)));

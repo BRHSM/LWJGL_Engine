@@ -1,5 +1,5 @@
 package Engine.Data.ModelHandeling;
-/** Class used to store textures for TexturedModels
+/** Class used to store texture IDs for TexturedModels
  * 
  * @author Bram Steenbergen
  * @version 1.0
