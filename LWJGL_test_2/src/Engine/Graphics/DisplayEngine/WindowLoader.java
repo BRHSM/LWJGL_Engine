@@ -48,7 +48,7 @@ public class WindowLoader {
 		//set window hints (debug mode, major version, minor version, resieable).
 		GLFW.glfwWindowHint(GLFW_OPENGL_DEBUG_CONTEXT, GLFW_TRUE);
 		GLFW.glfwWindowHint(GLFW_CONTEXT_VERSION_MAJOR, 3);
-		GLFW.glfwWindowHint(GLFW_CONTEXT_VERSION_MINOR, 0);
+		GLFW.glfwWindowHint(GLFW_CONTEXT_VERSION_MINOR, 2);
 		GLFW.glfwWindowHint(GLFW_RESIZABLE, GL_TRUE);
 		
 		//get video mode and set window position accordingly.
