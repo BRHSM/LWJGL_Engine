@@ -24,6 +24,7 @@ public class Test_6 {
 	*/
 	public static void test() {
 		init = new Initializer();
+		DataObject object = new DataObject();
 		
 		//create a basic model (Trapezoid). 
 		float[] vertices = {
@@ -53,7 +54,6 @@ public class Test_6 {
 		entityStructure.setEntityModifier(new BasicEntityModifier(new Vector3f(0,0,-0.01f),0,0,0,0));
 		
 		//Setup DataObject.
-		DataObject object = new DataObject();
 		object.addEntity(entityStructure);
 		
 		init.start(object);

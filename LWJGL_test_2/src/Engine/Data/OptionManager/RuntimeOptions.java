@@ -5,7 +5,7 @@ import java.util.ArrayList;
 public class RuntimeOptions extends AbstractOptions {
 	//keys
 	public static final String USESVIEWMATRIX_KEY = "usesViewMatrix";
-	public static final String USESPROJECTIONMATRIX_KEY = "usesViewMatrix";
+	public static final String USESPROJECTIONMATRIX_KEY = "usesProjectionMatrix";
 	//defaults
 	private static final String USESVIEWMATRIX_DEFAULT = "false";
 	private static final String USESPROJECTIONMATRIX_DEFAULT = "false";

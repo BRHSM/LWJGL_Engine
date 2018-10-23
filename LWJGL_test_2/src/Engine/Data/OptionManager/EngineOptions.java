@@ -37,6 +37,7 @@ public class EngineOptions extends AbstractOptions{
 	public static final String SHADERPRNAME_KEY = "shaderPRName";
 	public static final String SHADERVINAME_KEY = "shaderVIName";
 	public static final String SHADERLINAME_KEY = "shaderLIName";
+	public static final String SHADERAUTOSELECT_KEY = "shaderAutoSelect";
 	
 	/** The list of keys loaded by this class.
 	 */
@@ -80,6 +81,7 @@ public class EngineOptions extends AbstractOptions{
 		addProperty(SHADERPRNAME_KEY);
 		addProperty(SHADERVINAME_KEY);
 		addProperty(SHADERLINAME_KEY);
+		addProperty(SHADERAUTOSELECT_KEY);
 	}
 	
 	/** Check if a key is in the keylist for this class.
