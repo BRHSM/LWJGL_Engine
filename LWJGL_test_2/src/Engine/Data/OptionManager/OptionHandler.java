@@ -8,11 +8,11 @@ import java.util.Enumeration;
 import java.util.HashMap;
 import java.util.Iterator;
 import java.util.Map.Entry;
+import java.util.Properties;
 
 import Engine.Util.Exceptions.ExceptionThrower;
 import Engine.Util.Exceptions.OptionNotFoundException;
-
-import java.util.Properties;
+import Engine.Util.Util.SortedProperties;
 
 /** Class which handles all options. This class is used to read and write to option files and the loaded 
  *  options in memory.
@@ -112,12 +112,14 @@ public class OptionHandler {
 		@SuppressWarnings("unchecked")
 		Enumeration<String> enums = (Enumeration<String>) options.getProperties().propertyNames();
 		Properties engineOptions = new Properties();
-		Properties GraphicsOptions = new Properties();
+		Properties graphicsOptions = new Properties();
+		SortedProperties engineOptionsSorted = new SortedProperties();
+		SortedProperties graphicsOptionsSorted = new SortedProperties();
 	    while (enums.hasMoreElements()) {
 		    String key = enums.nextElement();
 		    String value = options.getProperties().getProperty(key);
 		    if(GraphicOptions.isInKeyList(key)) {
-		    	GraphicsOptions.put(key, value);
+		    	graphicsOptions.put(key, value);
 		    	if(OptionHandler.getProperty(EngineOptions.DEBUGENABLED_KEY, OptionHandler.ENGINE_OPTION_ID).equals("1"))
 		    		System.out.println(String.format("         + Writing:                          %-20s = %-40s  to: RES/RESConfigFiles/GraphicOptions.cfg", key, value));
 			} else if(EngineOptions.isInKeyList(key)) {
@@ -131,8 +133,10 @@ public class OptionHandler {
 	    }
 	    
 	    try {
-			engineOptions.store(new FileOutputStream(new File("RES/RESConfigFiles/EngineOptions.cfg")), null);
-			GraphicsOptions.store(new FileOutputStream(new File("RES/RESConfigFiles/GraphicOptions.cfg")), null);
+	    	engineOptionsSorted.putAll(engineOptions);
+	    	graphicsOptionsSorted.putAll(graphicsOptions);
+	    	engineOptionsSorted.store(new FileOutputStream(new File("RES/RESConfigFiles/EngineOptions.cfg")), null);
+	    	graphicsOptionsSorted.store(new FileOutputStream(new File("RES/RESConfigFiles/GraphicOptions.cfg")), null);
 		} catch (FileNotFoundException e) {
 			e.printStackTrace();
 		} catch (IOException e) {
