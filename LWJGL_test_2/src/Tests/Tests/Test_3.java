@@ -20,7 +20,7 @@ public class Test_3 {
 	public static void test() {
 		init = new Initializer();
 		
-		//create a basic model (Trapezoid). 
+		//create a basic model. 
 		float[] vertices = {
 			    -0.5f, 0.5f, 0f,
 			    -0.5f, -0.5f, 0f,

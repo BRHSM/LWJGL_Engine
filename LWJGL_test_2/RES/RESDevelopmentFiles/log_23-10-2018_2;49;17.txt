@@ -1,0 +1,5746 @@
+
+[DEBUG]: Loading shader files: 
+         Loaded shader: [vertexFile=VI.vs, fragmentFile=VI.fs] from subfolder: BasicEntityShader/
+         Loaded shader: [vertexFile=VI.vs, fragmentFile=VI.fs] from subfolder: TexturedEntityShader/
+AbstractShader: got uniformLocation: transformationMatrix
+AbstractShader: got uniformLocation: projectionMatrix
+AbstractShader: got uniformLocation: useProjectionMatrix
+AbstractShader: got uniformLocation: viewMatrix
+AbstractShader: got uniformLocation: useViewMatrix
+         Loaded shader: [vertexFile=default.vs, fragmentFile=default.fs] from subfolder: BasicModelShader/
+AbstractShader: got uniformLocation: transformationMatrix
+AbstractShader: got uniformLocation: projectionMatrix
+AbstractShader: got uniformLocation: useProjectionMatrix
+AbstractShader: got uniformLocation: viewMatrix
+AbstractShader: got uniformLocation: useViewMatrix
+         Loaded shader: [vertexFile=default.vs, fragmentFile=default.fs] from subfolder: TexturedModelShader/
+AbstractShader: got Matrix4f: 1.4281479 0.0 0.0 0.0
+0.0 2.5389297 0.0 0.0
+0.0 0.0 1.0001999 0.20002
+0.0 0.0 -1.0 0.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: 1.4281479 0.0 0.0 0.0
+0.0 2.5389297 0.0 0.0
+0.0 0.0 1.0001999 0.20002
+0.0 0.0 -1.0 0.0
+
+AbstractShader: got boolean: true
+[DEBUG]: Language file loaded: RES/RESLanguageFiles/language_IT
+
+[DEBUG]: Starting main loop.
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: 0.9998477 0.0 0.017452406 0.0
+0.0 1.0 0.0 -2.0
+-0.017452406 0.0 0.9998477 -50.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: 0.99939084 0.0 0.034899496 0.0
+0.0 1.0 0.0 -2.0
+-0.034899496 0.0 0.99939084 -50.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: 0.9986295 0.0 0.05233596 0.0
+0.0 1.0 0.0 -2.0
+-0.05233596 0.0 0.9986295 -50.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: 0.9975641 0.0 0.06975647 0.0
+0.0 1.0 0.0 -2.0
+-0.06975647 0.0 0.9975641 -50.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: 0.9961947 0.0 0.08715574 0.0
+0.0 1.0 0.0 -2.0
+-0.08715574 0.0 0.9961947 -50.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: 0.9945219 0.0 0.104528464 0.0
+0.0 1.0 0.0 -2.0
+-0.104528464 0.0 0.9945219 -50.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: 0.99254614 0.0 0.12186935 0.0
+0.0 1.0 0.0 -2.0
+-0.12186935 0.0 0.99254614 -50.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: 0.99026805 0.0 0.1391731 0.0
+0.0 1.0 0.0 -2.0
+-0.1391731 0.0 0.99026805 -50.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: 0.98768836 0.0 0.15643448 0.0
+0.0 1.0 0.0 -2.0
+-0.15643448 0.0 0.98768836 -50.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: 0.9848077 0.0 0.17364818 0.0
+0.0 1.0 0.0 -2.0
+-0.17364818 0.0 0.9848077 -50.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: 0.98162717 0.0 0.190809 0.0
+0.0 1.0 0.0 -2.0
+-0.190809 0.0 0.98162717 -50.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: 0.9781476 0.0 0.2079117 0.0
+0.0 1.0 0.0 -2.0
+-0.2079117 0.0 0.9781476 -50.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: 0.97437006 0.0 0.22495104 0.0
+0.0 1.0 0.0 -2.0
+-0.22495104 0.0 0.97437006 -50.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: 0.9702957 0.0 0.2419219 0.0
+0.0 1.0 0.0 -2.0
+-0.2419219 0.0 0.9702957 -50.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: 0.9659258 0.0 0.25881904 0.0
+0.0 1.0 0.0 -2.0
+-0.25881904 0.0 0.9659258 -50.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: 0.9612617 0.0 0.27563736 0.0
+0.0 1.0 0.0 -2.0
+-0.27563736 0.0 0.9612617 -50.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: 0.9563048 0.0 0.2923717 0.0
+0.0 1.0 0.0 -2.0
+-0.2923717 0.0 0.9563048 -50.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: 0.95105654 0.0 0.309017 0.0
+0.0 1.0 0.0 -2.0
+-0.309017 0.0 0.95105654 -50.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: 0.94551855 0.0 0.32556814 0.0
+0.0 1.0 0.0 -2.0
+-0.32556814 0.0 0.94551855 -50.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: 0.9396926 0.0 0.34202012 0.0
+0.0 1.0 0.0 -2.0
+-0.34202012 0.0 0.9396926 -50.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: 0.9335804 0.0 0.35836795 0.0
+0.0 1.0 0.0 -2.0
+-0.35836795 0.0 0.9335804 -50.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: 0.92718387 0.0 0.37460658 0.0
+0.0 1.0 0.0 -2.0
+-0.37460658 0.0 0.92718387 -50.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: 0.92050487 0.0 0.39073113 0.0
+0.0 1.0 0.0 -2.0
+-0.39073113 0.0 0.92050487 -50.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: 0.9135454 0.0 0.40673664 0.0
+0.0 1.0 0.0 -2.0
+-0.40673664 0.0 0.9135454 -50.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: 0.90630776 0.0 0.42261827 0.0
+0.0 1.0 0.0 -2.0
+-0.42261827 0.0 0.90630776 -50.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: 0.89879405 0.0 0.43837115 0.0
+0.0 1.0 0.0 -2.0
+-0.43837115 0.0 0.89879405 -50.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: 0.8910065 0.0 0.45399052 0.0
+0.0 1.0 0.0 -2.0
+-0.45399052 0.0 0.8910065 -50.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: 0.88294756 0.0 0.46947157 0.0
+0.0 1.0 0.0 -2.0
+-0.46947157 0.0 0.88294756 -50.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: 0.8746197 0.0 0.4848096 0.0
+0.0 1.0 0.0 -2.0
+-0.4848096 0.0 0.8746197 -50.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: 0.8660254 0.0 0.5 0.0
+0.0 1.0 0.0 -2.0
+-0.5 0.0 0.8660254 -50.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: 0.8571673 0.0 0.5150381 0.0
+0.0 1.0 0.0 -2.0
+-0.5150381 0.0 0.8571673 -50.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: 0.8480481 0.0 0.52991927 0.0
+0.0 1.0 0.0 -2.0
+-0.52991927 0.0 0.8480481 -50.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: 0.83867055 0.0 0.54463905 0.0
+0.0 1.0 0.0 -2.0
+-0.54463905 0.0 0.83867055 -50.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: 0.8290376 0.0 0.5591929 0.0
+0.0 1.0 0.0 -2.0
+-0.5591929 0.0 0.8290376 -50.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: 0.81915206 0.0 0.57357645 0.0
+0.0 1.0 0.0 -2.0
+-0.57357645 0.0 0.81915206 -50.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: 0.809017 0.0 0.58778524 0.0
+0.0 1.0 0.0 -2.0
+-0.58778524 0.0 0.809017 -50.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: 0.79863554 0.0 0.601815 0.0
+0.0 1.0 0.0 -2.0
+-0.601815 0.0 0.79863554 -50.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: 0.7880108 0.0 0.6156615 0.0
+0.0 1.0 0.0 -2.0
+-0.6156615 0.0 0.7880108 -50.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: 0.7771459 0.0 0.6293204 0.0
+0.0 1.0 0.0 -2.0
+-0.6293204 0.0 0.7771459 -50.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: 0.76604444 0.0 0.6427876 0.0
+0.0 1.0 0.0 -2.0
+-0.6427876 0.0 0.76604444 -50.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: 0.7547096 0.0 0.656059 0.0
+0.0 1.0 0.0 -2.0
+-0.656059 0.0 0.7547096 -50.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: 0.7431448 0.0 0.6691306 0.0
+0.0 1.0 0.0 -2.0
+-0.6691306 0.0 0.7431448 -50.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: 0.7313537 0.0 0.6819984 0.0
+0.0 1.0 0.0 -2.0
+-0.6819984 0.0 0.7313537 -50.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: 0.7193398 0.0 0.6946584 0.0
+0.0 1.0 0.0 -2.0
+-0.6946584 0.0 0.7193398 -50.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: 0.70710677 0.0 0.70710677 0.0
+0.0 1.0 0.0 -2.0
+-0.70710677 0.0 0.70710677 -50.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: 0.6946584 0.0 0.7193398 0.0
+0.0 1.0 0.0 -2.0
+-0.7193398 0.0 0.6946584 -50.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: 0.6819984 0.0 0.7313537 0.0
+0.0 1.0 0.0 -2.0
+-0.7313537 0.0 0.6819984 -50.0
+0.0 0.0 0.0 1.0
+
+[DEBUG]: Avarage load time: 0.93911
+[DEBUG]: fps: 47
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: 0.66913056 0.0 0.74314487 0.0
+0.0 1.0 0.0 -2.0
+-0.74314487 0.0 0.66913056 -50.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: 0.656059 0.0 0.75470954 0.0
+0.0 1.0 0.0 -2.0
+-0.75470954 0.0 0.656059 -50.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: 0.64278764 0.0 0.76604444 0.0
+0.0 1.0 0.0 -2.0
+-0.76604444 0.0 0.64278764 -50.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: 0.6293204 0.0 0.777146 0.0
+0.0 1.0 0.0 -2.0
+-0.777146 0.0 0.6293204 -50.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: 0.6156615 0.0 0.7880107 0.0
+0.0 1.0 0.0 -2.0
+-0.7880107 0.0 0.6156615 -50.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: 0.60181504 0.0 0.79863554 0.0
+0.0 1.0 0.0 -2.0
+-0.79863554 0.0 0.60181504 -50.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: 0.58778524 0.0 0.809017 0.0
+0.0 1.0 0.0 -2.0
+-0.809017 0.0 0.58778524 -50.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: 0.57357645 0.0 0.81915206 0.0
+0.0 1.0 0.0 -2.0
+-0.81915206 0.0 0.57357645 -50.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: 0.5591929 0.0 0.82903755 0.0
+0.0 1.0 0.0 -2.0
+-0.82903755 0.0 0.5591929 -50.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: 0.544639 0.0 0.8386706 0.0
+0.0 1.0 0.0 -2.0
+-0.8386706 0.0 0.544639 -50.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: 0.52991927 0.0 0.8480481 0.0
+0.0 1.0 0.0 -2.0
+-0.8480481 0.0 0.52991927 -50.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: 0.5150381 0.0 0.8571673 0.0
+0.0 1.0 0.0 -2.0
+-0.8571673 0.0 0.5150381 -50.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: 0.49999997 0.0 0.86602545 0.0
+0.0 1.0 0.0 -2.0
+-0.86602545 0.0 0.49999997 -50.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: 0.48480958 0.0 0.8746197 0.0
+0.0 1.0 0.0 -2.0
+-0.8746197 0.0 0.48480958 -50.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: 0.4694716 0.0 0.88294756 0.0
+0.0 1.0 0.0 -2.0
+-0.88294756 0.0 0.4694716 -50.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: 0.45399052 0.0 0.8910065 0.0
+0.0 1.0 0.0 -2.0
+-0.8910065 0.0 0.45399052 -50.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: 0.43837115 0.0 0.89879405 0.0
+0.0 1.0 0.0 -2.0
+-0.89879405 0.0 0.43837115 -50.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: 0.42261824 0.0 0.9063078 0.0
+0.0 1.0 0.0 -2.0
+-0.9063078 0.0 0.42261824 -50.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: 0.4067366 0.0 0.9135455 0.0
+0.0 1.0 0.0 -2.0
+-0.9135455 0.0 0.4067366 -50.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: 0.39073107 0.0 0.92050487 0.0
+0.0 1.0 0.0 -2.0
+-0.92050487 0.0 0.39073107 -50.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: 0.37460664 0.0 0.92718387 0.0
+0.0 1.0 0.0 -2.0
+-0.92718387 0.0 0.37460664 -50.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: 0.35836798 0.0 0.9335804 0.0
+0.0 1.0 0.0 -2.0
+-0.9335804 0.0 0.35836798 -50.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: 0.34202015 0.0 0.9396926 0.0
+0.0 1.0 0.0 -2.0
+-0.9396926 0.0 0.34202015 -50.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: 0.32556814 0.0 0.94551855 0.0
+0.0 1.0 0.0 -2.0
+-0.94551855 0.0 0.32556814 -50.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: 0.30901697 0.0 0.95105654 0.0
+0.0 1.0 0.0 -2.0
+-0.95105654 0.0 0.30901697 -50.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: 0.29237166 0.0 0.9563048 0.0
+0.0 1.0 0.0 -2.0
+-0.9563048 0.0 0.29237166 -50.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: 0.2756374 0.0 0.9612617 0.0
+0.0 1.0 0.0 -2.0
+-0.9612617 0.0 0.2756374 -50.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: 0.25881907 0.0 0.9659258 0.0
+0.0 1.0 0.0 -2.0
+-0.9659258 0.0 0.25881907 -50.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: 0.2419219 0.0 0.9702957 0.0
+0.0 1.0 0.0 -2.0
+-0.9702957 0.0 0.2419219 -50.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: 0.22495104 0.0 0.97437006 0.0
+0.0 1.0 0.0 -2.0
+-0.97437006 0.0 0.22495104 -50.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: 0.20791166 0.0 0.9781476 0.0
+0.0 1.0 0.0 -2.0
+-0.9781476 0.0 0.20791166 -50.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: 0.19080894 0.0 0.98162717 0.0
+0.0 1.0 0.0 -2.0
+-0.98162717 0.0 0.19080894 -50.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: 0.17364822 0.0 0.9848077 0.0
+0.0 1.0 0.0 -2.0
+-0.9848077 0.0 0.17364822 -50.0
+0.0 0.0 0.0 1.0
+
+[DEBUG]: Avarage load time: 1.12228
+[DEBUG]: fps: 33
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: 0.15643449 0.0 0.98768836 0.0
+0.0 1.0 0.0 -2.0
+-0.98768836 0.0 0.15643449 -50.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: 0.1391731 0.0 0.99026805 0.0
+0.0 1.0 0.0 -2.0
+-0.99026805 0.0 0.1391731 -50.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: 0.121869326 0.0 0.99254614 0.0
+0.0 1.0 0.0 -2.0
+-0.99254614 0.0 0.121869326 -50.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: 0.10452842 0.0 0.9945219 0.0
+0.0 1.0 0.0 -2.0
+-0.9945219 0.0 0.10452842 -50.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: 0.087155804 0.0 0.9961947 0.0
+0.0 1.0 0.0 -2.0
+-0.9961947 0.0 0.087155804 -50.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: 0.06975651 0.0 0.9975641 0.0
+0.0 1.0 0.0 -2.0
+-0.9975641 0.0 0.06975651 -50.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: 0.052335974 0.0 0.9986295 0.0
+0.0 1.0 0.0 -2.0
+-0.9986295 0.0 0.052335974 -50.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: 0.034899496 0.0 0.99939084 0.0
+0.0 1.0 0.0 -2.0
+-0.99939084 0.0 0.034899496 -50.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: 0.017452383 0.0 0.9998477 0.0
+0.0 1.0 0.0 -2.0
+-0.9998477 0.0 0.017452383 -50.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: -4.371139E-8 0.0 1.0 0.0
+0.0 0.99999994 0.0 -2.0
+-1.0 0.0 -4.371139E-8 -50.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: -0.017452352 0.0 0.9998477 0.0
+0.0 1.0 0.0 -2.0
+-0.9998477 0.0 -0.017452352 -50.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: -0.034899462 0.0 0.99939084 0.0
+0.0 1.0 0.0 -2.0
+-0.99939084 0.0 -0.034899462 -50.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: -0.05233594 0.0 0.9986295 0.0
+0.0 1.0 0.0 -2.0
+-0.9986295 0.0 -0.05233594 -50.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: -0.06975648 0.0 0.9975641 0.0
+0.0 1.0 0.0 -2.0
+-0.9975641 0.0 -0.06975648 -50.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: -0.08715577 0.0 0.9961947 0.0
+0.0 1.0 0.0 -2.0
+-0.9961947 0.0 -0.08715577 -50.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: -0.10452851 0.0 0.9945219 0.0
+0.0 1.0 0.0 -2.0
+-0.9945219 0.0 -0.10452851 -50.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: -0.12186929 0.0 0.99254614 0.0
+0.0 1.0 0.0 -2.0
+-0.99254614 0.0 -0.12186929 -50.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: -0.13917308 0.0 0.99026805 0.0
+0.0 0.99999994 0.0 -2.0
+-0.99026805 0.0 -0.13917308 -50.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: -0.15643445 0.0 0.98768836 0.0
+0.0 1.0 0.0 -2.0
+-0.98768836 0.0 -0.15643445 -50.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: -0.1736482 0.0 0.9848077 0.0
+0.0 1.0 0.0 -2.0
+-0.9848077 0.0 -0.1736482 -50.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: -0.19080903 0.0 0.98162717 0.0
+0.0 1.0 0.0 -2.0
+-0.98162717 0.0 -0.19080903 -50.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: -0.20791174 0.0 0.97814757 0.0
+0.0 1.0 0.0 -2.0
+-0.97814757 0.0 -0.20791174 -50.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: -0.224951 0.0 0.97437006 0.0
+0.0 1.0 0.0 -2.0
+-0.97437006 0.0 -0.224951 -50.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: -0.24192187 0.0 0.9702957 0.0
+0.0 1.0 0.0 -2.0
+-0.9702957 0.0 -0.24192187 -50.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: -0.25881904 0.0 0.9659258 0.0
+0.0 1.0 0.0 -2.0
+-0.9659258 0.0 -0.25881904 -50.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: -0.27563736 0.0 0.9612617 0.0
+0.0 1.0 0.0 -2.0
+-0.9612617 0.0 -0.27563736 -50.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: -0.29237175 0.0 0.9563047 0.0
+0.0 1.0 0.0 -2.0
+-0.9563047 0.0 -0.29237175 -50.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: -0.30901703 0.0 0.9510565 0.0
+0.0 1.0 0.0 -2.0
+-0.9510565 0.0 -0.30901703 -50.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: -0.3255681 0.0 0.9455186 0.0
+0.0 1.0 0.0 -2.0
+-0.9455186 0.0 -0.3255681 -50.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: -0.34202012 0.0 0.9396926 0.0
+0.0 1.0 0.0 -2.0
+-0.9396926 0.0 -0.34202012 -50.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: -0.35836795 0.0 0.93358046 0.0
+0.0 1.0 0.0 -2.0
+-0.93358046 0.0 -0.35836795 -50.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: -0.3746066 0.0 0.92718387 0.0
+0.0 1.0 0.0 -2.0
+-0.92718387 0.0 -0.3746066 -50.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: -0.39073116 0.0 0.92050487 0.0
+0.0 0.99999994 0.0 -2.0
+-0.92050487 0.0 -0.39073116 -50.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: -0.4067367 0.0 0.9135454 0.0
+0.0 1.0 0.0 -2.0
+-0.9135454 0.0 -0.4067367 -50.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: -0.42261833 0.0 0.90630776 0.0
+0.0 1.0 0.0 -2.0
+-0.90630776 0.0 -0.42261833 -50.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: -0.43837112 0.0 0.89879405 0.0
+0.0 1.0 0.0 -2.0
+-0.89879405 0.0 -0.43837112 -50.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: -0.4539906 0.0 0.89100647 0.0
+0.0 1.0 0.0 -2.0
+-0.89100647 0.0 -0.4539906 -50.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: -0.46947157 0.0 0.88294756 0.0
+0.0 1.0 0.0 -2.0
+-0.88294756 0.0 -0.46947157 -50.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: -0.48480955 0.0 0.8746197 0.0
+0.0 1.0 0.0 -2.0
+-0.8746197 0.0 -0.48480955 -50.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: -0.50000006 0.0 0.8660254 0.0
+0.0 0.99999994 0.0 -2.0
+-0.8660254 0.0 -0.50000006 -50.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: -0.515038 0.0 0.8571673 0.0
+0.0 1.0 0.0 -2.0
+-0.8571673 0.0 -0.515038 -50.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: -0.5299193 0.0 0.84804803 0.0
+0.0 1.0 0.0 -2.0
+-0.84804803 0.0 -0.5299193 -50.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: -0.54463905 0.0 0.83867055 0.0
+0.0 1.0 0.0 -2.0
+-0.83867055 0.0 -0.54463905 -50.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: -0.55919284 0.0 0.8290376 0.0
+0.0 1.0 0.0 -2.0
+-0.8290376 0.0 -0.55919284 -50.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: -0.57357645 0.0 0.819152 0.0
+0.0 1.0 0.0 -2.0
+-0.819152 0.0 -0.57357645 -50.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: -0.5877852 0.0 0.809017 0.0
+0.0 1.0 0.0 -2.0
+-0.809017 0.0 -0.5877852 -50.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: -0.6018151 0.0 0.7986355 0.0
+0.0 1.0 0.0 -2.0
+-0.7986355 0.0 -0.6018151 -50.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: -0.61566144 0.0 0.7880108 0.0
+0.0 0.99999994 0.0 -2.0
+-0.7880108 0.0 -0.61566144 -50.0
+0.0 0.0 0.0 1.0
+
+[DEBUG]: Avarage load time: 1.21699
+[DEBUG]: fps: 48
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: -0.6293203 0.0 0.77714604 0.0
+0.0 1.0 0.0 -2.0
+-0.77714604 0.0 -0.6293203 -50.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: -0.64278764 0.0 0.76604444 0.0
+0.0 1.0 0.0 -2.0
+-0.76604444 0.0 -0.64278764 -50.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: -0.65605897 0.0 0.7547096 0.0
+0.0 1.0 0.0 -2.0
+-0.7547096 0.0 -0.65605897 -50.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: -0.6691307 0.0 0.7431448 0.0
+0.0 1.0 0.0 -2.0
+-0.7431448 0.0 -0.6691307 -50.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: -0.6819983 0.0 0.7313537 0.0
+0.0 0.99999994 0.0 -2.0
+-0.7313537 0.0 -0.6819983 -50.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: -0.69465846 0.0 0.7193397 0.0
+0.0 1.0 0.0 -2.0
+-0.7193397 0.0 -0.69465846 -50.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: -0.70710677 0.0 0.70710677 0.0
+0.0 1.0 0.0 -2.0
+-0.70710677 0.0 -0.70710677 -50.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: -0.7193397 0.0 0.69465846 0.0
+0.0 1.0 0.0 -2.0
+-0.69465846 0.0 -0.7193397 -50.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: -0.73135376 0.0 0.6819983 0.0
+0.0 1.0 0.0 -2.0
+-0.6819983 0.0 -0.73135376 -50.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: -0.7431448 0.0 0.6691306 0.0
+0.0 0.99999994 0.0 -2.0
+-0.6691306 0.0 -0.7431448 -50.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: -0.75470966 0.0 0.65605897 0.0
+0.0 1.0 0.0 -2.0
+-0.65605897 0.0 -0.75470966 -50.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: -0.76604444 0.0 0.64278764 0.0
+0.0 0.99999994 0.0 -2.0
+-0.64278764 0.0 -0.76604444 -50.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: -0.77714586 0.0 0.6293205 0.0
+0.0 1.0 0.0 -2.0
+-0.6293205 0.0 -0.77714586 -50.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: -0.7880108 0.0 0.61566144 0.0
+0.0 1.0 0.0 -2.0
+-0.61566144 0.0 -0.7880108 -50.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: -0.7986355 0.0 0.6018151 0.0
+0.0 1.0 0.0 -2.0
+-0.6018151 0.0 -0.7986355 -50.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: -0.80901706 0.0 0.5877852 0.0
+0.0 1.0 0.0 -2.0
+-0.5877852 0.0 -0.80901706 -50.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: -0.81915206 0.0 0.57357645 0.0
+0.0 1.0 0.0 -2.0
+-0.57357645 0.0 -0.81915206 -50.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: -0.8290376 0.0 0.55919284 0.0
+0.0 1.0 0.0 -2.0
+-0.55919284 0.0 -0.8290376 -50.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: -0.83867055 0.0 0.54463905 0.0
+0.0 0.99999994 0.0 -2.0
+-0.54463905 0.0 -0.83867055 -50.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: -0.84804803 0.0 0.5299193 0.0
+0.0 0.99999994 0.0 -2.0
+-0.5299193 0.0 -0.84804803 -50.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: -0.8571673 0.0 0.515038 0.0
+0.0 0.99999994 0.0 -2.0
+-0.515038 0.0 -0.8571673 -50.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: -0.8660254 0.0 0.50000006 0.0
+0.0 1.0 0.0 -2.0
+-0.50000006 0.0 -0.8660254 -50.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: -0.8746198 0.0 0.48480955 0.0
+0.0 0.99999994 0.0 -2.0
+-0.48480955 0.0 -0.8746198 -50.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: -0.88294756 0.0 0.46947157 0.0
+0.0 1.0 0.0 -2.0
+-0.46947157 0.0 -0.88294756 -50.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: -0.89100647 0.0 0.45399058 0.0
+0.0 1.0 0.0 -2.0
+-0.45399058 0.0 -0.89100647 -50.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: -0.89879405 0.0 0.43837112 0.0
+0.0 1.0 0.0 -2.0
+-0.43837112 0.0 -0.89879405 -50.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: -0.90630776 0.0 0.42261833 0.0
+0.0 0.99999994 0.0 -2.0
+-0.42261833 0.0 -0.90630776 -50.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: -0.9135455 0.0 0.40673658 0.0
+0.0 1.0 0.0 -2.0
+-0.40673658 0.0 -0.9135455 -50.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: -0.92050487 0.0 0.39073116 0.0
+0.0 0.99999994 0.0 -2.0
+-0.39073116 0.0 -0.92050487 -50.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: -0.9271839 0.0 0.3746065 0.0
+0.0 0.99999994 0.0 -2.0
+-0.3746065 0.0 -0.9271839 -50.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: -0.93358046 0.0 0.35836792 0.0
+0.0 0.99999994 0.0 -2.0
+-0.35836792 0.0 -0.93358046 -50.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: -0.9396926 0.0 0.3420202 0.0
+0.0 1.0 0.0 -2.0
+-0.3420202 0.0 -0.9396926 -50.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: -0.9455186 0.0 0.3255681 0.0
+0.0 1.0 0.0 -2.0
+-0.3255681 0.0 -0.9455186 -50.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: -0.9510565 0.0 0.30901703 0.0
+0.0 1.0 0.0 -2.0
+-0.30901703 0.0 -0.9510565 -50.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: -0.9563048 0.0 0.2923716 0.0
+0.0 1.0 0.0 -2.0
+-0.2923716 0.0 -0.9563048 -50.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: -0.9612617 0.0 0.27563736 0.0
+0.0 1.0 0.0 -2.0
+-0.27563736 0.0 -0.9612617 -50.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: -0.9659258 0.0 0.25881913 0.0
+0.0 1.0 0.0 -2.0
+-0.25881913 0.0 -0.9659258 -50.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: -0.9702957 0.0 0.24192186 0.0
+0.0 0.99999994 0.0 -2.0
+-0.24192186 0.0 -0.9702957 -50.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: -0.97437006 0.0 0.22495112 0.0
+0.0 0.99999994 0.0 -2.0
+-0.22495112 0.0 -0.97437006 -50.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: -0.9781476 0.0 0.20791161 0.0
+0.0 1.0 0.0 -2.0
+-0.20791161 0.0 -0.9781476 -50.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: -0.98162717 0.0 0.19080901 0.0
+0.0 1.0 0.0 -2.0
+-0.19080901 0.0 -0.98162717 -50.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: -0.9848077 0.0 0.1736483 0.0
+0.0 1.0 0.0 -2.0
+-0.1736483 0.0 -0.9848077 -50.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: -0.98768836 0.0 0.15643445 0.0
+0.0 0.99999994 0.0 -2.0
+-0.15643445 0.0 -0.98768836 -50.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: -0.99026805 0.0 0.13917318 0.0
+0.0 0.99999994 0.0 -2.0
+-0.13917318 0.0 -0.99026805 -50.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: -0.99254614 0.0 0.12186928 0.0
+0.0 0.99999994 0.0 -2.0
+-0.12186928 0.0 -0.99254614 -50.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: -0.9945219 0.0 0.104528494 0.0
+0.0 0.99999994 0.0 -2.0
+-0.104528494 0.0 -0.9945219 -50.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: -0.9961947 0.0 0.08715564 0.0
+0.0 1.0 0.0 -2.0
+-0.08715564 0.0 -0.9961947 -50.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: -0.9975641 0.0 0.06975647 0.0
+0.0 1.0 0.0 -2.0
+-0.06975647 0.0 -0.9975641 -50.0
+0.0 0.0 0.0 1.0
+
+[DEBUG]: Avarage load time: 0.94875
+[DEBUG]: fps: 48
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: -0.9986295 0.0 0.05233605 0.0
+0.0 1.0 0.0 -2.0
+-0.05233605 0.0 -0.9986295 -50.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: -0.99939084 0.0 0.03489945 0.0
+0.0 1.0 0.0 -2.0
+-0.03489945 0.0 -0.99939084 -50.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: -0.9998477 0.0 0.017452458 0.0
+0.0 0.99999994 0.0 -2.0
+-0.017452458 0.0 -0.9998477 -50.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: -1.0 0.0 -8.742278E-8 0.0
+0.0 1.0 0.0 -2.0
+8.742278E-8 0.0 -1.0 -50.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: -0.9998477 0.0 -0.017452395 0.0
+0.0 0.99999994 0.0 -2.0
+0.017452395 0.0 -0.9998477 -50.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: -0.99939084 0.0 -0.034899388 0.0
+0.0 1.0 0.0 -2.0
+0.034899388 0.0 -0.99939084 -50.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: -0.9986295 0.0 -0.052335985 0.0
+0.0 1.0 0.0 -2.0
+0.052335985 0.0 -0.9986295 -50.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: -0.9975641 0.0 -0.0697564 0.0
+0.0 1.0 0.0 -2.0
+0.0697564 0.0 -0.9975641 -50.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: -0.9961947 0.0 -0.08715581 0.0
+0.0 1.0 0.0 -2.0
+0.08715581 0.0 -0.9961947 -50.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: -0.9945219 0.0 -0.104528435 0.0
+0.0 0.99999994 0.0 -2.0
+0.104528435 0.0 -0.9945219 -50.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: -0.99254614 0.0 -0.12186945 0.0
+0.0 0.99999994 0.0 -2.0
+0.12186945 0.0 -0.99254614 -50.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: -0.99026805 0.0 -0.1391731 0.0
+0.0 0.99999994 0.0 -2.0
+0.1391731 0.0 -0.99026805 -50.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: -0.98768836 0.0 -0.15643437 0.0
+0.0 0.99999994 0.0 -2.0
+0.15643437 0.0 -0.98768836 -50.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: -0.9848077 0.0 -0.17364822 0.0
+0.0 1.0 0.0 -2.0
+0.17364822 0.0 -0.9848077 -50.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: -0.98162717 0.0 -0.19080895 0.0
+0.0 1.0 0.0 -2.0
+0.19080895 0.0 -0.98162717 -50.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: -0.97814757 0.0 -0.20791179 0.0
+0.0 0.99999994 0.0 -2.0
+0.20791179 0.0 -0.97814757 -50.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: -0.97437006 0.0 -0.22495104 0.0
+0.0 0.99999994 0.0 -2.0
+0.22495104 0.0 -0.97437006 -50.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: -0.9702957 0.0 -0.2419218 0.0
+0.0 0.99999994 0.0 -2.0
+0.2419218 0.0 -0.9702957 -50.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: -0.9659258 0.0 -0.25881907 0.0
+0.0 1.0 0.0 -2.0
+0.25881907 0.0 -0.9659258 -50.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: -0.9612617 0.0 -0.2756373 0.0
+0.0 1.0 0.0 -2.0
+0.2756373 0.0 -0.9612617 -50.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: -0.9563047 0.0 -0.29237178 0.0
+0.0 1.0 0.0 -2.0
+0.29237178 0.0 -0.9563047 -50.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: -0.95105654 0.0 -0.30901697 0.0
+0.0 0.99999994 0.0 -2.0
+0.30901697 0.0 -0.95105654 -50.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: -0.94551855 0.0 -0.32556826 0.0
+0.0 0.99999994 0.0 -2.0
+0.32556826 0.0 -0.94551855 -50.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: -0.9396926 0.0 -0.34202015 0.0
+0.0 1.0 0.0 -2.0
+0.34202015 0.0 -0.9396926 -50.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: -0.93358046 0.0 -0.35836786 0.0
+0.0 0.99999994 0.0 -2.0
+0.35836786 0.0 -0.93358046 -50.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: -0.9271838 0.0 -0.37460664 0.0
+0.0 1.0 0.0 -2.0
+0.37460664 0.0 -0.9271838 -50.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: -0.92050487 0.0 -0.3907311 0.0
+0.0 0.99999994 0.0 -2.0
+0.3907311 0.0 -0.92050487 -50.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: -0.9135454 0.0 -0.40673673 0.0
+0.0 0.99999994 0.0 -2.0
+0.40673673 0.0 -0.9135454 -50.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: -0.9063078 0.0 -0.42261827 0.0
+0.0 1.0 0.0 -2.0
+0.42261827 0.0 -0.9063078 -50.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: -0.8987941 0.0 -0.43837106 0.0
+0.0 1.0 0.0 -2.0
+0.43837106 0.0 -0.8987941 -50.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: -0.8910065 0.0 -0.45399055 0.0
+0.0 0.99999994 0.0 -2.0
+0.45399055 0.0 -0.8910065 -50.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: -0.8829476 0.0 -0.4694715 0.0
+0.0 1.0 0.0 -2.0
+0.4694715 0.0 -0.8829476 -50.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: -0.87461966 0.0 -0.4848097 0.0
+0.0 1.0 0.0 -2.0
+0.4848097 0.0 -0.87461966 -50.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: -0.8660254 0.0 -0.49999997 0.0
+0.0 1.0 0.0 -2.0
+0.49999997 0.0 -0.8660254 -50.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: -0.85716736 0.0 -0.51503795 0.0
+0.0 1.0 0.0 -2.0
+0.51503795 0.0 -0.85716736 -50.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: -0.8480481 0.0 -0.52991927 0.0
+0.0 1.0 0.0 -2.0
+0.52991927 0.0 -0.8480481 -50.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: -0.8386706 0.0 -0.544639 0.0
+0.0 1.0 0.0 -2.0
+0.544639 0.0 -0.8386706 -50.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: -0.82903755 0.0 -0.55919296 0.0
+0.0 1.0 0.0 -2.0
+0.55919296 0.0 -0.82903755 -50.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: -0.81915206 0.0 -0.5735764 0.0
+0.0 1.0 0.0 -2.0
+0.5735764 0.0 -0.81915206 -50.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: -0.80901694 0.0 -0.58778536 0.0
+0.0 1.0 0.0 -2.0
+0.58778536 0.0 -0.80901694 -50.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: -0.7986355 0.0 -0.60181504 0.0
+0.0 1.0 0.0 -2.0
+0.60181504 0.0 -0.7986355 -50.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: -0.78801084 0.0 -0.6156614 0.0
+0.0 1.0 0.0 -2.0
+0.6156614 0.0 -0.78801084 -50.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: -0.7771459 0.0 -0.62932044 0.0
+0.0 0.99999994 0.0 -2.0
+0.62932044 0.0 -0.7771459 -50.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: -0.7660445 0.0 -0.6427876 0.0
+0.0 1.0 0.0 -2.0
+0.6427876 0.0 -0.7660445 -50.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: -0.75470954 0.0 -0.6560591 0.0
+0.0 0.99999994 0.0 -2.0
+0.6560591 0.0 -0.75470954 -50.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: -0.7431448 0.0 -0.6691306 0.0
+0.0 0.99999994 0.0 -2.0
+0.6691306 0.0 -0.7431448 -50.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: -0.73135376 0.0 -0.68199825 0.0
+0.0 1.0 0.0 -2.0
+0.68199825 0.0 -0.73135376 -50.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: -0.7193398 0.0 -0.6946584 0.0
+0.0 1.0 0.0 -2.0
+0.6946584 0.0 -0.7193398 -50.0
+0.0 0.0 0.0 1.0
+
+[DEBUG]: Avarage load time: 0.94599
+[DEBUG]: fps: 48
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: -0.7071068 0.0 -0.7071067 0.0
+0.0 1.0 0.0 -2.0
+0.7071067 0.0 -0.7071068 -50.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: -0.69465834 0.0 -0.71933985 0.0
+0.0 0.99999994 0.0 -2.0
+0.71933985 0.0 -0.69465834 -50.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: -0.6819984 0.0 -0.7313537 0.0
+0.0 1.0 0.0 -2.0
+0.7313537 0.0 -0.6819984 -50.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: -0.6691305 0.0 -0.74314487 0.0
+0.0 1.0 0.0 -2.0
+0.74314487 0.0 -0.6691305 -50.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: -0.656059 0.0 -0.7547096 0.0
+0.0 1.0 0.0 -2.0
+0.7547096 0.0 -0.656059 -50.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: -0.6427875 0.0 -0.76604456 0.0
+0.0 0.99999994 0.0 -2.0
+0.76604456 0.0 -0.6427875 -50.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: -0.6293203 0.0 -0.777146 0.0
+0.0 1.0 0.0 -2.0
+0.777146 0.0 -0.6293203 -50.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: -0.6156615 0.0 -0.7880107 0.0
+0.0 1.0 0.0 -2.0
+0.7880107 0.0 -0.6156615 -50.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: -0.60181516 0.0 -0.7986354 0.0
+0.0 1.0 0.0 -2.0
+0.7986354 0.0 -0.60181516 -50.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: -0.58778507 0.0 -0.8090171 0.0
+0.0 0.99999994 0.0 -2.0
+0.8090171 0.0 -0.58778507 -50.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: -0.57357633 0.0 -0.8191521 0.0
+0.0 1.0 0.0 -2.0
+0.8191521 0.0 -0.57357633 -50.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: -0.5591929 0.0 -0.8290376 0.0
+0.0 1.0 0.0 -2.0
+0.8290376 0.0 -0.5591929 -50.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: -0.5446391 0.0 -0.83867055 0.0
+0.0 1.0 0.0 -2.0
+0.83867055 0.0 -0.5446391 -50.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: -0.5299194 0.0 -0.84804803 0.0
+0.0 1.0 0.0 -2.0
+0.84804803 0.0 -0.5299194 -50.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: -0.5150379 0.0 -0.8571674 0.0
+0.0 1.0 0.0 -2.0
+0.8571674 0.0 -0.5150379 -50.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: -0.4999999 0.0 -0.86602545 0.0
+0.0 1.0 0.0 -2.0
+0.86602545 0.0 -0.4999999 -50.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: -0.4848096 0.0 -0.8746197 0.0
+0.0 1.0 0.0 -2.0
+0.8746197 0.0 -0.4848096 -50.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: -0.46947163 0.0 -0.88294756 0.0
+0.0 1.0 0.0 -2.0
+0.88294756 0.0 -0.46947163 -50.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: -0.45399067 0.0 -0.89100647 0.0
+0.0 1.0 0.0 -2.0
+0.89100647 0.0 -0.45399067 -50.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: -0.43837097 0.0 -0.8987941 0.0
+0.0 1.0 0.0 -2.0
+0.8987941 0.0 -0.43837097 -50.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: -0.42261818 0.0 -0.9063078 0.0
+0.0 1.0 0.0 -2.0
+0.9063078 0.0 -0.42261818 -50.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: -0.40673664 0.0 -0.9135454 0.0
+0.0 1.0 0.0 -2.0
+0.9135454 0.0 -0.40673664 -50.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: -0.39073122 0.0 -0.9205048 0.0
+0.0 1.0 0.0 -2.0
+0.9205048 0.0 -0.39073122 -50.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: -0.3746068 0.0 -0.9271838 0.0
+0.0 1.0 0.0 -2.0
+0.9271838 0.0 -0.3746068 -50.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: -0.35836777 0.0 -0.9335805 0.0
+0.0 1.0 0.0 -2.0
+0.9335805 0.0 -0.35836777 -50.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: -0.34202006 0.0 -0.9396927 0.0
+0.0 1.0 0.0 -2.0
+0.9396927 0.0 -0.34202006 -50.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: -0.32556817 0.0 -0.94551855 0.0
+0.0 1.0 0.0 -2.0
+0.94551855 0.0 -0.32556817 -50.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: -0.3090171 0.0 -0.9510565 0.0
+0.0 1.0 0.0 -2.0
+0.9510565 0.0 -0.3090171 -50.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: -0.2923719 0.0 -0.95630467 0.0
+0.0 1.0 0.0 -2.0
+0.95630467 0.0 -0.2923719 -50.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: -0.2756372 0.0 -0.96126175 0.0
+0.0 0.99999994 0.0 -2.0
+0.96126175 0.0 -0.2756372 -50.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: -0.25881898 0.0 -0.9659259 0.0
+0.0 1.0 0.0 -2.0
+0.9659259 0.0 -0.25881898 -50.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: -0.24192193 0.0 -0.9702957 0.0
+0.0 1.0 0.0 -2.0
+0.9702957 0.0 -0.24192193 -50.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: -0.22495118 0.0 -0.97437006 0.0
+0.0 1.0 0.0 -2.0
+0.97437006 0.0 -0.22495118 -50.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: -0.20791192 0.0 -0.97814757 0.0
+0.0 1.0 0.0 -2.0
+0.97814757 0.0 -0.20791192 -50.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: -0.19080885 0.0 -0.9816272 0.0
+0.0 1.0 0.0 -2.0
+0.9816272 0.0 -0.19080885 -50.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: -0.17364813 0.0 -0.9848078 0.0
+0.0 1.0 0.0 -2.0
+0.9848078 0.0 -0.17364813 -50.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: -0.15643452 0.0 -0.9876883 0.0
+0.0 1.0 0.0 -2.0
+0.9876883 0.0 -0.15643452 -50.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: -0.13917325 0.0 -0.99026805 0.0
+0.0 1.0 0.0 -2.0
+0.99026805 0.0 -0.13917325 -50.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: -0.12186912 0.0 -0.9925462 0.0
+0.0 1.0 0.0 -2.0
+0.9925462 0.0 -0.12186912 -50.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: -0.10452834 0.0 -0.9945219 0.0
+0.0 1.0 0.0 -2.0
+0.9945219 0.0 -0.10452834 -50.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: -0.087155715 0.0 -0.9961947 0.0
+0.0 1.0 0.0 -2.0
+0.9961947 0.0 -0.087155715 -50.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: -0.069756545 0.0 -0.997564 0.0
+0.0 0.99999994 0.0 -2.0
+0.997564 0.0 -0.069756545 -50.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: -0.052336123 0.0 -0.9986295 0.0
+0.0 1.0 0.0 -2.0
+0.9986295 0.0 -0.052336123 -50.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: -0.034899287 0.0 -0.99939084 0.0
+0.0 0.99999994 0.0 -2.0
+0.99939084 0.0 -0.034899287 -50.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: -0.017452296 0.0 -0.9998477 0.0
+0.0 0.99999994 0.0 -2.0
+0.9998477 0.0 -0.017452296 -50.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: 1.1924881E-8 0.0 -1.0 0.0
+0.0 1.0 0.0 -2.0
+1.0 0.0 1.1924881E-8 -50.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: 0.01745232 0.0 -0.9998477 0.0
+0.0 1.0 0.0 -2.0
+0.9998477 0.0 0.01745232 -50.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: 0.03489931 0.0 -0.99939084 0.0
+0.0 1.0 0.0 -2.0
+0.99939084 0.0 0.03489931 -50.0
+0.0 0.0 0.0 1.0
+
+[DEBUG]: Avarage load time: 0.95065
+[DEBUG]: fps: 48
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: 0.05233615 0.0 -0.9986295 0.0
+0.0 1.0 0.0 -2.0
+0.9986295 0.0 0.05233615 -50.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: 0.06975657 0.0 -0.997564 0.0
+0.0 1.0 0.0 -2.0
+0.997564 0.0 0.06975657 -50.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: 0.08715574 0.0 -0.9961947 0.0
+0.0 1.0 0.0 -2.0
+0.9961947 0.0 0.08715574 -50.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: 0.10452836 0.0 -0.9945219 0.0
+0.0 1.0 0.0 -2.0
+0.9945219 0.0 0.10452836 -50.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: 0.12186914 0.0 -0.9925462 0.0
+0.0 1.0 0.0 -2.0
+0.9925462 0.0 0.12186914 -50.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: 0.13917327 0.0 -0.99026805 0.0
+0.0 1.0 0.0 -2.0
+0.99026805 0.0 0.13917327 -50.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: 0.15643454 0.0 -0.9876883 0.0
+0.0 1.0 0.0 -2.0
+0.9876883 0.0 0.15643454 -50.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: 0.17364815 0.0 -0.9848077 0.0
+0.0 1.0 0.0 -2.0
+0.9848077 0.0 0.17364815 -50.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: 0.19080888 0.0 -0.9816272 0.0
+0.0 1.0 0.0 -2.0
+0.9816272 0.0 0.19080888 -50.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: 0.20791148 0.0 -0.9781476 0.0
+0.0 1.0 0.0 -2.0
+0.9781476 0.0 0.20791148 -50.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: 0.22495121 0.0 -0.97437 0.0
+0.0 1.0 0.0 -2.0
+0.97437 0.0 0.22495121 -50.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: 0.24192195 0.0 -0.9702957 0.0
+0.0 1.0 0.0 -2.0
+0.9702957 0.0 0.24192195 -50.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: 0.258819 0.0 -0.9659258 0.0
+0.0 1.0 0.0 -2.0
+0.9659258 0.0 0.258819 -50.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: 0.2756372 0.0 -0.96126175 0.0
+0.0 1.0 0.0 -2.0
+0.96126175 0.0 0.2756372 -50.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: 0.29237148 0.0 -0.95630485 0.0
+0.0 1.0 0.0 -2.0
+0.95630485 0.0 0.29237148 -50.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: 0.30901712 0.0 -0.9510565 0.0
+0.0 1.0 0.0 -2.0
+0.9510565 0.0 0.30901712 -50.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: 0.3255682 0.0 -0.94551855 0.0
+0.0 1.0 0.0 -2.0
+0.94551855 0.0 0.3255682 -50.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: 0.3420201 0.0 -0.9396926 0.0
+0.0 1.0 0.0 -2.0
+0.9396926 0.0 0.3420201 -50.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: 0.3583678 0.0 -0.93358046 0.0
+0.0 1.0 0.0 -2.0
+0.93358046 0.0 0.3583678 -50.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: 0.3746068 0.0 -0.92718375 0.0
+0.0 1.0 0.0 -2.0
+0.92718375 0.0 0.3746068 -50.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: 0.39073125 0.0 -0.9205048 0.0
+0.0 1.0 0.0 -2.0
+0.9205048 0.0 0.39073125 -50.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: 0.40673667 0.0 -0.9135454 0.0
+0.0 1.0 0.0 -2.0
+0.9135454 0.0 0.40673667 -50.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: 0.42261818 0.0 -0.9063078 0.0
+0.0 1.0 0.0 -2.0
+0.9063078 0.0 0.42261818 -50.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: 0.438371 0.0 -0.8987941 0.0
+0.0 1.0 0.0 -2.0
+0.8987941 0.0 0.438371 -50.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: 0.45399067 0.0 -0.8910064 0.0
+0.0 1.0 0.0 -2.0
+0.8910064 0.0 0.45399067 -50.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: 0.46947166 0.0 -0.88294756 0.0
+0.0 1.0 0.0 -2.0
+0.88294756 0.0 0.46947166 -50.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: 0.48480964 0.0 -0.8746197 0.0
+0.0 1.0 0.0 -2.0
+0.8746197 0.0 0.48480964 -50.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: 0.4999999 0.0 -0.86602545 0.0
+0.0 1.0 0.0 -2.0
+0.86602545 0.0 0.4999999 -50.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: 0.5150379 0.0 -0.8571674 0.0
+0.0 1.0 0.0 -2.0
+0.8571674 0.0 0.5150379 -50.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: 0.52991945 0.0 -0.848048 0.0
+0.0 1.0 0.0 -2.0
+0.848048 0.0 0.52991945 -50.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: 0.5446391 0.0 -0.8386705 0.0
+0.0 1.0 0.0 -2.0
+0.8386705 0.0 0.5446391 -50.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: 0.5591929 0.0 -0.8290376 0.0
+0.0 1.0 0.0 -2.0
+0.8290376 0.0 0.5591929 -50.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: 0.57357633 0.0 -0.8191521 0.0
+0.0 1.0 0.0 -2.0
+0.8191521 0.0 0.57357633 -50.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: 0.58778507 0.0 -0.8090171 0.0
+0.0 1.0 0.0 -2.0
+0.8090171 0.0 0.58778507 -50.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: 0.60181516 0.0 -0.7986354 0.0
+0.0 1.0 0.0 -2.0
+0.7986354 0.0 0.60181516 -50.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: 0.6156615 0.0 -0.7880107 0.0
+0.0 1.0 0.0 -2.0
+0.7880107 0.0 0.6156615 -50.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: 0.6293204 0.0 -0.777146 0.0
+0.0 1.0 0.0 -2.0
+0.777146 0.0 0.6293204 -50.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: 0.6427875 0.0 -0.7660445 0.0
+0.0 1.0 0.0 -2.0
+0.7660445 0.0 0.6427875 -50.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: 0.65605885 0.0 -0.7547097 0.0
+0.0 1.0 0.0 -2.0
+0.7547097 0.0 0.65605885 -50.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: 0.66913074 0.0 -0.74314475 0.0
+0.0 1.0 0.0 -2.0
+0.74314475 0.0 0.66913074 -50.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: 0.6819984 0.0 -0.73135364 0.0
+0.0 1.0 0.0 -2.0
+0.73135364 0.0 0.6819984 -50.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: 0.69465834 0.0 -0.71933985 0.0
+0.0 1.0 0.0 -2.0
+0.71933985 0.0 0.69465834 -50.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: 0.70710665 0.0 -0.7071069 0.0
+0.0 1.0 0.0 -2.0
+0.7071069 0.0 0.70710665 -50.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: 0.71933997 0.0 -0.6946582 0.0
+0.0 1.0 0.0 -2.0
+0.6946582 0.0 0.71933997 -50.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: 0.7313538 0.0 -0.68199825 0.0
+0.0 1.0 0.0 -2.0
+0.68199825 0.0 0.7313538 -50.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: 0.74314487 0.0 -0.66913056 0.0
+0.0 1.0 0.0 -2.0
+0.66913056 0.0 0.74314487 -50.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: 0.75470954 0.0 -0.6560591 0.0
+0.0 1.0 0.0 -2.0
+0.6560591 0.0 0.75470954 -50.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: 0.7660443 0.0 -0.64278775 0.0
+0.0 1.0 0.0 -2.0
+0.64278775 0.0 0.7660443 -50.0
+0.0 0.0 0.0 1.0
+
+[DEBUG]: Avarage load time: 0.94692
+[DEBUG]: fps: 48
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: 0.7771461 0.0 -0.6293202 0.0
+0.0 1.0 0.0 -2.0
+0.6293202 0.0 0.7771461 -50.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: 0.78801084 0.0 -0.6156614 0.0
+0.0 1.0 0.0 -2.0
+0.6156614 0.0 0.78801084 -50.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: 0.79863554 0.0 -0.601815 0.0
+0.0 1.0 0.0 -2.0
+0.601815 0.0 0.79863554 -50.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: 0.80901694 0.0 -0.5877853 0.0
+0.0 1.0 0.0 -2.0
+0.5877853 0.0 0.80901694 -50.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: 0.81915194 0.0 -0.57357657 0.0
+0.0 1.0 0.0 -2.0
+0.57357657 0.0 0.81915194 -50.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: 0.82903767 0.0 -0.5591927 0.0
+0.0 1.0 0.0 -2.0
+0.5591927 0.0 0.82903767 -50.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: 0.8386706 0.0 -0.54463893 0.0
+0.0 1.0 0.0 -2.0
+0.54463893 0.0 0.8386706 -50.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: 0.8480481 0.0 -0.52991927 0.0
+0.0 1.0 0.0 -2.0
+0.52991927 0.0 0.8480481 -50.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: 0.85716724 0.0 -0.51503813 0.0
+0.0 1.0 0.0 -2.0
+0.51503813 0.0 0.85716724 -50.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: 0.8660253 0.0 -0.5000002 0.0
+0.0 1.0 0.0 -2.0
+0.5000002 0.0 0.8660253 -50.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: 0.8746198 0.0 -0.48480946 0.0
+0.0 1.0 0.0 -2.0
+0.48480946 0.0 0.8746198 -50.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: 0.8829476 0.0 -0.46947148 0.0
+0.0 1.0 0.0 -2.0
+0.46947148 0.0 0.8829476 -50.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: 1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+
+AbstractShader: got boolean: true
+AbstractShader: got Matrix4f: 0.8910065 0.0 -0.45399052 0.0
+0.0 1.0 0.0 -2.0
+0.45399052 0.0 0.8910065 -50.0
+0.0 0.0 0.0 1.0
+
+
+[DEBUG]: Game ran with a total avarage load time of: 1.00271 over 333 cicles
+
+[DEBUG]: Writing back options: 
+         + Writing:                          windowFullscreen     = 0                                         to: RES/RESConfigFiles/GraphicOptions.cfg
+         - Encountered Language Attribute:   window_title         = Titolo di Testing                        
+         + Writing:                          subPathBasicEntityShader = BasicEntityShader/                        to: RES/RESConfigFiles/EngineOptions.cfg
+         + Writing:                          pathModels           = RES/RESModels/                            to: RES/RESConfigFiles/EngineOptions.cfg
+         + Writing:                          shaderDefaultName    = default                                   to: RES/RESConfigFiles/EngineOptions.cfg
+         + Writing:                          shaderUseCustom      = 0                                         to: RES/RESConfigFiles/EngineOptions.cfg
+         + Writing:                          subPathTexturedEntityShader = TexturedEntityShader/                     to: RES/RESConfigFiles/EngineOptions.cfg
+         + Writing:                          shaderCustomFragmentName = custom                                    to: RES/RESConfigFiles/EngineOptions.cfg
+         + Writing:                          shaderPRName         = PR                                        to: RES/RESConfigFiles/EngineOptions.cfg
+         + Writing:                          debugEnabled         = 1                                         to: RES/RESConfigFiles/EngineOptions.cfg
+         + Writing:                          pathLanguageFiles    = RES/RESLanguageFiles/                     to: RES/RESConfigFiles/EngineOptions.cfg
+         + Writing:                          debugAvgLoadtime     = 1                                         to: RES/RESConfigFiles/EngineOptions.cfg
+         + Writing:                          frameCap             = 45                                        to: RES/RESConfigFiles/GraphicOptions.cfg
+         + Writing:                          debugStackTrace      = 0                                         to: RES/RESConfigFiles/EngineOptions.cfg
+         + Writing:                          debugLogToFile       = 1                                         to: RES/RESConfigFiles/EngineOptions.cfg
+         + Writing:                          mainLanguage         = language_IT                               to: RES/RESConfigFiles/EngineOptions.cfg
+         + Writing:                          shaderLIName         = LI                                        to: RES/RESConfigFiles/EngineOptions.cfg
+         + Writing:                          windowFov            = 70                                        to: RES/RESConfigFiles/GraphicOptions.cfg
+         + Writing:                          debugShowShaderUsed  = 1                                         to: RES/RESConfigFiles/EngineOptions.cfg
+         + Writing:                          debugTotAvgLoadtime  = 1                                         to: RES/RESConfigFiles/EngineOptions.cfg
+         + Writing:                          subPathBasicModelShader = BasicModelShader/                         to: RES/RESConfigFiles/EngineOptions.cfg
+         + Writing:                          debugLongExceptions  = 0                                         to: RES/RESConfigFiles/EngineOptions.cfg
+         + Writing:                          pathTextures         = RES/RESTextures/                          to: RES/RESConfigFiles/EngineOptions.cfg
+         + Writing:                          shaderCustomVertexName = custom                                    to: RES/RESConfigFiles/EngineOptions.cfg
+         + Writing:                          subPathTexturedModelShader = TexturedModelShader/                      to: RES/RESConfigFiles/EngineOptions.cfg
+         + Writing:                          WritebackOnExit      = 1                                         to: RES/RESConfigFiles/EngineOptions.cfg
+         + Writing:                          windowFarPlane       = 1000                                      to: RES/RESConfigFiles/GraphicOptions.cfg
+         + Writing:                          shaderVIName         = VI                                        to: RES/RESConfigFiles/EngineOptions.cfg
+         + Writing:                          useProjectionMatrix  = true                                      to: RES/RESConfigFiles/GraphicOptions.cfg
+         + Writing:                          windowWidth          = 1280                                      to: RES/RESConfigFiles/GraphicOptions.cfg
+         + Writing:                          windowAlignment      = centered                                  to: RES/RESConfigFiles/GraphicOptions.cfg
+         + Writing:                          windowHeight         = 720                                       to: RES/RESConfigFiles/GraphicOptions.cfg
+         + Writing:                          pathDevelopmentFiles = RES/RESDevelopmentFiles/                  to: RES/RESConfigFiles/EngineOptions.cfg
+         + Writing:                          useViewMatrix        = true                                      to: RES/RESConfigFiles/GraphicOptions.cfg
+         + Writing:                          pathShaderFiles      = RES/RESShaderFiles/                       to: RES/RESConfigFiles/EngineOptions.cfg
+         + Writing:                          windowNearPlane      = 0.1f                                      to: RES/RESConfigFiles/GraphicOptions.cfg

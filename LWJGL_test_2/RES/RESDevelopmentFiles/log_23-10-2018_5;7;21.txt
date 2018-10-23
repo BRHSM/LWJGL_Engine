@@ -1,0 +1,1393 @@
+
+[DEBUG]: Loading shader files: 
+[DEBUG]: Link status: [vertexFile=VI.vs, fragmentFile=VI.fs] : 1
+         Loaded shader: [vertexFile=VI.vs, fragmentFile=VI.fs] from subfolder: BasicEntityShader/
+[DEBUG]: Link status: [vertexFile=VI.vs, fragmentFile=VI.fs] : 1
+         Loaded shader: [vertexFile=VI.vs, fragmentFile=VI.fs] from subfolder: TexturedEntityShader/
+[DEBUG]: Link status: [vertexFile=default.vs, fragmentFile=default.fs] : 0
+AbstractShader: got uniformLocation: transformationMatrixBasic Location: -1
+AbstractShader: got uniformLocation: projectionMatrixBasic Location: -1
+AbstractShader: got uniformLocation: viewMatrixBasic Location: -1
+         Loaded shader: [vertexFile=default.vs, fragmentFile=default.fs] from subfolder: BasicModelShader/
+[DEBUG]: Link status: [vertexFile=default.vs, fragmentFile=default.fs] : 0
+AbstractShader: got uniformLocation: transformationMatrixTextured Location: -1
+AbstractShader: got uniformLocation: projectionMatrixTextured Location: -1
+AbstractShader: got uniformLocation: viewMatrixTextured Location: -1
+         Loaded shader: [vertexFile=default.vs, fragmentFile=default.fs] from subfolder: TexturedModelShader/
+[DEBUG]: Language file loaded: RES/RESLanguageFiles/language_IT
+
+[DEBUG]: Starting main loop.
+[DEBUG]: Avarage load time: 1.16238
+[DEBUG]: fps: 38
+[DEBUG]: Avarage load time: 0.94503
+[DEBUG]: fps: 48
+[DEBUG]: Avarage load time: 0.94793
+[DEBUG]: fps: 48
+[DEBUG]: Avarage load time: 1.00904
+[DEBUG]: fps: 45
+[DEBUG]: Avarage load time: 0.97373
+[DEBUG]: fps: 47
+[DEBUG]: Avarage load time: 0.97473
+[DEBUG]: fps: 47
+[DEBUG]: Avarage load time: 0.97925
+[DEBUG]: fps: 46
+[DEBUG]: Avarage load time: 0.97663
+[DEBUG]: fps: 47
+[DEBUG]: Avarage load time: 0.98418
+[DEBUG]: fps: 46
+[DEBUG]: Avarage load time: 0.98025
+[DEBUG]: fps: 46
+[DEBUG]: Avarage load time: 0.9822
+[DEBUG]: fps: 46
+[DEBUG]: Avarage load time: 0.98024
+[DEBUG]: fps: 46
+[DEBUG]: Avarage load time: 0.98125
+[DEBUG]: fps: 46
+[DEBUG]: Avarage load time: 0.97828
+[DEBUG]: fps: 46
+[DEBUG]: Avarage load time: 0.98412
+[DEBUG]: fps: 46
+[DEBUG]: Avarage load time: 0.98226
+[DEBUG]: fps: 46
+[DEBUG]: Avarage load time: 0.98316
+[DEBUG]: fps: 46
+[DEBUG]: Avarage load time: 0.98126
+[DEBUG]: fps: 46
+[DEBUG]: Avarage load time: 0.98316
+[DEBUG]: fps: 46
+[DEBUG]: Avarage load time: 0.9803
+[DEBUG]: fps: 46
+[DEBUG]: Avarage load time: 0.98315
+[DEBUG]: fps: 46
+[DEBUG]: Avarage load time: 0.98118
+[DEBUG]: fps: 46
+[DEBUG]: Avarage load time: 0.9842
+[DEBUG]: fps: 46
+[DEBUG]: Avarage load time: 0.98221
+[DEBUG]: fps: 46
+[DEBUG]: Avarage load time: 0.98708
+[DEBUG]: fps: 46
+[DEBUG]: Avarage load time: 0.98023
+[DEBUG]: fps: 46
+[DEBUG]: Avarage load time: 0.98518
+[DEBUG]: fps: 46
+[DEBUG]: Avarage load time: 0.98223
+[DEBUG]: fps: 46
+[DEBUG]: Avarage load time: 0.97758
+[DEBUG]: fps: 47
+[DEBUG]: Avarage load time: 0.98515
+[DEBUG]: fps: 46
+[DEBUG]: Avarage load time: 0.98419
+[DEBUG]: fps: 46
+[DEBUG]: Avarage load time: 0.98218
+[DEBUG]: fps: 46
+[DEBUG]: Avarage load time: 0.98516
+[DEBUG]: fps: 46
+[DEBUG]: Avarage load time: 0.98514
+[DEBUG]: fps: 46
+[DEBUG]: Avarage load time: 0.98612
+[DEBUG]: fps: 46
+[DEBUG]: Avarage load time: 0.98509
+[DEBUG]: fps: 46
+[DEBUG]: Avarage load time: 0.98225
+[DEBUG]: fps: 46
+[DEBUG]: Avarage load time: 0.98217
+[DEBUG]: fps: 46
+[DEBUG]: Avarage load time: 0.96322
+[DEBUG]: fps: 47
+[DEBUG]: Avarage load time: 0.98415
+[DEBUG]: fps: 46
+[DEBUG]: Avarage load time: 0.96335
+[DEBUG]: fps: 47
+[DEBUG]: Avarage load time: 0.98214
+[DEBUG]: fps: 46
+[DEBUG]: Avarage load time: 0.98413
+[DEBUG]: fps: 46
+[DEBUG]: Avarage load time: 0.98124
+[DEBUG]: fps: 46
+[DEBUG]: Avarage load time: 0.98022
+[DEBUG]: fps: 46
+[DEBUG]: Avarage load time: 0.98321
+[DEBUG]: fps: 46
+[DEBUG]: Avarage load time: 0.98515
+[DEBUG]: fps: 46
+[DEBUG]: Avarage load time: 0.98317
+[DEBUG]: fps: 46
+[DEBUG]: Avarage load time: 0.98319
+[DEBUG]: fps: 46
+[DEBUG]: Avarage load time: 0.98415
+[DEBUG]: fps: 46
+[DEBUG]: Avarage load time: 0.98614
+[DEBUG]: fps: 46
+[DEBUG]: Avarage load time: 0.98512
+[DEBUG]: fps: 46
+[DEBUG]: Avarage load time: 0.9842
+[DEBUG]: fps: 46
+[DEBUG]: Avarage load time: 0.97924
+[DEBUG]: fps: 46
+[DEBUG]: Avarage load time: 0.97372
+[DEBUG]: fps: 47
+[DEBUG]: Avarage load time: 0.98134
+[DEBUG]: fps: 46
+[DEBUG]: Avarage load time: 0.98698
+[DEBUG]: fps: 46
+[DEBUG]: Avarage load time: 0.95441
+[DEBUG]: fps: 48
+[DEBUG]: Avarage load time: 0.98031
+[DEBUG]: fps: 46
+[DEBUG]: Avarage load time: 0.98711
+[DEBUG]: fps: 46
+[DEBUG]: Avarage load time: 0.98318
+[DEBUG]: fps: 46
+[DEBUG]: Avarage load time: 0.97896
+[DEBUG]: fps: 46
+[DEBUG]: Avarage load time: 0.98056
+[DEBUG]: fps: 46
+[DEBUG]: Avarage load time: 0.98215
+[DEBUG]: fps: 46
+[DEBUG]: Avarage load time: 0.98423
+[DEBUG]: fps: 46
+[DEBUG]: Avarage load time: 0.97927
+[DEBUG]: fps: 46
+[DEBUG]: Avarage load time: 0.98621
+[DEBUG]: fps: 46
+[DEBUG]: Avarage load time: 0.98505
+[DEBUG]: fps: 46
+[DEBUG]: Avarage load time: 1.02098
+[DEBUG]: fps: 45
+[DEBUG]: Avarage load time: 0.9757
+[DEBUG]: fps: 47
+[DEBUG]: Avarage load time: 0.98225
+[DEBUG]: fps: 46
+[DEBUG]: Avarage load time: 0.97561
+[DEBUG]: fps: 47
+[DEBUG]: Avarage load time: 0.9632
+[DEBUG]: fps: 47
+[DEBUG]: Avarage load time: 0.97282
+[DEBUG]: fps: 47
+[DEBUG]: Avarage load time: 1.13515
+[DEBUG]: fps: 40
+[DEBUG]: Avarage load time: 0.98513
+[DEBUG]: fps: 46
+[DEBUG]: Avarage load time: 1.04324
+[DEBUG]: fps: 44
+[DEBUG]: Avarage load time: 0.97279
+[DEBUG]: fps: 47
+[DEBUG]: Avarage load time: 0.96703
+[DEBUG]: fps: 47
+[DEBUG]: Avarage load time: 0.98025
+[DEBUG]: fps: 46
+[DEBUG]: Avarage load time: 0.96426
+[DEBUG]: fps: 47
+[DEBUG]: Avarage load time: 0.98026
+[DEBUG]: fps: 46
+[DEBUG]: Avarage load time: 0.97666
+[DEBUG]: fps: 47
+[DEBUG]: Avarage load time: 0.97848
+[DEBUG]: fps: 47
+[DEBUG]: Avarage load time: 0.98611
+[DEBUG]: fps: 46
+[DEBUG]: Avarage load time: 0.9822
+[DEBUG]: fps: 46
+[DEBUG]: Avarage load time: 0.98613
+[DEBUG]: fps: 46
+[DEBUG]: Avarage load time: 0.98706
+[DEBUG]: fps: 46
+[DEBUG]: Avarage load time: 0.98328
+[DEBUG]: fps: 46
+[DEBUG]: Avarage load time: 0.98514
+[DEBUG]: fps: 46
+[DEBUG]: Avarage load time: 0.98709
+[DEBUG]: fps: 46
+[DEBUG]: Avarage load time: 0.98515
+[DEBUG]: fps: 46
+[DEBUG]: Avarage load time: 0.98317
+[DEBUG]: fps: 46
+[DEBUG]: Avarage load time: 0.98608
+[DEBUG]: fps: 46
+[DEBUG]: Avarage load time: 0.98714
+[DEBUG]: fps: 46
+[DEBUG]: Avarage load time: 0.98511
+[DEBUG]: fps: 46
+[DEBUG]: Avarage load time: 0.9832
+[DEBUG]: fps: 46
+[DEBUG]: Avarage load time: 0.97375
+[DEBUG]: fps: 47
+[DEBUG]: Avarage load time: 0.98417
+[DEBUG]: fps: 46
+[DEBUG]: Avarage load time: 0.97181
+[DEBUG]: fps: 47
+[DEBUG]: Avarage load time: 0.99102
+[DEBUG]: fps: 46
+[DEBUG]: Avarage load time: 0.98909
+[DEBUG]: fps: 46
+[DEBUG]: Avarage load time: 0.98904
+[DEBUG]: fps: 46
+[DEBUG]: Avarage load time: 0.98707
+[DEBUG]: fps: 46
+[DEBUG]: Avarage load time: 0.9881
+[DEBUG]: fps: 46
+[DEBUG]: Avarage load time: 0.98518
+[DEBUG]: fps: 46
+[DEBUG]: Avarage load time: 0.98314
+[DEBUG]: fps: 46
+[DEBUG]: Avarage load time: 0.98809
+[DEBUG]: fps: 46
+[DEBUG]: Avarage load time: 0.9862
+[DEBUG]: fps: 46
+[DEBUG]: Avarage load time: 0.98704
+[DEBUG]: fps: 46
+[DEBUG]: Avarage load time: 0.98611
+[DEBUG]: fps: 46
+[DEBUG]: Avarage load time: 0.98613
+[DEBUG]: fps: 46
+[DEBUG]: Avarage load time: 0.98908
+[DEBUG]: fps: 46
+[DEBUG]: Avarage load time: 0.98507
+[DEBUG]: fps: 46
+[DEBUG]: Avarage load time: 0.9861
+[DEBUG]: fps: 46
+[DEBUG]: Avarage load time: 0.98615
+[DEBUG]: fps: 46
+[DEBUG]: Avarage load time: 0.98415
+[DEBUG]: fps: 46
+[DEBUG]: Avarage load time: 0.98324
+[DEBUG]: fps: 46
+[DEBUG]: Avarage load time: 0.9756
+[DEBUG]: fps: 47
+[DEBUG]: Avarage load time: 0.97374
+[DEBUG]: fps: 47
+[DEBUG]: Avarage load time: 0.97736
+[DEBUG]: fps: 46
+[DEBUG]: Avarage load time: 0.97285
+[DEBUG]: fps: 47
+[DEBUG]: Avarage load time: 0.98413
+[DEBUG]: fps: 46
+[DEBUG]: Avarage load time: 0.98117
+[DEBUG]: fps: 46
+[DEBUG]: Avarage load time: 0.98612
+[DEBUG]: fps: 46
+[DEBUG]: Avarage load time: 0.97379
+[DEBUG]: fps: 47
+[DEBUG]: Avarage load time: 0.98221
+[DEBUG]: fps: 46
+[DEBUG]: Avarage load time: 0.98705
+[DEBUG]: fps: 46
+[DEBUG]: Avarage load time: 0.98221
+[DEBUG]: fps: 46
+[DEBUG]: Avarage load time: 0.98623
+[DEBUG]: fps: 46
+[DEBUG]: Avarage load time: 0.98413
+[DEBUG]: fps: 46
+[DEBUG]: Avarage load time: 0.98514
+[DEBUG]: fps: 46
+[DEBUG]: Avarage load time: 0.97371
+[DEBUG]: fps: 47
+[DEBUG]: Avarage load time: 0.97091
+[DEBUG]: fps: 47
+[DEBUG]: Avarage load time: 0.9822
+[DEBUG]: fps: 46
+[DEBUG]: Avarage load time: 0.97573
+[DEBUG]: fps: 47
+[DEBUG]: Avarage load time: 0.97825
+[DEBUG]: fps: 46
+[DEBUG]: Avarage load time: 0.9792
+[DEBUG]: fps: 46
+[DEBUG]: Avarage load time: 0.98126
+[DEBUG]: fps: 46
+[DEBUG]: Avarage load time: 0.97929
+[DEBUG]: fps: 46
+[DEBUG]: Avarage load time: 0.97568
+[DEBUG]: fps: 47
+[DEBUG]: Avarage load time: 0.96511
+[DEBUG]: fps: 47
+[DEBUG]: Avarage load time: 0.97377
+[DEBUG]: fps: 47
+[DEBUG]: Avarage load time: 0.98131
+[DEBUG]: fps: 46
+[DEBUG]: Avarage load time: 0.98021
+[DEBUG]: fps: 46
+[DEBUG]: Avarage load time: 0.98022
+[DEBUG]: fps: 46
+[DEBUG]: Avarage load time: 0.97374
+[DEBUG]: fps: 47
+[DEBUG]: Avarage load time: 0.98325
+[DEBUG]: fps: 46
+[DEBUG]: Avarage load time: 0.98022
+[DEBUG]: fps: 46
+[DEBUG]: Avarage load time: 0.9766
+[DEBUG]: fps: 47
+[DEBUG]: Avarage load time: 0.97932
+[DEBUG]: fps: 46
+[DEBUG]: Avarage load time: 0.97661
+[DEBUG]: fps: 47
+[DEBUG]: Avarage load time: 0.97826
+[DEBUG]: fps: 46
+[DEBUG]: Avarage load time: 0.97471
+[DEBUG]: fps: 47
+[DEBUG]: Avarage load time: 0.97665
+[DEBUG]: fps: 47
+[DEBUG]: Avarage load time: 0.97928
+[DEBUG]: fps: 46
+[DEBUG]: Avarage load time: 0.98216
+[DEBUG]: fps: 46
+[DEBUG]: Avarage load time: 0.97573
+[DEBUG]: fps: 47
+[DEBUG]: Avarage load time: 0.97376
+[DEBUG]: fps: 47
+[DEBUG]: Avarage load time: 0.97086
+[DEBUG]: fps: 47
+[DEBUG]: Avarage load time: 0.98903
+[DEBUG]: fps: 46
+[DEBUG]: Avarage load time: 0.96612
+[DEBUG]: fps: 47
+[DEBUG]: Avarage load time: 0.98028
+[DEBUG]: fps: 46
+[DEBUG]: Avarage load time: 0.98614
+[DEBUG]: fps: 46
+[DEBUG]: Avarage load time: 0.98606
+[DEBUG]: fps: 46
+[DEBUG]: Avarage load time: 0.98626
+[DEBUG]: fps: 46
+[DEBUG]: Avarage load time: 0.98599
+[DEBUG]: fps: 46
+[DEBUG]: Avarage load time: 0.98516
+[DEBUG]: fps: 46
+[DEBUG]: Avarage load time: 0.98613
+[DEBUG]: fps: 46
+[DEBUG]: Avarage load time: 0.98823
+[DEBUG]: fps: 46
+[DEBUG]: Avarage load time: 0.98596
+[DEBUG]: fps: 46
+[DEBUG]: Avarage load time: 0.9872
+[DEBUG]: fps: 46
+[DEBUG]: Avarage load time: 0.98892
+[DEBUG]: fps: 46
+[DEBUG]: Avarage load time: 0.98716
+[DEBUG]: fps: 46
+[DEBUG]: Avarage load time: 0.98805
+[DEBUG]: fps: 46
+[DEBUG]: Avarage load time: 0.98613
+[DEBUG]: fps: 46
+[DEBUG]: Avarage load time: 0.98806
+[DEBUG]: fps: 46
+[DEBUG]: Avarage load time: 0.98806
+[DEBUG]: fps: 46
+[DEBUG]: Avarage load time: 0.98712
+[DEBUG]: fps: 46
+[DEBUG]: Avarage load time: 0.98611
+[DEBUG]: fps: 46
+[DEBUG]: Avarage load time: 0.98807
+[DEBUG]: fps: 46
+[DEBUG]: Avarage load time: 0.98809
+[DEBUG]: fps: 46
+[DEBUG]: Avarage load time: 0.98703
+[DEBUG]: fps: 46
+[DEBUG]: Avarage load time: 0.97379
+[DEBUG]: fps: 47
+[DEBUG]: Avarage load time: 0.97825
+[DEBUG]: fps: 46
+[DEBUG]: Avarage load time: 0.97381
+[DEBUG]: fps: 47
+[DEBUG]: Avarage load time: 0.97827
+[DEBUG]: fps: 46
+[DEBUG]: Avarage load time: 0.97933
+[DEBUG]: fps: 46
+[DEBUG]: Avarage load time: 0.97275
+[DEBUG]: fps: 47
+[DEBUG]: Avarage load time: 0.98616
+[DEBUG]: fps: 46
+[DEBUG]: Avarage load time: 0.98513
+[DEBUG]: fps: 46
+[DEBUG]: Avarage load time: 0.97751
+[DEBUG]: fps: 47
+[DEBUG]: Avarage load time: 0.97094
+[DEBUG]: fps: 47
+[DEBUG]: Avarage load time: 0.98019
+[DEBUG]: fps: 46
+[DEBUG]: Avarage load time: 0.98221
+[DEBUG]: fps: 46
+[DEBUG]: Avarage load time: 0.98323
+[DEBUG]: fps: 46
+[DEBUG]: Avarage load time: 0.96513
+[DEBUG]: fps: 47
+[DEBUG]: Avarage load time: 0.97379
+[DEBUG]: fps: 47
+[DEBUG]: Avarage load time: 0.97378
+[DEBUG]: fps: 47
+[DEBUG]: Avarage load time: 0.96512
+[DEBUG]: fps: 47
+[DEBUG]: Avarage load time: 0.96894
+[DEBUG]: fps: 47
+[DEBUG]: Avarage load time: 0.96898
+[DEBUG]: fps: 47
+[DEBUG]: Avarage load time: 0.97282
+[DEBUG]: fps: 47
+[DEBUG]: Avarage load time: 0.98805
+[DEBUG]: fps: 46
+[DEBUG]: Avarage load time: 1.01007
+[DEBUG]: fps: 45
+[DEBUG]: Avarage load time: 0.98122
+[DEBUG]: fps: 46
+[DEBUG]: Avarage load time: 0.98709
+[DEBUG]: fps: 46
+[DEBUG]: Avarage load time: 0.98415
+[DEBUG]: fps: 46
+[DEBUG]: Avarage load time: 0.98515
+[DEBUG]: fps: 46
+[DEBUG]: Avarage load time: 0.98024
+[DEBUG]: fps: 46
+[DEBUG]: Avarage load time: 0.98713
+[DEBUG]: fps: 46
+[DEBUG]: Avarage load time: 0.9842
+[DEBUG]: fps: 46
+[DEBUG]: Avarage load time: 0.98705
+[DEBUG]: fps: 46
+[DEBUG]: Avarage load time: 0.9747
+[DEBUG]: fps: 47
+[DEBUG]: Avarage load time: 0.9842
+[DEBUG]: fps: 46
+[DEBUG]: Avarage load time: 0.98608
+[DEBUG]: fps: 46
+[DEBUG]: Avarage load time: 0.98516
+[DEBUG]: fps: 46
+[DEBUG]: Avarage load time: 0.98713
+[DEBUG]: fps: 46
+[DEBUG]: Avarage load time: 0.9861
+[DEBUG]: fps: 46
+[DEBUG]: Avarage load time: 1.00802
+[DEBUG]: fps: 45
+[DEBUG]: Avarage load time: 0.98613
+[DEBUG]: fps: 46
+[DEBUG]: Avarage load time: 0.98807
+[DEBUG]: fps: 46
+[DEBUG]: Avarage load time: 0.98806
+[DEBUG]: fps: 46
+[DEBUG]: Avarage load time: 0.98811
+[DEBUG]: fps: 46
+[DEBUG]: Avarage load time: 0.98318
+[DEBUG]: fps: 46
+[DEBUG]: Avarage load time: 0.98515
+[DEBUG]: fps: 46
+[DEBUG]: Avarage load time: 0.98609
+[DEBUG]: fps: 46
+[DEBUG]: Avarage load time: 0.97927
+[DEBUG]: fps: 46
+[DEBUG]: Avarage load time: 0.97689
+[DEBUG]: fps: 47
+[DEBUG]: Avarage load time: 0.96869
+[DEBUG]: fps: 47
+[DEBUG]: Avarage load time: 0.97665
+[DEBUG]: fps: 47
+[DEBUG]: Avarage load time: 0.97379
+[DEBUG]: fps: 47
+[DEBUG]: Avarage load time: 0.98612
+[DEBUG]: fps: 46
+[DEBUG]: Avarage load time: 0.98121
+[DEBUG]: fps: 46
+[DEBUG]: Avarage load time: 1.03202
+[DEBUG]: fps: 44
+[DEBUG]: Avarage load time: 0.98019
+[DEBUG]: fps: 46
+[DEBUG]: Avarage load time: 0.97565
+[DEBUG]: fps: 47
+[DEBUG]: Avarage load time: 0.97666
+[DEBUG]: fps: 47
+[DEBUG]: Avarage load time: 0.9851
+[DEBUG]: fps: 46
+[DEBUG]: Avarage load time: 0.98525
+[DEBUG]: fps: 46
+[DEBUG]: Avarage load time: 0.98215
+[DEBUG]: fps: 46
+[DEBUG]: Avarage load time: 0.9822
+[DEBUG]: fps: 46
+[DEBUG]: Avarage load time: 0.98514
+[DEBUG]: fps: 46
+[DEBUG]: Avarage load time: 0.9812
+[DEBUG]: fps: 46
+[DEBUG]: Avarage load time: 0.98021
+[DEBUG]: fps: 46
+[DEBUG]: Avarage load time: 0.96898
+[DEBUG]: fps: 47
+[DEBUG]: Avarage load time: 0.98225
+[DEBUG]: fps: 46
+[DEBUG]: Avarage load time: 0.9842
+[DEBUG]: fps: 46
+[DEBUG]: Avarage load time: 0.98024
+[DEBUG]: fps: 46
+[DEBUG]: Avarage load time: 0.96893
+[DEBUG]: fps: 47
+[DEBUG]: Avarage load time: 0.97832
+[DEBUG]: fps: 46
+[DEBUG]: Avarage load time: 0.98516
+[DEBUG]: fps: 46
+[DEBUG]: Avarage load time: 0.9832
+[DEBUG]: fps: 46
+[DEBUG]: Avarage load time: 0.98509
+[DEBUG]: fps: 46
+[DEBUG]: Avarage load time: 0.98614
+[DEBUG]: fps: 46
+[DEBUG]: Avarage load time: 0.98517
+[DEBUG]: fps: 46
+[DEBUG]: Avarage load time: 0.98709
+[DEBUG]: fps: 46
+[DEBUG]: Avarage load time: 0.98805
+[DEBUG]: fps: 46
+[DEBUG]: Avarage load time: 0.98321
+[DEBUG]: fps: 46
+[DEBUG]: Avarage load time: 0.9747
+[DEBUG]: fps: 47
+[DEBUG]: Avarage load time: 0.97831
+[DEBUG]: fps: 46
+[DEBUG]: Avarage load time: 0.97926
+[DEBUG]: fps: 46
+[DEBUG]: Avarage load time: 0.98126
+[DEBUG]: fps: 46
+[DEBUG]: Avarage load time: 0.98709
+[DEBUG]: fps: 46
+[DEBUG]: Avarage load time: 0.9822
+[DEBUG]: fps: 46
+[DEBUG]: Avarage load time: 0.98808
+[DEBUG]: fps: 46
+[DEBUG]: Avarage load time: 0.98908
+[DEBUG]: fps: 46
+[DEBUG]: Avarage load time: 0.98806
+[DEBUG]: fps: 46
+[DEBUG]: Avarage load time: 0.98816
+[DEBUG]: fps: 46
+[DEBUG]: Avarage load time: 0.98805
+[DEBUG]: fps: 46
+[DEBUG]: Avarage load time: 0.98801
+[DEBUG]: fps: 46
+[DEBUG]: Avarage load time: 0.98906
+[DEBUG]: fps: 46
+[DEBUG]: Avarage load time: 0.98807
+[DEBUG]: fps: 46
+[DEBUG]: Avarage load time: 0.98611
+[DEBUG]: fps: 46
+[DEBUG]: Avarage load time: 0.98801
+[DEBUG]: fps: 46
+[DEBUG]: Avarage load time: 0.97378
+[DEBUG]: fps: 47
+[DEBUG]: Avarage load time: 0.97277
+[DEBUG]: fps: 47
+[DEBUG]: Avarage load time: 0.98522
+[DEBUG]: fps: 46
+[DEBUG]: Avarage load time: 0.98713
+[DEBUG]: fps: 46
+[DEBUG]: Avarage load time: 0.9851
+[DEBUG]: fps: 46
+[DEBUG]: Avarage load time: 0.98321
+[DEBUG]: fps: 46
+[DEBUG]: Avarage load time: 0.98514
+[DEBUG]: fps: 46
+[DEBUG]: Avarage load time: 0.99192
+[DEBUG]: fps: 46
+[DEBUG]: Avarage load time: 0.98324
+[DEBUG]: fps: 46
+[DEBUG]: Avarage load time: 0.98711
+[DEBUG]: fps: 46
+[DEBUG]: Avarage load time: 0.98609
+[DEBUG]: fps: 46
+[DEBUG]: Avarage load time: 0.98414
+[DEBUG]: fps: 46
+[DEBUG]: Avarage load time: 0.98518
+[DEBUG]: fps: 46
+[DEBUG]: Avarage load time: 0.98807
+[DEBUG]: fps: 46
+[DEBUG]: Avarage load time: 0.98033
+[DEBUG]: fps: 46
+[DEBUG]: Avarage load time: 0.98705
+[DEBUG]: fps: 46
+[DEBUG]: Avarage load time: 0.98708
+[DEBUG]: fps: 46
+[DEBUG]: Avarage load time: 0.98906
+[DEBUG]: fps: 46
+[DEBUG]: Avarage load time: 0.98638
+[DEBUG]: fps: 46
+[DEBUG]: Avarage load time: 0.97794
+[DEBUG]: fps: 46
+[DEBUG]: Avarage load time: 0.97946
+[DEBUG]: fps: 46
+[DEBUG]: Avarage load time: 0.98503
+[DEBUG]: fps: 46
+[DEBUG]: Avarage load time: 0.9822
+[DEBUG]: fps: 46
+[DEBUG]: Avarage load time: 0.98513
+[DEBUG]: fps: 46
+[DEBUG]: Avarage load time: 0.98515
+[DEBUG]: fps: 46
+[DEBUG]: Avarage load time: 0.98802
+[DEBUG]: fps: 46
+[DEBUG]: Avarage load time: 0.98713
+[DEBUG]: fps: 46
+[DEBUG]: Avarage load time: 0.98911
+[DEBUG]: fps: 46
+[DEBUG]: Avarage load time: 0.98806
+[DEBUG]: fps: 46
+[DEBUG]: Avarage load time: 0.98706
+[DEBUG]: fps: 46
+[DEBUG]: Avarage load time: 0.98332
+[DEBUG]: fps: 46
+[DEBUG]: Avarage load time: 0.98508
+[DEBUG]: fps: 46
+[DEBUG]: Avarage load time: 0.98413
+[DEBUG]: fps: 46
+[DEBUG]: Avarage load time: 0.9871
+[DEBUG]: fps: 46
+[DEBUG]: Avarage load time: 0.98811
+[DEBUG]: fps: 46
+[DEBUG]: Avarage load time: 0.98609
+[DEBUG]: fps: 46
+[DEBUG]: Avarage load time: 0.98607
+[DEBUG]: fps: 46
+[DEBUG]: Avarage load time: 0.98811
+[DEBUG]: fps: 46
+[DEBUG]: Avarage load time: 0.98809
+[DEBUG]: fps: 46
+[DEBUG]: Avarage load time: 0.98711
+[DEBUG]: fps: 46
+[DEBUG]: Avarage load time: 0.98512
+[DEBUG]: fps: 46
+[DEBUG]: Avarage load time: 0.98514
+[DEBUG]: fps: 46
+[DEBUG]: Avarage load time: 0.98514
+[DEBUG]: fps: 46
+[DEBUG]: Avarage load time: 0.98519
+[DEBUG]: fps: 46
+[DEBUG]: Avarage load time: 0.96797
+[DEBUG]: fps: 47
+[DEBUG]: Avarage load time: 0.97566
+[DEBUG]: fps: 47
+[DEBUG]: Avarage load time: 0.98714
+[DEBUG]: fps: 46
+[DEBUG]: Avarage load time: 0.98805
+[DEBUG]: fps: 46
+[DEBUG]: Avarage load time: 0.9623
+[DEBUG]: fps: 47
+[DEBUG]: Avarage load time: 0.98608
+[DEBUG]: fps: 46
+[DEBUG]: Avarage load time: 0.98611
+[DEBUG]: fps: 46
+[DEBUG]: Avarage load time: 0.98612
+[DEBUG]: fps: 46
+[DEBUG]: Avarage load time: 0.98517
+[DEBUG]: fps: 46
+[DEBUG]: Avarage load time: 0.97464
+[DEBUG]: fps: 47
+[DEBUG]: Avarage load time: 0.96708
+[DEBUG]: fps: 47
+[DEBUG]: Avarage load time: 0.99296
+[DEBUG]: fps: 46
+[DEBUG]: Avarage load time: 0.98319
+[DEBUG]: fps: 46
+[DEBUG]: Avarage load time: 0.98705
+[DEBUG]: fps: 46
+[DEBUG]: Avarage load time: 0.969
+[DEBUG]: fps: 47
+[DEBUG]: Avarage load time: 0.97278
+[DEBUG]: fps: 47
+[DEBUG]: Avarage load time: 1.03101
+[DEBUG]: fps: 44
+[DEBUG]: Avarage load time: 0.98808
+[DEBUG]: fps: 46
+[DEBUG]: Avarage load time: 0.9871
+[DEBUG]: fps: 46
+[DEBUG]: Avarage load time: 0.98512
+[DEBUG]: fps: 46
+[DEBUG]: Avarage load time: 0.98514
+[DEBUG]: fps: 46
+[DEBUG]: Avarage load time: 0.95936
+[DEBUG]: fps: 47
+[DEBUG]: Avarage load time: 1.11236
+[DEBUG]: fps: 41
+[DEBUG]: Avarage load time: 0.98377
+[DEBUG]: fps: 46
+[DEBUG]: Avarage load time: 0.98527
+[DEBUG]: fps: 46
+[DEBUG]: Avarage load time: 0.9821
+[DEBUG]: fps: 46
+[DEBUG]: Avarage load time: 0.98415
+[DEBUG]: fps: 46
+[DEBUG]: Avarage load time: 0.98796
+[DEBUG]: fps: 46
+[DEBUG]: Avarage load time: 0.98722
+[DEBUG]: fps: 46
+[DEBUG]: Avarage load time: 0.98808
+[DEBUG]: fps: 46
+[DEBUG]: Avarage load time: 0.98709
+[DEBUG]: fps: 46
+[DEBUG]: Avarage load time: 0.98414
+[DEBUG]: fps: 46
+[DEBUG]: Avarage load time: 0.98614
+[DEBUG]: fps: 46
+[DEBUG]: Avarage load time: 0.98806
+[DEBUG]: fps: 46
+[DEBUG]: Avarage load time: 0.98705
+[DEBUG]: fps: 46
+[DEBUG]: Avarage load time: 0.98228
+[DEBUG]: fps: 46
+[DEBUG]: Avarage load time: 0.9871
+[DEBUG]: fps: 46
+[DEBUG]: Avarage load time: 0.98232
+[DEBUG]: fps: 46
+[DEBUG]: Avarage load time: 0.99768
+[DEBUG]: fps: 46
+[DEBUG]: Avarage load time: 0.96906
+[DEBUG]: fps: 47
+[DEBUG]: Avarage load time: 0.98609
+[DEBUG]: fps: 46
+[DEBUG]: Avarage load time: 0.9871
+[DEBUG]: fps: 46
+[DEBUG]: Avarage load time: 0.98422
+[DEBUG]: fps: 46
+[DEBUG]: Avarage load time: 0.98603
+[DEBUG]: fps: 46
+[DEBUG]: Avarage load time: 0.98612
+[DEBUG]: fps: 46
+[DEBUG]: Avarage load time: 0.98713
+[DEBUG]: fps: 46
+[DEBUG]: Avarage load time: 0.97088
+[DEBUG]: fps: 47
+[DEBUG]: Avarage load time: 0.98123
+[DEBUG]: fps: 46
+[DEBUG]: Avarage load time: 0.9822
+[DEBUG]: fps: 46
+[DEBUG]: Avarage load time: 0.98121
+[DEBUG]: fps: 46
+[DEBUG]: Avarage load time: 0.98706
+[DEBUG]: fps: 46
+[DEBUG]: Avarage load time: 0.99401
+[DEBUG]: fps: 46
+[DEBUG]: Avarage load time: 0.98804
+[DEBUG]: fps: 46
+[DEBUG]: Avarage load time: 0.98811
+[DEBUG]: fps: 46
+[DEBUG]: Avarage load time: 0.9871
+[DEBUG]: fps: 46
+[DEBUG]: Avarage load time: 0.98514
+[DEBUG]: fps: 46
+[DEBUG]: Avarage load time: 0.98711
+[DEBUG]: fps: 46
+[DEBUG]: Avarage load time: 0.97374
+[DEBUG]: fps: 47
+[DEBUG]: Avarage load time: 0.98711
+[DEBUG]: fps: 46
+[DEBUG]: Avarage load time: 0.98024
+[DEBUG]: fps: 46
+[DEBUG]: Avarage load time: 0.98909
+[DEBUG]: fps: 46
+[DEBUG]: Avarage load time: 0.98902
+[DEBUG]: fps: 46
+[DEBUG]: Avarage load time: 0.9861
+[DEBUG]: fps: 46
+[DEBUG]: Avarage load time: 0.97376
+[DEBUG]: fps: 47
+[DEBUG]: Avarage load time: 0.98727
+[DEBUG]: fps: 46
+[DEBUG]: Avarage load time: 0.98891
+[DEBUG]: fps: 46
+[DEBUG]: Avarage load time: 0.98515
+[DEBUG]: fps: 46
+[DEBUG]: Avarage load time: 0.98818
+[DEBUG]: fps: 46
+[DEBUG]: Avarage load time: 0.98896
+[DEBUG]: fps: 46
+[DEBUG]: Avarage load time: 0.98904
+[DEBUG]: fps: 46
+[DEBUG]: Avarage load time: 0.97761
+[DEBUG]: fps: 47
+[DEBUG]: Avarage load time: 0.98703
+[DEBUG]: fps: 46
+[DEBUG]: Avarage load time: 0.98226
+[DEBUG]: fps: 46
+[DEBUG]: Avarage load time: 0.98801
+[DEBUG]: fps: 46
+[DEBUG]: Avarage load time: 0.98813
+[DEBUG]: fps: 46
+[DEBUG]: Avarage load time: 0.98513
+[DEBUG]: fps: 46
+[DEBUG]: Avarage load time: 0.98613
+[DEBUG]: fps: 46
+[DEBUG]: Avarage load time: 0.9776
+[DEBUG]: fps: 47
+[DEBUG]: Avarage load time: 0.98025
+[DEBUG]: fps: 46
+[DEBUG]: Avarage load time: 0.98613
+[DEBUG]: fps: 46
+[DEBUG]: Avarage load time: 0.98713
+[DEBUG]: fps: 46
+[DEBUG]: Avarage load time: 0.98707
+[DEBUG]: fps: 46
+[DEBUG]: Avarage load time: 0.9862
+[DEBUG]: fps: 46
+[DEBUG]: Avarage load time: 0.98503
+[DEBUG]: fps: 46
+[DEBUG]: Avarage load time: 0.98048
+[DEBUG]: fps: 46
+[DEBUG]: Avarage load time: 0.98003
+[DEBUG]: fps: 46
+[DEBUG]: Avarage load time: 0.97762
+[DEBUG]: fps: 47
+[DEBUG]: Avarage load time: 0.97829
+[DEBUG]: fps: 46
+[DEBUG]: Avarage load time: 0.98219
+[DEBUG]: fps: 46
+[DEBUG]: Avarage load time: 0.96321
+[DEBUG]: fps: 47
+[DEBUG]: Avarage load time: 0.94502
+[DEBUG]: fps: 48
+[DEBUG]: Avarage load time: 0.94603
+[DEBUG]: fps: 48
+[DEBUG]: Avarage load time: 0.94592
+[DEBUG]: fps: 48
+[DEBUG]: Avarage load time: 0.94593
+[DEBUG]: fps: 48
+[DEBUG]: Avarage load time: 0.94607
+[DEBUG]: fps: 48
+[DEBUG]: Avarage load time: 0.94688
+[DEBUG]: fps: 48
+[DEBUG]: Avarage load time: 0.94597
+[DEBUG]: fps: 48
+[DEBUG]: Avarage load time: 0.94689
+[DEBUG]: fps: 48
+[DEBUG]: Avarage load time: 0.94691
+[DEBUG]: fps: 48
+[DEBUG]: Avarage load time: 0.94601
+[DEBUG]: fps: 48
+[DEBUG]: Avarage load time: 0.94688
+[DEBUG]: fps: 48
+[DEBUG]: Avarage load time: 0.94597
+[DEBUG]: fps: 48
+[DEBUG]: Avarage load time: 0.94595
+[DEBUG]: fps: 48
+[DEBUG]: Avarage load time: 0.94691
+[DEBUG]: fps: 48
+[DEBUG]: Avarage load time: 0.94591
+[DEBUG]: fps: 48
+[DEBUG]: Avarage load time: 0.94508
+[DEBUG]: fps: 48
+[DEBUG]: Avarage load time: 0.94783
+[DEBUG]: fps: 48
+[DEBUG]: Avarage load time: 0.94787
+[DEBUG]: fps: 48
+[DEBUG]: Avarage load time: 0.96226
+[DEBUG]: fps: 47
+[DEBUG]: Avarage load time: 0.9459
+[DEBUG]: fps: 48
+[DEBUG]: Avarage load time: 0.94511
+[DEBUG]: fps: 48
+[DEBUG]: Avarage load time: 0.94514
+[DEBUG]: fps: 48
+[DEBUG]: Avarage load time: 0.94673
+[DEBUG]: fps: 48
+[DEBUG]: Avarage load time: 0.94698
+[DEBUG]: fps: 48
+[DEBUG]: Avarage load time: 0.94793
+[DEBUG]: fps: 48
+[DEBUG]: Avarage load time: 0.94775
+[DEBUG]: fps: 48
+[DEBUG]: Avarage load time: 0.9459
+[DEBUG]: fps: 48
+[DEBUG]: Avarage load time: 0.94602
+[DEBUG]: fps: 48
+[DEBUG]: Avarage load time: 0.94693
+[DEBUG]: fps: 48
+[DEBUG]: Avarage load time: 0.94785
+[DEBUG]: fps: 48
+[DEBUG]: Avarage load time: 0.94682
+[DEBUG]: fps: 48
+[DEBUG]: Avarage load time: 0.94696
+[DEBUG]: fps: 48
+[DEBUG]: Avarage load time: 0.94599
+[DEBUG]: fps: 48
+[DEBUG]: Avarage load time: 0.95256
+[DEBUG]: fps: 48
+[DEBUG]: Avarage load time: 0.94687
+[DEBUG]: fps: 48
+[DEBUG]: Avarage load time: 1.09076
+[DEBUG]: fps: 42
+[DEBUG]: Avarage load time: 0.94778
+[DEBUG]: fps: 48
+[DEBUG]: Avarage load time: 0.94601
+[DEBUG]: fps: 48
+[DEBUG]: Avarage load time: 0.94593
+[DEBUG]: fps: 48
+[DEBUG]: Avarage load time: 0.94698
+[DEBUG]: fps: 48
+[DEBUG]: Avarage load time: 0.94685
+[DEBUG]: fps: 48
+[DEBUG]: Avarage load time: 0.94603
+[DEBUG]: fps: 48
+[DEBUG]: Avarage load time: 0.94784
+[DEBUG]: fps: 48
+[DEBUG]: Avarage load time: 0.94502
+[DEBUG]: fps: 48
+[DEBUG]: Avarage load time: 0.94781
+[DEBUG]: fps: 48
+[DEBUG]: Avarage load time: 1.03303
+[DEBUG]: fps: 44
+[DEBUG]: Avarage load time: 0.94692
+[DEBUG]: fps: 48
+[DEBUG]: Avarage load time: 0.94598
+[DEBUG]: fps: 48
+[DEBUG]: Avarage load time: 0.94502
+[DEBUG]: fps: 48
+[DEBUG]: Avarage load time: 0.94878
+[DEBUG]: fps: 48
+[DEBUG]: Avarage load time: 0.94594
+[DEBUG]: fps: 48
+[DEBUG]: Avarage load time: 0.94593
+[DEBUG]: fps: 48
+[DEBUG]: Avarage load time: 0.94877
+[DEBUG]: fps: 48
+[DEBUG]: Avarage load time: 0.94884
+[DEBUG]: fps: 48
+[DEBUG]: Avarage load time: 0.94692
+[DEBUG]: fps: 48
+[DEBUG]: Avarage load time: 0.95254
+[DEBUG]: fps: 48
+[DEBUG]: Avarage load time: 0.94597
+[DEBUG]: fps: 48
+[DEBUG]: Avarage load time: 0.95529
+[DEBUG]: fps: 48
+[DEBUG]: Avarage load time: 1.0822
+[DEBUG]: fps: 42
+[DEBUG]: Avarage load time: 0.94507
+[DEBUG]: fps: 48
+[DEBUG]: Avarage load time: 0.95717
+[DEBUG]: fps: 48
+[DEBUG]: Avarage load time: 0.95345
+[DEBUG]: fps: 48
+[DEBUG]: Avarage load time: 1.04022
+[DEBUG]: fps: 44
+[DEBUG]: Avarage load time: 1.18772
+[DEBUG]: fps: 38
+[DEBUG]: Avarage load time: 1.30507
+[DEBUG]: fps: 37
+[DEBUG]: Avarage load time: 0.94513
+[DEBUG]: fps: 48
+[DEBUG]: Avarage load time: 1.30625
+[DEBUG]: fps: 35
+[DEBUG]: Avarage load time: 0.94501
+[DEBUG]: fps: 48
+[DEBUG]: Avarage load time: 0.94597
+[DEBUG]: fps: 48
+[DEBUG]: Avarage load time: 0.94505
+[DEBUG]: fps: 48
+[DEBUG]: Avarage load time: 0.94504
+[DEBUG]: fps: 48
+[DEBUG]: Avarage load time: 0.9488
+[DEBUG]: fps: 48
+[DEBUG]: Avarage load time: 0.94502
+[DEBUG]: fps: 48
+[DEBUG]: Avarage load time: 0.94602
+[DEBUG]: fps: 48
+[DEBUG]: Avarage load time: 0.94684
+[DEBUG]: fps: 48
+[DEBUG]: Avarage load time: 0.94598
+[DEBUG]: fps: 48
+[DEBUG]: Avarage load time: 0.9469
+[DEBUG]: fps: 48
+[DEBUG]: Avarage load time: 0.94691
+[DEBUG]: fps: 48
+[DEBUG]: Avarage load time: 0.95068
+[DEBUG]: fps: 48
+[DEBUG]: Avarage load time: 0.94688
+[DEBUG]: fps: 48
+[DEBUG]: Avarage load time: 0.94874
+[DEBUG]: fps: 48
+[DEBUG]: Avarage load time: 0.94602
+[DEBUG]: fps: 48
+[DEBUG]: Avarage load time: 0.94785
+[DEBUG]: fps: 48
+[DEBUG]: Avarage load time: 0.94597
+[DEBUG]: fps: 48
+[DEBUG]: Avarage load time: 0.94691
+[DEBUG]: fps: 48
+[DEBUG]: Avarage load time: 0.96033
+[DEBUG]: fps: 47
+[DEBUG]: Avarage load time: 0.94499
+[DEBUG]: fps: 48
+[DEBUG]: Avarage load time: 0.96243
+[DEBUG]: fps: 47
+[DEBUG]: Avarage load time: 0.94679
+[DEBUG]: fps: 48
+[DEBUG]: Avarage load time: 0.94501
+[DEBUG]: fps: 48
+[DEBUG]: Avarage load time: 0.94501
+[DEBUG]: fps: 48
+[DEBUG]: Avarage load time: 0.95354
+[DEBUG]: fps: 48
+[DEBUG]: Avarage load time: 0.94965
+[DEBUG]: fps: 48
+[DEBUG]: Avarage load time: 0.95748
+[DEBUG]: fps: 47
+[DEBUG]: Avarage load time: 0.94503
+[DEBUG]: fps: 48
+[DEBUG]: Avarage load time: 1.08431
+[DEBUG]: fps: 42
+[DEBUG]: Avarage load time: 0.94598
+[DEBUG]: fps: 48
+[DEBUG]: Avarage load time: 0.94697
+[DEBUG]: fps: 48
+[DEBUG]: Avarage load time: 0.94785
+[DEBUG]: fps: 48
+[DEBUG]: Avarage load time: 0.9487
+[DEBUG]: fps: 48
+[DEBUG]: Avarage load time: 0.94603
+[DEBUG]: fps: 48
+[DEBUG]: Avarage load time: 0.94594
+[DEBUG]: fps: 48
+[DEBUG]: Avarage load time: 0.945
+[DEBUG]: fps: 48
+[DEBUG]: Avarage load time: 0.95158
+[DEBUG]: fps: 48
+[DEBUG]: Avarage load time: 1.0987
+[DEBUG]: fps: 41
+[DEBUG]: Avarage load time: 0.94505
+[DEBUG]: fps: 48
+[DEBUG]: Avarage load time: 0.946
+[DEBUG]: fps: 48
+[DEBUG]: Avarage load time: 0.95062
+[DEBUG]: fps: 48
+[DEBUG]: Avarage load time: 0.94691
+[DEBUG]: fps: 48
+[DEBUG]: Avarage load time: 0.94601
+[DEBUG]: fps: 48
+[DEBUG]: Avarage load time: 0.94502
+[DEBUG]: fps: 48
+[DEBUG]: Avarage load time: 0.94786
+[DEBUG]: fps: 48
+[DEBUG]: Avarage load time: 0.94785
+[DEBUG]: fps: 48
+[DEBUG]: Avarage load time: 0.94877
+[DEBUG]: fps: 48
+[DEBUG]: Avarage load time: 0.94683
+[DEBUG]: fps: 48
+[DEBUG]: Avarage load time: 0.94597
+[DEBUG]: fps: 48
+[DEBUG]: Avarage load time: 0.94699
+[DEBUG]: fps: 48
+[DEBUG]: Avarage load time: 0.94783
+[DEBUG]: fps: 48
+[DEBUG]: Avarage load time: 0.94597
+[DEBUG]: fps: 48
+[DEBUG]: Avarage load time: 0.94786
+[DEBUG]: fps: 48
+[DEBUG]: Avarage load time: 0.94596
+[DEBUG]: fps: 48
+[DEBUG]: Avarage load time: 0.95535
+[DEBUG]: fps: 48
+[DEBUG]: Avarage load time: 1.00996
+[DEBUG]: fps: 45
+[DEBUG]: Avarage load time: 1.20082
+[DEBUG]: fps: 38
+[DEBUG]: Avarage load time: 2.01438
+[DEBUG]: fps: 25
+[DEBUG]: Avarage load time: 0.945
+[DEBUG]: fps: 48
+[DEBUG]: Avarage load time: 0.95074
+[DEBUG]: fps: 48
+[DEBUG]: Avarage load time: 0.94593
+[DEBUG]: fps: 48
+[DEBUG]: Avarage load time: 0.94693
+[DEBUG]: fps: 48
+[DEBUG]: Avarage load time: 0.94592
+[DEBUG]: fps: 48
+[DEBUG]: Avarage load time: 0.94602
+[DEBUG]: fps: 48
+[DEBUG]: Avarage load time: 0.94505
+[DEBUG]: fps: 48
+[DEBUG]: Avarage load time: 0.94594
+[DEBUG]: fps: 48
+[DEBUG]: Avarage load time: 0.94693
+[DEBUG]: fps: 48
+[DEBUG]: Avarage load time: 0.95294
+[DEBUG]: fps: 45
+[DEBUG]: Avarage load time: 1.33505
+[DEBUG]: fps: 48
+[DEBUG]: Avarage load time: 1.04328
+[DEBUG]: fps: 44
+[DEBUG]: Avarage load time: 0.95344
+[DEBUG]: fps: 48
+[DEBUG]: Avarage load time: 0.94688
+[DEBUG]: fps: 48
+[DEBUG]: Avarage load time: 0.94603
+[DEBUG]: fps: 48
+[DEBUG]: Avarage load time: 0.94595
+[DEBUG]: fps: 48
+[DEBUG]: Avarage load time: 0.94602
+[DEBUG]: fps: 48
+[DEBUG]: Avarage load time: 0.94778
+[DEBUG]: fps: 48
+[DEBUG]: Avarage load time: 0.94692
+[DEBUG]: fps: 48
+[DEBUG]: Avarage load time: 0.94506
+[DEBUG]: fps: 48
+[DEBUG]: Avarage load time: 0.94501
+[DEBUG]: fps: 48
+[DEBUG]: Avarage load time: 0.95257
+[DEBUG]: fps: 48
+[DEBUG]: Avarage load time: 0.94504
+[DEBUG]: fps: 48
+[DEBUG]: Avarage load time: 0.94783
+[DEBUG]: fps: 48
+[DEBUG]: Avarage load time: 0.94511
+[DEBUG]: fps: 48
+[DEBUG]: Avarage load time: 0.94869
+[DEBUG]: fps: 48
+[DEBUG]: Avarage load time: 0.94972
+[DEBUG]: fps: 48
+[DEBUG]: Avarage load time: 0.94503
+[DEBUG]: fps: 48
+[DEBUG]: Avarage load time: 0.94513
+[DEBUG]: fps: 48
+[DEBUG]: Avarage load time: 0.94591
+[DEBUG]: fps: 48
+[DEBUG]: Avarage load time: 0.945
+[DEBUG]: fps: 48
+[DEBUG]: Avarage load time: 0.94693
+[DEBUG]: fps: 48
+[DEBUG]: Avarage load time: 0.94615
+[DEBUG]: fps: 48
+[DEBUG]: Avarage load time: 0.94669
+[DEBUG]: fps: 48
+[DEBUG]: Avarage load time: 0.94602
+[DEBUG]: fps: 48
+[DEBUG]: Avarage load time: 0.94593
+[DEBUG]: fps: 48
+[DEBUG]: Avarage load time: 0.94689
+[DEBUG]: fps: 48
+[DEBUG]: Avarage load time: 0.94689
+[DEBUG]: fps: 48
+[DEBUG]: Avarage load time: 0.94603
+[DEBUG]: fps: 48
+[DEBUG]: Avarage load time: 0.9469
+[DEBUG]: fps: 48
+[DEBUG]: Avarage load time: 0.94787
+[DEBUG]: fps: 48
+[DEBUG]: Avarage load time: 0.945
+[DEBUG]: fps: 48
+[DEBUG]: Avarage load time: 0.94499
+[DEBUG]: fps: 48
+[DEBUG]: Avarage load time: 0.946
+[DEBUG]: fps: 48
+[DEBUG]: Avarage load time: 0.94505
+[DEBUG]: fps: 48
+[DEBUG]: Avarage load time: 0.95026
+[DEBUG]: fps: 48
+[DEBUG]: Avarage load time: 0.95389
+[DEBUG]: fps: 48
+[DEBUG]: Avarage load time: 0.95062
+[DEBUG]: fps: 48
+[DEBUG]: Avarage load time: 0.94599
+[DEBUG]: fps: 48
+[DEBUG]: Avarage load time: 0.94692
+[DEBUG]: fps: 48
+[DEBUG]: Avarage load time: 0.94692
+[DEBUG]: fps: 48
+[DEBUG]: Avarage load time: 0.9469
+[DEBUG]: fps: 48
+[DEBUG]: Avarage load time: 0.94782
+[DEBUG]: fps: 48
+[DEBUG]: Avarage load time: 0.98415
+[DEBUG]: fps: 46
+[DEBUG]: Avarage load time: 0.94602
+[DEBUG]: fps: 48
+[DEBUG]: Avarage load time: 0.94868
+[DEBUG]: fps: 48
+[DEBUG]: Avarage load time: 0.95594
+[DEBUG]: fps: 48
+[DEBUG]: Avarage load time: 0.97221
+[DEBUG]: fps: 47
+[DEBUG]: Avarage load time: 0.9489
+[DEBUG]: fps: 48
+[DEBUG]: Avarage load time: 0.94588
+[DEBUG]: fps: 48
+[DEBUG]: Avarage load time: 0.94888
+[DEBUG]: fps: 48
+[DEBUG]: Avarage load time: 0.94777
+[DEBUG]: fps: 48
+[DEBUG]: Avarage load time: 0.9478
+[DEBUG]: fps: 48
+[DEBUG]: Avarage load time: 0.99391
+[DEBUG]: fps: 46
+[DEBUG]: Avarage load time: 0.94697
+[DEBUG]: fps: 48
+[DEBUG]: Avarage load time: 0.95434
+[DEBUG]: fps: 48
+[DEBUG]: Avarage load time: 0.94693
+[DEBUG]: fps: 48
+[DEBUG]: Avarage load time: 0.94596
+[DEBUG]: fps: 48
+[DEBUG]: Avarage load time: 0.9488
+[DEBUG]: fps: 48
+[DEBUG]: Avarage load time: 0.99587
+[DEBUG]: fps: 46
+[DEBUG]: Avarage load time: 0.95349
+[DEBUG]: fps: 48
+[DEBUG]: Avarage load time: 0.96132
+[DEBUG]: fps: 47
+[DEBUG]: Avarage load time: 0.95554
+[DEBUG]: fps: 48
+[DEBUG]: Avarage load time: 0.94779
+[DEBUG]: fps: 48
+[DEBUG]: Avarage load time: 0.9477
+[DEBUG]: fps: 48
+[DEBUG]: Avarage load time: 0.94594
+[DEBUG]: fps: 48
+[DEBUG]: Avarage load time: 0.94786
+[DEBUG]: fps: 48
+[DEBUG]: Avarage load time: 0.97638
+[DEBUG]: fps: 46
+[DEBUG]: Avarage load time: 0.97286
+[DEBUG]: fps: 47
+[DEBUG]: Avarage load time: 0.94774
+[DEBUG]: fps: 48
+[DEBUG]: Avarage load time: 0.94601
+[DEBUG]: fps: 48
+[DEBUG]: Avarage load time: 0.94881
+[DEBUG]: fps: 48
+[DEBUG]: Avarage load time: 0.94596
+[DEBUG]: fps: 48
+[DEBUG]: Avarage load time: 0.94875
+[DEBUG]: fps: 48
+[DEBUG]: Avarage load time: 0.94879
+[DEBUG]: fps: 48
+[DEBUG]: Avarage load time: 0.94596
+[DEBUG]: fps: 48
+[DEBUG]: Avarage load time: 0.94789
+[DEBUG]: fps: 48
+[DEBUG]: Avarage load time: 0.94683
+[DEBUG]: fps: 48
+[DEBUG]: Avarage load time: 0.94884
+[DEBUG]: fps: 48
+[DEBUG]: Avarage load time: 0.947
+[DEBUG]: fps: 48
+[DEBUG]: Avarage load time: 0.94496
+[DEBUG]: fps: 48
+[DEBUG]: Avarage load time: 0.9497
+[DEBUG]: fps: 48
+[DEBUG]: Avarage load time: 0.94969
+[DEBUG]: fps: 48
+[DEBUG]: Avarage load time: 0.94695
+[DEBUG]: fps: 48
+[DEBUG]: Avarage load time: 0.94781
+[DEBUG]: fps: 48
+[DEBUG]: Avarage load time: 0.95159
+[DEBUG]: fps: 48
+[DEBUG]: Avarage load time: 0.94595
+[DEBUG]: fps: 48
+[DEBUG]: Avarage load time: 0.94697
+[DEBUG]: fps: 48
+[DEBUG]: Avarage load time: 0.94501
+[DEBUG]: fps: 48
+[DEBUG]: Avarage load time: 0.94504
+[DEBUG]: fps: 48
+[DEBUG]: Avarage load time: 0.94877
+[DEBUG]: fps: 48
+[DEBUG]: Avarage load time: 0.9563
+[DEBUG]: fps: 48
+[DEBUG]: Avarage load time: 0.94597
+[DEBUG]: fps: 48
+[DEBUG]: Avarage load time: 0.94504
+[DEBUG]: fps: 48
+[DEBUG]: Avarage load time: 0.94503
+[DEBUG]: fps: 48
+[DEBUG]: Avarage load time: 0.9766
+[DEBUG]: fps: 47
+[DEBUG]: Avarage load time: 0.946
+[DEBUG]: fps: 48
+[DEBUG]: Avarage load time: 0.94591
+[DEBUG]: fps: 48
+[DEBUG]: Avarage load time: 0.94788
+[DEBUG]: fps: 48
+[DEBUG]: Avarage load time: 0.94593
+[DEBUG]: fps: 48
+[DEBUG]: Avarage load time: 0.94786
+[DEBUG]: fps: 48
+[DEBUG]: Avarage load time: 0.94693
+[DEBUG]: fps: 48
+[DEBUG]: Avarage load time: 0.95439
+[DEBUG]: fps: 48
+[DEBUG]: Avarage load time: 0.94598
+[DEBUG]: fps: 48
+[DEBUG]: Avarage load time: 0.94498
+[DEBUG]: fps: 48
+[DEBUG]: Avarage load time: 0.94502
+[DEBUG]: fps: 48
+[DEBUG]: Avarage load time: 0.94503
+[DEBUG]: fps: 48
+[DEBUG]: Avarage load time: 0.94697
+[DEBUG]: fps: 48
+[DEBUG]: Avarage load time: 0.94504
+[DEBUG]: fps: 48
+[DEBUG]: Avarage load time: 0.946
+[DEBUG]: fps: 48
+[DEBUG]: Avarage load time: 0.94498
+[DEBUG]: fps: 48
+[DEBUG]: Avarage load time: 0.94787
+[DEBUG]: fps: 48
+[DEBUG]: Avarage load time: 0.94597
+[DEBUG]: fps: 48
+[DEBUG]: Avarage load time: 0.94507
+[DEBUG]: fps: 48
+[DEBUG]: Avarage load time: 1.006
+[DEBUG]: fps: 45
+[DEBUG]: Avarage load time: 0.94594
+[DEBUG]: fps: 48
+[DEBUG]: Avarage load time: 0.94498
+[DEBUG]: fps: 48
+[DEBUG]: Avarage load time: 0.94604
+[DEBUG]: fps: 48
+[DEBUG]: Avarage load time: 0.94503
+[DEBUG]: fps: 48
+[DEBUG]: Avarage load time: 0.94684
+[DEBUG]: fps: 48
+[DEBUG]: Avarage load time: 0.94604
+[DEBUG]: fps: 48
+[DEBUG]: Avarage load time: 0.94498
+[DEBUG]: fps: 48
+[DEBUG]: Avarage load time: 0.94501
+[DEBUG]: fps: 48
+
+[DEBUG]: Game ran with a total avarage load time of: 0.97399 over 31130 cicles
+
+[DEBUG]: Writing back options: 
+         + Writing:                          windowFullscreen     = 0                                         to: RES/RESConfigFiles/GraphicOptions.cfg
+         - Encountered Language Attribute:   window_title         = Titolo di Testing                        
+         + Writing:                          subPathBasicEntityShader = BasicEntityShader/                        to: RES/RESConfigFiles/EngineOptions.cfg
+         + Writing:                          pathModels           = RES/RESModels/                            to: RES/RESConfigFiles/EngineOptions.cfg
+         + Writing:                          shaderDefaultName    = default                                   to: RES/RESConfigFiles/EngineOptions.cfg
+         + Writing:                          shaderUseCustom      = 0                                         to: RES/RESConfigFiles/EngineOptions.cfg
+         + Writing:                          subPathTexturedEntityShader = TexturedEntityShader/                     to: RES/RESConfigFiles/EngineOptions.cfg
+         + Writing:                          shaderCustomFragmentName = custom                                    to: RES/RESConfigFiles/EngineOptions.cfg
+         + Writing:                          shaderPRName         = PR                                        to: RES/RESConfigFiles/EngineOptions.cfg
+         + Writing:                          debugEnabled         = 1                                         to: RES/RESConfigFiles/EngineOptions.cfg
+         + Writing:                          pathLanguageFiles    = RES/RESLanguageFiles/                     to: RES/RESConfigFiles/EngineOptions.cfg
+         + Writing:                          debugAvgLoadtime     = 1                                         to: RES/RESConfigFiles/EngineOptions.cfg
+         + Writing:                          frameCap             = 45                                        to: RES/RESConfigFiles/GraphicOptions.cfg
+         + Writing:                          debugStackTrace      = 0                                         to: RES/RESConfigFiles/EngineOptions.cfg
+         + Writing:                          debugLogToFile       = 1                                         to: RES/RESConfigFiles/EngineOptions.cfg
+         + Writing:                          mainLanguage         = language_IT                               to: RES/RESConfigFiles/EngineOptions.cfg
+         + Writing:                          shaderLIName         = LI                                        to: RES/RESConfigFiles/EngineOptions.cfg
+         + Writing:                          windowFov            = 70                                        to: RES/RESConfigFiles/GraphicOptions.cfg
+         + Writing:                          debugShowShaderUsed  = 1                                         to: RES/RESConfigFiles/EngineOptions.cfg
+         + Writing:                          debugTotAvgLoadtime  = 1                                         to: RES/RESConfigFiles/EngineOptions.cfg
+         + Writing:                          subPathBasicModelShader = BasicModelShader/                         to: RES/RESConfigFiles/EngineOptions.cfg
+         + Writing:                          debugLongExceptions  = 0                                         to: RES/RESConfigFiles/EngineOptions.cfg
+         + Writing:                          pathTextures         = RES/RESTextures/                          to: RES/RESConfigFiles/EngineOptions.cfg
+         + Writing:                          shaderCustomVertexName = custom                                    to: RES/RESConfigFiles/EngineOptions.cfg
+         + Writing:                          subPathTexturedModelShader = TexturedModelShader/                      to: RES/RESConfigFiles/EngineOptions.cfg
+         + Writing:                          WritebackOnExit      = 1                                         to: RES/RESConfigFiles/EngineOptions.cfg
+         + Writing:                          windowFarPlane       = 1000                                      to: RES/RESConfigFiles/GraphicOptions.cfg
+         + Writing:                          shaderVIName         = VI                                        to: RES/RESConfigFiles/EngineOptions.cfg
+         + Writing:                          useProjectionMatrix  = true                                      to: RES/RESConfigFiles/GraphicOptions.cfg
+         + Writing:                          windowWidth          = 1280                                      to: RES/RESConfigFiles/GraphicOptions.cfg
+         + Writing:                          windowAlignment      = centered                                  to: RES/RESConfigFiles/GraphicOptions.cfg
+         + Writing:                          windowHeight         = 720                                       to: RES/RESConfigFiles/GraphicOptions.cfg
+         + Writing:                          pathDevelopmentFiles = RES/RESDevelopmentFiles/                  to: RES/RESConfigFiles/EngineOptions.cfg
+         + Writing:                          useViewMatrix        = true                                      to: RES/RESConfigFiles/GraphicOptions.cfg
+         + Writing:                          pathShaderFiles      = RES/RESShaderFiles/                       to: RES/RESConfigFiles/EngineOptions.cfg
+         + Writing:                          windowNearPlane      = 0.1f                                      to: RES/RESConfigFiles/GraphicOptions.cfg

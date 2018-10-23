@@ -48,8 +48,6 @@ public class RenderThread extends Thread{
 	/** Method with holds main game loop. Executes the game loop untill it's told to stop. 
 	 */
 	public void run() {
-		//Initialize an OptionReader
-		// Memory version of "debugEnabled" in GraphicOptions.cfg
 		isDebug = Integer.parseInt(OptionHandler.getProperty(EngineOptions.DEBUGENABLED_KEY, OptionHandler.ENGINE_OPTION_ID));
 		avgLoadtime = Integer.parseInt(OptionHandler.getProperty(EngineOptions.DEBUGAVGLOADTIME_KEY, OptionHandler.ENGINE_OPTION_ID));
 		//call Init
@@ -148,7 +146,6 @@ public class RenderThread extends Thread{
 		displayManager = new DisplayManager();
 		displayManager.createDisplay(new KeyboardHandler(), object);
 		if(isDebug == 1) {
-			//Initialize an OptionReader and LanguageReader.
 			System.out.println("[DEBUG]: Language file loaded: " + OptionHandler.getProperty(EngineOptions.PATHLANGUAGEFILE_KEY, OptionHandler.ENGINE_OPTION_ID) +  OptionHandler.getProperty(EngineOptions.MAINLANGUAGE_KEY, OptionHandler.ENGINE_OPTION_ID));
 		}
 	}

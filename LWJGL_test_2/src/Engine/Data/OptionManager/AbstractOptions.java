@@ -1,5 +1,6 @@
 package Engine.Data.OptionManager;
 
+import java.util.Enumeration;
 import java.util.Map;
 import java.util.Properties;
 import java.util.TreeMap;
@@ -35,7 +36,22 @@ public class AbstractOptions {
 	/** Get all options as a string.
 	 */
 	public String toString() {
-		Map<String, String> treeMap = new TreeMap(properties);
+		Map<String, String> treeMap = new TreeMap(properties) {
+			@Override
+			public String toString() {
+				StringBuilder sb = new StringBuilder();
+				sb.append("{\n");
+				@SuppressWarnings("unchecked")
+				Enumeration<String> enums = (Enumeration<String>) properties.propertyNames();
+				while (enums.hasMoreElements()) {
+					String key = enums.nextElement();
+					String value = properties.getProperty(key);
+					sb.append("         " + key + "=" + value + "\n");
+				}
+				sb.append("}");
+				return sb.toString();
+			}
+		};
 		return treeMap.toString();
 	}
 

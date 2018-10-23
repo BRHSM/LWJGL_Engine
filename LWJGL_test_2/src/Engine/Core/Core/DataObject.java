@@ -100,7 +100,7 @@ public class DataObject {
 		
 		//print all options if debug.
 		if(OptionHandler.getProperty(EngineOptions.DEBUGENABLED_KEY, OptionHandler.ENGINE_OPTION_ID).equals("1")) {
-			System.out.println(StringBreaker.breakString("[DEBUG]: all loaded options: " + OptionHandler.getAllOptions(), "\n", 125));
+			System.out.println(StringBreaker.breakStringBehindString("[DEBUG]: all loaded options: \n" + OptionHandler.getAllOptions(), "\n", ","));
 		}
 		
 		//set default shaders.

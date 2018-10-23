@@ -1,0 +1,209 @@
+
+[DEBUG]: Loading shader files: 
+         Loaded shader: [vertexFile=VI.vs, fragmentFile=VI.fs] from subfolder: BasicEntityShader/
+         Loaded shader: [vertexFile=VI.vs, fragmentFile=VI.fs] from subfolder: TexturedEntityShader/
+AbstractShader: got uniform: transformationMatrix
+AbstractShader: got uniform: projectionMatrix
+AbstractShader: got uniform: useProjectionMatrix
+AbstractShader: got uniform: viewMatrix
+AbstractShader: got uniform: useViewMatrix
+         Loaded shader: [vertexFile=default.vs, fragmentFile=default.fs] from subfolder: BasicModelShader/
+AbstractShader: got uniform: transformationMatrix
+AbstractShader: got uniform: projectionMatrix
+AbstractShader: got uniform: useProjectionMatrix
+AbstractShader: got uniform: viewMatrix
+AbstractShader: got uniform: useViewMatrix
+         Loaded shader: [vertexFile=default.vs, fragmentFile=default.fs] from subfolder: TexturedModelShader/
+[DEBUG]: Language file loaded: RES/RESLanguageFiles/language_IT
+
+[DEBUG]: Starting main loop.
+[DEBUG]: Avarage load time: 0.92574
+[DEBUG]: fps: 48
+[DEBUG]: Avarage load time: 1.01306
+[DEBUG]: fps: 45
+[DEBUG]: Avarage load time: 0.95953
+[DEBUG]: fps: 47
+[DEBUG]: Avarage load time: 0.96599
+[DEBUG]: fps: 47
+[DEBUG]: Avarage load time: 0.9661
+[DEBUG]: fps: 47
+[DEBUG]: Avarage load time: 0.9623
+[DEBUG]: fps: 47
+[DEBUG]: Avarage load time: 0.96892
+[DEBUG]: fps: 47
+[DEBUG]: Avarage load time: 0.96908
+[DEBUG]: fps: 47
+[DEBUG]: Avarage load time: 0.96982
+[DEBUG]: fps: 47
+[DEBUG]: Avarage load time: 0.9842
+[DEBUG]: fps: 46
+[DEBUG]: Avarage load time: 0.96801
+[DEBUG]: fps: 47
+[DEBUG]: Avarage load time: 0.97661
+[DEBUG]: fps: 47
+[DEBUG]: Avarage load time: 0.96413
+[DEBUG]: fps: 47
+[DEBUG]: Avarage load time: 0.96133
+[DEBUG]: fps: 47
+[DEBUG]: Avarage load time: 0.97669
+[DEBUG]: fps: 47
+[DEBUG]: Avarage load time: 0.96708
+[DEBUG]: fps: 47
+[DEBUG]: Avarage load time: 0.9747
+[DEBUG]: fps: 47
+[DEBUG]: Avarage load time: 0.97082
+[DEBUG]: fps: 47
+[DEBUG]: Avarage load time: 0.97379
+[DEBUG]: fps: 47
+[DEBUG]: Avarage load time: 0.97084
+[DEBUG]: fps: 47
+[DEBUG]: Avarage load time: 0.97758
+[DEBUG]: fps: 47
+[DEBUG]: Avarage load time: 0.97191
+[DEBUG]: fps: 47
+[DEBUG]: Avarage load time: 0.97273
+[DEBUG]: fps: 47
+[DEBUG]: Avarage load time: 0.97383
+[DEBUG]: fps: 47
+[DEBUG]: Avarage load time: 0.97664
+[DEBUG]: fps: 47
+[DEBUG]: Avarage load time: 0.9802
+[DEBUG]: fps: 46
+[DEBUG]: Avarage load time: 0.9699
+[DEBUG]: fps: 47
+[DEBUG]: Avarage load time: 0.96041
+[DEBUG]: fps: 47
+[DEBUG]: Avarage load time: 0.96223
+[DEBUG]: fps: 47
+[DEBUG]: Avarage load time: 0.97371
+[DEBUG]: fps: 47
+[DEBUG]: Avarage load time: 0.96135
+[DEBUG]: fps: 47
+[DEBUG]: Avarage load time: 0.97102
+[DEBUG]: fps: 47
+[DEBUG]: Avarage load time: 0.95525
+[DEBUG]: fps: 48
+[DEBUG]: Avarage load time: 0.97275
+[DEBUG]: fps: 47
+[DEBUG]: Avarage load time: 0.96319
+[DEBUG]: fps: 47
+[DEBUG]: Avarage load time: 0.9585
+[DEBUG]: fps: 47
+[DEBUG]: Avarage load time: 0.97374
+[DEBUG]: fps: 47
+[DEBUG]: Avarage load time: 0.9728
+[DEBUG]: fps: 47
+[DEBUG]: Avarage load time: 0.97085
+[DEBUG]: fps: 47
+[DEBUG]: Avarage load time: 0.97838
+[DEBUG]: fps: 46
+[DEBUG]: Avarage load time: 0.96126
+[DEBUG]: fps: 47
+[DEBUG]: Avarage load time: 0.97926
+[DEBUG]: fps: 46
+[DEBUG]: Avarage load time: 0.98027
+[DEBUG]: fps: 46
+[DEBUG]: Avarage load time: 0.9544
+[DEBUG]: fps: 48
+[DEBUG]: Avarage load time: 0.97471
+[DEBUG]: fps: 47
+[DEBUG]: Avarage load time: 0.97756
+[DEBUG]: fps: 47
+[DEBUG]: Avarage load time: 0.97923
+[DEBUG]: fps: 46
+[DEBUG]: Avarage load time: 1.05197
+[DEBUG]: fps: 43
+[DEBUG]: Avarage load time: 0.97461
+[DEBUG]: fps: 47
+[DEBUG]: Avarage load time: 0.97467
+[DEBUG]: fps: 47
+[DEBUG]: Avarage load time: 0.94881
+[DEBUG]: fps: 48
+[DEBUG]: Avarage load time: 0.9699
+[DEBUG]: fps: 47
+[DEBUG]: Avarage load time: 0.98233
+[DEBUG]: fps: 46
+[DEBUG]: Avarage load time: 0.97917
+[DEBUG]: fps: 46
+[DEBUG]: Avarage load time: 0.96425
+[DEBUG]: fps: 47
+[DEBUG]: Avarage load time: 0.96791
+[DEBUG]: fps: 47
+[DEBUG]: Avarage load time: 0.97833
+[DEBUG]: fps: 46
+[DEBUG]: Avarage load time: 0.97925
+[DEBUG]: fps: 46
+[DEBUG]: Avarage load time: 0.97087
+[DEBUG]: fps: 47
+[DEBUG]: Avarage load time: 0.96798
+[DEBUG]: fps: 47
+[DEBUG]: Avarage load time: 1.04766
+[DEBUG]: fps: 43
+[DEBUG]: Avarage load time: 0.96318
+[DEBUG]: fps: 47
+[DEBUG]: Avarage load time: 1.25508
+[DEBUG]: fps: 36
+[DEBUG]: Avarage load time: 0.98806
+[DEBUG]: fps: 46
+[DEBUG]: Avarage load time: 0.96704
+[DEBUG]: fps: 47
+[DEBUG]: Avarage load time: 0.98414
+[DEBUG]: fps: 46
+[DEBUG]: Avarage load time: 1.34879
+[DEBUG]: fps: 34
+[DEBUG]: Avarage load time: 0.94967
+[DEBUG]: fps: 48
+[DEBUG]: Avarage load time: 1.03612
+[DEBUG]: fps: 44
+[DEBUG]: Avarage load time: 1.03479
+[DEBUG]: fps: 45
+[DEBUG]: Avarage load time: 0.96055
+[DEBUG]: fps: 47
+[DEBUG]: Avarage load time: 0.98357
+[DEBUG]: fps: 41
+[DEBUG]: Avarage load time: 1.24083
+[DEBUG]: fps: 47
+[DEBUG]: Avarage load time: 0.95155
+[DEBUG]: fps: 48
+[DEBUG]: Avarage load time: 0.96042
+[DEBUG]: fps: 47
+
+[DEBUG]: Game ran with a total avarage load time of: 0.9836 over 3501 cicles
+
+[DEBUG]: Writing back options: 
+         + Writing:                          windowFullscreen     = 0                                         to: RES/RESConfigFiles/GraphicOptions.cfg
+         - Encountered Language Attribute:   window_title         = Titolo di Testing                        
+         + Writing:                          subPathBasicEntityShader = BasicEntityShader/                        to: RES/RESConfigFiles/EngineOptions.cfg
+         + Writing:                          pathModels           = RES/RESModels/                            to: RES/RESConfigFiles/EngineOptions.cfg
+         + Writing:                          shaderDefaultName    = default                                   to: RES/RESConfigFiles/EngineOptions.cfg
+         + Writing:                          shaderUseCustom      = 0                                         to: RES/RESConfigFiles/EngineOptions.cfg
+         + Writing:                          subPathTexturedEntityShader = TexturedEntityShader/                     to: RES/RESConfigFiles/EngineOptions.cfg
+         + Writing:                          shaderCustomFragmentName = custom                                    to: RES/RESConfigFiles/EngineOptions.cfg
+         + Writing:                          shaderPRName         = PR                                        to: RES/RESConfigFiles/EngineOptions.cfg
+         + Writing:                          debugEnabled         = 1                                         to: RES/RESConfigFiles/EngineOptions.cfg
+         + Writing:                          pathLanguageFiles    = RES/RESLanguageFiles/                     to: RES/RESConfigFiles/EngineOptions.cfg
+         + Writing:                          debugAvgLoadtime     = 1                                         to: RES/RESConfigFiles/EngineOptions.cfg
+         + Writing:                          frameCap             = 45                                        to: RES/RESConfigFiles/GraphicOptions.cfg
+         + Writing:                          debugStackTrace      = 0                                         to: RES/RESConfigFiles/EngineOptions.cfg
+         + Writing:                          debugLogToFile       = 1                                         to: RES/RESConfigFiles/EngineOptions.cfg
+         + Writing:                          mainLanguage         = language_IT                               to: RES/RESConfigFiles/EngineOptions.cfg
+         + Writing:                          shaderLIName         = LI                                        to: RES/RESConfigFiles/EngineOptions.cfg
+         + Writing:                          windowFov            = 70                                        to: RES/RESConfigFiles/GraphicOptions.cfg
+         + Writing:                          debugShowShaderUsed  = 1                                         to: RES/RESConfigFiles/EngineOptions.cfg
+         + Writing:                          debugTotAvgLoadtime  = 1                                         to: RES/RESConfigFiles/EngineOptions.cfg
+         + Writing:                          subPathBasicModelShader = BasicModelShader/                         to: RES/RESConfigFiles/EngineOptions.cfg
+         + Writing:                          debugLongExceptions  = 0                                         to: RES/RESConfigFiles/EngineOptions.cfg
+         + Writing:                          pathTextures         = RES/RESTextures/                          to: RES/RESConfigFiles/EngineOptions.cfg
+         + Writing:                          shaderCustomVertexName = custom                                    to: RES/RESConfigFiles/EngineOptions.cfg
+         + Writing:                          subPathTexturedModelShader = TexturedModelShader/                      to: RES/RESConfigFiles/EngineOptions.cfg
+         + Writing:                          WritebackOnExit      = 1                                         to: RES/RESConfigFiles/EngineOptions.cfg
+         + Writing:                          windowFarPlane       = 1000                                      to: RES/RESConfigFiles/GraphicOptions.cfg
+         + Writing:                          shaderVIName         = VI                                        to: RES/RESConfigFiles/EngineOptions.cfg
+         + Writing:                          useProjectionMatrix  = true                                      to: RES/RESConfigFiles/GraphicOptions.cfg
+         + Writing:                          windowWidth          = 1280                                      to: RES/RESConfigFiles/GraphicOptions.cfg
+         + Writing:                          windowAlignment      = centered                                  to: RES/RESConfigFiles/GraphicOptions.cfg
+         + Writing:                          windowHeight         = 720                                       to: RES/RESConfigFiles/GraphicOptions.cfg
+         + Writing:                          pathDevelopmentFiles = RES/RESDevelopmentFiles/                  to: RES/RESConfigFiles/EngineOptions.cfg
+         + Writing:                          useViewMatrix        = true                                      to: RES/RESConfigFiles/GraphicOptions.cfg
+         + Writing:                          pathShaderFiles      = RES/RESShaderFiles/                       to: RES/RESConfigFiles/EngineOptions.cfg
+         + Writing:                          windowNearPlane      = 0.1f                                      to: RES/RESConfigFiles/GraphicOptions.cfg

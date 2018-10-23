@@ -1,0 +1,8 @@
+
+[DEBUG]: Loading shader files: 
+ERROR: 0:12: 'projectionMatrix' : undeclared identifier 
+ERROR: 0:12: 'viewMatrix' : undeclared identifier 
+ERROR: 0:12: 'transformationMatrix' : undeclared identifier 
+
+
+[ERROR]: An error occured in the core of the engine. This is a bug and this should be reported. Please collect as much information as possible about the error and report it.

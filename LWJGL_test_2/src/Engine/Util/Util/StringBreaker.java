@@ -12,7 +12,7 @@ public class StringBreaker {
 	 * @param text The string to break
 	 * @param insert The break token.
 	 * @param period The interval of insertion.
-	 * @return The string containing the breaklines.
+	 * @return The broken string.
 	 */
 	public static String breakString(String text, String insert, int period){
 	    StringBuilder builder = new StringBuilder(text.length() + insert.length() * (text.length()/period)+1);
@@ -26,5 +26,16 @@ public class StringBreaker {
 	        index += period;
 	    }
 	    return builder.toString();
+	}
+	
+	/** Break the string behind every character and insert a string in each break.
+	 * 
+	 * @param text The string to break
+	 * @param insert The break token.
+	 * @param divide the string to break behind
+	 * @return The broken string.
+	 */
+	public static String breakStringBehindString(String text, String insert, String divider) {
+		return text.replace(divider, divider + insert);
 	}
 }

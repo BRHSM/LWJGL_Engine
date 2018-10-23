@@ -78,10 +78,12 @@ public abstract class AbstractShader {
 		bindAttributes();
 		GL20.glLinkProgram(programID);
 		// Validate the program. 
+		int linkStatus = GL20.glGetProgrami(programID, GL20.GL_LINK_STATUS);
 		GL20.glValidateProgram(programID);
+		System.out.println("         Link status: " + toString() + " : " +  linkStatus);
 		getAllUniformLocations();
 		if(OptionHandler.getProperty(EngineOptions.DEBUGENABLED_KEY, OptionHandler.ENGINE_OPTION_ID).equals("1")) {
-			System.out.println("         Loaded shader: " + toString() + " from subfolder: " + subPath);
+			System.out.println("         Loaded shader:   " + toString() + " from subfolder: " + subPath);
 		}
 	}
 	
@@ -172,6 +174,7 @@ public abstract class AbstractShader {
      * @return the location of the uniform variable.
      */
     protected int getUniformLocation(String uniformName) {
+    	System.out.println("AbstractShader: got uniformLocation: " + uniformName + " Location: " + GL20.glGetUniformLocation(programID, uniformName));
     	return GL20.glGetUniformLocation(programID, uniformName);
     }
     /** Get all uniform variables

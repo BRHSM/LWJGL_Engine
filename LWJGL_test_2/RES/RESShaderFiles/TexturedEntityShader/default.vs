@@ -5,10 +5,10 @@ in vec2 textureCoordinates;
 
 out vec2 passTextureCoordinates;
 
-uniform mat4 transformationMatrix;
+uniform mat4 transformationMatrixTextured;
 
 void main(void){
-	gl_Position = transformationMatrix * vec4(position,1.0);
+	gl_Position = transformationMatrixTextured * vec4(position,1.0);
 	passTextureCoordinates = textureCoordinates;
 	
 }

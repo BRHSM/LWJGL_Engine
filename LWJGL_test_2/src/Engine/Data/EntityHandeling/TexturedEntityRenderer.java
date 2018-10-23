@@ -87,7 +87,6 @@ public class TexturedEntityRenderer extends AbstractEntityRenderer{
 		aspectRatio = DisplayManager.getWidth() / (float)DisplayManager.getHeight();
 		fov = Float.parseFloat(OptionHandler.getProperty(GraphicOptions.WINDOWFOV_KEY, OptionHandler.GRAPHIC_OPTION_ID));
 		((TexturedEntityShader)shader).loadProjectionMatrix(MatrixMaths.createProjectionMatrix(aspectRatio, fov, nearPlane, farPlane));
-		((TexturedEntityShader)shader).loadUseProjectionMatrix();
 	}
 	
 	/** Load the camera to use by the shader.
@@ -97,6 +96,5 @@ public class TexturedEntityRenderer extends AbstractEntityRenderer{
 	 */
 	public void loadCamera(AbstractShader shader, AbstractCamera camera) {
 		((TexturedEntityShader)shader).loadViewMatrix(MatrixMaths.createViewMatrix(camera));
-		((TexturedEntityShader)shader).loadUseViewMatrix();
 	}
 }

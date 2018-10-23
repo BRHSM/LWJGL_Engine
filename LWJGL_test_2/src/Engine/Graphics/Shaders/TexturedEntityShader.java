@@ -26,12 +26,6 @@ public class TexturedEntityShader extends AbstractShader{
     /** The location of the viewMatrix. 
      */
     private int viewMatrixLocation;
-    /** The location of useProjectionMatrix. 
-     */
-    private int useProjectionMatrixLocation;
-    /** The location of useViewMatrix. 
-     */
-    private int useViewMatrixLocation;
     
     /** Create a new TexturedEntityShader
      */
@@ -53,11 +47,9 @@ public class TexturedEntityShader extends AbstractShader{
     /** Get all uniform locations.
      */
 	protected void getAllUniformLocations() {
-		transformationMatrixLocation = super.getUniformLocation("transformationMatrix");
-		projectionMatrixLocation = super.getUniformLocation("projectionMatrix");
-		useProjectionMatrixLocation = super.getUniformLocation("useProjectionMatrix");
-		viewMatrixLocation = super.getUniformLocation("viewMatrix");
-		useViewMatrixLocation = super.getUniformLocation("useViewMatrix");		
+		transformationMatrixLocation = super.getUniformLocation("transformationMatrixTextured");
+		projectionMatrixLocation = super.getUniformLocation("projectionMatrixTextured");
+		viewMatrixLocation = super.getUniformLocation("viewMatrixTextured");		
 	}
     
 	/** Load the transformationMatrix.
@@ -78,14 +70,6 @@ public class TexturedEntityShader extends AbstractShader{
 		super.stop();
 	}
 	
-	/** Load useProjectionMatrix.
-	 */
-	public void loadUseProjectionMatrix() {
-		super.start();
-		super.loadBoolean(useProjectionMatrixLocation, Boolean.parseBoolean(OptionHandler.getProperty(GraphicOptions.USEPROJECTIONMARTRIX_KEY, OptionHandler.GRAPHIC_OPTION_ID)));
-		super.stop();
-	}
-	
 	/** Load a viewMatrix.
 	 * 
 	 * @param matrix The viewMatrix to load.
@@ -93,14 +77,6 @@ public class TexturedEntityShader extends AbstractShader{
 	public void loadViewMatrix(Matrix4f matrix) {
 		super.start();
 		super.loadMatrix(viewMatrixLocation, matrix);
-		super.stop();
-	}
-	
-	/** Load useViewMatrix.
-	 */
-	public void loadUseViewMatrix() {
-		super.start();
-		super.loadBoolean(useViewMatrixLocation, Boolean.parseBoolean(OptionHandler.getProperty(GraphicOptions.USEVIEWMATRIX_KEY, OptionHandler.GRAPHIC_OPTION_ID)));
 		super.stop();
 	}
 }

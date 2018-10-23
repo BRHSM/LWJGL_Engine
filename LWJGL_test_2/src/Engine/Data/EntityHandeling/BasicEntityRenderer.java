@@ -82,7 +82,6 @@ public class BasicEntityRenderer extends AbstractEntityRenderer {
 		aspectRatio = DisplayManager.getWidth() / (float)DisplayManager.getHeight();
 		fov = Float.parseFloat(OptionHandler.getProperty(GraphicOptions.WINDOWFOV_KEY, OptionHandler.GRAPHIC_OPTION_ID));
 		((BasicEntityShader)shader).loadProjectionMatrix(MatrixMaths.createProjectionMatrix(aspectRatio, fov, nearPlane, farPlane));
-		((BasicEntityShader)shader).loadUseProjectionMatrix();
 	}
 	
 	/** Load the camera to use by the shader.
@@ -92,6 +91,5 @@ public class BasicEntityRenderer extends AbstractEntityRenderer {
 	 */
 	public void loadCamera(AbstractShader shader, AbstractCamera camera) {
 		((BasicEntityShader)shader).loadViewMatrix(MatrixMaths.createViewMatrix(camera));
-		((BasicEntityShader)shader).loadUseViewMatrix();
 	}
 }

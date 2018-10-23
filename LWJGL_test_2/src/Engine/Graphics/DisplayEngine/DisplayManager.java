@@ -148,10 +148,10 @@ public class DisplayManager {
 		}
 		
 		//Setup Shaders
-		basicModelShader.setupShader(OptionHandler.getProperty(EngineOptions.SUBPATHBASICENTITYSHADER_KEY, OptionHandler.ENGINE_OPTION_ID), ShaderChooser.getUsableShaderFileName(ShaderChooser.VERTEX_TYPE, false), ShaderChooser.getUsableShaderFileName(ShaderChooser.FRAGMENT_TYPE, false));
-		texturedModelShader.setupShader(OptionHandler.getProperty(EngineOptions.SUBPATHTEXTUREDENTITYSHADER_KEY, OptionHandler.ENGINE_OPTION_ID), ShaderChooser.getUsableShaderFileName(ShaderChooser.VERTEX_TYPE, false), ShaderChooser.getUsableShaderFileName(ShaderChooser.FRAGMENT_TYPE, false));
-		basicEntityShader.setupShader(OptionHandler.getProperty(EngineOptions.SUBPATHBASICMODELSHADER_KEY, OptionHandler.ENGINE_OPTION_ID), ShaderChooser.getUsableShaderFileName(ShaderChooser.VERTEX_TYPE, true), ShaderChooser.getUsableShaderFileName(ShaderChooser.FRAGMENT_TYPE, true));
-		texturedEntityShader.setupShader(OptionHandler.getProperty(EngineOptions.SUBPATHTEXTUREDMODELSHADER_KEY, OptionHandler.ENGINE_OPTION_ID), ShaderChooser.getUsableShaderFileName(ShaderChooser.VERTEX_TYPE, true), ShaderChooser.getUsableShaderFileName(ShaderChooser.FRAGMENT_TYPE, true));
+		basicModelShader.setupShader(OptionHandler.getProperty(EngineOptions.SUBPATHBASICMODELSHADER_KEY, OptionHandler.ENGINE_OPTION_ID), ShaderChooser.getUsableShaderFileName(ShaderChooser.VERTEX_TYPE, true), ShaderChooser.getUsableShaderFileName(ShaderChooser.FRAGMENT_TYPE, true));
+		texturedModelShader.setupShader(OptionHandler.getProperty(EngineOptions.SUBPATHTEXTUREDMODELSHADER_KEY, OptionHandler.ENGINE_OPTION_ID), ShaderChooser.getUsableShaderFileName(ShaderChooser.VERTEX_TYPE, true), ShaderChooser.getUsableShaderFileName(ShaderChooser.FRAGMENT_TYPE, true));
+		basicEntityShader.setupShader(OptionHandler.getProperty(EngineOptions.SUBPATHBASICENTITYSHADER_KEY, OptionHandler.ENGINE_OPTION_ID), ShaderChooser.getUsableShaderFileName(ShaderChooser.VERTEX_TYPE, false), ShaderChooser.getUsableShaderFileName(ShaderChooser.FRAGMENT_TYPE, false));
+		texturedEntityShader.setupShader(OptionHandler.getProperty(EngineOptions.SUBPATHTEXTUREDENTITYSHADER_KEY, OptionHandler.ENGINE_OPTION_ID), ShaderChooser.getUsableShaderFileName(ShaderChooser.VERTEX_TYPE, false), ShaderChooser.getUsableShaderFileName(ShaderChooser.FRAGMENT_TYPE, false));
 		
 		basicEntityRenderer.setup(basicEntityShader);
 		texturedEntityRenderer.setup(texturedEntityShader);

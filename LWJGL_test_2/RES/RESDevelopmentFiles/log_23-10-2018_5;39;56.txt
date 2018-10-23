@@ -1,0 +1,67 @@
+
+[DEBUG]: Loading shader files: 
+         Link status: [vertexFile=default.vs, fragmentFile=default.fs] : 0
+         Loaded shader:   [vertexFile=default.vs, fragmentFile=default.fs] from subfolder: BasicModelShader/
+         Link status: [vertexFile=default.vs, fragmentFile=default.fs] : 0
+         Loaded shader:   [vertexFile=default.vs, fragmentFile=default.fs] from subfolder: TexturedModelShader/
+         Link status: [vertexFile=VI.vs, fragmentFile=VI.fs] : 1
+AbstractShader: got uniformLocation: transformationMatrixBasic Location: 2
+AbstractShader: got uniformLocation: projectionMatrixBasic Location: 0
+AbstractShader: got uniformLocation: viewMatrixBasic Location: 1
+         Loaded shader:   [vertexFile=VI.vs, fragmentFile=VI.fs] from subfolder: BasicEntityShader/
+         Link status: [vertexFile=VI.vs, fragmentFile=VI.fs] : 1
+AbstractShader: got uniformLocation: transformationMatrixTextured Location: 2
+AbstractShader: got uniformLocation: projectionMatrixTextured Location: 0
+AbstractShader: got uniformLocation: viewMatrixTextured Location: 1
+         Loaded shader:   [vertexFile=VI.vs, fragmentFile=VI.fs] from subfolder: TexturedEntityShader/
+[DEBUG]: Language file loaded: RES/RESLanguageFiles/language_IT
+
+[DEBUG]: Starting main loop.
+[DEBUG]: Avarage load time: 0.9279
+[DEBUG]: fps: 48
+[DEBUG]: Avarage load time: 0.9461
+[DEBUG]: fps: 48
+[DEBUG]: Avarage load time: 0.94685
+[DEBUG]: fps: 48
+[DEBUG]: Avarage load time: 0.94505
+[DEBUG]: fps: 48
+
+[DEBUG]: Game ran with a total avarage load time of: 0.94199 over 211 cicles
+
+[DEBUG]: Writing back options: 
+         + Writing:                          windowFullscreen     = 0                                         to: RES/RESConfigFiles/GraphicOptions.cfg
+         - Encountered Language Attribute:   window_title         = Titolo di Testing                        
+         + Writing:                          subPathBasicEntityShader = BasicEntityShader/                        to: RES/RESConfigFiles/EngineOptions.cfg
+         + Writing:                          pathModels           = RES/RESModels/                            to: RES/RESConfigFiles/EngineOptions.cfg
+         + Writing:                          shaderDefaultName    = default                                   to: RES/RESConfigFiles/EngineOptions.cfg
+         + Writing:                          shaderUseCustom      = 0                                         to: RES/RESConfigFiles/EngineOptions.cfg
+         + Writing:                          subPathTexturedEntityShader = TexturedEntityShader/                     to: RES/RESConfigFiles/EngineOptions.cfg
+         + Writing:                          shaderCustomFragmentName = custom                                    to: RES/RESConfigFiles/EngineOptions.cfg
+         + Writing:                          shaderPRName         = PR                                        to: RES/RESConfigFiles/EngineOptions.cfg
+         + Writing:                          debugEnabled         = 1                                         to: RES/RESConfigFiles/EngineOptions.cfg
+         + Writing:                          pathLanguageFiles    = RES/RESLanguageFiles/                     to: RES/RESConfigFiles/EngineOptions.cfg
+         + Writing:                          debugAvgLoadtime     = 1                                         to: RES/RESConfigFiles/EngineOptions.cfg
+         + Writing:                          frameCap             = 45                                        to: RES/RESConfigFiles/GraphicOptions.cfg
+         + Writing:                          debugStackTrace      = 0                                         to: RES/RESConfigFiles/EngineOptions.cfg
+         + Writing:                          debugLogToFile       = 1                                         to: RES/RESConfigFiles/EngineOptions.cfg
+         + Writing:                          mainLanguage         = language_IT                               to: RES/RESConfigFiles/EngineOptions.cfg
+         + Writing:                          shaderLIName         = LI                                        to: RES/RESConfigFiles/EngineOptions.cfg
+         + Writing:                          windowFov            = 70                                        to: RES/RESConfigFiles/GraphicOptions.cfg
+         + Writing:                          debugShowShaderUsed  = 1                                         to: RES/RESConfigFiles/EngineOptions.cfg
+         + Writing:                          debugTotAvgLoadtime  = 1                                         to: RES/RESConfigFiles/EngineOptions.cfg
+         + Writing:                          subPathBasicModelShader = BasicModelShader/                         to: RES/RESConfigFiles/EngineOptions.cfg
+         + Writing:                          debugLongExceptions  = 0                                         to: RES/RESConfigFiles/EngineOptions.cfg
+         + Writing:                          pathTextures         = RES/RESTextures/                          to: RES/RESConfigFiles/EngineOptions.cfg
+         + Writing:                          shaderCustomVertexName = custom                                    to: RES/RESConfigFiles/EngineOptions.cfg
+         + Writing:                          subPathTexturedModelShader = TexturedModelShader/                      to: RES/RESConfigFiles/EngineOptions.cfg
+         + Writing:                          WritebackOnExit      = 1                                         to: RES/RESConfigFiles/EngineOptions.cfg
+         + Writing:                          windowFarPlane       = 1000                                      to: RES/RESConfigFiles/GraphicOptions.cfg
+         + Writing:                          shaderVIName         = VI                                        to: RES/RESConfigFiles/EngineOptions.cfg
+         + Writing:                          useProjectionMatrix  = true                                      to: RES/RESConfigFiles/GraphicOptions.cfg
+         + Writing:                          windowWidth          = 1280                                      to: RES/RESConfigFiles/GraphicOptions.cfg
+         + Writing:                          windowAlignment      = centered                                  to: RES/RESConfigFiles/GraphicOptions.cfg
+         + Writing:                          windowHeight         = 720                                       to: RES/RESConfigFiles/GraphicOptions.cfg
+         + Writing:                          pathDevelopmentFiles = RES/RESDevelopmentFiles/                  to: RES/RESConfigFiles/EngineOptions.cfg
+         + Writing:                          useViewMatrix        = true                                      to: RES/RESConfigFiles/GraphicOptions.cfg
+         + Writing:                          pathShaderFiles      = RES/RESShaderFiles/                       to: RES/RESConfigFiles/EngineOptions.cfg
+         + Writing:                          windowNearPlane      = 0.1f                                      to: RES/RESConfigFiles/GraphicOptions.cfg

@@ -1,0 +1,4 @@
+
+[DEBUG]: Loading shader files: 
+RES/RESShaderFiles/BasicModelShader/VI.vs
+[ERROR]: An error occured in the core of the engine. This is a bug and this should be reported. Please collect as much information as possible about the error and report it.

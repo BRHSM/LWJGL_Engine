@@ -5,11 +5,11 @@ in vec2 textureCoordinates;
 
 out vec2 passTextureCoordinates;
 
-uniform mat4 transformationMatrix;
-uniform mat4 projectionMatrix;
-uniform mat4 viewMatrix;
+uniform mat4 transformationMatrixTextured;
+uniform mat4 projectionMatrixTextured;
+uniform mat4 viewMatrixTextured;
 
 void main(void){
-	gl_Position = projectionMatrix * viewMatrix * transformationMatrix * vec4(position,1.0);
+	gl_Position = projectionMatrixTextured * viewMatrixTextured * transformationMatrixTextured * vec4(position,1.0);
 	passTextureCoordinates = textureCoordinates;
 }
