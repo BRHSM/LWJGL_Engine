@@ -1,0 +1,9 @@
+
+[DEBUG]: Loading shader files: 
+         No BasicModelShader loaded, using default shader  [vertexFile=BasicModelShader.vs, fragmentFile=BasicModelShader.fs]
+         No TexturedModelShader loaded, using default shader  [vertexFile=TexturedModelShader.vs, fragmentFile=TexturedModelShader.fs]
+         No BasicEntityShader loaded, using default shader  [vertexFile=BasicEntityShader.vs, fragmentFile=BasicEntityShader.fs]
+         No TexturedEntityShader loaded, using default shader  [vertexFile=TexturedEntityShader.vs, fragmentFile=TexturedEntityShader.fs]
+
+RES/RESShaderFiles/BasicEntityShader/BasicModelShader.vs
+[ERROR]: An error occured in the core of the engine. This is a bug and this should be reported. Please collect as much information as possible about the error and report it.
