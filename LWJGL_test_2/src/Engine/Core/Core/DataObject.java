@@ -98,6 +98,10 @@ public class DataObject {
 		OptionHandler.addOptionFile(OptionHandler.CURRENT_LANGUAGE_ID, new CurrentLanguage(), OptionHandler.getProperty(EngineOptions.MAINLANGUAGE_KEY, OptionHandler.ENGINE_OPTION_ID));
 		OptionHandler.loadOptionListFromFile(OptionHandler.CURRENT_LANGUAGE_ID, OptionHandler.CURRENT_LANGUAGE_TYPE);
 		
+		//load runtime options.
+		OptionHandler.addRuntimeOptions();
+		OptionHandler.loadOptionListFromFile(OptionHandler.RUNTIME_OPTIONS_ID, OptionHandler.RUNTIME_OPTIONS_TYPE);
+		
 		//print all options if debug.
 		if(OptionHandler.getProperty(EngineOptions.DEBUGENABLED_KEY, OptionHandler.ENGINE_OPTION_ID).equals("1")) {
 			System.out.println(StringBreaker.breakStringBehindString("[DEBUG]: all loaded options: \n" + OptionHandler.getAllOptions(), "\n", ","));

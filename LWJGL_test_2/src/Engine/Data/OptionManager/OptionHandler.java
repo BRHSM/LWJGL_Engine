@@ -33,11 +33,13 @@ public class OptionHandler {
 	public static final int GRAPHIC_OPTION_ID = 101;
 	public static final int ENGINE_OPTION_ID = 102;
 	public static final int CURRENT_LANGUAGE_ID = 103;
+	public static final int RUNTIME_OPTIONS_ID = 199;
 	
 	//OptionFileTypes (Starting from 201 to 299)
 	public static final int GRAPHIC_OPTION_TYPE = 201;
 	public static final int ENGINE_OPTION_TYPE = 202;
 	public static final int CURRENT_LANGUAGE_TYPE = 203;
+	public static final int RUNTIME_OPTIONS_TYPE = 299;
 	
 	public static void setupOptions() {
 		optionList = new HashMap<Integer, AbstractOptions>();
@@ -54,6 +56,10 @@ public class OptionHandler {
 		AbstractOptions.setupProperties();
 		optionList.put(id, options);
 		optionFilename.put(id, filename);
+	}
+	
+	public static void addRuntimeOptions() {
+		optionList.put(RUNTIME_OPTIONS_ID, new RuntimeOptions());
 	}
 	
 	/** Get a property for a given fileID and optionkey.
@@ -91,6 +97,8 @@ public class OptionHandler {
 			EngineOptions.loadFromFile(optionFilename.get(id));
 		if(type == CURRENT_LANGUAGE_TYPE)
 			CurrentLanguage.loadFromFile(optionFilename.get(id));
+		if(type == RUNTIME_OPTIONS_TYPE)
+			RuntimeOptions.load();
 	}
 	/** Get all options in string format.
 	 * 
