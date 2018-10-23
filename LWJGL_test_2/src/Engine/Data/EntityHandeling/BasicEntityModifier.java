@@ -3,6 +3,8 @@ package Engine.Data.EntityHandeling;
 import org.lwjglx.util.vector.Vector3f;
 
 import Engine.Data.ModelHandeling.AbstractModel;
+import Engine.Data.OptionManager.OptionHandler;
+import Engine.Data.OptionManager.RuntimeOptions;
 
 /** 
  * 
@@ -44,6 +46,9 @@ public class BasicEntityModifier {
 		this.dry = dry;
 		this.drz = drz;
 		this.dscale = dscale;
+		if(dposition.z != 0) {
+			OptionHandler.setProperty(RuntimeOptions.USESPROJECTIONMATRIX_KEY, OptionHandler.RUNTIME_OPTIONS_ID, "true");
+		}
 	}
 
 	/** Get the change in position.

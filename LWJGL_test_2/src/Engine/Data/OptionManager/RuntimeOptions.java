@@ -4,12 +4,15 @@ import java.util.ArrayList;
 
 public class RuntimeOptions extends AbstractOptions {
 	//keys
-	private static final String USESVIEWMATRIX_KEY = "usesViewMatrix";
+	public static final String USESVIEWMATRIX_KEY = "usesViewMatrix";
+	public static final String USESPROJECTIONMATRIX_KEY = "usesViewMatrix";
 	//defaults
 	private static final String USESVIEWMATRIX_DEFAULT = "false";
+	private static final String USESPROJECTIONMATRIX_DEFAULT = "false";
 	
 	public static void load () {
 		addProperty(USESVIEWMATRIX_KEY, USESVIEWMATRIX_DEFAULT);
+		addProperty(USESPROJECTIONMATRIX_KEY, USESPROJECTIONMATRIX_DEFAULT);
 	}
 	
 	/** Add a property to the propertylist

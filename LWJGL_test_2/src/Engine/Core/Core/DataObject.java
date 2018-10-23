@@ -10,6 +10,7 @@ import Engine.Data.OptionManager.CurrentLanguage;
 import Engine.Data.OptionManager.EngineOptions;
 import Engine.Data.OptionManager.GraphicOptions;
 import Engine.Data.OptionManager.OptionHandler;
+import Engine.Data.OptionManager.RuntimeOptions;
 import Engine.Graphics.Cameras.AbstractCamera;
 import Engine.Graphics.Cameras.StaticCamera;
 import Engine.Graphics.Shaders.AbstractShader;
@@ -236,6 +237,7 @@ public class DataObject {
 	 * @param camera The camera to set.
 	 */
 	public void setCamera(AbstractCamera camera) {
+		OptionHandler.setProperty(RuntimeOptions.USESVIEWMATRIX_KEY, OptionHandler.RUNTIME_OPTIONS_ID, "true");
 		this.camera = camera;
 	}
 }
