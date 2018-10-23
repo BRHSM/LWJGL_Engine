@@ -1,6 +1,8 @@
 package Engine.Graphics.Shaders;
 
 import Engine.Data.ModelHandeling.TexturedModel;
+import Engine.Data.OptionManager.EngineOptions;
+import Engine.Data.OptionManager.OptionHandler;
 
 /** This class contains a basic shader for textured models.
  * 
@@ -11,18 +13,12 @@ import Engine.Data.ModelHandeling.TexturedModel;
  * @see AbstractShader
  */
 public class TexturedModelShader extends AbstractShader{
-	/** Filename of the vertex shader.
-	 */
-    private static final String VERTEX_FILE = "TexturedModelShader.vs";
-    /** Filename of the fragment shader.
-     */
-    private static final String FRAGMENT_FILE = "TexturedModelShader.fs";
  
     /** Create a new TexturedModelShader
      */
     public TexturedModelShader() {
-        super(VERTEX_FILE, FRAGMENT_FILE);
-    }
+    	super();        
+        }
     
     @Override
     /** Bind the attributes of the shader.

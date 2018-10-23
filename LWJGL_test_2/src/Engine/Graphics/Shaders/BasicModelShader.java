@@ -1,6 +1,8 @@
 package Engine.Graphics.Shaders;
 
 import Engine.Data.ModelHandeling.BasicModel;
+import Engine.Data.OptionManager.EngineOptions;
+import Engine.Data.OptionManager.OptionHandler;
 
 /** A basic shader for rendering shapes.
  * 
@@ -9,17 +11,11 @@ import Engine.Data.ModelHandeling.BasicModel;
  * @see AbstractShader
  */
 public class BasicModelShader extends AbstractShader{
-	/** Filename of the vertex shader.
-	 */
-    private static final String VERTEX_FILE = "BasicModelShader.vs";
-    /** Filename of the fragment shader.
-	 */
-    private static final String FRAGMENT_FILE = "BasicModelShader.fs";
  
     /** Create a new BasicShader.
      */
     public BasicModelShader() {
-        super(VERTEX_FILE, FRAGMENT_FILE);
+    	super();        
     }
  
     @Override

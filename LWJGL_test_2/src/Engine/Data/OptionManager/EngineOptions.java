@@ -18,7 +18,7 @@ public class EngineOptions extends AbstractOptions{
 	public static final String DEBUGLONGEXCEPTIONS_KEY = "debugLongExceptions";
 	public static final String DEBUGSTACKTRACE_KEY = "debugStackTrace";
 	public static final String DEBUGLOGTOFILE_KEY = "debugLogToFile";
-	public static final String SHOWSHADERUSED_KEY = "showShaderUsed";
+	public static final String DEBUGSHOWSHADERUSED_KEY = "debugShowShaderUsed";
 	public static final String MAINLANGUAGE_KEY = "mainLanguage";
 	public static final String PATHDEVELOPMENTFILES_KEY = "pathDevelopmentFiles";
 	public static final String PATHLANGUAGEFILE_KEY = "pathLanguageFiles";
@@ -26,6 +26,17 @@ public class EngineOptions extends AbstractOptions{
 	public static final String PATHSHADERFILES_KEY = "pathShaderFiles";
 	public static final String PATHTEXTURES_KEY = "pathTextures";
 	public static final String WRITEBACKONEXIT_KEY = "WritebackOnExit";
+	public static final String SUBPATHBASICENTITYSHADER_KEY = "subPathBasicEntityShader";
+	public static final String SUBPATHBASICMODELSHADER_KEY = "subPathBasicModelShader";
+	public static final String SUBPATHTEXTUREDENTITYSHADER_KEY = "subPathTexturedEntityShader";
+	public static final String SUBPATHTEXTUREDMODELSHADER_KEY = "subPathTexturedModelShader";
+	public static final String SHADERUSECUSTOM_KEY = "shaderUseCustom";
+	public static final String SHADERCUSTOMVERTEXNAME_KEY = "shaderCustomVertexName";
+	public static final String SHADERCUSTOMFRAGMENTNAME_KEY = "shaderCustomFragmentName";
+	public static final String SHADERDEFAULTNAME_KEY = "shaderDefaultName";
+	public static final String SHADERPRNAME_KEY = "shaderPRName";
+	public static final String SHADERVINAME_KEY = "shaderVIName";
+	public static final String SHADERLINAME_KEY = "shaderLIName";
 	
 	/** The list of keys loaded by this class.
 	 */
@@ -50,7 +61,7 @@ public class EngineOptions extends AbstractOptions{
 		addProperty(DEBUGLONGEXCEPTIONS_KEY);
 		addProperty(DEBUGSTACKTRACE_KEY);
 		addProperty(DEBUGLOGTOFILE_KEY);
-		addProperty(SHOWSHADERUSED_KEY);
+		addProperty(DEBUGSHOWSHADERUSED_KEY);
 		addProperty(MAINLANGUAGE_KEY);
 		addProperty(PATHDEVELOPMENTFILES_KEY);
 		addProperty(PATHLANGUAGEFILE_KEY);
@@ -58,6 +69,17 @@ public class EngineOptions extends AbstractOptions{
 		addProperty(PATHSHADERFILES_KEY);
 		addProperty(PATHTEXTURES_KEY);
 		addProperty(WRITEBACKONEXIT_KEY);
+		addProperty(SUBPATHBASICENTITYSHADER_KEY);
+		addProperty(SUBPATHBASICMODELSHADER_KEY);
+		addProperty(SUBPATHTEXTUREDENTITYSHADER_KEY);
+		addProperty(SUBPATHTEXTUREDMODELSHADER_KEY);
+		addProperty(SHADERUSECUSTOM_KEY);
+		addProperty(SHADERCUSTOMVERTEXNAME_KEY);
+		addProperty(SHADERCUSTOMFRAGMENTNAME_KEY);
+		addProperty(SHADERDEFAULTNAME_KEY);
+		addProperty(SHADERPRNAME_KEY);
+		addProperty(SHADERVINAME_KEY);
+		addProperty(SHADERLINAME_KEY);
 	}
 	
 	/** Check if a key is in the keylist for this class.

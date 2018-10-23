@@ -46,21 +46,21 @@ public abstract class AbstractShader {
 	private String fragmentFile;
 	private static FloatBuffer buffer = BufferUtils.createFloatBuffer(16);
 	
-	/** Create a nrw GenericSsaderProfram for the given vertex- and fragmentshader's
-	 *  filename. (Shader files should be placed in the RESShaderFiles folder)
-	 * 
-	 * @param vertexFile The filename of the vertex shader.
-	 * @param fragmentFile The filename of the fragment SHader
+	/** Create an AbstractShader
 	 */
-	public AbstractShader(String vertexFile, String fragmentFile) {
-		this.vertexFile = vertexFile;
-		this.fragmentFile = fragmentFile;
+	public AbstractShader() {
 
 	}
 	
 	/** Loads the shader in openGL so it can be used.
+	 * 
+	 * @param subPath the SubPath of the folder for the shaders inside the main shaders folder.
+	 * @param vertexFile The filename of the vertex shader.
+	 * @param fragmentFile The filename of the fragment SHader
 	 */
-	public void setupShader() {
+	public void setupShader(String subPath, String vertexFile, String fragmentFile) {
+		this.vertexFile = vertexFile;
+		this.fragmentFile = fragmentFile;
 		//Get the ID's
 		if(!getFileExtention(vertexFile).equals("vs")) {
 			ExceptionThrower.throwException(new ShaderIncompatableException(vertexFile));
@@ -68,8 +68,8 @@ public abstract class AbstractShader {
 		if(!getFileExtention(fragmentFile).equals("fs")) {
 			ExceptionThrower.throwException(new ShaderIncompatableException(fragmentFile));
 		}
-		vertexShaderID = loadShader(this.vertexFile, GL20.GL_VERTEX_SHADER);
-		fragmentShaderID = loadShader(this.fragmentFile, GL20.GL_FRAGMENT_SHADER);
+		vertexShaderID = loadShader(this.vertexFile, GL20.GL_VERTEX_SHADER, subPath);
+		fragmentShaderID = loadShader(this.fragmentFile, GL20.GL_FRAGMENT_SHADER, subPath);
 		programID = GL20.glCreateProgram();
 		// attach shaders to program
 		GL20.glAttachShader(programID, vertexShaderID);
@@ -105,19 +105,19 @@ public abstract class AbstractShader {
      * @param type the type of the shader
      * @return the ID of the shader
      */
-	private static int loadShader(String file, int type){
+	private static int loadShader(String file, int type, String subPath){
 		//create a string builder.
         StringBuilder shaderSource = new StringBuilder();
         //read the file and store in shaderSource.
         try{
-            BufferedReader reader = new BufferedReader(new FileReader(OptionHandler.getProperty(EngineOptions.PATHSHADERFILES_KEY, OptionHandler.ENGINE_OPTION_ID) + file));
+			BufferedReader reader = new BufferedReader(new FileReader(OptionHandler.getProperty(EngineOptions.PATHSHADERFILES_KEY, OptionHandler.ENGINE_OPTION_ID) + subPath + file));
             String line;
             while((line = reader.readLine())!=null){
                 shaderSource.append(line).append("//\n");
             }
             reader.close();
         }catch(IOException e){
-        	System.out.println(file);
+        	System.out.println(OptionHandler.getProperty(EngineOptions.PATHSHADERFILES_KEY, OptionHandler.ENGINE_OPTION_ID) + subPath + file);
         	ExceptionThrower.throwException(new InternalErrorException());
         }
         //get shader ID.

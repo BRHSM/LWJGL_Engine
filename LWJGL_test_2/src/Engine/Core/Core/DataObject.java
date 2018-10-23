@@ -46,16 +46,16 @@ public class DataObject {
 	
 	/** The default BasicModelShaders.
 	 */
-	public static final AbstractShader DEFAULT_BASIC_MODEL_SHADER = new BasicModelShader();
+	public static AbstractShader DEFAULT_BASIC_MODEL_SHADER;
 	/** The default TexturedModelShaders.
 	 */
-	public static final AbstractShader DEFAULT_TEXTURED_MODEL_SHADER = new TexturedModelShader();
+	public static AbstractShader DEFAULT_TEXTURED_MODEL_SHADER;
 	/** The default TexturedModelShaders.
 	 */
-	public static final AbstractShader DEFAULT_BASIC_ENTITY_SHADER = new BasicEntityShader();
+	public static AbstractShader DEFAULT_BASIC_ENTITY_SHADER;
 	/** The default TexturedEntityShaders.
 	 */
-	public static final AbstractShader DEFAULT_TEXTURED_ENTITY_SHADER = new TexturedEntityShader();
+	public static AbstractShader DEFAULT_TEXTURED_ENTITY_SHADER;
 	
 	/** The TexturedModelShaders to use.
 	 */
@@ -83,12 +83,7 @@ public class DataObject {
 	
 	/** Creates a clean DataObject
 	 */
-	public DataObject() {
-		basicModelShader = (BasicModelShader) DEFAULT_BASIC_MODEL_SHADER;
-		texturedModelShader = (TexturedModelShader) DEFAULT_TEXTURED_MODEL_SHADER;
-		basicEntityShader = (BasicEntityShader) DEFAULT_BASIC_ENTITY_SHADER;
-		texturedEntityShader = (TexturedEntityShader) DEFAULT_TEXTURED_ENTITY_SHADER;
-		
+	public DataObject() {		
 		OptionHandler.setupOptions();
 		
 		//load graphic options
@@ -107,6 +102,17 @@ public class DataObject {
 		if(OptionHandler.getProperty(EngineOptions.DEBUGENABLED_KEY, OptionHandler.ENGINE_OPTION_ID).equals("1")) {
 			System.out.println(StringBreaker.breakString("[DEBUG]: all loaded options: " + OptionHandler.getAllOptions(), "\n", 125));
 		}
+		
+		//set default shaders.
+		DEFAULT_BASIC_MODEL_SHADER = new BasicModelShader();
+		DEFAULT_TEXTURED_MODEL_SHADER = new TexturedModelShader();
+		DEFAULT_BASIC_ENTITY_SHADER = new BasicEntityShader();
+		DEFAULT_TEXTURED_ENTITY_SHADER = new TexturedEntityShader();
+		
+		basicModelShader = (BasicModelShader) DEFAULT_BASIC_MODEL_SHADER;
+		texturedModelShader = (TexturedModelShader) DEFAULT_TEXTURED_MODEL_SHADER;
+		basicEntityShader = (BasicEntityShader) DEFAULT_BASIC_ENTITY_SHADER;
+		texturedEntityShader = (TexturedEntityShader) DEFAULT_TEXTURED_ENTITY_SHADER;
 		
 		//set default camera
 		camera = new StaticCamera();

@@ -3,6 +3,7 @@ package Engine.Graphics.Shaders;
 import org.lwjglx.util.vector.Matrix4f;
 
 import Engine.Data.ModelHandeling.TexturedModel;
+import Engine.Data.OptionManager.EngineOptions;
 import Engine.Data.OptionManager.GraphicOptions;
 import Engine.Data.OptionManager.OptionHandler;
 
@@ -15,13 +16,7 @@ import Engine.Data.OptionManager.OptionHandler;
  * @see AbstractShader
  */
 public class TexturedEntityShader extends AbstractShader{
-	/** Filename of the vertex shader.
-	 */
-    private static final String VERTEX_FILE = "TexturedEntityShader.vs";
-    /** Filename of the fragment shader.
-     */
-    private static final String FRAGMENT_FILE = "TexturedEntityShader.fs";
-    
+
     /** The location for the TransformationMatrix.
      */
     private int transformationMatrixLocation;
@@ -41,8 +36,8 @@ public class TexturedEntityShader extends AbstractShader{
     /** Create a new TexturedEntityShader
      */
     public TexturedEntityShader() {
-        super(VERTEX_FILE, FRAGMENT_FILE);
-    }
+    	super();        
+        }
     
     @Override
     /** Bind the attributes of the shader.

@@ -28,6 +28,7 @@ import Engine.Graphics.Cameras.AbstractCamera;
 import Engine.Graphics.Shaders.AbstractShader;
 import Engine.Graphics.Shaders.BasicEntityShader;
 import Engine.Graphics.Shaders.BasicModelShader;
+import Engine.Graphics.Shaders.ShaderChooser;
 import Engine.Graphics.Shaders.TexturedEntityShader;
 import Engine.Graphics.Shaders.TexturedModelShader;
 import Engine.IO.KeyboardHandeling.KeyboardHandler;
@@ -149,10 +150,10 @@ public class DisplayManager {
 		}
 		
 		//Setup Shaders
-		basicModelShader.setupShader();
-		texturedModelShader.setupShader();
-		basicEntityShader.setupShader();
-		texturedEntityShader.setupShader();
+		basicModelShader.setupShader(OptionHandler.getProperty(EngineOptions.SUBPATHBASICENTITYSHADER_KEY, OptionHandler.ENGINE_OPTION_ID), ShaderChooser.getUsableShaderFileName(ShaderChooser.VERTEX_TYPE), ShaderChooser.getUsableShaderFileName(ShaderChooser.FRAGMENT_TYPE));
+		texturedModelShader.setupShader(OptionHandler.getProperty(EngineOptions.SUBPATHTEXTUREDENTITYSHADER_KEY, OptionHandler.ENGINE_OPTION_ID), ShaderChooser.getUsableShaderFileName(ShaderChooser.VERTEX_TYPE), ShaderChooser.getUsableShaderFileName(ShaderChooser.FRAGMENT_TYPE));
+		basicEntityShader.setupShader(OptionHandler.getProperty(EngineOptions.SUBPATHBASICMODELSHADER_KEY, OptionHandler.ENGINE_OPTION_ID), ShaderChooser.getUsableShaderFileName(ShaderChooser.VERTEX_TYPE), ShaderChooser.getUsableShaderFileName(ShaderChooser.FRAGMENT_TYPE));
+		texturedEntityShader.setupShader(OptionHandler.getProperty(EngineOptions.SUBPATHTEXTUREDMODELSHADER_KEY, OptionHandler.ENGINE_OPTION_ID), ShaderChooser.getUsableShaderFileName(ShaderChooser.VERTEX_TYPE), ShaderChooser.getUsableShaderFileName(ShaderChooser.FRAGMENT_TYPE));
 		
 		basicEntityRenderer.setup(basicEntityShader);
 		texturedEntityRenderer.setup(texturedEntityShader);
