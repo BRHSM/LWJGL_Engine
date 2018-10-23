@@ -80,6 +80,9 @@ public abstract class AbstractShader {
 		// Validate the program. 
 		GL20.glValidateProgram(programID);
 		getAllUniformLocations();
+		if(OptionHandler.getProperty(EngineOptions.DEBUGENABLED_KEY, OptionHandler.ENGINE_OPTION_ID).equals("1")) {
+			System.out.println("         Loaded shader: " + toString() + " from subfolder: " + subPath);
+		}
 	}
 	
 	/** Get the file extention as a string from a given filepath string (without the dot).
@@ -129,7 +132,7 @@ public abstract class AbstractShader {
         //check for errors.
         if(GL20.glGetShaderi(shaderID, GL20.GL_COMPILE_STATUS )== GL11.GL_FALSE){
             System.out.println(GL20.glGetShaderInfoLog(shaderID, 500));
-            System.err.println("[ERROR]: Could not compile shader!");
+            System.err.println("[ERROR]: Could not compile shader: " + file);
             ExceptionThrower.throwException(new InternalErrorException());
         }
         //Return shader ID.
@@ -236,6 +239,6 @@ public abstract class AbstractShader {
 	 * @return The shader details as a string.
 	 */
 	public String toString() {
-		return "  [vertexFile=" + vertexFile + ", fragmentFile=" + fragmentFile + "]";
+		return "[vertexFile=" + vertexFile + ", fragmentFile=" + fragmentFile + "]";
 	}
 }

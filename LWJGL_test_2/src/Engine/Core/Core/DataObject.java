@@ -192,8 +192,6 @@ public class DataObject {
 	 * @return the BasicShader.
 	 */
 	public BasicModelShader getBasicModelShader() {
-		if(basicModelShader == DEFAULT_BASIC_MODEL_SHADER && OptionHandler.getProperty(EngineOptions.DEBUGENABLED_KEY, OptionHandler.ENGINE_OPTION_ID).equals("1"))
-			System.out.println("         No BasicModelShader loaded, using default shader" + DEFAULT_BASIC_MODEL_SHADER.toString());
 		return basicModelShader;
 	}
 
@@ -202,8 +200,6 @@ public class DataObject {
 	 * @return the TextureShader.
 	 */
 	public TexturedModelShader getTexturedModelShader() {
-		if(texturedModelShader == DEFAULT_TEXTURED_MODEL_SHADER && OptionHandler.getProperty(EngineOptions.DEBUGENABLED_KEY, OptionHandler.ENGINE_OPTION_ID).equals("1"))
-			System.out.println("         No TexturedModelShader loaded, using default shader" + DEFAULT_TEXTURED_MODEL_SHADER.toString());
 		return texturedModelShader;
 	}	
 	
@@ -212,8 +208,6 @@ public class DataObject {
 	 * @return the BasicShader.
 	 */
 	public BasicEntityShader getBasicEntityShader() {
-		if(basicEntityShader == DEFAULT_BASIC_ENTITY_SHADER && OptionHandler.getProperty(EngineOptions.DEBUGENABLED_KEY, OptionHandler.ENGINE_OPTION_ID).equals("1"))
-			System.out.println("         No BasicEntityShader loaded, using default shader" + DEFAULT_BASIC_ENTITY_SHADER.toString());
 		return basicEntityShader;
 	}
 
@@ -222,8 +216,6 @@ public class DataObject {
 	 * @return the TextureShader.
 	 */
 	public TexturedEntityShader getTexturedEntityShader() {
-		if(texturedEntityShader == DEFAULT_TEXTURED_ENTITY_SHADER && OptionHandler.getProperty(EngineOptions.DEBUGENABLED_KEY, OptionHandler.ENGINE_OPTION_ID).equals("1"))
-			System.out.println("         No TexturedEntityShader loaded, using default shader" + DEFAULT_TEXTURED_ENTITY_SHADER.toString());
 		return texturedEntityShader;
 	}
 	
