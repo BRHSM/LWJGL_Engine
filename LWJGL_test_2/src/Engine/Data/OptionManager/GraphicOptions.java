@@ -2,6 +2,9 @@ package Engine.Data.OptionManager;
 
 import java.util.ArrayList;
 
+import Engine.Util.Exceptions.ExceptionThrower;
+import Engine.Util.Exceptions.OptionInvalidException;
+
 /** Class which handels graphics options.
  * 
  * @author Bram Steenbergen
@@ -40,16 +43,16 @@ public class GraphicOptions extends AbstractOptions{
 		keyList = new ArrayList<String>();
 		//load properties
 		
-		addProperty(WINDOWHEIGHT_KEY);
-		addProperty(WINDOWWIDTH_KEY);
-		addProperty(WINDOWALLIGNMENT_KEY);
-		addProperty(WINDOWFULLSCREEN_KEY);
-		addProperty(WINDOWFOV_KEY);
-		addProperty(WINDOWNEARPLANE_KEY);
-		addProperty(WINDOWFARPLANE_KEY);
-		addProperty(FRAMECAP_KEY);
-		addProperty(USEPROJECTIONMARTRIX_KEY);
-		addProperty(USEVIEWMATRIX_KEY);
+		addProperty(WINDOWHEIGHT_KEY, OptionValidator.INTEGER_OPTION);
+		addProperty(WINDOWWIDTH_KEY, OptionValidator.INTEGER_OPTION);
+		addProperty(WINDOWALLIGNMENT_KEY, OptionValidator.CHARARRAY_OPTION);
+		addProperty(WINDOWFULLSCREEN_KEY, OptionValidator.INTEGER_OPTION);
+		addProperty(WINDOWFOV_KEY, OptionValidator.INTEGER_OPTION);
+		addProperty(WINDOWNEARPLANE_KEY, OptionValidator.FLOATINGPOINT_OPTION);
+		addProperty(WINDOWFARPLANE_KEY, OptionValidator.FLOATINGPOINT_OPTION);
+		addProperty(FRAMECAP_KEY, OptionValidator.INTEGER_OPTION);
+		addProperty(USEPROJECTIONMARTRIX_KEY, OptionValidator.BOOLEAN_OPTION);
+		addProperty(USEVIEWMATRIX_KEY, OptionValidator.BOOLEAN_OPTION);
 	}
 	
 	/** Check if a key is in the keylist for this class.
@@ -65,9 +68,14 @@ public class GraphicOptions extends AbstractOptions{
 	 * 
 	 * @param key the key for the property to add.
 	 */
-	protected static void addProperty(String key) {
+	protected static void addProperty(String key, int validationKey) {
 		String tmp = loader.getProperty(key);
-		keyList.add(key);
-		properties.put(key, tmp);
+		if(OptionValidator.validateOption(tmp, validationKey)) {
+			keyList.add(key);
+			options.put(key, tmp);
+			validationKeys.put(key, new Integer(validationKey));
+		} else {
+			ExceptionThrower.throwException(new OptionInvalidException(key));
+		}
 	}
 }

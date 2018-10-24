@@ -2,6 +2,9 @@ package Engine.Data.OptionManager;
 
 import java.util.ArrayList;
 
+import Engine.Util.Exceptions.ExceptionThrower;
+import Engine.Util.Exceptions.OptionInvalidException;
+
 /** Class which handels engine options.
  * 
  * @author Bram Steenbergen
@@ -57,33 +60,33 @@ public class EngineOptions extends AbstractOptions{
 		keyList = new ArrayList<String>();
 		
 		//load properties
-		addProperty(DEBUGENABLED_KEY);
-		addProperty(DEBUGAVGLOADTIME_KEY);
-		addProperty(DEBUGTOTAVGLOADTIME_KEY);
-		addProperty(DEBUGLONGEXCEPTIONS_KEY);
-		addProperty(DEBUGSTACKTRACE_KEY);
-		addProperty(DEBUGSHOWOPTIONUPDATE_KEY);
-		addProperty(DEBUGLOGTOFILE_KEY);
-		addProperty(DEBUGSHOWSHADERUSED_KEY);
-		addProperty(MAINLANGUAGE_KEY);
-		addProperty(PATHDEVELOPMENTFILES_KEY);
-		addProperty(PATHLANGUAGEFILE_KEY);
-		addProperty(PATHMODELS_KEY);
-		addProperty(PATHSHADERFILES_KEY);
-		addProperty(PATHTEXTURES_KEY);
-		addProperty(WRITEBACKONEXIT_KEY);
-		addProperty(SUBPATHBASICENTITYSHADER_KEY);
-		addProperty(SUBPATHBASICMODELSHADER_KEY);
-		addProperty(SUBPATHTEXTUREDENTITYSHADER_KEY);
-		addProperty(SUBPATHTEXTUREDMODELSHADER_KEY);
-		addProperty(SHADERUSECUSTOM_KEY);
-		addProperty(SHADERCUSTOMVERTEXNAME_KEY);
-		addProperty(SHADERCUSTOMFRAGMENTNAME_KEY);
-		addProperty(SHADERDEFAULTNAME_KEY);
-		addProperty(SHADERPRNAME_KEY);
-		addProperty(SHADERVINAME_KEY);
-		addProperty(SHADERLINAME_KEY);
-		addProperty(SHADERAUTOSELECT_KEY);
+		addProperty(DEBUGENABLED_KEY, OptionValidator.BOOLEAN_OPTION);
+		addProperty(DEBUGAVGLOADTIME_KEY, OptionValidator.BOOLEAN_OPTION);
+		addProperty(DEBUGTOTAVGLOADTIME_KEY, OptionValidator.BOOLEAN_OPTION);
+		addProperty(DEBUGLONGEXCEPTIONS_KEY, OptionValidator.BOOLEAN_OPTION);
+		addProperty(DEBUGSTACKTRACE_KEY, OptionValidator.BOOLEAN_OPTION);
+		addProperty(DEBUGSHOWOPTIONUPDATE_KEY, OptionValidator.BOOLEAN_OPTION);
+		addProperty(DEBUGLOGTOFILE_KEY, OptionValidator.BOOLEAN_OPTION);
+		addProperty(DEBUGSHOWSHADERUSED_KEY, OptionValidator.BOOLEAN_OPTION);
+		addProperty(MAINLANGUAGE_KEY, OptionValidator.TEXT_OPTION);
+		addProperty(PATHDEVELOPMENTFILES_KEY, OptionValidator.FOLDERPATH_OPTION);
+		addProperty(PATHLANGUAGEFILE_KEY, OptionValidator.FOLDERPATH_OPTION);
+		addProperty(PATHMODELS_KEY, OptionValidator.FOLDERPATH_OPTION);
+		addProperty(PATHSHADERFILES_KEY, OptionValidator.FOLDERPATH_OPTION);
+		addProperty(PATHTEXTURES_KEY, OptionValidator.FOLDERPATH_OPTION);
+		addProperty(WRITEBACKONEXIT_KEY, OptionValidator.BOOLEAN_OPTION);
+		addProperty(SUBPATHBASICENTITYSHADER_KEY, OptionValidator.FOLDERPATH_OPTION);
+		addProperty(SUBPATHBASICMODELSHADER_KEY, OptionValidator.FOLDERPATH_OPTION);
+		addProperty(SUBPATHTEXTUREDENTITYSHADER_KEY, OptionValidator.FOLDERPATH_OPTION);
+		addProperty(SUBPATHTEXTUREDMODELSHADER_KEY, OptionValidator.FOLDERPATH_OPTION);
+		addProperty(SHADERUSECUSTOM_KEY, OptionValidator.BOOLEAN_OPTION);
+		addProperty(SHADERCUSTOMVERTEXNAME_KEY, OptionValidator.CHARARRAY_OPTION);
+		addProperty(SHADERCUSTOMFRAGMENTNAME_KEY, OptionValidator.CHARARRAY_OPTION);
+		addProperty(SHADERDEFAULTNAME_KEY, OptionValidator.CHARARRAY_OPTION);
+		addProperty(SHADERPRNAME_KEY, OptionValidator.CHARARRAY_OPTION);
+		addProperty(SHADERVINAME_KEY, OptionValidator.CHARARRAY_OPTION);
+		addProperty(SHADERLINAME_KEY, OptionValidator.CHARARRAY_OPTION);
+		addProperty(SHADERAUTOSELECT_KEY, OptionValidator.BOOLEAN_OPTION);
 	}
 	
 	/** Check if a key is in the keylist for this class.
@@ -99,10 +102,15 @@ public class EngineOptions extends AbstractOptions{
 	 * 
 	 * @param key the key for the property to add.
 	 */
-	protected static void addProperty(String key) {
+	protected static void addProperty(String key, int validationKey) {
 		String tmp = loader.getProperty(key);
-		keyList.add(key);
-		properties.put(key, tmp);
+		if(OptionValidator.validateOption(tmp, validationKey)) {
+			keyList.add(key);
+			options.put(key, tmp);
+			validationKeys.put(key, new Integer(validationKey));
+		} else {
+			ExceptionThrower.throwException(new OptionInvalidException(key));
+		}
 	}
 }
 
