@@ -82,7 +82,7 @@ public abstract class AbstractShader {
 		GL20.glValidateProgram(programID);
 		System.out.println("         Link status:     " + toString() + " : " +  linkStatus);
 		getAllUniformLocations();
-		if(OptionHandler.getProperty(EngineOptions.DEBUGENABLED_KEY, OptionHandler.ENGINE_OPTION_ID).equals("1")) {
+		if(OptionHandler.getProperty(EngineOptions.DEBUGENABLED_KEY, OptionHandler.ENGINE_OPTION_ID).equals("true")) {
 			System.out.println("         Loaded shader:   " + toString() + " from subfolder: " + subPath);
 		}
 	}

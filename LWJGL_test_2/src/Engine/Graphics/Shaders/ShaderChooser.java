@@ -11,7 +11,7 @@ public class ShaderChooser {
 	
 	public static String getUsableShaderFileName(int type, boolean isModelShader) {
 		//load custom set shader.
-		if(OptionHandler.getProperty(EngineOptions.SHADERUSECUSTOM_KEY, OptionHandler.ENGINE_OPTION_ID).equals("1")) {
+		if(OptionHandler.getProperty(EngineOptions.SHADERUSECUSTOM_KEY, OptionHandler.ENGINE_OPTION_ID).equals("true")) {
 			if(type == VERTEX_TYPE) {
 				return OptionHandler.getProperty(EngineOptions.SHADERCUSTOMVERTEXNAME_KEY, OptionHandler.ENGINE_OPTION_ID) + ".vs";
 			}

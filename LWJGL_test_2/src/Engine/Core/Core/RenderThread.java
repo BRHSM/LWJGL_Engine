@@ -31,12 +31,12 @@ public class RenderThread extends Thread{
 	
 	/** integer representation of boolean used to check if game is in debug mode
 	*/
-	private int isDebug;
+	private String isDebug;
 	
 	/** integer representation of boolean used to check if game should report average
 	 *  load time or a load time for each frame. 
 	*/
-	private int avgLoadtime;
+	private String avgLoadtime;
 	
 	/** Creates an new empty RenderThread.
 	 */
@@ -48,12 +48,12 @@ public class RenderThread extends Thread{
 	/** Method with holds main game loop. Executes the game loop untill it's told to stop. 
 	 */
 	public void run() {
-		isDebug = Integer.parseInt(OptionHandler.getProperty(EngineOptions.DEBUGENABLED_KEY, OptionHandler.ENGINE_OPTION_ID));
-		avgLoadtime = Integer.parseInt(OptionHandler.getProperty(EngineOptions.DEBUGAVGLOADTIME_KEY, OptionHandler.ENGINE_OPTION_ID));
+		isDebug = OptionHandler.getProperty(EngineOptions.DEBUGENABLED_KEY, OptionHandler.ENGINE_OPTION_ID);
+		avgLoadtime = OptionHandler.getProperty(EngineOptions.DEBUGAVGLOADTIME_KEY, OptionHandler.ENGINE_OPTION_ID);
 		//call Init
 		init();
 		
-		if(isDebug == 1)
+		if(isDebug.equals("true"))
 			System.out.println("\n[DEBUG]: Starting main loop.");
 		
 		//Initialize Timevariable
@@ -83,8 +83,8 @@ public class RenderThread extends Thread{
 	        if(lastFpsTime >= 1000000000){
 	            lastFpsTime = 0;
 	            //display info if in debug mode.
-	            if(isDebug == 1) {
-	            	if(avgLoadtime == 1) {
+	            if(isDebug.equals("true")) {
+	            	if(avgLoadtime.equals("true")) {
 	            		//calculate and show avarage load time
 	            		System.out.println("[DEBUG]: Avarage load time: " + (double)Math.round(loadtimePerSec / fps * 100000d) / 100000d);
 	            	}
@@ -111,15 +111,15 @@ public class RenderThread extends Thread{
 	        }catch(Exception e){}
 			
 			//Show\calculate Loadtime if in debug mode.
-			if(isDebug == 1) {
-				if(avgLoadtime == 1) {
+			if(isDebug.equals("true")) {
+				if(avgLoadtime.equals("true")) {
 					//show avarage load time per second.
 					loadtimePerSec = loadtimePerSec + (double)Math.round(delta * 100000d) / 100000d;
 				}else {
 					// Show loadtime for each frame
 					System.out.println("[DEBUG]: LoadTIme: " + (double)Math.round(delta * 100000d) / 100000d);
 				}
-				if(OptionHandler.getProperty(EngineOptions.DEBUGTOTAVGLOADTIME_KEY, OptionHandler.ENGINE_OPTION_ID).equals("1")) {
+				if(OptionHandler.getProperty(EngineOptions.DEBUGTOTAVGLOADTIME_KEY, OptionHandler.ENGINE_OPTION_ID).equals("true")) {
 				//add to total load time.
 				totalLoadTime = totalLoadTime + (double)Math.round(delta * 100000d) / 100000d;
 				}
@@ -129,8 +129,8 @@ public class RenderThread extends Thread{
 			if(displayManager.shouldClose()) {
 				//end the game.
 				running = false;
-				if(OptionHandler.getProperty(EngineOptions.DEBUGENABLED_KEY, OptionHandler.ENGINE_OPTION_ID).equals("1"))
-					if(OptionHandler.getProperty(EngineOptions.DEBUGTOTAVGLOADTIME_KEY, OptionHandler.ENGINE_OPTION_ID).equals("1"))
+				if(OptionHandler.getProperty(EngineOptions.DEBUGENABLED_KEY, OptionHandler.ENGINE_OPTION_ID).equals("true"))
+					if(OptionHandler.getProperty(EngineOptions.DEBUGTOTAVGLOADTIME_KEY, OptionHandler.ENGINE_OPTION_ID).equals("true"))
 						System.out.println("\n[DEBUG]: Game ran with a total avarage load time of: " + Math.round((totalLoadTime / new Double(cicles)) * 100000d) / 100000d + " over " + cicles + " cicles\n");
 			}
 		}
@@ -145,7 +145,7 @@ public class RenderThread extends Thread{
 		keyStrokeHandeler = new KeyStrokeHandler();
 		displayManager = new DisplayManager();
 		displayManager.createDisplay(new KeyboardHandler(), object);
-		if(isDebug == 1) {
+		if(isDebug.equals("true")) {
 			System.out.println("[DEBUG]: Language file loaded: " + OptionHandler.getProperty(EngineOptions.PATHLANGUAGEFILE_KEY, OptionHandler.ENGINE_OPTION_ID) +  OptionHandler.getProperty(EngineOptions.MAINLANGUAGE_KEY, OptionHandler.ENGINE_OPTION_ID));
 		}
 	}

@@ -104,7 +104,7 @@ public class DataObject {
 		OptionHandler.loadOptionListFromFile(OptionHandler.RUNTIME_OPTIONS_ID, OptionHandler.RUNTIME_OPTIONS_TYPE);
 		
 		//print all options if debug.
-		if(OptionHandler.getProperty(EngineOptions.DEBUGENABLED_KEY, OptionHandler.ENGINE_OPTION_ID).equals("1")) {
+		if(OptionHandler.getProperty(EngineOptions.DEBUGENABLED_KEY, OptionHandler.ENGINE_OPTION_ID).equals("true")) {
 			System.out.println(StringBreaker.breakStringBehindString("[DEBUG]: all loaded options: \n" + OptionHandler.getAllOptions(), "\n", ","));
 		}
 		
@@ -123,7 +123,7 @@ public class DataObject {
 		camera = new StaticCamera();
 		
 		
-		if(basicModelShader == DEFAULT_BASIC_MODEL_SHADER && OptionHandler.getProperty(EngineOptions.DEBUGENABLED_KEY, OptionHandler.ENGINE_OPTION_ID).equals("1"))
+		if(basicModelShader == DEFAULT_BASIC_MODEL_SHADER && OptionHandler.getProperty(EngineOptions.DEBUGENABLED_KEY, OptionHandler.ENGINE_OPTION_ID).equals("true"))
 			System.out.println("[DEBUG]: Default camera loaded: " + camera.toString());
 	}
 	

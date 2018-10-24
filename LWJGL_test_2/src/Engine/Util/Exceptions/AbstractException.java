@@ -34,15 +34,15 @@ public class AbstractException extends Exception{
 	/** Show the debug message after creating the exception.
 	 */
 	private void debugOnCreate() {
-		if(OptionHandler.getProperty(EngineOptions.DEBUGENABLED_KEY, OptionHandler.ENGINE_OPTION_ID).equals("1")) {
-			if(OptionHandler.getProperty(EngineOptions.DEBUGLONGEXCEPTIONS_KEY, OptionHandler.ENGINE_OPTION_ID).equals("1")) {
+		if(OptionHandler.getProperty(EngineOptions.DEBUGENABLED_KEY, OptionHandler.ENGINE_OPTION_ID).equals("true")) {
+			if(OptionHandler.getProperty(EngineOptions.DEBUGLONGEXCEPTIONS_KEY, OptionHandler.ENGINE_OPTION_ID).equals("true")) {
 				//show longer message
 				System.out.println(this.message);
 			} else {
 				//show shorter message
 				System.out.println(this.messageLong);
 			}
-			if(OptionHandler.getProperty(EngineOptions.DEBUGSTACKTRACE_KEY, OptionHandler.ENGINE_OPTION_ID).equals("1")) {
+			if(OptionHandler.getProperty(EngineOptions.DEBUGSTACKTRACE_KEY, OptionHandler.ENGINE_OPTION_ID).equals("true")) {
 				//show StackTrace
 				System.out.println(this.getStackTrace());
 			}

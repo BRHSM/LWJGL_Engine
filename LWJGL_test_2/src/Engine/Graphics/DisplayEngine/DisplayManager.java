@@ -134,7 +134,7 @@ public class DisplayManager {
 		texturedEntityRenderer = new TexturedEntityRenderer();
 		
 		//create shaders
-		if(OptionHandler.getProperty(EngineOptions.DEBUGENABLED_KEY, OptionHandler.ENGINE_OPTION_ID).equals("1"))
+		if(OptionHandler.getProperty(EngineOptions.DEBUGENABLED_KEY, OptionHandler.ENGINE_OPTION_ID).equals("true"))
 			System.out.println("\n[DEBUG]: Loading shader files: ");
 		
 		basicModelShader = object.getBasicModelShader();
