@@ -11,6 +11,7 @@ import java.util.Map.Entry;
 import java.util.Properties;
 
 import Engine.Util.Exceptions.ExceptionThrower;
+import Engine.Util.Exceptions.OptionInvalidException;
 import Engine.Util.Exceptions.OptionNotFoundException;
 import Engine.Util.Util.SortedProperties;
 
@@ -82,10 +83,14 @@ public class OptionHandler {
 	 * @param value The value of the option as a string.
 	 */
 	public static void setProperty(String optionKey, int optionFileID, String value) {
-		if(getProperty(EngineOptions.DEBUGSHOWOPTIONUPDATE_KEY, ENGINE_OPTION_ID).equals("true") && getProperty(EngineOptions.DEBUGENABLED_KEY, ENGINE_OPTION_ID).equals("true")) {
-			System.out.println("[DEBUG]: Option: " + optionKey + " changed from: " + optionList.get(optionFileID).getProperty(optionKey) + " to: " + value);
+		if(OptionValidator.validateOption(value, AbstractOptions.validationKeys.get(optionKey))){
+			if(getProperty(EngineOptions.DEBUGSHOWOPTIONUPDATE_KEY, ENGINE_OPTION_ID).equals("true") && getProperty(EngineOptions.DEBUGENABLED_KEY, ENGINE_OPTION_ID).equals("true")) {
+				System.out.println("[DEBUG]: Option: " + optionKey + " changed from: " + optionList.get(optionFileID).getProperty(optionKey) + " to: " + value);
+			}
+			optionList.get(optionFileID).setProperty(optionKey,value);
+		} else {
+			ExceptionThrower.throwException(new OptionInvalidException(optionKey));
 		}
-		optionList.get(optionFileID).setProperty(optionKey,value);
 	}
 	
 	/** Notify the option class to load from it's file.

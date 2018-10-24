@@ -237,7 +237,8 @@ public class DataObject {
 	 * @param camera The camera to set.
 	 */
 	public void setCamera(AbstractCamera camera) {
-		System.out.println("setting camera");
+		if(OptionHandler.getProperty(EngineOptions.DEBUGENABLED_KEY, OptionHandler.ENGINE_OPTION_ID).equals("true"))
+			System.out.println("[DEBUG]: setting camera: " + camera.toString());
 		OptionHandler.setProperty(RuntimeOptions.USESVIEWMATRIX_KEY, OptionHandler.RUNTIME_OPTIONS_ID, "true");
 		this.camera = camera;
 	}
