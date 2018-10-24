@@ -3,8 +3,12 @@ package Engine.Data.EntityHandeling;
 import org.lwjglx.util.vector.Vector3f;
 
 import Engine.Data.ModelHandeling.AbstractModel;
+import Engine.Data.OptionManager.EngineOptions;
+import Engine.Data.OptionManager.GraphicOptions;
 import Engine.Data.OptionManager.OptionHandler;
 import Engine.Data.OptionManager.RuntimeOptions;
+import Engine.Util.Exceptions.ExceptionThrower;
+import Engine.Util.Exceptions.OptionDisabledButStillUsedException;
 /** Class used to represent an entity. This allows a model to be transposed using 
  *  a position and a rotation value for each axes as well as a scale value which
  *  scales the model in all axis.
@@ -58,7 +62,11 @@ public class AbstractEntity {
 		this.modifier = modifier;
 		if(position.z != 0) {
 			OptionHandler.setProperty(RuntimeOptions.USESPROJECTIONMATRIX_KEY, OptionHandler.RUNTIME_OPTIONS_ID, "true");
+			if(OptionHandler.getProperty(EngineOptions.SHADERAUTOSELECT_KEY, OptionHandler.ENGINE_OPTION_ID).equals("true") && OptionHandler.getProperty(EngineOptions.SHADERUSECUSTOM_KEY, OptionHandler.ENGINE_OPTION_ID).equals("false"))
+				if(OptionHandler.getProperty(GraphicOptions.USEPROJECTIONMARTRIX_KEY, OptionHandler.ENGINE_OPTION_ID).equals("false"))
+					ExceptionThrower.throwException(new OptionDisabledButStillUsedException());
 		}
+		
 	}
 	
 	/** Update the entity.

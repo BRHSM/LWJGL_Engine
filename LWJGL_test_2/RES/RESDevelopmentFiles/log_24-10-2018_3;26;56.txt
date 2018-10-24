@@ -1,0 +1,15 @@
+
+[DEBUG]: Loading shader files: 
+         Link status:     [vertexFile=default.vs, fragmentFile=default.fs] : 0
+         Loaded shader:   [vertexFile=default.vs, fragmentFile=default.fs] from subfolder: BasicModelShader/
+         Link status:     [vertexFile=default.vs, fragmentFile=default.fs] : 0
+         Loaded shader:   [vertexFile=default.vs, fragmentFile=default.fs] from subfolder: TexturedModelShader/
+         Link status:     [vertexFile=VI.vs, fragmentFile=VI.fs] : 1
+         Loaded shader:   [vertexFile=VI.vs, fragmentFile=VI.fs] from subfolder: BasicEntityShader/
+         Link status:     [vertexFile=VI.vs, fragmentFile=VI.fs] : 1
+         Loaded shader:   [vertexFile=VI.vs, fragmentFile=VI.fs] from subfolder: TexturedEntityShader/
+[DEBUG]: Option: usesProjectionMatrix changed from: false to: true
+[DEBUG]: Language file loaded: RES/RESLanguageFiles/language_IT
+
+[DEBUG]: Starting main loop.
+[ERROR]: The shader: [vertexFile=VI.vs, fragmentFile=VI.fs]second is incompattable with the shader type it's assigned to. Make sure the extention is correct.

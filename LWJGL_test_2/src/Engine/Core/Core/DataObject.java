@@ -18,6 +18,8 @@ import Engine.Graphics.Shaders.BasicEntityShader;
 import Engine.Graphics.Shaders.BasicModelShader;
 import Engine.Graphics.Shaders.TexturedEntityShader;
 import Engine.Graphics.Shaders.TexturedModelShader;
+import Engine.Util.Exceptions.ExceptionThrower;
+import Engine.Util.Exceptions.OptionDisabledButStillUsedException;
 import Engine.Util.Util.StringBreaker;
 
 /** Object wich contains all data for the engine to work. 
@@ -237,9 +239,13 @@ public class DataObject {
 	 * @param camera The camera to set.
 	 */
 	public void setCamera(AbstractCamera camera) {
-		if(OptionHandler.getProperty(EngineOptions.DEBUGENABLED_KEY, OptionHandler.ENGINE_OPTION_ID).equals("true"))
+		if(OptionHandler.getProperty(EngineOptions.DEBUGENABLED_KEY, OptionHandler.ENGINE_OPTION_ID).equals("true")) {
 			System.out.println("[DEBUG]: setting camera: " + camera.toString());
+		}
 		OptionHandler.setProperty(RuntimeOptions.USESVIEWMATRIX_KEY, OptionHandler.RUNTIME_OPTIONS_ID, "true");
+		if(OptionHandler.getProperty(EngineOptions.SHADERAUTOSELECT_KEY, OptionHandler.ENGINE_OPTION_ID).equals("true") && OptionHandler.getProperty(EngineOptions.SHADERUSECUSTOM_KEY, OptionHandler.ENGINE_OPTION_ID).equals("false"))
+			if(OptionHandler.getProperty(GraphicOptions.USEVIEWMATRIX_KEY, OptionHandler.ENGINE_OPTION_ID).equals("false"))
+				ExceptionThrower.throwException(new OptionDisabledButStillUsedException());
 		this.camera = camera;
 	}
 }
