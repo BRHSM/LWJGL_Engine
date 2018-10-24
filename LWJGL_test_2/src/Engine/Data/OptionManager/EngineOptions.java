@@ -17,9 +17,9 @@ public class EngineOptions extends AbstractOptions{
 	public static final String DEBUGTOTAVGLOADTIME_KEY = "debugTotAvgLoadtime";
 	public static final String DEBUGLONGEXCEPTIONS_KEY = "debugLongExceptions";
 	public static final String DEBUGSTACKTRACE_KEY = "debugStackTrace";
+	public static final String DEBUGSHOWOPTIONUPDATE_KEY = "debugShowOptionUpdate";
 	public static final String DEBUGLOGTOFILE_KEY = "debugLogToFile";
 	public static final String DEBUGSHOWSHADERUSED_KEY = "debugShowShaderUsed";
-	public static final String DEBUGOPTIONCHANGE_KEY = "debugShowOptionChange";
 	public static final String MAINLANGUAGE_KEY = "mainLanguage";
 	public static final String PATHDEVELOPMENTFILES_KEY = "pathDevelopmentFiles";
 	public static final String PATHLANGUAGEFILE_KEY = "pathLanguageFiles";
@@ -62,6 +62,7 @@ public class EngineOptions extends AbstractOptions{
 		addProperty(DEBUGTOTAVGLOADTIME_KEY);
 		addProperty(DEBUGLONGEXCEPTIONS_KEY);
 		addProperty(DEBUGSTACKTRACE_KEY);
+		addProperty(DEBUGSHOWOPTIONUPDATE_KEY);
 		addProperty(DEBUGLOGTOFILE_KEY);
 		addProperty(DEBUGSHOWSHADERUSED_KEY);
 		addProperty(MAINLANGUAGE_KEY);

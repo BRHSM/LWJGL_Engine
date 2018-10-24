@@ -1,5 +1,5 @@
 package Engine.Graphics.Cameras;
-/** Instance of a camera without movement. 
+/** The default camera which does not support viewMatrices. 
  * 
  * @author Bram Steenbergen
  * @version 1.0
