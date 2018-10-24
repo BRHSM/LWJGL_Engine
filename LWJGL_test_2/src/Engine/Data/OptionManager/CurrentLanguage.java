@@ -2,6 +2,9 @@ package Engine.Data.OptionManager;
 
 import java.util.ArrayList;
 
+import Engine.Util.Exceptions.ExceptionThrower;
+import Engine.Util.Exceptions.OptionInvalidException;
+
 /** Class which handels all properties of the currently loaded language file.
  * 
  * @author Bram Steenbergen
@@ -30,7 +33,7 @@ public class CurrentLanguage extends AbstractOptions{
 		
 		keyList = new ArrayList<String>();
 		//load properties
-		addProperty(TITLE_KEY);
+		addProperty(TITLE_KEY,OptionValidator.TEXT_OPTION);
 	}
 	
 	/** Check if a key is in the keylist for this class.
@@ -46,9 +49,14 @@ public class CurrentLanguage extends AbstractOptions{
 	 * 
 	 * @param key the key for the property to add.
 	 */
-	protected static void addProperty(String key) {
+	protected static void addProperty(String key, int validationKey) {
 		String tmp = loader.getProperty(key);
-		keyList.add(key);
-		properties.put(key, tmp);
+		if(OptionValidator.validateOption(tmp, validationKey)) {
+			keyList.add(key);
+			options.put(key, tmp);
+			validationKeys.put(key, new Integer(validationKey));
+		} else {
+			ExceptionThrower.throwException(new OptionInvalidException(key));
+		}
 	}
 }
