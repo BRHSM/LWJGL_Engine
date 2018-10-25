@@ -1,0 +1,95 @@
+
+[DEBUG]: Loading shader files: 
+         Link status:     [vertexFile=default.vs, fragmentFile=default.fs] : 0
+         Loaded shader:   [vertexFile=default.vs, fragmentFile=default.fs] from subfolder: BasicModelShader/
+         Link status:     [vertexFile=default.vs, fragmentFile=default.fs] : 0
+         Loaded shader:   [vertexFile=default.vs, fragmentFile=default.fs] from subfolder: TexturedModelShader/
+         Link status 1:   [vertexFile=VI.vs, fragmentFile=VI.fs] : 1
+         Link status 2:   [vertexFile=VI.vs, fragmentFile=VI.fs] : 0
+         Loaded shader 1: [vertexFile=VI.vs, fragmentFile=VI.fs] from subfolder: EntityShader/
+         Loaded shader 2: [vertexFile=VI.vs, fragmentFile=VI.fs] from subfolder: TexturedEntityShader/
+[DEBUG]: Option: usesProjectionMatrix changed from: false to: true
+[DEBUG]: Language file loaded: RES/LanguageFiles/language_IT
+
+[DEBUG]: Starting main loop.
+using textured
+using textured
+using textured
+using textured
+using textured
+using textured
+using textured
+using textured
+using textured
+using textured
+using textured
+using textured
+using textured
+using textured
+using textured
+using textured
+using textured
+using textured
+using textured
+using textured
+using textured
+using textured
+using textured
+using textured
+using textured
+using textured
+using textured
+using textured
+using textured
+using textured
+using textured
+using textured
+using textured
+using textured
+using textured
+using textured
+using textured
+using textured
+using textured
+[DEBUG]: Avarage load time: 1.13795
+[DEBUG]: fps: 39
+using textured
+using textured
+using textured
+using textured
+using textured
+using textured
+using textured
+using textured
+using textured
+using textured
+using textured
+using textured
+using textured
+using textured
+using textured
+using textured
+using textured
+using textured
+using textured
+using textured
+using textured
+using textured
+using textured
+using textured
+using textured
+using textured
+using textured
+using textured
+using textured
+using textured
+using textured
+using textured
+using textured
+using textured
+using textured
+using textured
+
+[DEBUG]: Game ran with a total avarage load time of: 1.05746 over 75 cicles
+
+[DEBUG]: Writing back options: 

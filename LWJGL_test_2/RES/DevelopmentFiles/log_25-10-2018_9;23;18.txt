@@ -1,0 +1,90 @@
+
+[DEBUG]: Loading shader files: 
+         Link status:     [vertexFile=default.vs, fragmentFile=default.fs] : 0
+         Loaded shader:   [vertexFile=default.vs, fragmentFile=default.fs] from subfolder: BasicModelShader/
+         Link status:     [vertexFile=default.vs, fragmentFile=default.fs] : 0
+         Loaded shader:   [vertexFile=default.vs, fragmentFile=default.fs] from subfolder: TexturedModelShader/
+         Link status:     [vertexFile=VI.vs, fragmentFile=VI.fs] : 1
+         Loaded shader:   [vertexFile=VI.vs, fragmentFile=VI.fs] from subfolder: EntityShader/
+[DEBUG]: Option: usesProjectionMatrix changed from: false to: true
+[DEBUG]: Language file loaded: RES/LanguageFiles/language_IT
+
+[DEBUG]: Starting main loop.
+Engine.Data.ModelHandeling.TexturedModel@1dc0f4d2
+Engine.Data.ModelHandeling.TexturedModel@1dc0f4d2
+Engine.Data.ModelHandeling.TexturedModel@1dc0f4d2
+Engine.Data.ModelHandeling.TexturedModel@1dc0f4d2
+Engine.Data.ModelHandeling.TexturedModel@1dc0f4d2
+Engine.Data.ModelHandeling.TexturedModel@1dc0f4d2
+Engine.Data.ModelHandeling.TexturedModel@1dc0f4d2
+Engine.Data.ModelHandeling.TexturedModel@1dc0f4d2
+Engine.Data.ModelHandeling.TexturedModel@1dc0f4d2
+Engine.Data.ModelHandeling.TexturedModel@1dc0f4d2
+Engine.Data.ModelHandeling.TexturedModel@1dc0f4d2
+Engine.Data.ModelHandeling.TexturedModel@1dc0f4d2
+Engine.Data.ModelHandeling.TexturedModel@1dc0f4d2
+Engine.Data.ModelHandeling.TexturedModel@1dc0f4d2
+Engine.Data.ModelHandeling.TexturedModel@1dc0f4d2
+Engine.Data.ModelHandeling.TexturedModel@1dc0f4d2
+Engine.Data.ModelHandeling.TexturedModel@1dc0f4d2
+Engine.Data.ModelHandeling.TexturedModel@1dc0f4d2
+Engine.Data.ModelHandeling.TexturedModel@1dc0f4d2
+Engine.Data.ModelHandeling.TexturedModel@1dc0f4d2
+Engine.Data.ModelHandeling.TexturedModel@1dc0f4d2
+Engine.Data.ModelHandeling.TexturedModel@1dc0f4d2
+Engine.Data.ModelHandeling.TexturedModel@1dc0f4d2
+Engine.Data.ModelHandeling.TexturedModel@1dc0f4d2
+Engine.Data.ModelHandeling.TexturedModel@1dc0f4d2
+Engine.Data.ModelHandeling.TexturedModel@1dc0f4d2
+Engine.Data.ModelHandeling.TexturedModel@1dc0f4d2
+Engine.Data.ModelHandeling.TexturedModel@1dc0f4d2
+Engine.Data.ModelHandeling.TexturedModel@1dc0f4d2
+Engine.Data.ModelHandeling.TexturedModel@1dc0f4d2
+Engine.Data.ModelHandeling.TexturedModel@1dc0f4d2
+Engine.Data.ModelHandeling.TexturedModel@1dc0f4d2
+Engine.Data.ModelHandeling.TexturedModel@1dc0f4d2
+Engine.Data.ModelHandeling.TexturedModel@1dc0f4d2
+Engine.Data.ModelHandeling.TexturedModel@1dc0f4d2
+Engine.Data.ModelHandeling.TexturedModel@1dc0f4d2
+Engine.Data.ModelHandeling.TexturedModel@1dc0f4d2
+Engine.Data.ModelHandeling.TexturedModel@1dc0f4d2
+Engine.Data.ModelHandeling.TexturedModel@1dc0f4d2
+Engine.Data.ModelHandeling.TexturedModel@1dc0f4d2
+Engine.Data.ModelHandeling.TexturedModel@1dc0f4d2
+Engine.Data.ModelHandeling.TexturedModel@1dc0f4d2
+Engine.Data.ModelHandeling.TexturedModel@1dc0f4d2
+Engine.Data.ModelHandeling.TexturedModel@1dc0f4d2
+Engine.Data.ModelHandeling.TexturedModel@1dc0f4d2
+Engine.Data.ModelHandeling.TexturedModel@1dc0f4d2
+Engine.Data.ModelHandeling.TexturedModel@1dc0f4d2
+Engine.Data.ModelHandeling.TexturedModel@1dc0f4d2
+[DEBUG]: Avarage load time: 0.92644
+[DEBUG]: fps: 48
+Engine.Data.ModelHandeling.TexturedModel@1dc0f4d2
+Engine.Data.ModelHandeling.TexturedModel@1dc0f4d2
+Engine.Data.ModelHandeling.TexturedModel@1dc0f4d2
+Engine.Data.ModelHandeling.TexturedModel@1dc0f4d2
+Engine.Data.ModelHandeling.TexturedModel@1dc0f4d2
+Engine.Data.ModelHandeling.TexturedModel@1dc0f4d2
+Engine.Data.ModelHandeling.TexturedModel@1dc0f4d2
+Engine.Data.ModelHandeling.TexturedModel@1dc0f4d2
+Engine.Data.ModelHandeling.TexturedModel@1dc0f4d2
+Engine.Data.ModelHandeling.TexturedModel@1dc0f4d2
+Engine.Data.ModelHandeling.TexturedModel@1dc0f4d2
+Engine.Data.ModelHandeling.TexturedModel@1dc0f4d2
+Engine.Data.ModelHandeling.TexturedModel@1dc0f4d2
+Engine.Data.ModelHandeling.TexturedModel@1dc0f4d2
+Engine.Data.ModelHandeling.TexturedModel@1dc0f4d2
+Engine.Data.ModelHandeling.TexturedModel@1dc0f4d2
+Engine.Data.ModelHandeling.TexturedModel@1dc0f4d2
+Engine.Data.ModelHandeling.TexturedModel@1dc0f4d2
+Engine.Data.ModelHandeling.TexturedModel@1dc0f4d2
+Engine.Data.ModelHandeling.TexturedModel@1dc0f4d2
+Engine.Data.ModelHandeling.TexturedModel@1dc0f4d2
+Engine.Data.ModelHandeling.TexturedModel@1dc0f4d2
+Engine.Data.ModelHandeling.TexturedModel@1dc0f4d2
+Engine.Data.ModelHandeling.TexturedModel@1dc0f4d2
+
+[DEBUG]: Game ran with a total avarage load time of: 0.93326 over 72 cicles
+
+[DEBUG]: Writing back options: 
