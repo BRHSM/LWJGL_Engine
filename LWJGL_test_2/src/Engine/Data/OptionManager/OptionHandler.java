@@ -151,8 +151,8 @@ public class OptionHandler {
 	    try {
 	    	engineOptionsSorted.putAll(engineOptions);
 	    	graphicsOptionsSorted.putAll(graphicsOptions);
-	    	engineOptionsSorted.store(new FileOutputStream(new File("RES/RESConfigFiles/EngineOptions.cfg")), null);
-	    	graphicsOptionsSorted.store(new FileOutputStream(new File("RES/RESConfigFiles/GraphicOptions.cfg")), null);
+	    	engineOptionsSorted.store(new FileOutputStream(new File("RES/ConfigFiles/EngineOptions.cfg")), null);
+	    	graphicsOptionsSorted.store(new FileOutputStream(new File("RES/ConfigFiles/GraphicOptions.cfg")), null);
 		} catch (FileNotFoundException e) {
 			e.printStackTrace();
 		} catch (IOException e) {
