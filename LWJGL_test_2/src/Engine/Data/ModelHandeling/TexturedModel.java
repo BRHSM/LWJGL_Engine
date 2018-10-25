@@ -20,7 +20,7 @@ public class TexturedModel extends AbstractModel{
 	 * @param texture The Texture.
 	 */
 	public TexturedModel(BasicModel model, ModelTexture texture) {
-		super(model.getVaoID(), model.getVertexCount(), model.getId());
+		super(model.getVaoID(), model.getVertexCount(), model.getID());
 		this.texture = texture;
 	}
 	

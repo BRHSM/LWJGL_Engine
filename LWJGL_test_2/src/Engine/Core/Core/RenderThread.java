@@ -98,7 +98,7 @@ public class RenderThread extends Thread{
 	            fps = 0;
 	        }
 	        //update the game and render the screen. 
-			update();
+			update(object.getUpdaterInctance());
 			render();
 			cicles++;
 			
@@ -151,10 +151,12 @@ public class RenderThread extends Thread{
 	}
 
 	/** Update variables before rendering. 
+	 * @param abstractUpdater 
 	*/
-	private void update() {
+	private void update(AbstractUpdater abstractUpdater) {
 		//TODO: maybe?? instead of updating in this thread, updating should use a separate thread.
 		displayManager.updateFromThread();
+		abstractUpdater.update();
 	}
 
 	/** Render the screen. 

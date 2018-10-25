@@ -2,19 +2,19 @@ package Engine.Data.InternalMessager;
 
 public class Message {
 	private int identifier;
-	private byte[] data;
+	private Object[] data;
 	
-	public Message(int identifier, byte[] data) {
+	public Message(int identifier, Object[] data2) {
 		super();
 		this.identifier = identifier;
-		this.data = data;
+		this.data = data2;
 	}
 
 	public int getIdentifier() {
 		return identifier;
 	}
 
-	public byte[] getData() {
+	public Object[] getData() {
 		return data;
 	}
 
@@ -22,7 +22,7 @@ public class Message {
 		this.identifier = identifier;
 	}
 
-	public void setData(byte[] data) {
+	public void setData(Object[] data) {
 		this.data = data;
 	}	
 }

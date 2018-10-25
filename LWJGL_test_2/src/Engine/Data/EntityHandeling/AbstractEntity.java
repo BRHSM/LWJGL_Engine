@@ -2,6 +2,7 @@ package Engine.Data.EntityHandeling;
 
 import org.lwjglx.util.vector.Vector3f;
 
+import Engine.Data.InternalMessager.Message;
 import Engine.Data.ModelHandeling.AbstractModel;
 import Engine.Data.OptionManager.EngineOptions;
 import Engine.Data.OptionManager.GraphicOptions;
@@ -160,5 +161,13 @@ public class AbstractEntity {
 	 */
 	public float getScale() {
 		return scale;
+	}
+
+	public int getID() {
+		return id;
+	}
+	
+	public void sendMessage(Message message) {
+		System.out.println("recieved message");
 	}
 }

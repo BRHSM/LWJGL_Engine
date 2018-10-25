@@ -4,6 +4,7 @@ import java.util.ArrayList;
 
 import Engine.Data.EntityHandeling.AbstractEntityStructure;
 import Engine.Data.EntityHandeling.EntityList;
+import Engine.Data.InternalMessager.Messager;
 import Engine.Data.ModelHandeling.AbstractModelStructure;
 import Engine.Data.ModelHandeling.ModelList;
 import Engine.Data.OptionManager.CurrentLanguage;
@@ -80,6 +81,9 @@ public class DataObject {
 	 */
 	private ArrayList<AbstractEntityStructure> entityStructureList = new ArrayList<AbstractEntityStructure>();
 	
+	private Messager messager;
+	private AbstractUpdater updater;
+	
 	/** The camera to use;
 	 */
 	private AbstractCamera camera; 
@@ -121,8 +125,12 @@ public class DataObject {
 		basicEntityShader = (BasicEntityShader) DEFAULT_BASIC_ENTITY_SHADER;
 		texturedEntityShader = (TexturedEntityShader) DEFAULT_TEXTURED_ENTITY_SHADER;
 		
+		messager = new Messager();
+		
 		//set default camera
 		camera = new StaticCamera();
+		
+		updater = new AbstractUpdater();
 		
 		
 		if(basicModelShader == DEFAULT_BASIC_MODEL_SHADER && OptionHandler.getProperty(EngineOptions.DEBUGENABLED_KEY, OptionHandler.ENGINE_OPTION_ID).equals("true"))
@@ -183,7 +191,9 @@ public class DataObject {
 	 * @return the ModelList
 	 */
 	public ModelList getModelLists() {
-		return new ModelList(modelStructureList);
+		ModelList modelList = new ModelList(modelStructureList);
+		messager.setModelsList(modelList);
+		return modelList;
 	}
 	
 	/** Get the ModelList.
@@ -191,7 +201,9 @@ public class DataObject {
 	 * @return the ModelList
 	 */
 	public EntityList getEntityLists() {
-		return new EntityList(entityStructureList);
+		EntityList modelList = new EntityList(entityStructureList);
+		messager.setEntitiesList(modelList);
+		return modelList;
 	}
 
 	/** Get the BasicShader.
@@ -247,5 +259,17 @@ public class DataObject {
 			if(OptionHandler.getProperty(GraphicOptions.USEVIEWMATRIX_KEY, OptionHandler.ENGINE_OPTION_ID).equals("false"))
 				ExceptionThrower.throwException(new OptionDisabledButStillUsedException());
 		this.camera = camera;
+	}
+	
+	public Messager getMessagerInctance() {
+		return messager;
+	}
+	
+	public AbstractUpdater getUpdaterInctance() {
+		return updater;
+	}
+	
+	public void setUpdaterInctance(AbstractUpdater updater) {
+		this.updater = updater;
 	}
 }

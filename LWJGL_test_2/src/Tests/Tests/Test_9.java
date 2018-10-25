@@ -2,11 +2,13 @@ package Tests.Tests;
 
 import org.lwjglx.util.vector.Vector3f;
 
+import Engine.Core.Core.AbstractUpdater;
 import Engine.Core.Core.DataObject;
 import Engine.Core.Core.IDGenerator;
 import Engine.Core.Core.Initializer;
 import Engine.Data.EntityHandeling.AbstractEntityStructure;
 import Engine.Data.EntityHandeling.BasicEntityModifier;
+import Engine.Data.InternalMessager.MessageIdentiriers;
 import Engine.Data.ModelHandeling.OBJLoader;
 import Engine.Data.ModelHandeling.OBJModel;
 import Engine.Data.ModelHandeling.TexturedModelStructure;
@@ -46,6 +48,12 @@ public class Test_9 {
 		
 		object.addEntity(entityStructure);
 		object.setCamera(new TestCamera_1());
+		object.setUpdaterInctance(new AbstractUpdater() {
+			@Override
+			public void update() {
+				object.getMessagerInctance().sendMessage(MessageIdentiriers.TOGGLE_UPDATE, id2);
+			}
+		});
 		
 		init.start(object);
 	}

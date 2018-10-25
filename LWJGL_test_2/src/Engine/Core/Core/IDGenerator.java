@@ -18,7 +18,8 @@ public class IDGenerator {
 		int tmp;
 		do {
 			tmp = rand.nextInt(MAX_VALUE - MIN_VALUE) + MIN_VALUE;
-		} while (!used.contains(tmp));
+		} while (used.contains(tmp));
+		used.add(tmp);
 		return tmp;
 	}
 }

@@ -1,5 +1,6 @@
 package Engine.Data.ModelHandeling;
 
+import Engine.Data.InternalMessager.Message;
 import Engine.Graphics.Shaders.AbstractShader;
 
 /** An abstract model.
@@ -63,7 +64,11 @@ public abstract class AbstractModel {
 		this.vertexCount = vertexCount;
 	}
 
-	public int getId() {
+	public int getID() {
 		return id;
+	}
+	
+	public void sendMessage(Message message) {
+		System.out.println("recieved message");
 	}
 }
