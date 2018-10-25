@@ -1,0 +1,22 @@
+
+[DEBUG]: Loading shader files: 
+         Link status:     [vertexFile=default.vs, fragmentFile=default.fs] : 0
+         Loaded shader:   [vertexFile=default.vs, fragmentFile=default.fs] from subfolder: BasicModelShader/
+         Link status:     [vertexFile=default.vs, fragmentFile=default.fs] : 0
+         Loaded shader:   [vertexFile=default.vs, fragmentFile=default.fs] from subfolder: TexturedModelShader/
+         Link status:     [vertexFile=VI.vs, fragmentFile=VI.fs] : 1
+         Loaded shader:   [vertexFile=VI.vs, fragmentFile=VI.fs] from subfolder: BasicEntityShader/
+         Link status:     [vertexFile=VI.vs, fragmentFile=VI.fs] : 1
+         Loaded shader:   [vertexFile=VI.vs, fragmentFile=VI.fs] from subfolder: TexturedEntityShader/
+[DEBUG]: Option: usesProjectionMatrix changed from: false to: true
+[DEBUG]: Language file loaded: RES/RESLanguageFiles/language_IT
+
+[DEBUG]: Starting main loop.
+[DEBUG]: Avarage load time: 0.92987
+[DEBUG]: fps: 48
+[DEBUG]: Avarage load time: 0.95628
+[DEBUG]: fps: 48
+
+[DEBUG]: Game ran with a total avarage load time of: 0.94496 over 103 cicles
+
+[DEBUG]: Writing back options: 

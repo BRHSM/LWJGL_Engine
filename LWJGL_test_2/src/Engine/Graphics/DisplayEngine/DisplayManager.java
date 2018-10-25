@@ -160,8 +160,7 @@ public class DisplayManager {
 		modelList.ConvertToModels();
 		entityList.convertToEntities();
 		
-		//Show the window.
-		GL11.glEnable(GL11.GL_DEPTH_TEST);  
+		//Show the window. 
 		glfwShowWindow(window);
 		
 	}
@@ -171,11 +170,10 @@ public class DisplayManager {
 	public void updateDisplay() {
 		ArrayList<AbstractModel> modelList;
 		ArrayList<AbstractEntity> entityList;
-		//prepare the model renderers.
-		basicModelRenderer.prepare();
-		texturedModelRenderer.prepare();
-		basicEntityRenderer.prepare();
-		texturedEntityRenderer.prepare();
+		
+		GL11.glEnable(GL11.GL_DEPTH_TEST);
+		GL11.glClearColor(0,0,0,1);
+		GL11.glClear(GL11.GL_COLOR_BUFFER_BIT | GL11.GL_DEPTH_BUFFER_BIT);
 
 		camera.move();
 		

@@ -24,7 +24,7 @@ public class OptionReader {
    	public OptionReader(String filename){
    		configFile = new java.util.Properties();
    		try {
-   			FileInputStream stream = new FileInputStream(new File("RES/RESConfigFiles/" + filename + ".cfg"));
+   			FileInputStream stream = new FileInputStream(new File("RES/ConfigFiles/" + filename + ".cfg"));
    			configFile.load(stream);
    		}catch(Exception eta){
    			eta.printStackTrace();

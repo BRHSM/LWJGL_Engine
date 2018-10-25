@@ -24,7 +24,7 @@ public class LanguageReader {
    	public LanguageReader(String filename){
    		configFile = new java.util.Properties();
    		try {
-   			FileInputStream stream = new FileInputStream(new File("RES/RESLanguageFiles/" + filename + ".lang"));
+   			FileInputStream stream = new FileInputStream(new File("RES/LanguageFiles/" + filename + ".lang"));
    			configFile.load(stream);
    		}catch(Exception eta){
    			eta.printStackTrace();
