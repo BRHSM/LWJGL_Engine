@@ -1,0 +1,50 @@
+
+[DEBUG]: Loading shader files: 
+         Link status:     [vertexFile=default.vs, fragmentFile=default.fs] : 0
+         Loaded shader:   [vertexFile=default.vs, fragmentFile=default.fs] from subfolder: BasicModelShader/
+         Link status:     [vertexFile=default.vs, fragmentFile=default.fs] : 0
+         Loaded shader:   [vertexFile=default.vs, fragmentFile=default.fs] from subfolder: TexturedModelShader/
+         Link status:     [vertexFile=VI.vs, fragmentFile=VI.fs] : 1
+         Loaded shader:   [vertexFile=VI.vs, fragmentFile=VI.fs] from subfolder: BasicEntityShader/
+         Link status:     [vertexFile=VI.vs, fragmentFile=VI.fs] : 1
+         Loaded shader:   [vertexFile=VI.vs, fragmentFile=VI.fs] from subfolder: TexturedEntityShader/
+[DEBUG]: Option: usesProjectionMatrix changed from: false to: true
+[DEBUG]: Language file loaded: RES/RESLanguageFiles/language_IT
+
+[DEBUG]: Starting main loop.
+[DEBUG]: Avarage load time: 0.92767
+[DEBUG]: fps: 48
+[DEBUG]: Avarage load time: 0.94602
+[DEBUG]: fps: 48
+[DEBUG]: Avarage load time: 0.94685
+[DEBUG]: fps: 48
+[DEBUG]: Avarage load time: 0.94502
+[DEBUG]: fps: 48
+[DEBUG]: Avarage load time: 0.94598
+[DEBUG]: fps: 48
+[DEBUG]: Avarage load time: 0.94507
+[DEBUG]: fps: 48
+[DEBUG]: Avarage load time: 0.94508
+[DEBUG]: fps: 48
+[DEBUG]: Avarage load time: 0.94598
+[DEBUG]: fps: 48
+[DEBUG]: Avarage load time: 0.94782
+[DEBUG]: fps: 48
+[DEBUG]: Avarage load time: 0.94505
+[DEBUG]: fps: 48
+[DEBUG]: Avarage load time: 0.94601
+[DEBUG]: fps: 48
+[DEBUG]: Avarage load time: 0.94506
+[DEBUG]: fps: 48
+[DEBUG]: Avarage load time: 0.94495
+[DEBUG]: fps: 48
+[DEBUG]: Avarage load time: 0.94511
+[DEBUG]: fps: 48
+[DEBUG]: Avarage load time: 0.94506
+[DEBUG]: fps: 48
+[DEBUG]: Avarage load time: 0.94501
+[DEBUG]: fps: 48
+
+[DEBUG]: Game ran with a total avarage load time of: 0.9445 over 781 cicles
+
+[DEBUG]: Writing back options: 

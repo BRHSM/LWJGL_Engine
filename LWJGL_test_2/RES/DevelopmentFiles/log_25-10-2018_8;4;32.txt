@@ -1,0 +1,138 @@
+
+[DEBUG]: Loading shader files: 
+         Link status:     [vertexFile=default.vs, fragmentFile=default.fs] : 0
+         Loaded shader:   [vertexFile=default.vs, fragmentFile=default.fs] from subfolder: BasicModelShader/
+         Link status:     [vertexFile=default.vs, fragmentFile=default.fs] : 0
+         Loaded shader:   [vertexFile=default.vs, fragmentFile=default.fs] from subfolder: TexturedModelShader/
+         Link status:     [vertexFile=VI.vs, fragmentFile=VI.fs] : 1
+         Loaded shader:   [vertexFile=VI.vs, fragmentFile=VI.fs] from subfolder: BasicEntityShader/
+         Link status:     [vertexFile=VI.vs, fragmentFile=VI.fs] : 1
+         Loaded shader:   [vertexFile=VI.vs, fragmentFile=VI.fs] from subfolder: TexturedEntityShader/
+[DEBUG]: Option: usesProjectionMatrix changed from: false to: true
+[DEBUG]: Language file loaded: RES/RESLanguageFiles/language_IT
+
+[DEBUG]: Starting main loop.
+[DEBUG]: Avarage load time: 0.92692
+[DEBUG]: fps: 48
+[DEBUG]: Avarage load time: 0.94604
+[DEBUG]: fps: 48
+[DEBUG]: Avarage load time: 0.94589
+[DEBUG]: fps: 48
+[DEBUG]: Avarage load time: 0.94509
+[DEBUG]: fps: 48
+[DEBUG]: Avarage load time: 0.94586
+[DEBUG]: fps: 48
+[DEBUG]: Avarage load time: 0.94609
+[DEBUG]: fps: 48
+[DEBUG]: Avarage load time: 0.94501
+[DEBUG]: fps: 48
+[DEBUG]: Avarage load time: 0.94505
+[DEBUG]: fps: 48
+[DEBUG]: Avarage load time: 0.94689
+[DEBUG]: fps: 48
+[DEBUG]: Avarage load time: 0.94599
+[DEBUG]: fps: 48
+[DEBUG]: Avarage load time: 0.94506
+[DEBUG]: fps: 48
+[DEBUG]: Avarage load time: 0.94691
+[DEBUG]: fps: 48
+[DEBUG]: Avarage load time: 0.94505
+[DEBUG]: fps: 48
+[DEBUG]: Avarage load time: 0.94595
+[DEBUG]: fps: 48
+[DEBUG]: Avarage load time: 0.94508
+[DEBUG]: fps: 48
+[DEBUG]: Avarage load time: 0.94504
+[DEBUG]: fps: 48
+[DEBUG]: Avarage load time: 0.94504
+[DEBUG]: fps: 48
+[DEBUG]: Avarage load time: 0.94505
+[DEBUG]: fps: 48
+[DEBUG]: Avarage load time: 0.94604
+[DEBUG]: fps: 48
+[DEBUG]: Avarage load time: 0.94594
+[DEBUG]: fps: 48
+[DEBUG]: Avarage load time: 0.94499
+[DEBUG]: fps: 48
+[DEBUG]: Avarage load time: 0.94507
+[DEBUG]: fps: 48
+[DEBUG]: Avarage load time: 0.94502
+[DEBUG]: fps: 48
+[DEBUG]: Avarage load time: 0.94502
+[DEBUG]: fps: 48
+[DEBUG]: Avarage load time: 0.94505
+[DEBUG]: fps: 48
+[DEBUG]: Avarage load time: 0.94503
+[DEBUG]: fps: 48
+[DEBUG]: Avarage load time: 0.94599
+[DEBUG]: fps: 48
+[DEBUG]: Avarage load time: 0.946
+[DEBUG]: fps: 48
+[DEBUG]: Avarage load time: 0.9451
+[DEBUG]: fps: 48
+[DEBUG]: Avarage load time: 0.94499
+[DEBUG]: fps: 48
+[DEBUG]: Avarage load time: 0.94512
+[DEBUG]: fps: 48
+[DEBUG]: Avarage load time: 0.94494
+[DEBUG]: fps: 48
+[DEBUG]: Avarage load time: 0.945
+[DEBUG]: fps: 48
+[DEBUG]: Avarage load time: 0.94505
+[DEBUG]: fps: 48
+[DEBUG]: Avarage load time: 0.94603
+[DEBUG]: fps: 48
+[DEBUG]: Avarage load time: 0.9451
+[DEBUG]: fps: 48
+[DEBUG]: Avarage load time: 0.94498
+[DEBUG]: fps: 48
+[DEBUG]: Avarage load time: 0.94507
+[DEBUG]: fps: 48
+[DEBUG]: Avarage load time: 0.94502
+[DEBUG]: fps: 48
+[DEBUG]: Avarage load time: 0.9451
+[DEBUG]: fps: 48
+[DEBUG]: Avarage load time: 0.94499
+[DEBUG]: fps: 48
+[DEBUG]: Avarage load time: 0.94505
+[DEBUG]: fps: 48
+[DEBUG]: Avarage load time: 0.945
+[DEBUG]: fps: 48
+[DEBUG]: Avarage load time: 0.946
+[DEBUG]: fps: 48
+[DEBUG]: Avarage load time: 0.94502
+[DEBUG]: fps: 48
+[DEBUG]: Avarage load time: 0.94509
+[DEBUG]: fps: 48
+[DEBUG]: Avarage load time: 0.94506
+[DEBUG]: fps: 48
+[DEBUG]: Avarage load time: 0.94501
+[DEBUG]: fps: 48
+[DEBUG]: Avarage load time: 0.94504
+[DEBUG]: fps: 48
+[DEBUG]: Avarage load time: 0.94502
+[DEBUG]: fps: 48
+[DEBUG]: Avarage load time: 0.96031
+[DEBUG]: fps: 47
+[DEBUG]: Avarage load time: 0.94604
+[DEBUG]: fps: 48
+[DEBUG]: Avarage load time: 0.94497
+[DEBUG]: fps: 48
+[DEBUG]: Avarage load time: 0.94514
+[DEBUG]: fps: 48
+[DEBUG]: Avarage load time: 0.94507
+[DEBUG]: fps: 48
+[DEBUG]: Avarage load time: 0.94496
+[DEBUG]: fps: 48
+[DEBUG]: Avarage load time: 0.94509
+[DEBUG]: fps: 48
+[DEBUG]: Avarage load time: 0.94507
+[DEBUG]: fps: 48
+[DEBUG]: Avarage load time: 0.94597
+[DEBUG]: fps: 48
+[DEBUG]: Avarage load time: 0.94498
+[DEBUG]: fps: 48
+
+[DEBUG]: Game ran with a total avarage load time of: 0.94527 over 2908 cicles
+
+[DEBUG]: Writing back options: 
