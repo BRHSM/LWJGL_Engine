@@ -31,8 +31,8 @@ public class EngineOptions extends AbstractOptions{
 	public static final String PATHTEXTURES_KEY = "pathTextures";
 	public static final String WRITEBACKONEXIT_KEY = "WritebackOnExit";
 	public static final String SUBPATHBASICENTITYSHADER_KEY = "subPathBasicEntityShader";
-	public static final String SUBPATHBASICMODELSHADER_KEY = "subPathBasicModelShader";
 	public static final String SUBPATHTEXTUREDENTITYSHADER_KEY = "subPathTexturedEntityShader";
+	public static final String SUBPATHBASICMODELSHADER_KEY = "subPathBasicModelShader";
 	public static final String SUBPATHTEXTUREDMODELSHADER_KEY = "subPathTexturedModelShader";
 	public static final String SHADERUSECUSTOM_KEY = "shaderUseCustom";
 	public static final String SHADERCUSTOMVERTEXNAME_KEY = "shaderCustomVertexName";
@@ -76,8 +76,8 @@ public class EngineOptions extends AbstractOptions{
 		addProperty(PATHTEXTURES_KEY, OptionValidator.FOLDERPATH_OPTION);
 		addProperty(WRITEBACKONEXIT_KEY, OptionValidator.BOOLEAN_OPTION);
 		addProperty(SUBPATHBASICENTITYSHADER_KEY, OptionValidator.FOLDERPATH_OPTION);
-		addProperty(SUBPATHBASICMODELSHADER_KEY, OptionValidator.FOLDERPATH_OPTION);
 		addProperty(SUBPATHTEXTUREDENTITYSHADER_KEY, OptionValidator.FOLDERPATH_OPTION);
+		addProperty(SUBPATHBASICMODELSHADER_KEY, OptionValidator.FOLDERPATH_OPTION);
 		addProperty(SUBPATHTEXTUREDMODELSHADER_KEY, OptionValidator.FOLDERPATH_OPTION);
 		addProperty(SHADERUSECUSTOM_KEY, OptionValidator.BOOLEAN_OPTION);
 		addProperty(SHADERCUSTOMVERTEXNAME_KEY, OptionValidator.CHARARRAY_OPTION);

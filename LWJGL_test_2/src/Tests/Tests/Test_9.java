@@ -12,6 +12,8 @@ import Engine.Data.InternalMessager.MessageIdentiriers;
 import Engine.Data.ModelHandeling.OBJLoader;
 import Engine.Data.ModelHandeling.OBJModel;
 import Engine.Data.ModelHandeling.TexturedModelStructure;
+import Engine.IO.KeyboardHandeling.KeyStrokeHandler;
+import Engine.IO.KeyboardHandeling.Keys;
 import Tests.Overwrites.TestCamera_1;
 /** A basic test to see if the engine works with no data provided. This is
  *  the bare minimum of code for a "game" to launch.
@@ -51,7 +53,8 @@ public class Test_9 {
 		object.setUpdaterInctance(new AbstractUpdater() {
 			@Override
 			public void update() {
-				object.getMessagerInctance().sendMessage(MessageIdentiriers.TOGGLE_UPDATE, id2);
+				if(KeyStrokeHandler.isKeyDown(Keys.KEY_0))
+					object.getMessagerInctance().sendMessage(MessageIdentiriers.TOGGLE_UPDATE, id2);
 			}
 		});
 		

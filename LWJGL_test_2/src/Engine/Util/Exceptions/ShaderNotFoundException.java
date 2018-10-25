@@ -20,11 +20,10 @@ public class ShaderNotFoundException extends AbstractException{
 	private static final long serialVersionUID = -7065358176229778999L;
 	/** Create a new ShaderNotFoundException
 	 * 
-	 * @param texturedEntityShader 
 	 * @param basicEntityShader 
 	 */
-	public ShaderNotFoundException(BasicModelShader basicModelShader, TexturedModelShader texturedModelShader, BasicEntityShader basicEntityShader, TexturedEntityShader texturedEntityShader) {
-		super("[ERROR]: One or more shaders failed to load.", "[ERROR]: One or more shaders failed to load while the DisplayManager tried to load them. \n         BasicModelShader: " + getIfNull(basicModelShader) + "\n         texturedModelShader: " + getIfNull(texturedModelShader) + "\n         basicEntityShader: " + getIfNull(basicEntityShader) + "\n         texturedEntityShader: " + getIfNull(texturedEntityShader) + "\n");
+	public ShaderNotFoundException(BasicModelShader basicModelShader, TexturedModelShader texturedModelShader, BasicEntityShader basicEntityShader) {
+		super("[ERROR]: One or more shaders failed to load.", "[ERROR]: One or more shaders failed to load while the DisplayManager tried to load them. \n         BasicModelShader: " + getIfNull(basicModelShader) + "\n         texturedModelShader: " + getIfNull(texturedModelShader) + "\n         basicEntityShader: " + getIfNull(basicEntityShader) + "\n");
 	}
 	/** Get a null string if the shader is undefined.
 	 * 

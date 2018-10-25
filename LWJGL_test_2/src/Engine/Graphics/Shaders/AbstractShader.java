@@ -28,22 +28,26 @@ public abstract class AbstractShader {
 	
 	/** The ID of the shader program.
 	 */
-	private int programID;
+	protected int programIDBasic;
 	
 	/** The ID of the vertes shader.
 	 */
-	private int vertexShaderID;
+	protected int vertexShaderIDBasic;
 	/** The ID of the fragment shader.
 	 */
-	private int fragmentShaderID;
+	protected int fragmentShaderIDBasic;
 	
 	/* Filename of the shader.
 	 */
-	private String vertexFile;
+	protected String vertexFileBasic;
 	
 	/* Filename of the shader.
 	 */
-	private String fragmentFile;
+	protected String fragmentFileBasic;
+	/** The ID of the shader program.
+	 */
+	
+	protected int type = 0;
 	private static FloatBuffer buffer = BufferUtils.createFloatBuffer(16);
 	
 	/** Create an AbstractShader
@@ -54,13 +58,13 @@ public abstract class AbstractShader {
 	
 	/** Loads the shader in openGL so it can be used.
 	 * 
-	 * @param subPath the SubPath of the folder for the shaders inside the main shaders folder.
-	 * @param vertexFile The filename of the vertex shader.
-	 * @param fragmentFile The filename of the fragment SHader
+	 * @param subPathBasic the SubPath of the folder for the shaders inside the main shaders folder.
+	 * @param vertexFileBasic The filename of the vertex shader.
+	 * @param fragmentFileBasic The filename of the fragment SHader
 	 */
 	public void setupShader(String subPath, String vertexFile, String fragmentFile) {
-		this.vertexFile = vertexFile;
-		this.fragmentFile = fragmentFile;
+		this.vertexFileBasic = vertexFile;
+		this.fragmentFileBasic = fragmentFile;
 		//Get the ID's
 		if(!getFileExtention(vertexFile).equals("vs")) {
 			ExceptionThrower.throwException(new ShaderIncompatableException(vertexFile));
@@ -68,18 +72,18 @@ public abstract class AbstractShader {
 		if(!getFileExtention(fragmentFile).equals("fs")) {
 			ExceptionThrower.throwException(new ShaderIncompatableException(fragmentFile));
 		}
-		vertexShaderID = loadShader(this.vertexFile, GL20.GL_VERTEX_SHADER, subPath);
-		fragmentShaderID = loadShader(this.fragmentFile, GL20.GL_FRAGMENT_SHADER, subPath);
-		programID = GL20.glCreateProgram();
+		vertexShaderIDBasic = loadShader(this.vertexFileBasic, GL20.GL_VERTEX_SHADER, subPath);
+		fragmentShaderIDBasic = loadShader(this.fragmentFileBasic, GL20.GL_FRAGMENT_SHADER, subPath);
+		programIDBasic = GL20.glCreateProgram();
 		// attach shaders to program
-		GL20.glAttachShader(programID, vertexShaderID);
-		GL20.glAttachShader(programID, fragmentShaderID);
+		GL20.glAttachShader(programIDBasic, vertexShaderIDBasic);
+		GL20.glAttachShader(programIDBasic, fragmentShaderIDBasic);
 		// Link the program.
 		bindAttributes();
-		GL20.glLinkProgram(programID);
+		GL20.glLinkProgram(programIDBasic);
 		// Validate the program. 
-		int linkStatus = GL20.glGetProgrami(programID, GL20.GL_LINK_STATUS);
-		GL20.glValidateProgram(programID);
+		int linkStatus = GL20.glGetProgrami(programIDBasic, GL20.GL_LINK_STATUS);
+		GL20.glValidateProgram(programIDBasic);
 		System.out.println("         Link status:     " + toString() + " : " +  linkStatus);
 		getAllUniformLocations();
 		if(OptionHandler.getProperty(EngineOptions.DEBUGENABLED_KEY, OptionHandler.ENGINE_OPTION_ID).equals("true")) {
@@ -92,7 +96,7 @@ public abstract class AbstractShader {
 	 * @param path The filepath.
 	 * @return The extention.
 	 */
-	private String getFileExtention(String path) {
+	protected String getFileExtention(String path) {
 		String extension = "";
 
 		int i = path.lastIndexOf('.');
@@ -110,7 +114,7 @@ public abstract class AbstractShader {
      * @param type the type of the shader
      * @return the ID of the shader
      */
-	private static int loadShader(String file, int type, String subPath){
+	protected static int loadShader(String file, int type, String subPath){
 		//create a string builder.
         StringBuilder shaderSource = new StringBuilder();
         //read the file and store in shaderSource.
@@ -144,7 +148,7 @@ public abstract class AbstractShader {
 	/** Start the shader.
 	 */
     public void start(){
-        GL20.glUseProgram(programID);
+    	GL20.glUseProgram(programIDBasic);
     }
     
     /** Stop the shader.
@@ -159,13 +163,13 @@ public abstract class AbstractShader {
     	// Stop shader before cleanup.
         stop();
         // Detach shaders from program.
-        GL20.glDetachShader(programID, vertexShaderID);
-        GL20.glDetachShader(programID, fragmentShaderID);
+        GL20.glDetachShader(programIDBasic, vertexShaderIDBasic);
+        GL20.glDetachShader(programIDBasic, fragmentShaderIDBasic);
         // Delete shaders.
-        GL20.glDeleteShader(vertexShaderID);
-        GL20.glDeleteShader(fragmentShaderID);
+        GL20.glDeleteShader(vertexShaderIDBasic);
+        GL20.glDeleteShader(fragmentShaderIDBasic);
         // Delete program. 
-        GL20.glDeleteProgram(programID);
+        GL20.glDeleteProgram(programIDBasic);
     }
     
     /** Get a uniform variable's location.
@@ -174,7 +178,7 @@ public abstract class AbstractShader {
      * @return the location of the uniform variable.
      */
     protected int getUniformLocation(String uniformName) {
-    	return GL20.glGetUniformLocation(programID, uniformName);
+    	return GL20.glGetUniformLocation(programIDBasic, uniformName);
     }
     /** Get all uniform variables
      */
@@ -232,7 +236,7 @@ public abstract class AbstractShader {
     /** Bind a single attribute 
      */
     protected void bindAttribute(int attribute, String variableName){
-        GL20.glBindAttribLocation(programID, attribute, variableName);
+        GL20.glBindAttribLocation(programIDBasic, attribute, variableName);
     }
 
 	@Override
@@ -241,6 +245,6 @@ public abstract class AbstractShader {
 	 * @return The shader details as a string.
 	 */
 	public String toString() {
-		return "[vertexFile=" + vertexFile + ", fragmentFile=" + fragmentFile + "]";
+		return "[vertexFile=" + vertexFileBasic + ", fragmentFile=" + fragmentFileBasic + "]";
 	}
 }

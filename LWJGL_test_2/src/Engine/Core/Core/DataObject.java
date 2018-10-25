@@ -44,9 +44,6 @@ public class DataObject {
 	/** ID value for BasicEntityShaders.
 	 */
 	public static final int BASIC_ENTITY_SHADER = 303;
-	/** ID value for TexturedEntityShaders.
-	 */
-	public static final int TEXTURED_ENTITY_SHADER = 304;
 	
 	/** The default BasicModelShaders.
 	 */
@@ -56,10 +53,7 @@ public class DataObject {
 	public static AbstractShader DEFAULT_TEXTURED_MODEL_SHADER;
 	/** The default TexturedModelShaders.
 	 */
-	public static AbstractShader DEFAULT_BASIC_ENTITY_SHADER;
-	/** The default TexturedEntityShaders.
-	 */
-	public static AbstractShader DEFAULT_TEXTURED_ENTITY_SHADER;
+	public static AbstractShader DEFAULT_ENTITY_SHADER;
 	
 	/** The TexturedModelShaders to use.
 	 */
@@ -69,10 +63,7 @@ public class DataObject {
 	private TexturedModelShader texturedModelShader;
 	/** The TexturedEntityShaders to use.
 	 */
-	private BasicEntityShader basicEntityShader;
-	/** The TexturedEntityShaders to use.
-	 */
-	private TexturedEntityShader texturedEntityShader;
+	private BasicEntityShader entityShader;
 	
 	/**List of ModelStructures to load on startup. 
 	 */
@@ -117,13 +108,11 @@ public class DataObject {
 		//set default shaders.
 		DEFAULT_BASIC_MODEL_SHADER = new BasicModelShader();
 		DEFAULT_TEXTURED_MODEL_SHADER = new TexturedModelShader();
-		DEFAULT_BASIC_ENTITY_SHADER = new BasicEntityShader();
-		DEFAULT_TEXTURED_ENTITY_SHADER = new TexturedEntityShader();
+		DEFAULT_ENTITY_SHADER = new BasicEntityShader();
 		
 		basicModelShader = (BasicModelShader) DEFAULT_BASIC_MODEL_SHADER;
 		texturedModelShader = (TexturedModelShader) DEFAULT_TEXTURED_MODEL_SHADER;
-		basicEntityShader = (BasicEntityShader) DEFAULT_BASIC_ENTITY_SHADER;
-		texturedEntityShader = (TexturedEntityShader) DEFAULT_TEXTURED_ENTITY_SHADER;
+		entityShader = (BasicEntityShader) DEFAULT_ENTITY_SHADER;
 		
 		messager = new Messager();
 		
@@ -174,13 +163,7 @@ public class DataObject {
 			}
 		if (shaderType == BASIC_ENTITY_SHADER)
 			if(shader instanceof BasicEntityShader) {
-				this.basicEntityShader = (BasicEntityShader)shader;
-			} else {
-				//TODO: Throw Exception
-			}
-		if (shaderType == TEXTURED_ENTITY_SHADER)
-			if(shader instanceof TexturedEntityShader) {
-				this.texturedEntityShader = (TexturedEntityShader)shader;
+				this.entityShader = (BasicEntityShader)shader;
 			} else {
 				//TODO: Throw Exception
 			}
@@ -226,16 +209,8 @@ public class DataObject {
 	 * 
 	 * @return the BasicShader.
 	 */
-	public BasicEntityShader getBasicEntityShader() {
-		return basicEntityShader;
-	}
-
-	/** Get the TextureShader.
-	 * 
-	 * @return the TextureShader.
-	 */
-	public TexturedEntityShader getTexturedEntityShader() {
-		return texturedEntityShader;
+	public BasicEntityShader getEntityShader() {
+		return entityShader;
 	}
 	
 	/** Get the camera.

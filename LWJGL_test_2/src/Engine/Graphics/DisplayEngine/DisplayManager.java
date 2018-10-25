@@ -13,6 +13,7 @@ import org.lwjgl.opengl.GL11;
 
 import Engine.Core.Core.DataObject;
 import Engine.Data.EntityHandeling.AbstractEntity;
+import Engine.Data.EntityHandeling.AbstractEntityRenderer;
 import Engine.Data.EntityHandeling.BasicEntityRenderer;
 import Engine.Data.EntityHandeling.EntityList;
 import Engine.Data.EntityHandeling.TexturedEntityRenderer;
@@ -60,12 +61,9 @@ public class DisplayManager {
 	/** A renderer for Textured models.
 	 */
 	private TexturedModelRenderer texturedModelRenderer;
-	/** A renderer for basic models. 
+	/** A renderer for entities.
 	 */
-	private BasicEntityRenderer basicEntityRenderer;
-	/** A renderer for Textured models.
-	 */
-	private TexturedEntityRenderer texturedEntityRenderer;
+	private AbstractEntityRenderer abstractEntityRenderer;
 	
 	/** A loader for the window. 
 	 */
@@ -83,10 +81,7 @@ public class DisplayManager {
 	private TexturedModelShader texturedModelShader;
 	/** A shader for BasicModels.
 	 */
-	private BasicEntityShader basicEntityShader;
-	/** A shader for TexturedModels.
-	 */
-	private TexturedEntityShader texturedEntityShader;
+	private BasicEntityShader entityShader;
 	
 	/** A list of models to render on startup.
 	 */
@@ -130,8 +125,7 @@ public class DisplayManager {
 		//Setup Renderers
 		basicModelRenderer = new BasicModelRenderer();
 		texturedModelRenderer = new TexturedModelRenderer();
-		basicEntityRenderer = new BasicEntityRenderer();
-		texturedEntityRenderer = new TexturedEntityRenderer();
+		abstractEntityRenderer = new BasicEntityRenderer();
 		
 		//create shaders
 		if(OptionHandler.getProperty(EngineOptions.DEBUGENABLED_KEY, OptionHandler.ENGINE_OPTION_ID).equals("true"))
@@ -139,22 +133,20 @@ public class DisplayManager {
 		
 		basicModelShader = object.getBasicModelShader();
 		texturedModelShader = object.getTexturedModelShader();
-		basicEntityShader = object.getBasicEntityShader();
-		texturedEntityShader = object.getTexturedEntityShader();
+		entityShader = object.getEntityShader();
 		
 		//check if shaders exist.
-		if(basicModelShader == null || texturedModelShader == null || basicEntityShader == null || texturedEntityShader == null) {
-			ExceptionThrower.throwException(new ShaderNotFoundException(basicModelShader, texturedModelShader, basicEntityShader, texturedEntityShader));
+		if(basicModelShader == null || texturedModelShader == null || entityShader == null ) {
+			ExceptionThrower.throwException(new ShaderNotFoundException(basicModelShader, texturedModelShader, entityShader));
 		}
 		
 		//Setup Shaders
 		basicModelShader.setupShader(OptionHandler.getProperty(EngineOptions.SUBPATHBASICMODELSHADER_KEY, OptionHandler.ENGINE_OPTION_ID), ShaderChooser.getUsableShaderFileName(ShaderChooser.VERTEX_TYPE, true), ShaderChooser.getUsableShaderFileName(ShaderChooser.FRAGMENT_TYPE, true));
 		texturedModelShader.setupShader(OptionHandler.getProperty(EngineOptions.SUBPATHTEXTUREDMODELSHADER_KEY, OptionHandler.ENGINE_OPTION_ID), ShaderChooser.getUsableShaderFileName(ShaderChooser.VERTEX_TYPE, true), ShaderChooser.getUsableShaderFileName(ShaderChooser.FRAGMENT_TYPE, true));
-		basicEntityShader.setupShader(OptionHandler.getProperty(EngineOptions.SUBPATHBASICENTITYSHADER_KEY, OptionHandler.ENGINE_OPTION_ID), ShaderChooser.getUsableShaderFileName(ShaderChooser.VERTEX_TYPE, false), ShaderChooser.getUsableShaderFileName(ShaderChooser.FRAGMENT_TYPE, false));
-		texturedEntityShader.setupShader(OptionHandler.getProperty(EngineOptions.SUBPATHTEXTUREDENTITYSHADER_KEY, OptionHandler.ENGINE_OPTION_ID), ShaderChooser.getUsableShaderFileName(ShaderChooser.VERTEX_TYPE, false), ShaderChooser.getUsableShaderFileName(ShaderChooser.FRAGMENT_TYPE, false));
+		entityShader.setupShader(OptionHandler.getProperty(EngineOptions.SUBPATHBASICENTITYSHADER_KEY, OptionHandler.ENGINE_OPTION_ID), ShaderChooser.getUsableShaderFileName(ShaderChooser.VERTEX_TYPE, false), ShaderChooser.getUsableShaderFileName(ShaderChooser.FRAGMENT_TYPE, false), OptionHandler.getProperty(EngineOptions.SUBPATHTEXTUREDENTITYSHADER_KEY, OptionHandler.ENGINE_OPTION_ID));
 		
-		basicEntityRenderer.setup(basicEntityShader);
-		texturedEntityRenderer.setup(texturedEntityShader);
+		abstractEntityRenderer.setup(entityShader, 0);
+		abstractEntityRenderer.setup(entityShader, 1);
 		
 		//convert ModelStructures to models
 		modelList.ConvertToModels();
@@ -177,8 +169,8 @@ public class DisplayManager {
 
 		camera.move();
 		
-		basicEntityRenderer.loadCamera(basicEntityShader, camera);
-		texturedEntityRenderer.loadCamera(texturedEntityShader, camera);
+		abstractEntityRenderer.loadCamera(entityShader, camera, 0);
+		abstractEntityRenderer.loadCamera(entityShader, camera, 1);
 		
 		//handle basic models. 
 		modelList = this.modelList.getModels();
@@ -208,25 +200,13 @@ public class DisplayManager {
 		}
 		
 		for (AbstractEntity entity : entityList) {
-			if(entity.getModel() instanceof BasicModel) {
-				currentShader = basicEntityShader;
-				//Start shader program.
-				currentShader.start();
-				//render the model.
-				basicEntityRenderer.render(entity, currentShader, camera);
-				//Stop shader program.
-				currentShader.stop();
-			}
-			if (entity.getModel() instanceof TexturedModel) {
-				//handle basic models. 
-				currentShader = texturedEntityShader;
-				//Start shader program.
-				currentShader.start();
-				//render the model.
-				texturedEntityRenderer.render(entity, currentShader, camera);
-				//Stop shader program.
-				currentShader.stop();
-			}
+			currentShader = entityShader;
+			//Start shader program.
+			currentShader.start();
+			//render the model.
+			abstractEntityRenderer.render(entity, (BasicEntityShader)currentShader, camera);
+			//Stop shader program.
+			currentShader.stop();
 		}
 		
 		//Swap the front and back buffers of window.

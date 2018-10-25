@@ -1,0 +1,55 @@
+
+[DEBUG]: Loading shader files: 
+         Link status:     [vertexFile=default.vs, fragmentFile=default.fs] : 0
+         Loaded shader:   [vertexFile=default.vs, fragmentFile=default.fs] from subfolder: BasicModelShader/
+         Link status:     [vertexFile=default.vs, fragmentFile=default.fs] : 0
+         Loaded shader:   [vertexFile=default.vs, fragmentFile=default.fs] from subfolder: TexturedModelShader/
+         Link status:     [vertexFile=VI.vs, fragmentFile=VI.fs] : 1
+         Loaded shader:   [vertexFile=VI.vs, fragmentFile=VI.fs] from subfolder: BasicEntityShader/
+         Link status:     [vertexFile=VI.vs, fragmentFile=VI.fs] : 1
+         Loaded shader:   [vertexFile=VI.vs, fragmentFile=VI.fs] from subfolder: TexturedEntityShader/
+[DEBUG]: Option: usesProjectionMatrix changed from: false to: true
+[DEBUG]: Language file loaded: RES/LanguageFiles/language_IT
+
+[DEBUG]: Starting main loop.
+recieved message
+recieved message
+recieved message
+recieved message
+recieved message
+recieved message
+recieved message
+recieved message
+[DEBUG]: Avarage load time: 0.92941
+[DEBUG]: fps: 48
+recieved message
+recieved message
+recieved message
+recieved message
+recieved message
+recieved message
+recieved message
+recieved message
+recieved message
+recieved message
+recieved message
+recieved message
+recieved message
+recieved message
+recieved message
+recieved message
+recieved message
+recieved message
+recieved message
+recieved message
+recieved message
+recieved message
+recieved message
+[DEBUG]: Avarage load time: 0.95944
+[DEBUG]: fps: 47
+recieved message
+recieved message
+
+[DEBUG]: Game ran with a total avarage load time of: 0.94483 over 134 cicles
+
+[DEBUG]: Writing back options: 
