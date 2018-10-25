@@ -3,6 +3,7 @@ package Tests.Tests;
 import org.lwjglx.util.vector.Vector3f;
 
 import Engine.Core.Core.DataObject;
+import Engine.Core.Core.IDGenerator;
 import Engine.Core.Core.Initializer;
 import Engine.Data.EntityHandeling.AbstractEntityStructure;
 import Engine.Data.ModelHandeling.TexturedModelStructure;
@@ -18,11 +19,15 @@ public class Test_5 {
 	
 	private static Initializer init; 	
 	
+	
+	
 	/** Starts execution.
 	 * @param args terminal arguments
 	*/
 	public static void test() {
 		init = new Initializer();
+		
+		IDGenerator generator = new IDGenerator();
 		
 		//create a basic model (Trapezoid). 
 		float[] vertices = {
@@ -46,9 +51,12 @@ public class Test_5 {
 				1f,0f
 		};
 		
+		int id = generator.generateID();
+		int id2 = generator.generateID();
+		
 		//setup modle loader. 
-		TexturedModelStructure modelStructure = new TexturedModelStructure(vertices, textureCoordinates, indexes);
-		AbstractEntityStructure entityStructure = new AbstractEntityStructure(modelStructure, new Vector3f(-1, 0, 0), 0, 0, 0, 1);
+		TexturedModelStructure modelStructure = new TexturedModelStructure(vertices, textureCoordinates, indexes, id);
+		AbstractEntityStructure entityStructure = new AbstractEntityStructure(modelStructure, new Vector3f(-1, 0, 0), 0, 0, 0, 1, id2);
 		
 		//Setup DataObject.
 		DataObject object = new DataObject();

@@ -15,13 +15,17 @@ public class AbstractModelStructure {
 	/** The index order in which the vertices are rendered.
 	 */
 	private int[] indexes;
+	
+	/** The message ID of the model.
+	 */
+	private int id;
 
 	/** Create a new AbstractModel
 	 * 
 	 * @param vertices The array of vertices.
 	 * @param indexes The array of indexes.
 	 */
-	public AbstractModelStructure(float[] vertices, int[] indexes) {
+	public AbstractModelStructure(float[] vertices, int[] indexes, int id) {
 		this.vertices = vertices;
 		this.indexes = indexes;
 	}
@@ -40,5 +44,9 @@ public class AbstractModelStructure {
 	 */
 	public int[] getIndexes() {
 		return indexes;
+	}
+	
+	public int getId() {
+		return id;
 	}
 }

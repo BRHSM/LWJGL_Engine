@@ -1,6 +1,7 @@
 package Tests.Tests;
 
 import Engine.Core.Core.DataObject;
+import Engine.Core.Core.IDGenerator;
 import Engine.Core.Core.Initializer;
 import Engine.Data.ModelHandeling.BasicModelStructure;
 /** Testing the BasicModel.
@@ -20,6 +21,8 @@ public class Test_2 {
 	public static void test() {
 		init = new Initializer();
 		
+		IDGenerator generator = new IDGenerator();
+		
 		//create a basic model (Trapezoid). 
 		float[] vertices = {
 			    -0.5f, 0.5f, 0f,
@@ -35,8 +38,9 @@ public class Test_2 {
 				3,1,2
 		};
 		
+		int id = generator.generateID();
 		//setup model loader. 
-		BasicModelStructure modelStructure = new BasicModelStructure(vertices, indexes);
+		BasicModelStructure modelStructure = new BasicModelStructure(vertices, indexes, id);
 		
 		//Setup DataObject.
 		DataObject object = new DataObject();

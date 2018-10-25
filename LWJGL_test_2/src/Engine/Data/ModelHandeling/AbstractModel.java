@@ -16,15 +16,19 @@ public abstract class AbstractModel {
 	/** The number of vertices of the model.
 	 */
 	private int vertexCount;
+	/** The message ID of the model.
+	 */
+	private int id;
 	
 	/** Create a model for given parameters.
 	 * 
 	 * @param vaoID The model ID.
 	 * @param vertexCount The number of vertices of the model.
 	 */
-	public AbstractModel(int vaoID, int vertexCount) {
+	public AbstractModel(int vaoID, int vertexCount, int id) {
 		this.vaoID = vaoID;
 		this.vertexCount = vertexCount;
+		this.id = id;
 	}
 	
 	/** Get the model ID.
@@ -59,4 +63,7 @@ public abstract class AbstractModel {
 		this.vertexCount = vertexCount;
 	}
 
+	public int getId() {
+		return id;
+	}
 }

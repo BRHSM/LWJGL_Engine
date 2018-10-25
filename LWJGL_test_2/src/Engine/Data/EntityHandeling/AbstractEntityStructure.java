@@ -32,6 +32,9 @@ public class AbstractEntityStructure {
 	/** Scale of the model.
 	 */
 	private float scale;
+	/** The message identifier of the entity
+	 */
+	private int id;
 	/** The modifier of the model.
 	 */
 	private BasicEntityModifier modifier;
@@ -45,13 +48,14 @@ public class AbstractEntityStructure {
 	 * @param rz The z rotation of the model.
 	 * @param scale The scale of the model.
 	 */
-	public AbstractEntityStructure(AbstractModelStructure modelStructure, Vector3f position, float rx, float ry, float rz, float scale) {
+	public AbstractEntityStructure(AbstractModelStructure modelStructure, Vector3f position, float rx, float ry, float rz, float scale, int id) {
 		this.modelStructure = modelStructure;
 		this.position = position;
 		this.rx = rx;
 		this.ry = ry;
 		this.rz = rz;
 		this.scale = scale;
+		this.id = id;
 		modifier = new BasicEntityModifier(new Vector3f(0,0,0),0,0,0,0);
 	}
 	
@@ -101,6 +105,14 @@ public class AbstractEntityStructure {
 	 */
 	public float getScale() {
 		return scale;
+	}
+	
+	/** Get the ID.
+	 * 
+	 * @return The ID.
+	 */
+	public int getID() {
+		return id;
 	}
 	
 	/** Set the EntityModifier.

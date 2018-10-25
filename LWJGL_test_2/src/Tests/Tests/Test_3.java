@@ -1,6 +1,7 @@
 package Tests.Tests;
 
 import Engine.Core.Core.DataObject;
+import Engine.Core.Core.IDGenerator;
 import Engine.Core.Core.Initializer;
 import Engine.Data.ModelHandeling.TexturedModelStructure;
 /** Testing the texturedModel.
@@ -19,6 +20,8 @@ public class Test_3 {
 	*/
 	public static void test() {
 		init = new Initializer();
+		
+		IDGenerator generator = new IDGenerator();
 		
 		//create a basic model. 
 		float[] vertices = {
@@ -42,8 +45,10 @@ public class Test_3 {
 				1f,0f
 		};
 		
+		int id = generator.generateID();
+		
 		//setup model loader. 
-		TexturedModelStructure modelStructure = new TexturedModelStructure(vertices, textureCoordinates, indexes);
+		TexturedModelStructure modelStructure = new TexturedModelStructure(vertices, textureCoordinates, indexes, id);
 		
 		//Setup DataObject.
 		DataObject object = new DataObject();

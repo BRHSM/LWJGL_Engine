@@ -51,11 +51,11 @@ public class ModelList {
 		//Loop through modelStructureList and add models to models(the list) via their respective loaders.  
 		for(AbstractModelStructure modelStructure: this.modelStructures) {
 			if(modelStructure instanceof BasicModelStructure) {
-				BasicModel model = basicModelLoader.loadToVAO(modelStructure.getVertices(), modelStructure.getIndexes());
+				BasicModel model = basicModelLoader.loadToVAO(modelStructure.getVertices(), modelStructure.getIndexes(), modelStructure.getId());
 				models.add(model);
 			}
 			if(modelStructure instanceof TexturedModelStructure) {
-				BasicModel model = texturedModelLoader.loadToVAO(modelStructure.getVertices(), ((TexturedModelStructure) modelStructure).getTextureCoordinates(), modelStructure.getIndexes());
+				BasicModel model = texturedModelLoader.loadToVAO(modelStructure.getVertices(), ((TexturedModelStructure) modelStructure).getTextureCoordinates(), modelStructure.getIndexes(), modelStructure.getId());
 				ModelTexture texture = new ModelTexture(texturedModelLoader.loadTexture(((TexturedModelStructure)modelStructure).getTextureName()));
 				TexturedModel texturedModel = new TexturedModel(model,texture);
 				models.add(texturedModel);

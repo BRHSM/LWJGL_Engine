@@ -14,7 +14,7 @@ public class BasicModelStructure extends AbstractModelStructure{
 	 * @param vertices The vertices of the model.
 	 * @param indexes The index order for rendering the vertices.
 	 */
-	public BasicModelStructure(float[] vertices, int[] indexes) {
-		super(vertices, indexes);
+	public BasicModelStructure(float[] vertices, int[] indexes, int id) {
+		super(vertices, indexes, id);
 	}
 }

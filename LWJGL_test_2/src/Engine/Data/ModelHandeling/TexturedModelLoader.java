@@ -46,13 +46,13 @@ public class TexturedModelLoader extends AbstractModelLoader {
 	 * @param indexes the array of indexes.
 	 * @return a RawModel with model info (ID, VerticesCount).
 	 */
-	public BasicModel loadToVAO(float[] positions, float[] textureCoordinates, int[] indexes) {
+	public BasicModel loadToVAO(float[] positions, float[] textureCoordinates, int[] indexes, int id) {
 		int vaoID = createVAO();
 		bindIndexBuffer(indexes);
 		storeInList(0, 3, positions);
 		storeInList(1, 2, textureCoordinates);
 		unbindVAO();
-		return new BasicModel(vaoID, indexes.length);
+		return new BasicModel(vaoID, indexes.length, id);
 	}
 	
 	/** Load a texture from a given png file.

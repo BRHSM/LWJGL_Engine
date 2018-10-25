@@ -10,6 +10,7 @@ import java.util.ArrayList;
 import org.lwjglx.util.vector.Vector2f;
 import org.lwjglx.util.vector.Vector3f;
 
+import Engine.Core.Core.IDGenerator;
 import Engine.Data.OptionManager.EngineOptions;
 import Engine.Data.OptionManager.OptionHandler;
 
@@ -29,7 +30,7 @@ public class OBJLoader {
 	 *  folder configured in the EngineOptions config file).
 	 * @return an OBJModel containing all info 
 	 */
-	public static OBJModel loadOBJ(String fileName) {
+	public static OBJModel loadOBJ(String fileName, int id) {
         FileReader isr = null;
         File objFile = new File(OptionHandler.getProperty(EngineOptions.PATHMODELS_KEY, OptionHandler.ENGINE_OPTION_ID) + fileName + ".obj");
         try {
@@ -89,7 +90,7 @@ public class OBJLoader {
         float[] normalsArray = new float[vertices.size() * 3];
         float furthest = convertDataToArrays(vertices, textures, normals, verticesArray, texturesArray, normalsArray);
         int[] indicesArray = convertIndicesListToArray(indices);
-        OBJModel data = new OBJModel(verticesArray, texturesArray, normalsArray, indicesArray, furthest);
+        OBJModel data = new OBJModel(verticesArray, texturesArray, normalsArray, indicesArray, furthest, id);
         return data;
     }
 	

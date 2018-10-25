@@ -41,6 +41,9 @@ public class AbstractEntity {
 	/** The scale of the model.
 	 */
 	private float scale;
+	/** The message identifier of the entity
+	 */
+	private int id;
 	
 	private BasicEntityModifier modifier;
 	/** Create a new AbstractEntity.
@@ -52,7 +55,7 @@ public class AbstractEntity {
 	 * @param rz The Z rotation.
 	 * @param scale the scale transformation.
 	 */
-	public AbstractEntity(AbstractModel model, Vector3f position, float rx, float ry, float rz, float scale, BasicEntityModifier modifier) {
+	public AbstractEntity(AbstractModel model, Vector3f position, float rx, float ry, float rz, float scale, BasicEntityModifier modifier, int id) {
 		this.model = model;
 		this.position = position;
 		this.rx = rx;
@@ -60,6 +63,7 @@ public class AbstractEntity {
 		this.rz = rz;
 		this.scale = scale;
 		this.modifier = modifier;
+		this.id = id;
 		if(position.z != 0) {
 			OptionHandler.setProperty(RuntimeOptions.USESPROJECTIONMATRIX_KEY, OptionHandler.RUNTIME_OPTIONS_ID, "true");
 			if(OptionHandler.getProperty(EngineOptions.SHADERAUTOSELECT_KEY, OptionHandler.ENGINE_OPTION_ID).equals("true") && OptionHandler.getProperty(EngineOptions.SHADERUSECUSTOM_KEY, OptionHandler.ENGINE_OPTION_ID).equals("false"))

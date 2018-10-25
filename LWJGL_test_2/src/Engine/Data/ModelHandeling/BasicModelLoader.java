@@ -20,12 +20,12 @@ public class BasicModelLoader extends AbstractModelLoader{
 	 * @param indexes the array of indexes.
 	 * @return a RawModel with model info (ID, VerticesCount).
 	 */
-	public BasicModel loadToVAO(float[] positions, int[] indexes) {
+	public BasicModel loadToVAO(float[] positions, int[] indexes, int id) {
 		int vaoID = createVAO();
 		bindIndexBuffer(indexes);
 		storeInList(0, 3, positions);
 		unbindVAO();
-		return new BasicModel(vaoID, indexes.length);
+		return new BasicModel(vaoID, indexes.length, id);
 	}
 	
 	/** Unload the lists from memory.

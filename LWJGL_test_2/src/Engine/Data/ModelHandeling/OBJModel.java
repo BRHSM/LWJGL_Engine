@@ -35,6 +35,9 @@ public class OBJModel {
 	/** The furthest point of the model.
 	 */
 	private float furthestPoint;
+	/** The id of the model.
+	 */
+	private int id;
 	
 	/** Create an OBJModel.
 	 * 
@@ -43,12 +46,13 @@ public class OBJModel {
 	 * @param normalsArray The normals of the model.
 	 * @param indicesArray The indices of the model.
 	 */
-	public OBJModel(float[] verticesArray, float[] texturesArray, float[] normalsArray, int[] indicesArray, float furthestPoint) {
+	public OBJModel(float[] verticesArray, float[] texturesArray, float[] normalsArray, int[] indicesArray, float furthestPoint, int id) {
 		this.vertices = verticesArray;
 		this.textureCoords = texturesArray;
 		this.normals = normalsArray;
 		this.indices = indicesArray;
 		this.furthestPoint = furthestPoint;
+		this.id = id;
 	}
 	
 	/** Set the texture to the model.
@@ -64,7 +68,7 @@ public class OBJModel {
 	 * @return A BasicModelStructure version of the model.
 	 */
 	public BasicModelStructure convertToBasicModelStructure() {
-		return new BasicModelStructure(vertices, indices);
+		return new BasicModelStructure(vertices, indices, id);
 		
 	}
 
@@ -73,7 +77,7 @@ public class OBJModel {
 	 * @return A TexturedModelStructure version of the model.
 	 */
 	public TexturedModelStructure convertToTexturedModelStructure() {
-		return new TexturedModelStructure(vertices, textureCoords, indices, texture);
+		return new TexturedModelStructure(vertices, textureCoords, indices, id, texture);
 		
 	}
 }

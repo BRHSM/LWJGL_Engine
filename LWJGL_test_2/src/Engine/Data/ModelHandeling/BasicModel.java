@@ -12,7 +12,7 @@ public class BasicModel extends AbstractModel{
 	 * @param vaoID The model ID.
 	 * @param vertexCount The number of vertices of the model.
 	 */
-	public BasicModel(int vaoID, int vertexCount) {
-		super(vaoID, vertexCount);
+	public BasicModel(int vaoID, int vertexCount, int id) {
+		super(vaoID, vertexCount, id);
 	}	
 }

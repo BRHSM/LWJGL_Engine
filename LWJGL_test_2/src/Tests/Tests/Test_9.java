@@ -3,6 +3,7 @@ package Tests.Tests;
 import org.lwjglx.util.vector.Vector3f;
 
 import Engine.Core.Core.DataObject;
+import Engine.Core.Core.IDGenerator;
 import Engine.Core.Core.Initializer;
 import Engine.Data.EntityHandeling.AbstractEntityStructure;
 import Engine.Data.EntityHandeling.BasicEntityModifier;
@@ -31,11 +32,16 @@ public class Test_9 {
 		//Setup DataObject.
 		DataObject object = new DataObject();
 		
+		IDGenerator generator = new IDGenerator();
+		
+		int id = generator.generateID();
+		int id2 = generator.generateID();
+		
 		//setup modle loader. 
-		OBJModel tmpModel = OBJLoader.loadOBJ("stall");
+		OBJModel tmpModel = OBJLoader.loadOBJ("stall", id);
 		tmpModel.loadTexture("stallTexture");
 		TexturedModelStructure modelStructure = tmpModel.convertToTexturedModelStructure();
-		AbstractEntityStructure entityStructure = new AbstractEntityStructure(modelStructure, new Vector3f(0, -2, -50), 0, 0, 0, 1);
+		AbstractEntityStructure entityStructure = new AbstractEntityStructure(modelStructure, new Vector3f(0, -2, -50), 0, 0, 0, 1, id2);
 		entityStructure.setEntityModifier(new BasicEntityModifier(new Vector3f(0,0,0),0,1,0,0));
 		
 		object.addEntity(entityStructure);

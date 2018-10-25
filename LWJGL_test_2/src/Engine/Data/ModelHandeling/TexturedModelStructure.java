@@ -23,8 +23,8 @@ public class TexturedModelStructure extends AbstractModelStructure{
 	 * @param textureCoordinates The textureCoordinates of the structure.
 	 * @param indexes The index order for rendering vertices.
 	 */
-	public TexturedModelStructure(float[] vertices, float[] textureCoordinates, int[] indexes) {
-		super(vertices, indexes);
+	public TexturedModelStructure(float[] vertices, float[] textureCoordinates, int[] indexes, int id) {
+		super(vertices, indexes, id);
 		this.textureCoordinates = textureCoordinates;
 		this.textureName = "Placeholder_Texture";
 	}
@@ -35,8 +35,8 @@ public class TexturedModelStructure extends AbstractModelStructure{
 	 * @param indexes The index order for rendering vertices.
 	 * @param textureName Name of the texture file.
 	 */
-	public TexturedModelStructure(float[] vertices, float[] textureCoordinates, int[] indexes, String textureName) {
-		super(vertices, indexes);
+	public TexturedModelStructure(float[] vertices, float[] textureCoordinates, int[] indexes, int id, String textureName) {
+		super(vertices, indexes, id);
 		this.textureCoordinates = textureCoordinates;
 		this.textureName = textureName;
 	}
