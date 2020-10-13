@@ -34,8 +34,7 @@ public class TexturedModelShader extends AbstractShader{
     /** Get all uniform locations. (does nothing).
      */
 	protected void getAllUniformLocations() {
-		// TODO Auto-generated method stub
-		
+		return;
 	}
      
      

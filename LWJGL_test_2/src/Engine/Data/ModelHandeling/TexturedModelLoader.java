@@ -68,10 +68,10 @@ public class TexturedModelLoader extends AbstractModelLoader {
 		try {
 			texture = TextureLoader.getTexture("PNG", new FileInputStream(OptionHandler.getProperty(EngineOptions.PATHTEXTURES_KEY, OptionHandler.ENGINE_OPTION_ID) + file + ".png"));
 		} catch (FileNotFoundException e) {
-			// TODO Handle File Error
+			System.out.println("[ERROR]: Could not find: "  + file + ".png (FileNotFoundException)");
 			e.printStackTrace();
 		} catch (IOException e) {
-			// TODO Handle IO Error
+			System.out.println("[ERROR]: Could not find: "  + file + ".png (IOException)");
 			e.printStackTrace();
 		}
 		int textureID = texture.getTextureID();

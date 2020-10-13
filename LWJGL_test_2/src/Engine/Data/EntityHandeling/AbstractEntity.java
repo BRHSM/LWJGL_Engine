@@ -1,6 +1,6 @@
 package Engine.Data.EntityHandeling;
 
-import org.lwjgl.util.vector.Vector3f;
+import org.lwjglx.util.vector.Vector3f;
 
 import Engine.Data.InternalMessager.Message;
 import Engine.Data.ModelHandeling.AbstractModel;

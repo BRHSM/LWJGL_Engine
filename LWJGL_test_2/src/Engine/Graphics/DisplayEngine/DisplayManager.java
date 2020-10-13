@@ -1,6 +1,8 @@
 package Engine.Graphics.DisplayEngine;
 
 import static org.lwjgl.glfw.GLFW.*;
+import static org.lwjgl.opengl.GL11.GL_VERSION;
+import static org.lwjgl.opengl.GL11.glGetString;
 
 import java.nio.ByteBuffer;
 import java.nio.IntBuffer;
@@ -99,8 +101,9 @@ public class DisplayManager {
 	 *  populated, It's shown to the screen
 	 * 
 	 *  @param keyboarHandler The listener for keyboard events
+	 * @throws InternalErrorException 
 	 */
-	public void createDisplay(KeyboardHandler keyboardHandler, DataObject object) {
+	public void createDisplay(KeyboardHandler keyboardHandler, DataObject object) throws InternalErrorException {
 		//initialize glfw
 		if(!glfwInit()) {
 			ExceptionThrower.throwException(new InternalErrorException());
@@ -128,8 +131,15 @@ public class DisplayManager {
 		abstractEntityRenderer = new BasicEntityRenderer();
 		
 		//create shaders
-		if(OptionHandler.getProperty(EngineOptions.DEBUGENABLED_KEY, OptionHandler.ENGINE_OPTION_ID).equals("true"))
+		if(OptionHandler.getProperty(EngineOptions.DEBUGENABLED_KEY, OptionHandler.ENGINE_OPTION_ID).equals("true")){
+			System.out.println("[DEBUG]: OS name: " + System.getProperty("os.name"));
+		    System.out.println("[DEBUG]: OS version: " + System.getProperty("os.version"));
+		    System.out.println("[DEBUG]: LWJGL version: " + org.lwjgl.Sys.getVersion());
+		    System.out.println("[DEBUG]: OpenGL version: " + glGetString(GL_VERSION));
+			
 			System.out.println("\n[DEBUG]: Loading shader files: ");
+			
+		}
 		
 		basicModelShader = object.getBasicModelShader();
 		texturedModelShader = object.getTexturedModelShader();

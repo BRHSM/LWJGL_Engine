@@ -1,0 +1,9 @@
+[DEBUG]: OS name Linux
+[DEBUG]: OS version 4.9.0-4-amd64
+[DEBUG]: LWJGL version 3.0.0a
+[DEBUG]: OpenGL version 3.0 Mesa 13.0.6
+
+[DEBUG]: Loading shader files: 
+0:1(10): error: GLSL 3.30 is not supported. Supported versions are: 1.10, 1.20, 1.30, 1.00 ES, and 3.00 ES
+
+[ERROR]: An error occured in the core of the engine. This is a bug and this should be reported. Please collect as much information as possible about the error and report it.

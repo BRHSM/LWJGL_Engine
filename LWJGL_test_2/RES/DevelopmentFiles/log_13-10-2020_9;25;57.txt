@@ -1,0 +1,6 @@
+
+[DEBUG]: Loading shader files: 
+0:3(1): error: `in' qualifier in declaration of `position' only valid for function parameters in GLSL ES 1.00
+0:5(1): error: `out' qualifier in declaration of `color' only valid for function parameters in GLSL ES 1.00
+
+[ERROR]: An error occured in the core of the engine. This is a bug and this should be reported. Please collect as much information as possible about the error and report it.

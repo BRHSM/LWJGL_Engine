@@ -21,9 +21,10 @@ import Engine.Graphics.Shaders.TexturedEntityShader;
 import Engine.Graphics.Shaders.TexturedModelShader;
 import Engine.Util.Exceptions.ExceptionThrower;
 import Engine.Util.Exceptions.OptionDisabledButStillUsedException;
+import Engine.Util.Exceptions.ShaderIncompatableException;
 import Engine.Util.Util.StringBreaker;
 
-/** Object wich contains all data for the engine to work. 
+/** Object wich contains all data for the engine to work 
  * 
  * @author Bram Steenbergen
  * @version 1.0
@@ -141,32 +142,6 @@ public class DataObject {
 	public void addEntity(AbstractEntityStructure entityStructure) {
 		entityStructureList.add(entityStructure);
 		
-	}
-	
-	/** Set the shader to use for a specified modeltype.
-	 * 
-	 * @param shaderType The type of shader you want to use.
-	 * @param shader The shader you want to use.
-	 */
-	public void setShader(int shaderType, AbstractShader shader) {
-		if (shaderType == BASIC_MODEL_SHADER)
-			if(shader instanceof BasicModelShader) {
-				this.basicModelShader = (BasicModelShader)shader;
-			} else {
-				//TODO: Throw Exception
-			}
-		if (shaderType == TEXTURED_MODEL_SHADER)
-			if(shader instanceof TexturedModelShader) {
-				this.texturedModelShader = (TexturedModelShader)shader;
-			} else {
-				//TODO: Throw Exception
-			}
-		if (shaderType == BASIC_ENTITY_SHADER)
-			if(shader instanceof BasicEntityShader) {
-				this.entityShader = (BasicEntityShader)shader;
-			} else {
-				//TODO: Throw Exception
-			}
 	}
 	
 	/** Get the ModelList.

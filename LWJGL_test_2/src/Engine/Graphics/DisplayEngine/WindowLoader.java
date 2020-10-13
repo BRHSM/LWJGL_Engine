@@ -11,6 +11,7 @@ import Engine.Data.OptionManager.CurrentLanguage;
 import Engine.Data.OptionManager.GraphicOptions;
 import Engine.Data.OptionManager.OptionHandler;
 import Engine.IO.KeyboardHandeling.KeyboardHandler;
+import Engine.Util.Exceptions.InternalErrorException;
 
 /** Class with the code which is used to prepare a window for the DisplayManager to show.
  * @author Bram Steenbergen
@@ -24,14 +25,22 @@ public class WindowLoader {
 	 * 
 	 * @param keyboardHandler The keyboardHandler which listens for keyboard input. 
 	 * @return The address of the window
+	 * @throws InternalErrorException 
 	 */
-	public long setupWindow(KeyboardHandler keyboardHandler) {
+	public long setupWindow(KeyboardHandler keyboardHandler) throws InternalErrorException {
 		//Initialize an OptionReader and LanguageReader.
 		String title = OptionHandler.getProperty(CurrentLanguage.TITLE_KEY, OptionHandler.CURRENT_LANGUAGE_ID);
 		
 		//Get Dimension Properties from options. 
 		int width  = Integer.parseInt(OptionHandler.getProperty(GraphicOptions.WINDOWWIDTH_KEY, OptionHandler.GRAPHIC_OPTION_ID));
 		int height = Integer.parseInt(OptionHandler.getProperty(GraphicOptions.WINDOWHEIGHT_KEY, OptionHandler.GRAPHIC_OPTION_ID));
+		
+		//set window hints (debug mode, major version, minor version, resieable).
+		GLFW.glfwWindowHint(GLFW_OPENGL_DEBUG_CONTEXT, GLFW_TRUE);
+		GLFW.glfwWindowHint(GLFW.GLFW_OPENGL_PROFILE, GLFW.GLFW_OPENGL_CORE_PROFILE);
+		GLFW.glfwWindowHint(GLFW_CONTEXT_VERSION_MAJOR, 3);
+		GLFW.glfwWindowHint(GLFW_CONTEXT_VERSION_MINOR, 3);
+		GLFW.glfwWindowHint(GLFW_RESIZABLE, GL_TRUE);
 		
 		//Initialize the window address. 
 		window = glfwCreateWindow(width,
@@ -41,15 +50,9 @@ public class WindowLoader {
 		 		  				  0);
 		//check for errors.
 		if (window == NULL) {
-		//TODO: handle it if error.
+			throw new InternalErrorException();
 		}
 		//success
-		
-		//set window hints (debug mode, major version, minor version, resieable).
-		GLFW.glfwWindowHint(GLFW_OPENGL_DEBUG_CONTEXT, GLFW_TRUE);
-		GLFW.glfwWindowHint(GLFW_CONTEXT_VERSION_MAJOR, 3);
-		GLFW.glfwWindowHint(GLFW_CONTEXT_VERSION_MINOR, 2);
-		GLFW.glfwWindowHint(GLFW_RESIZABLE, GL_TRUE);
 		
 		//get video mode and set window position accordingly.
 		GLFWVidMode vidmode = glfwGetVideoMode(glfwGetPrimaryMonitor());

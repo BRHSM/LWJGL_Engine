@@ -8,6 +8,9 @@ import Engine.Data.OptionManager.EngineOptions;
 import Engine.Data.OptionManager.OptionHandler;
 import Engine.Util.Util.DoublePrintStream;
 
+
+import static org.lwjgl.opengl.GL11.*;
+
 /** This class holds the code used to launch the engine's threads.
  * @author Bram Steenbergen
  * @version 1.0
@@ -37,14 +40,13 @@ public class Initializer {
 			    sb.append(cal.get(Calendar.MINUTE) + ";");
 			    sb.append(cal.get(Calendar.SECOND) + ".txt");
 				
-				//TODO: setup log file to have correct dat/time formad and add it to the correct folder.
 				file = new FileOutputStream(sb.toString());
 				DoublePrintStream dps = new DoublePrintStream(file, System.out);
 			    System.setOut(dps);
 			} catch (FileNotFoundException e1) {
 				e1.printStackTrace();
 			}	   
-	    }
+	    }	    
 		thread = new RenderThread(dataObject);
 		thread.start();
 		try {

@@ -1,0 +1,6 @@
+
+[DEBUG]: Loading shader files: 
+0:3(1): error: No precision specified in this scope for type `vec3'
+0:5(1): error: No precision specified in this scope for type `vec4'
+
+[ERROR]: An error occured in the core of the engine. This is a bug and this should be reported. Please collect as much information as possible about the error and report it.

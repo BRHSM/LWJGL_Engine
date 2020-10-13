@@ -1,0 +1,9 @@
+
+[DEBUG]: Loading shader files: 
+         Link status:     [vertexFile=default.vs, fragmentFile=default.fs] : 0
+         Loaded shader:   [vertexFile=default.vs, fragmentFile=default.fs] from subfolder: BasicModelShader/
+0:1(1): error: `in' qualifier in declaration of `position' only valid for function parameters in GLSL 1.10
+0:2(1): error: `in' qualifier in declaration of `textureCoordinates' only valid for function parameters in GLSL 1.10
+0:4(1): error: `out' qualifier in declaration of `passTextureCoordinates' only valid for function parameters in GLSL 1.10
+
+[ERROR]: An error occured in the core of the engine. This is a bug and this should be reported. Please collect as much information as possible about the error and report it.
